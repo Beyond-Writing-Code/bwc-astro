@@ -1,0 +1,110 @@
+name: Deploy to DreamHost
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # Allow manual deployment
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build site
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Package build into tar.gz (preserves dotfiles)
+        run: |
+          set -euo pipefail
+          TAR_NAME=site-dist.tar.gz
+          tar -C dist -czf "${TAR_NAME}" .
+
+      - name: Upload build artifact (tarball)
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-dist
+          path: site-dist.tar.gz
+          retention-days: 7
+
+  deploy:
+    name: Deploy to beyondwritingcodebook.com
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Download build artifact (tarball)
+        uses: actions/download-artifact@v4
+        with:
+          name: site-dist
+          path: .
+
+      - name: Extract artifact to dist/
+        run: |
+          set -euo pipefail
+          rm -rf dist
+          mkdir -p dist
+          TAR_NAME=site-dist.tar.gz
+          if [ ! -f "${TAR_NAME}" ]; then
+            echo "::error::Expected ${TAR_NAME} not found"
+            ls -la
+            exit 1
+          fi
+          tar -C dist -xzf "${TAR_NAME}"
+
+      - name: Deploy to DreamHost via rsync over SSH
+        env:
+          REMOTE_PATH: ${{ secrets.DREAMHOST_BWC_BOOK_REMOTE_PATH }}
+          REMOTE_USER: ${{ secrets.DREAMHOST_BWC_BOOK_SSH_USER }}
+          REMOTE_HOST: ${{ secrets.DREAMHOST_SSH_HOST }}
+          SSH_KEY: ${{ secrets.DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+
+          # Setup SSH key
+          mkdir -p ~/.ssh
+          printf "%s\n" "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+
+          # Start SSH agent and add key
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/deploy_key
+
+          # Add host to known_hosts
+          ssh-keyscan -H "$REMOTE_HOST" >> ~/.ssh/known_hosts
+
+          # Deploy to beyondwritingcodebook.com
+          echo "Deploying to beyondwritingcodebook.com..."
+          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=yes" dist/ "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}"
+
+          echo "✅ Deployment successful!"
+
+          # Cleanup: remove key and stop agent
+          ssh-add -D || true
+          rm -f ~/.ssh/deploy_key
+          if [ -n "${SSH_AGENT_PID:-}" ]; then
+            kill "$SSH_AGENT_PID" || true
+          fi
+
+      - name: Deployment summary
+        run: |
+          echo "## Deployment Complete 🚀" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Site deployed to: **beyondwritingcodebook.com**" >> $GITHUB_STEP_SUMMARY
+          echo "Deployed from commit: \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY

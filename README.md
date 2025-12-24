@@ -181,12 +181,33 @@ The post will still build (for preview) but won't appear in public listings.
 
 ## Deployment
 
-Build output is in `dist/` directory. Deploy to any static hosting:
+**Staging:** https://beyondwritingcodebook.com (DreamHost)
 
-- **Netlify**: Connect repo, set build command to `npm run build`, publish directory to `dist`
-- **Vercel**: Same as Netlify
-- **GitHub Pages**: Build and push `dist/` to gh-pages branch
-- **AWS S3**: Upload `dist/` contents to bucket
+### Automatic Deployment
+
+Every push to `main` automatically deploys to beyondwritingcodebook.com via GitHub Actions.
+
+**Status:** See latest deployment in [Actions](https://github.com/Beyond-Writing-Code/bwc-astro/actions)
+
+### Setup
+
+First-time deployment setup:
+1. Follow instructions in `SETUP_DEPLOYMENT.md`
+2. Configure GitHub secrets (SSH credentials)
+3. Push to `main` to trigger deployment
+
+### Manual Deployment
+
+```bash
+# Via GitHub Actions
+# Go to Actions → Deploy to DreamHost → Run workflow
+
+# Or via local machine
+npm run build
+rsync -avz --delete dist/ user@host:~/beyondwritingcodebook.com/
+```
+
+See `docs/DEPLOYMENT.md` for full documentation.
 
 ## Development
 
