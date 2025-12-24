@@ -1,0 +1,143 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="The Book"
+  description="A book for software developers on human skills, working better, and thriving in tech. By Leaf (Jessica Roy)."
+>
+  <div class="page book-page">
+    <h1 class="page-title">The book</h1>
+
+    <section class="book-intro">
+      <p>I'm writing a book for software developers. It's generated a lot of questions!</p>
+    </section>
+
+    <section class="book-content">
+      <h2>What's the book about?</h2>
+      <p>
+        Imagine you're a developer looking at what seems to be the top rung of your career ladder.
+        You'd like to keep growing and progressing in your career, but you're not so sure you want
+        to be a people manager.
+      </p>
+      <p>What do you do? What should you learn?</p>
+      <p>
+        I've been a developer for 20 years, and I've learned a lot along the way. I'd like to share
+        those lessons to help other developers grow in their careers.
+      </p>
+
+      <h2>Do you have a plan, or…?</h2>
+      <p>
+        I sometimes answer this question before someone gets the chance to ask. "Uh, Leaf, you're a
+        <a href="/about">developer</a>… do you have any idea what you're doing?"
+      </p>
+      <p>Yes, yes I do.</p>
+      <p>
+        I was a writer as a kid, and I was an English major in college. Writing feels like coming
+        home. I don't struggle to put words on the page.
+      </p>
+      <p>
+        Right about now, if you were a colleague of mine in the past 20+ years, you may be thinking
+        of several hundred pages of documentation that you've seen me turn out. Okay… no problem
+        with the "writing" part.
+      </p>
+      <p>A book, though? That's a different story from a bunch of web pages, isn't it?</p>
+      <p>
+        The sheer amount of writing that's in front of me isn't a problem. I did National Novel
+        Writing Month (NaNoWriMo) years ago, while I was still employed. I know the volume isn't a
+        problem.
+      </p>
+      <p>
+        Organization isn't a problem. I have been organizing big stuff professionally and
+        academically for years. It's just another large project. Nothing new here.
+      </p>
+      <p>
+        What about knowledge of the publishing industry? Until a few months ago, I didn't know
+        anything about book publishing. But now I'm a graduate of <a
+          href="https://thebookacademy.org/"
+          target="_blank"
+          rel="noopener noreferrer">The Book Academy</a
+        >, a book writing and publishing intensive offered by 4x New York Times best-selling
+        author, <a href="https://thebookacademy.org/about" target="_blank" rel="noopener noreferrer"
+          >Luvvie Ajayi Jones</a
+        >.
+      </p>
+      <p>
+        What an incredible course! Everything I could want to know about book publishing. A clear
+        path for how to get there, step by step. Access to resources and contacts. A whole
+        community of fellow authors for support and coworking sessions. I have no doubt that with
+        the tools from this course I can do this.
+      </p>
+
+      <h2>Am I going to be in the book?</h2>
+      <p>
+        My favorite question so far! My coworkers asked: "have you chosen aliases for us all yet?"
+      </p>
+      <p>And the answer is… maybe 😉</p>
+      <p>
+        I've learned a ton from the people I've worked with along the way. Whether they were peers,
+        supervisors, mentors… I've been fortunate to work with some smart, talented, and wise
+        people. I'm sure I'll be naming names if you've been an inspiration.
+      </p>
+      <p>
+        Well. If you've been a <em>positive</em> inspiration. If you've been a nuisance… and there
+        have been a few… I won't name those names 🙂
+      </p>
+
+      <h2>Can I be an early reader?</h2>
+      <p>
+        I would love to have feedback from others. I only have my own experiences, my own career
+        growth, and my own research. I'd love to see how my stories and recommendations land for
+        you. Keep in touch.
+      </p>
+
+      <h2>Let's do this!</h2>
+      <p>
+        If you want to follow along as I write and get updates about how things are going, sign up
+        for my mailing list below.
+      </p>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .page {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .page-title {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+  }
+
+  .book-intro {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+    font-size: 1.2rem;
+  }
+
+  .book-content h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-accent-teal);
+  }
+
+  .book-content p {
+    margin-bottom: var(--spacing-md);
+  }
+
+  a {
+    color: var(--color-accent-teal);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>

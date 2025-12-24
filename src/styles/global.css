@@ -1,0 +1,306 @@
+/* Beyond Writing Code - Global Styles */
+
+/* Self-hosted fonts for better security (no external CSP dependencies) */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cormorant-garamond-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/cormorant-garamond-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/cormorant-garamond-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/cormorant-garamond-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/fira-sans-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/fira-sans-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/fira-sans-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/fira-sans-700.woff2') format('woff2');
+}
+
+:root {
+  /* Colors from beyondwritingcode.com */
+  --color-background: #fcfaf9;
+  --color-text: #080926;
+  --color-accent-teal: #027373;
+  --color-accent-green: #045730;
+  --color-accent-rust: #ad574a;
+  --color-gray: #686868;
+  --color-light-cream: #fbfaf3;
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1.2rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Layout */
+  --content-max-width: 645px;
+  --wide-max-width: 1340px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-serif);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-size: clamp(1.125rem, 1.125rem + ((1vw - 0.2rem) * 0.392), 1.375rem);
+  line-height: 1.4;
+  letter-spacing: -0.1px;
+  padding: 0 clamp(30px, 5vw, 50px);
+}
+
+/* Header Styles */
+.site-header {
+  background-color: var(--color-background);
+  padding: 2rem 0 1rem;
+}
+
+.header-container {
+  max-width: var(--wide-max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-link {
+  display: block;
+  text-align: center;
+}
+
+.logo-image {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+.title-link {
+  text-decoration: none;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.site-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 2.5vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--color-text);
+  margin: 0;
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 24px;
+}
+
+.hamburger-icon span {
+  display: block;
+  height: 3px;
+  background-color: var(--color-text);
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+/* Navigation */
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-family: var(--font-serif);
+  margin-top: 1rem;
+}
+
+.site-nav a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.25rem;
+  transition: color 0.2s;
+}
+
+.site-nav a:hover {
+  color: var(--color-accent-teal);
+}
+
+/* Footer Styles */
+.site-footer {
+  background-color: var(--color-background);
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-lg) 0;
+  font-family: var(--font-sans);
+}
+
+.footer-container {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links a:hover {
+  transform: translateY(-2px);
+}
+
+/* Brand colors for each platform */
+.social-icon:nth-child(1):hover {
+  color: #e4405f;
+} /* Instagram */
+.social-icon:nth-child(2):hover {
+  color: #0077b5;
+} /* LinkedIn */
+.social-icon:nth-child(3):hover {
+  color: #1da1f2;
+} /* Bluesky */
+.social-icon:nth-child(4):hover {
+  color: #6364ff;
+} /* Mastodon */
+.social-icon:nth-child(5):hover {
+  color: #000000;
+} /* Medium */
+.social-icon:nth-child(6):hover {
+  color: #ff6719;
+} /* Substack */
+
+.copyright {
+  font-size: 0.9rem;
+  color: var(--color-gray);
+  margin-bottom: var(--spacing-sm);
+}
+
+.legal-links {
+  font-size: 0.85rem;
+}
+
+.legal-links a {
+  color: var(--color-gray);
+  text-decoration: none;
+}
+
+.legal-links a:hover {
+  color: var(--color-accent-teal);
+  text-decoration: underline;
+}
+
+.footer-signup-form {
+  width: 100%;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .site-nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 250px;
+    background-color: var(--color-background);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 5rem 2rem 2rem;
+    gap: 1.5rem;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    margin-top: 0;
+    z-index: 999;
+  }
+
+  .site-nav.nav-open {
+    right: 0;
+  }
+
+  .site-nav a {
+    padding: 0.75rem;
+    border-bottom: 1px solid rgba(8, 9, 38, 0.1);
+  }
+}

@@ -1,0 +1,145 @@
+---
+import Layout from '../layouts/Layout.astro';
+import KitForm from '../components/KitForm';
+---
+
+<Layout
+  description="Weekly reflections on human skills in tech, from developer to tech lead to architect. 25+ years of lessons on working better and happier."
+>
+  <div class="page home-page">
+    <section class="intro">
+      <h1>Humanity matters.</h1>
+
+      <p class="tagline">
+        We need uniquely human skills and better ways of working more than ever.
+      </p>
+
+      <p class="emphasis">
+        Developers: the human skills many of us have been taught to ignore or dismiss as "soft
+        skills" are essential tools for doing excellent technical work and avoiding burnout,
+        plateaus, and isolation.
+      </p>
+
+      <p>
+        Building trust and influence. Handling complexity and ambiguity. Systems thinking.
+        Intuition and judgment based on experience. Collaboration and communication. Empathy.
+        Creativity.
+      </p>
+
+      <p>
+        Hi, I'm Leaf. Over the past 25 years, as I've progressed from developer to tech lead and
+        application architect, the skills I've needed have increasingly been about more than just
+        writing code. I'm <strong
+          >now writing a <a href="/book">book</a></strong
+        > about how our humanity helps us thrive as developers, teams, and organizations.
+      </p>
+    </section>
+
+    <section class="cta">
+      <p>
+        <b>Come join me on this adventure.</b> Sign up to receive weekly reflections on working better
+        and happier and why humanity matters in tech:
+      </p>
+
+      <KitForm formId="c29f7b6897" className="home-signup-form" client:load />
+
+      <p class="additional-channels">
+        You can also find my writing here in <a href="/posts">my blog posts</a>, which also appear
+        on <a
+          href="https://www.linkedin.com/newsletters/beyond-writing-code-7394107177700970497"
+          target="_blank"
+          rel="noopener noreferrer">LinkedIn</a
+        >, <a href="https://bouncingleaf.medium.com" target="_blank" rel="noopener noreferrer"
+          >Medium</a
+        >, <a href="https://bouncingleaf.substack.com" target="_blank" rel="noopener noreferrer"
+          >Substack</a
+        >, and <a
+          href="https://bsky.app/profile/leafjessicaroy.bsky.social"
+          target="_blank"
+          rel="noopener noreferrer">Bluesky</a
+        >. You can also find me on <a
+          href="https://www.instagram.com/leafjessicaroy/"
+          target="_blank"
+          rel="noopener noreferrer">Instagram</a
+        >.
+      </p>
+
+      <p>Glad you're here!</p>
+
+      <p class="hidden-verification">
+        Oh yeah, I'm also on <a
+          href="https://hachyderm.io/@leafjessicaroy"
+          target="_blank"
+          rel="noopener noreferrer">Mastodon</a
+        >.
+      </p>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .page {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .home-page .intro {
+    margin-bottom: var(--spacing-xl);
+  }
+
+  .home-page h1 {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: var(--spacing-lg);
+    text-align: center;
+    color: var(--color-text);
+  }
+
+  .tagline {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+    color: var(--color-accent-teal);
+  }
+
+  .emphasis {
+    font-weight: 500;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .home-page p {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .cta {
+    background-color: var(--color-light-cream);
+    padding: var(--spacing-lg);
+    border-radius: 8px;
+    margin-top: var(--spacing-xl);
+  }
+
+  .additional-channels {
+    font-size: 0.95rem;
+    margin-top: var(--spacing-lg);
+  }
+
+  .hidden-verification {
+    font-size: 0.8rem;
+    color: var(--color-gray);
+  }
+
+  :global(.home-signup-form) {
+    margin: var(--spacing-lg) 0;
+  }
+
+  a {
+    color: var(--color-accent-teal);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>

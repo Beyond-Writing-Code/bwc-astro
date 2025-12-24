@@ -1,0 +1,197 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Art"
+  description="Watercolor creatures and art by Leaf (Jessica Roy). Creative expressions alongside writing about tech and human skills."
+>
+  <div class="page art-page">
+    <h1 class="page-title">Art</h1>
+
+    <section class="art-content">
+      <p>
+        Once upon a time, in 2023, I was planning my trip to what was then called <a
+          href="https://itrevolution.com/articles/introducing-enterprise-technology-leadership-summit/"
+          target="_blank"
+          rel="noopener noreferrer">DevOps Enterprise Summit</a
+        > in Vegas. I was looking at the map of the conference hotel when I saw something called
+        Art-o-Mat. What the…
+      </p>
+      <p>
+        I looked it up. <a href="https://www.artomat.org/" target="_blank" rel="noopener noreferrer"
+          >Art-o-Mat</a
+        >. Old style cigarette vending machines (the kind that used to be in bars, where you pull a
+        knob and it goes ka-chunk and a cigarette box lands in the slot) converted to sell art. How
+        cool is that?
+      </p>
+      <p>
+        I had an idea for something I might be able to draw, so I applied, and they accepted me as
+        an artist. Since then, I've drawn several hundred Mysterious Creatures for Art-o-Mat
+        machines around the US.
+      </p>
+
+      <div class="creature-gallery">
+        <img
+          src="/images/art/emblem1.jpeg"
+          alt="A tiny drawing of a colorful watercolor creature with a calm expression."
+          class="creature-image"
+          width="200"
+          height="200"
+        />
+        <img
+          src="/images/art/emblem2.jpeg"
+          alt="A tiny drawing of a colorful watercolor creature with a long sort of beak."
+          class="creature-image"
+          width="200"
+          height="200"
+        />
+        <img
+          src="/images/art/emblem3.jpeg"
+          alt="A tiny drawing of a colorful watercolor creature, resting on a cloud of color."
+          class="creature-image"
+          width="200"
+          height="200"
+        />
+      </div>
+
+      <p>
+        They are 2″ x 3″ watercolor paper cards, mounted on wooden blocks, with creature shapes
+        drawn in black ink on top of colorful splashes of watercolor paint. I have fun
+        experimenting with acrylic paints on the sides of the blocks, and I name each piece on the
+        back.
+      </p>
+
+      <div class="production-photo">
+        <img
+          src="/images/art/blocks.jpeg"
+          alt="Two 2 inch by 3 inch blocks standing on end. Each has the ends painted and a business card attached. The business card says: 'mysterious creatures 6, art by Jessica Roy, leaf@bouncingleaf.com, www.bouncingleaf.com. Listen closely and this creature may tell you their story, or your own.' The cards are numbered #11/50 and #12/50. Behind these blocks, a few more rows of similar blocks. Each block has a name; the ones most clearly visible are 'walking in shadows,' 'pendulum,' and 'bringing flame.'"
+          class="blocks-image"
+          width="600"
+          height="400"
+          loading="lazy"
+        />
+      </div>
+
+      <p>
+        I'm having fun drawing them, and they bring a little joy to a world that definitely needs
+        more joy right now.
+      </p>
+
+      <div class="creature-gallery">
+        <img
+          src="/images/art/emblem4.jpeg"
+          alt="A tiny drawing of a colorful watercolor creature with a bit of an eyeroll and three tiny orange dots floating above."
+          class="creature-image"
+          width="200"
+          height="200"
+          loading="lazy"
+        />
+        <img
+          src="/images/art/emblem5.jpeg"
+          alt="A tiny drawing of a colorful watercolor creature, eyes closed, gesturing to something looking like a trail of smoke arising from its hand."
+          class="creature-image"
+          width="200"
+          height="200"
+          loading="lazy"
+        />
+        <img
+          src="/images/art/emblem6.jpeg"
+          alt="A tiny drawing of a colorful watercolor creature, eyes closed, mouth open, pointing at a heart shape."
+          class="creature-image"
+          width="200"
+          height="200"
+          loading="lazy"
+        />
+        <img
+          src="/images/art/emblem7.jpeg"
+          alt="A tiny drawing of a colorful watercolor creature, holding something curved and golden."
+          class="creature-image"
+          width="200"
+          height="200"
+          loading="lazy"
+        />
+        <img
+          src="/images/art/emblem8.jpeg"
+          alt="A tiny drawing of a colorful watercolor creature, holding what might be a slip of paper."
+          class="creature-image"
+          width="200"
+          height="200"
+          loading="lazy"
+        />
+        <img
+          src="/images/art/emblem9.jpeg"
+          alt="A tiny drawing of a colorful watercolor creature, running."
+          class="creature-image"
+          width="200"
+          height="200"
+          loading="lazy"
+        />
+      </div>
+
+      <p class="closing">
+        You can see more friendly creatures, as well as other artistic projects, on my art website:
+        <a href="https://www.bouncingleaf.com" target="_blank" rel="noopener noreferrer"
+          >bouncingleaf.com</a
+        >.
+      </p>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .page {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .page-title {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+  }
+
+  .art-content p {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .creature-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: var(--spacing-md);
+    margin: var(--spacing-xl) 0;
+  }
+
+  .creature-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .production-photo {
+    margin: var(--spacing-xl) 0;
+  }
+
+  .blocks-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .closing {
+    margin-top: var(--spacing-xl);
+    font-weight: 500;
+  }
+
+  a {
+    color: var(--color-accent-teal);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>

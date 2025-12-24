@@ -1,0 +1,241 @@
+---
+import { getCollection } from 'astro:content';
+import { format } from 'date-fns';
+import Layout from '../../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('posts');
+  const publishedPosts = allPosts.filter((post) => post.data.published !== false);
+
+  return publishedPosts.map((post) => {
+    const date = new Date(post.data.date);
+    const year = format(date, 'yyyy');
+    const month = format(date, 'MM');
+    const day = format(date, 'dd');
+    // Extract just the filename from the slug (remove year directory)
+    const slug = post.slug.split('/').pop();
+
+    return {
+      params: { year, month, day, slug },
+      props: { post },
+    };
+  });
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const date = new Date(post.data.date);
+const formattedDate = format(date, 'MMMM d, yyyy');
+const originalDate = post.data.originalDate
+  ? format(new Date(post.data.originalDate), 'MMMM d, yyyy')
+  : null;
+---
+
+<Layout
+  title={post.data.title}
+  description={post.data.excerpt}
+  image={post.data.featuredImage}
+  type="article"
+>
+  <article class="post-detail">
+    <header class="post-header">
+      <h1 class="post-title">{post.data.title}</h1>
+
+      <div class="post-meta">
+        <time datetime={post.data.date}>{formattedDate}</time>
+        {
+          originalDate && originalDate !== formattedDate && (
+            <span class="original-date">(Originally published {originalDate})</span>
+          )
+        }
+      </div>
+
+      {
+        post.data.categories && post.data.categories.length > 0 && (
+          <div class="post-categories">
+            {post.data.categories.map((category) => (
+              <a href={`/category/${category}`} class="category">
+                {category}
+              </a>
+            ))}
+          </div>
+        )
+      }
+
+      {
+        post.data.tags && post.data.tags.length > 0 && (
+          <div class="post-tags">
+            {post.data.tags.map((tag) => (
+              <span class="tag">{tag}</span>
+            ))}
+          </div>
+        )
+      }
+    </header>
+
+    <div class="post-content">
+      <Content />
+    </div>
+  </article>
+</Layout>
+
+<style>
+  .post-detail {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .post-header {
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+  }
+
+  .post-title {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: var(--spacing-md);
+    line-height: 1.2;
+  }
+
+  .post-meta {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    color: var(--color-gray);
+    margin-bottom: var(--spacing-md);
+  }
+
+  .original-date {
+    display: block;
+    margin-top: var(--spacing-xs);
+    font-size: 0.85rem;
+    font-style: italic;
+  }
+
+  .post-categories {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    flex-wrap: wrap;
+  }
+
+  .category {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background-color: var(--color-accent-teal);
+    color: white;
+    border-radius: 20px;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+
+  .category:hover {
+    background-color: var(--color-accent-green);
+  }
+
+  .post-tags {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    background-color: var(--color-light-cream);
+    color: var(--color-gray);
+    border-radius: 15px;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+  }
+
+  .post-content {
+    font-family: var(--font-serif);
+    line-height: 1.6;
+  }
+
+  .post-content :global(h2) {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-accent-teal);
+  }
+
+  .post-content :global(h3) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+  }
+
+  .post-content :global(p) {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .post-content :global(img) {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: var(--spacing-lg) 0;
+  }
+
+  .post-content :global(ul),
+  .post-content :global(ol) {
+    margin-bottom: var(--spacing-md);
+    padding-left: 2rem;
+  }
+
+  .post-content :global(li) {
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .post-content :global(blockquote) {
+    border-left: 4px solid var(--color-accent-teal);
+    padding-left: var(--spacing-md);
+    margin: var(--spacing-lg) 0;
+    font-style: italic;
+    color: var(--color-gray);
+  }
+
+  .post-content :global(code) {
+    background-color: var(--color-light-cream);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+  }
+
+  .post-content :global(pre) {
+    background-color: var(--color-light-cream);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: var(--spacing-lg) 0;
+  }
+
+  .post-content :global(pre code) {
+    background: none;
+    padding: 0;
+  }
+
+  .post-content :global(a) {
+    color: var(--color-accent-teal);
+    text-decoration: none;
+  }
+
+  .post-content :global(a:hover) {
+    text-decoration: underline;
+  }
+
+  .post-content :global(hr) {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: var(--spacing-xl) 0;
+  }
+</style>
