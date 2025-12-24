@@ -1,0 +1,127 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Resume"
+  description="Professional background with 25+ years in technology, specializing in Agile, DevOps, and servant leadership. Application Architect and technical leader."
+>
+  <div class="page resume-page">
+    <h1 class="page-title">Resume</h1>
+
+    <section class="resume-content">
+      <p>
+        <strong>Current Status:</strong> Not seeking new roles; focusing full-time on book writing
+        as of May 2025.
+      </p>
+
+      <h2>Professional Overview</h2>
+      <p>
+        A collaborative leader with 25+ years in technology, specializing in the intersection of
+        "people, process, and technology" with expertise in Agile, DevOps, and servant leadership.
+      </p>
+
+      <h2>Recent Experience</h2>
+
+      <h3>MassMutual (2019-2025)</h3>
+
+      <h4>Application Architect (2022-2025)</h4>
+      <p>
+        Led governance and observability initiatives, managing cloud migrations and developer
+        communities.
+      </p>
+
+      <h4>Technical Lead (2020-2022)</h4>
+      <p>Oversaw customer portal development from concept through production.</p>
+
+      <h4>Full Stack Developer (2019-2020)</h4>
+      <p>Built applications in React, Node.js, and TypeScript.</p>
+
+      <h3>Earlier Career</h3>
+
+      <h4>MEDITECH (2003-2019)</h4>
+      <p>
+        Progressed from technical support through various development roles to lead programmer, with
+        emphasis on Agile transition, code review, and process improvement.
+      </p>
+
+      <h4>RCN (1996-2001)</h4>
+      <p>Network engineering and technical support roles.</p>
+
+      <h2>Education</h2>
+      <ul>
+        <li>Master's in Software Development - Boston University</li>
+        <li>PMI Agile Certified Practitioner</li>
+      </ul>
+
+      <h2>Speaking</h2>
+      <p>
+        Has presented on leading organizational change and technical troubleshooting at industry
+        conferences and professional organizations, including LeadDev StaffPlus and Enterprise
+        Technology Leadership Summit.
+      </p>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .page {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) 0;
+  }
+
+  .page-title {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+  }
+
+  .resume-content {
+    font-family: var(--font-sans);
+    line-height: 1.6;
+  }
+
+  .resume-content h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-accent-teal);
+    font-family: var(--font-serif);
+  }
+
+  .resume-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+    font-family: var(--font-serif);
+  }
+
+  .resume-content h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+    font-family: var(--font-serif);
+  }
+
+  .resume-content p {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .resume-content ul {
+    margin-bottom: var(--spacing-md);
+    padding-left: 2rem;
+  }
+
+  .resume-content li {
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .resume-content strong {
+    color: var(--color-accent-green);
+  }
+</style>

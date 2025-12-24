@@ -7,7 +7,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +23,8 @@
     "date-fns": "^4.1.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
   }
 }
