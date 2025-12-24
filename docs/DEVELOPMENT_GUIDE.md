@@ -55,16 +55,18 @@ Always run these checks before completing any task:
 
 ```bash
 # Essential checks (run in this order)
-npm run lint           # Zero warnings required
-npm run format:check   # Formatting must pass
-npm run test:run       # All tests must pass
+npm run type-check     # Astro type checking (zero errors)
+npm run test:run       # All E2E tests must pass (Playwright)
 npm run build          # Build must succeed
+npm run security:check # Check for high/critical vulnerabilities
 ```
 
-If type checking is available:
+Combined quality check:
 ```bash
-npm run type-check     # Zero TypeScript errors
+npm run quality:check  # Runs type-check, test:run, and build
 ```
+
+**Note:** ESLint and Prettier are not yet configured for this project. See package.json scripts for placeholders.
 
 ---
 
@@ -511,18 +513,20 @@ AI Actions:
 
 **Test File Organization:**
 ```
-tests/
-├── e2e/
-│   ├── home.spec.ts
-│   ├── blog.spec.ts
-│   ├── navigation.spec.ts
-│   └── accessibility.spec.ts
-├── unit/
-│   ├── components/
-│   │   └── SearchBar.test.tsx  # React island
-│   └── utils/
-│       └── helpers.test.ts
+e2e/                         # E2E tests with Playwright (project root)
+├── navigation.spec.ts       # Navigation and routing tests
+├── posts.spec.ts            # Blog post tests
+├── seo.spec.ts              # SEO, meta tags, RSS, sitemap
+└── content.spec.ts          # SSG verification, HTML source content
+
+tests/unit/                  # Unit tests (if needed)
+├── components/
+│   └── SearchBar.test.tsx   # React island tests
+└── utils/
+    └── helpers.test.ts      # Utility function tests
 ```
+
+**Current Project:** Uses Playwright for all testing (no unit tests yet). Tests are in `e2e/` directory at project root.
 
 **Example Playwright test:**
 ```typescript
@@ -1067,21 +1071,16 @@ npm run preview # Preview production build
 
 ```bash
 # 1. Quality checks
-npm run lint              # ✅ Zero warnings
-npm run format:check      # ✅ All files formatted
-npm run astro check       # ✅ Astro type checking
+npm run type-check        # ✅ Astro type checking passes
+npm run quality:check     # ✅ Combined check (type, test, build)
 
-# 2. Tests
-npm run test:run          # ✅ All tests pass (E2E with Playwright)
-
-# 3. Security
+# 2. Security
 npm run security:check    # ✅ Zero high/critical vulnerabilities
 
-# 4. Build
-npm run build             # ✅ Build succeeds
-
-# 5. Preview
+# 3. Preview
 npm run preview           # ✅ Manual verification
+
+# Note: Linting and formatting not yet configured
 ```
 
 ### CI/CD Pipeline Stages
@@ -1742,6 +1741,124 @@ Use this checklist when reviewing any Astro development work:
 - [ ] Interactive components use React islands with appropriate `client:*` directive
 - [ ] Environment variables properly prefixed (`PUBLIC_*` for client-side)
 - [ ] No unnecessary JavaScript shipped
+
+---
+
+## Project-Specific Notes (Beyond Writing Code)
+
+### Current Implementation Status
+
+**Completed:**
+- ✅ Astro 5.16.6 with React islands
+- ✅ Content Collections for blog posts (74 posts from 2025)
+- ✅ Static pages: home, about, book, art, contact, resume, terms, privacy
+- ✅ Dynamic routing for posts: `/year/month/day/slug`
+- ✅ Category pages (27 categories)
+- ✅ RSS feed at `/feed.xml`
+- ✅ Sitemap auto-generated
+- ✅ Playwright E2E tests (25 tests, 4 test files)
+- ✅ Pre-commit hooks (type-check and build)
+- ✅ GitHub Actions CI workflow
+- ✅ React islands: Header (mobile menu), KitForm (newsletter)
+
+**Not Yet Implemented:**
+- ⏸️ ESLint configuration
+- ⏸️ Prettier configuration
+- ⏸️ Unit tests for React islands (Vitest + RTL)
+- ⏸️ Visual regression testing
+- ⏸️ Accessibility testing with axe-core
+
+### Key Design Decisions
+
+1. **Zero JavaScript by default** - Only Header and KitForm use React islands
+2. **Content in HTML source** - Solves Medium/Substack import problems
+3. **Self-hosted fonts** - No Google Fonts for better CSP and performance
+4. **Minimal bundle** - ~63KB gzipped total JavaScript
+5. **WordPress-compatible URLs** - `/year/month/day/slug` pattern
+
+### Project Structure
+
+```
+bwc-astro/
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml                 # CI pipeline with Playwright
+│   │   └── security-audit.yml      # Daily security checks
+│   └── dependabot.yml             # Weekly dependency updates
+├── .githooks/
+│   └── pre-commit                 # Type-check and build before commit
+├── e2e/                           # Playwright E2E tests
+│   ├── navigation.spec.ts
+│   ├── posts.spec.ts
+│   ├── seo.spec.ts
+│   └── content.spec.ts
+├── docs/
+│   └── DEVELOPMENT_GUIDE.md       # This file
+├── public/
+│   ├── images/                    # Static images (posts, about, art)
+│   ├── fonts/                     # Self-hosted WOFF2 fonts
+│   ├── audio/                     # Audio files
+│   └── favicon-32x32.png
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx             # React island for mobile menu
+│   │   └── KitForm.jsx            # React island for newsletter
+│   ├── content/
+│   │   ├── config.ts              # Zod schema for posts
+│   │   └── posts/2025/            # 74 markdown blog posts
+│   ├── layouts/
+│   │   └── Layout.astro           # Main layout with SEO
+│   ├── pages/
+│   │   ├── index.astro            # Home page
+│   │   ├── about.astro
+│   │   ├── book.astro
+│   │   ├── art.astro
+│   │   ├── contact.astro
+│   │   ├── resume.astro
+│   │   ├── terms.astro
+│   │   ├── privacy.astro
+│   │   ├── posts.astro            # Posts listing
+│   │   ├── feed.xml.js            # RSS feed
+│   │   ├── [year]/[month]/[day]/[slug].astro  # Post detail
+│   │   └── category/[category].astro           # Category pages
+│   └── styles/
+│       └── global.css             # Global styles with CSS variables
+├── astro.config.mjs               # Astro config with redirects
+├── playwright.config.ts           # Playwright configuration
+├── BUILD_SUMMARY.md               # Build statistics and info
+└── README.md                      # Project documentation
+```
+
+### RSS Feed Implementation
+
+The RSS feed at `/feed.xml` includes:
+- Full post content (HTML)
+- Categories
+- Publication dates
+- Proper `<link>` elements
+
+**Important:** The feed content function currently returns empty string. This should be updated to render actual post content for RSS readers.
+
+### Testing Strategy
+
+**Primary: E2E with Playwright**
+- All critical user flows
+- Content visibility verification
+- SEO requirements
+- Navigation and routing
+- Form submission (newsletter)
+
+**Future: Unit tests for islands**
+- SearchBar (when implemented)
+- Any future interactive components
+
+### Performance Targets
+
+Current build stats:
+- **Total pages:** 110
+- **Build time:** ~3.5 seconds
+- **JavaScript bundle:** ~63KB gzipped
+- **Lighthouse Performance:** 100/100 (target)
 
 ---
 

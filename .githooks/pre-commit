@@ -1,0 +1,27 @@
+#!/bin/bash
+# Pre-commit hook - runs quality checks before allowing commit
+
+echo "🔍 Running pre-commit checks..."
+
+FAILED=0
+
+# 1. Type check
+echo "🚀 Running Astro type check..."
+npm run type-check --silent || { echo "❌ Type check failed"; FAILED=1; }
+
+# 2. Build test (fast way to catch issues)
+echo "🏗️  Testing build..."
+npm run build --silent || { echo "❌ Build failed"; FAILED=1; }
+
+# 3. Security (warn only)
+echo "🔒 Security audit..."
+npm run security:check --silent 2>/dev/null || echo "⚠️  Security issues detected"
+
+if [ $FAILED -ne 0 ]; then
+    echo ""
+    echo "❌ Pre-commit checks failed"
+    echo "To bypass (not recommended): git commit --no-verify"
+    exit 1
+fi
+
+echo "✅ All checks passed!"
