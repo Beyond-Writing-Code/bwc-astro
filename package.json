@@ -10,7 +10,14 @@
     "astro": "astro",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
-    "test:e2e:headed": "playwright test --headed"
+    "test:e2e:headed": "playwright test --headed",
+    "test:run": "playwright test",
+    "lint": "echo 'No linter configured yet'",
+    "format:check": "echo 'No formatter configured yet'",
+    "type-check": "astro check",
+    "security:check": "npm audit --audit-level=high",
+    "quality:check": "npm run type-check && npm run test:run && npm run build",
+    "prepare": "git config core.hooksPath .githooks 2>/dev/null || true"
   },
   "keywords": [],
   "author": "",
