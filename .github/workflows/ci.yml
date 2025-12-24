@@ -70,12 +70,5 @@ jobs:
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v11
         with:
-          # Use staticDistDir to serve the built files
-          staticDistDir: ./dist
-          urls: |
-            /
-            /about
-            /posts
+          configPath: ./lighthouserc.js
           uploadArtifacts: true
-          temporaryPublicStorage: true
-          runs: 3
