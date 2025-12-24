@@ -2,29 +2,37 @@
 
 Follow these steps to configure automatic deployment to beyondwritingcodebook.com
 
+**Note:** This site uses a **different DreamHost user** than bwc-web:
+- ✅ Same DreamHost host server
+- ❗ Different SSH username
+- ❗ Different SSH keys
+- ❗ Different folder path
+
 ## Step 1: Get DreamHost Information
 
-You'll need these from your DreamHost account:
+You'll need these from your DreamHost account for **beyondwritingcodebook.com**:
 
-- [ ] SSH hostname (e.g., `yourserver.dreamhost.com`)
-- [ ] SSH username (e.g., `yourusername`)
-- [ ] Site directory path (e.g., `~/beyondwritingcodebook.com` or `~/beyondwritingcodebook.com/public_html`)
+- [ ] SSH hostname - **Same as bwc-web** (e.g., `yourserver.dreamhost.com`)
+- [ ] SSH username - **Different from bwc-web** (e.g., `bookuser`)
+- [ ] Site directory path - **Different from bwc-web** (e.g., `~/beyondwritingcodebook.com`)
 
 ## Step 2: Set Up SSH Key for Deployment
 
-### Option A: Use Existing SSH Key
+**Important:** This site uses **different SSH keys** than bwc-web because it's a different DreamHost user.
 
-If you already have an SSH key for DreamHost:
+### Option A: Use Existing SSH Key for This User
+
+If you already have an SSH key for the beyondwritingcodebook.com user:
 
 ```bash
-# Display your private key
-cat ~/.ssh/id_rsa
+# Display your private key for THIS user
+cat ~/.ssh/id_rsa_bookuser  # Or whatever key file you use
 # Copy the ENTIRE output (including -----BEGIN/END----- lines)
 ```
 
-### Option B: Generate New SSH Key
+### Option B: Generate New SSH Key (Recommended)
 
-If you need a new key for deployment:
+Generate a separate key specifically for beyondwritingcodebook.com deployment:
 
 ```bash
 # Generate new SSH key (no passphrase for automation)
@@ -35,21 +43,28 @@ ssh-keygen -t rsa -b 4096 -C "github-deploy-beyondwritingcodebook" -f ~/.ssh/dre
 # - ~/.ssh/dreamhost_bwc_book.pub (public key - for DreamHost)
 ```
 
+**Note:** Do NOT reuse the bwc-web SSH key - this is a different user!
+
 ### Add Public Key to DreamHost
 
-1. **SSH into DreamHost:**
+1. **SSH into DreamHost with the beyondwritingcodebook.com user:**
    ```bash
-   ssh YOUR_USERNAME@YOUR_SERVER.dreamhost.com
+   ssh BOOK_USERNAME@YOUR_SERVER.dreamhost.com
+   # Use the credentials for beyondwritingcodebook.com (NOT bwc-web user)
    ```
 
-2. **Add public key:**
+2. **Add public key to this user's authorized_keys:**
    ```bash
-   # If using existing key
-   cat >> ~/.ssh/authorized_keys
-   # Paste your PUBLIC key (id_rsa.pub content), then Ctrl+D
+   # Create .ssh directory if it doesn't exist
+   mkdir -p ~/.ssh
+   chmod 700 ~/.ssh
 
-   # If using new key, from your local machine:
-   cat ~/.ssh/dreamhost_bwc_book.pub | ssh YOUR_USERNAME@YOUR_SERVER.dreamhost.com 'cat >> ~/.ssh/authorized_keys'
+   # Add public key
+   cat >> ~/.ssh/authorized_keys
+   # Paste your PUBLIC key (dreamhost_bwc_book.pub content), then Ctrl+D
+
+   # Or from your local machine:
+   cat ~/.ssh/dreamhost_bwc_book.pub | ssh BOOK_USERNAME@YOUR_SERVER.dreamhost.com 'cat >> ~/.ssh/authorized_keys'
    ```
 
 3. **Set correct permissions:**
@@ -60,8 +75,10 @@ ssh-keygen -t rsa -b 4096 -C "github-deploy-beyondwritingcodebook" -f ~/.ssh/dre
 
 4. **Test SSH connection:**
    ```bash
-   ssh -i ~/.ssh/dreamhost_bwc_book YOUR_USERNAME@YOUR_SERVER.dreamhost.com
+   ssh -i ~/.ssh/dreamhost_bwc_book BOOK_USERNAME@YOUR_SERVER.dreamhost.com
    # Should connect without password
+   # Verify you're logged in as the BOOK user, not the bwc-web user
+   whoami  # Should show the book username
    ```
 
 ## Step 3: Add Secrets to GitHub
@@ -72,44 +89,49 @@ Click **New repository secret** for each:
 
 ### Secret 1: DREAMHOST_SSH_HOST
 - **Name:** `DREAMHOST_SSH_HOST`
-- **Value:** Your DreamHost server hostname
+- **Value:** Your DreamHost server hostname (**same as bwc-web**)
 - **Example:** `ginseng.dreamhost.com`
 
 ### Secret 2: DREAMHOST_BWC_BOOK_SSH_USER
 - **Name:** `DREAMHOST_BWC_BOOK_SSH_USER`
-- **Value:** Your DreamHost SSH username
-- **Example:** `yourusername`
+- **Value:** SSH username for beyondwritingcodebook.com (**different from bwc-web**)
+- **Example:** `bookuser`
+- **Note:** This is NOT the same as the bwc-web user
 
 ### Secret 3: DREAMHOST_BWC_BOOK_REMOTE_PATH
 - **Name:** `DREAMHOST_BWC_BOOK_REMOTE_PATH`
-- **Value:** Full path to site directory
+- **Value:** Full path to site directory (**different from bwc-web**)
 - **Example:** `~/beyondwritingcodebook.com` or `~/beyondwritingcodebook.com/public_html`
 
-To find your remote path, SSH to DreamHost and run:
+To find your remote path, SSH to DreamHost **as the book user** and run:
 ```bash
+ssh BOOK_USERNAME@YOUR_SERVER.dreamhost.com
 cd ~/beyondwritingcodebook.com  # or wherever your site is
-pwd  # Shows full path
+pwd  # Shows full path - use this value
 ```
 
 ### Secret 4: DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY
 - **Name:** `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY`
-- **Value:** Contents of your private key file
+- **Value:** Contents of your private key file (**different from bwc-web key**)
 
 Get the value:
 ```bash
-# If using existing key
-cat ~/.ssh/id_rsa
+# If using existing key for book user
+cat ~/.ssh/id_rsa_bookuser  # Or your existing key
 
-# If using new key
+# If using new key (recommended)
 cat ~/.ssh/dreamhost_bwc_book
 ```
 
-**IMPORTANT:** Copy the ENTIRE output including these lines:
+**IMPORTANT:**
+- Copy the ENTIRE output including these lines:
 ```
 -----BEGIN OPENSSH PRIVATE KEY-----
 ... (all content) ...
 -----END OPENSSH PRIVATE KEY-----
 ```
+- This should be a **different key** than what bwc-web uses
+- Do NOT reuse the bwc-web deployment key
 
 ## Step 4: Verify Deployment Workflow
 
