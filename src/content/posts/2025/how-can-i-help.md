@@ -1,11 +1,11 @@
 ---
-title: "How can I help?"
-date: "2025-05-31"
-originalDate: "2025-05-31"
-excerpt: "My first full time job after college was as an administrative assistant at a health insurance company. I did a lot of what you might expect: directing incoming phone calls, keeping our office supply c..."
-categories: ["career","communication","learning","work"]
-tags: ["ye olde days"]
-featuredImage: "/images/posts/2025/how-can-i-help.jpg"
+title: 'How can I help?'
+date: '2025-05-31'
+originalDate: '2025-05-31'
+excerpt: 'My first full time job after college was as an administrative assistant at a health insurance company. I did a lot of what you might expect: directing incoming phone calls, keeping our office supply c...'
+categories: ['career', 'communication', 'learning', 'work']
+tags: ['ye olde days']
+featuredImage: '/images/posts/2025/how-can-i-help.jpg'
 ---
 
 My first full time job after college was as an administrative assistant at a health insurance company. I did a lot of what you might expect: directing incoming phone calls, keeping our office supply cabinet stocked, answering cries of anguish from distressed colleagues…
@@ -20,7 +20,7 @@ I take a breath to steady myself. Absorbing her panic is not going to help us he
 
 ![](/images/posts/2025/breathe-sign.jpg)
 
-*This photo came up in my search for “word processor”. It was the most accurate of all the results. Photo by [Fabian Møller](https://unsplash.com/@fabimoe?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/pink-breathe-neon-sign-gI7zgb80QWY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+_This photo came up in my search for “word processor”. It was the most accurate of all the results. Photo by [Fabian Møller](https://unsplash.com/@fabimoe?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/pink-breathe-neon-sign-gI7zgb80QWY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
 Okay, she’s got a document open, but there’s no text. There’s no blinking cursor either, that’s odd. But otherwise things look pretty normal. I study the screen without touching anything.
 
@@ -44,6 +44,6 @@ Next time this happened, she could just close the word processor and re-open and
 
 She could rescue herself from problems where knowledge about a horizontal scroll bar wouldn’t help her at all.
 
-* * *
+---
 
 Hi! If you’re enjoying my blog, you might like my newsletter. Approximately weekly, I’ll be sending thoughts about software development, writing, or both, right to you. Sign up [here](https://www.beyondwritingcode.com/contact/).

@@ -1,18 +1,18 @@
 ---
 title: "Something's gotta give"
-date: "2025-04-25"
-originalDate: "2022-05-16"
-excerpt: "You’ve already got a full schedule when the boss asks you to take on a special project. Or maybe an urgent issue just jumped up above everything else you were planning to do this week. Or you’ve got m..."
-categories: ["communication","work"]
-tags: ["estimating","prioritization","self-care","setting limits"]
-featuredImage: "/images/posts/2025/somethings-gotta-give.jpg"
+date: '2025-04-25'
+originalDate: '2022-05-16'
+excerpt: 'You’ve already got a full schedule when the boss asks you to take on a special project. Or maybe an urgent issue just jumped up above everything else you were planning to do this week. Or you’ve got m...'
+categories: ['communication', 'work']
+tags: ['estimating', 'prioritization', 'self-care', 'setting limits']
+featuredImage: '/images/posts/2025/somethings-gotta-give.jpg'
 ---
 
 You’ve already got a full schedule when the boss asks you to take on a special project. Or maybe an urgent issue just jumped up above everything else you were planning to do this week. Or you’ve got multiple stakeholders, and all of them insist on being your “top priority”.
 
 ![](/images/posts/2025/blocks-letters.jpeg)
 
-*Photo by [JESHOOTS.COM](https://unsplash.com/@jeshoots?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [JESHOOTS.COM](https://unsplash.com/@jeshoots?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 Before you start canceling evening and weekend plans so you can spend even more time than you already do at work: stop.
 
@@ -46,6 +46,6 @@ For larger tasks, you might need to break it down into sub-estimates. Then, when
 
 Think of it as your manager _relying on you_, as a professional, to let them know how much time you will need to complete your work. This can help make it a little less intimidating to speak up when the boss arrives to add more to your already packed to do list. And finally, more good news: this gets easier with practice!
 
-* * *
+---
 
 Originally posted 16 May 2022 on [Medium](https://medium.com/@bouncingleaf/somethings-gotta-give-b681184366ae).

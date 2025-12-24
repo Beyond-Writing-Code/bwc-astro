@@ -1,18 +1,18 @@
 ---
-title: "Feeling seen"
-date: "2025-04-27"
-originalDate: "2023-09-30"
-excerpt: "In the summer of 2019, I was three months into a new job. My house had endured major construction that resulted in equally major water damage. We were about to go live in a hotel until just before Chr..."
-categories: ["kindness"]
-tags: ["education","kindness","look after each other"]
-featuredImage: "/images/posts/2025/feeling-seen.jpg"
+title: 'Feeling seen'
+date: '2025-04-27'
+originalDate: '2023-09-30'
+excerpt: 'In the summer of 2019, I was three months into a new job. My house had endured major construction that resulted in equally major water damage. We were about to go live in a hotel until just before Chr...'
+categories: ['kindness']
+tags: ['education', 'kindness', 'look after each other']
+featuredImage: '/images/posts/2025/feeling-seen.jpg'
 comments:
-  - author: "Dan"
-    date: "2025-04-28"
-    content: "My favorite part of this post is how it is written from 4 years out. It is always easier to remember things with longer reflection."
-  - author: "leafjessicaroy"
-    date: "2025-04-28"
-    content: "Thanks, Dan! (And for holding onto the card for the 3 years in between!)"
+  - author: 'Dan'
+    date: '2025-04-28'
+    content: 'My favorite part of this post is how it is written from 4 years out. It is always easier to remember things with longer reflection.'
+  - author: 'leafjessicaroy'
+    date: '2025-04-28'
+    content: 'Thanks, Dan! (And for holding onto the card for the 3 years in between!)'
 ---
 
 In the summer of 2019, I was three months into a new job. My house had endured major construction that resulted in equally major water damage. We were about to go live in a hotel until just before Christmas.
@@ -43,6 +43,6 @@ He and I are on different teams now, Kim and Frank have moved on, but that spark
 
 Thanks Kim, Frank, Dan, and everyone from our team.
 
-* * *
+---
 
 Originally posted 30 September 2023 on [Medium](https://bouncingleaf.medium.com/feeling-seen-70250b91fb48).

@@ -1,11 +1,11 @@
 ---
-title: "Making decisions as tech lead"
-date: "2025-12-03"
-originalDate: "2025-12-03"
-excerpt: "When I first started as a tech lead, I often made my decisions based on what the tech lead before me had done. It wasn’t a terrible idea. Mike was knowledgeable and competent, a good person to emulate..."
-categories: ["leadership","learning"]
-tags: ["developing expertise","do the research","it depends","making decisions","tech lead"]
-featuredImage: "/images/posts/2025/making-decisions-as-tech-lead.jpg"
+title: 'Making decisions as tech lead'
+date: '2025-12-03'
+originalDate: '2025-12-03'
+excerpt: 'When I first started as a tech lead, I often made my decisions based on what the tech lead before me had done. It wasn’t a terrible idea. Mike was knowledgeable and competent, a good person to emulate...'
+categories: ['leadership', 'learning']
+tags: ['developing expertise', 'do the research', 'it depends', 'making decisions', 'tech lead']
+featuredImage: '/images/posts/2025/making-decisions-as-tech-lead.jpg'
 ---
 
 When I first started as a tech lead, I often made my decisions based on what the tech lead before me had done.
@@ -16,7 +16,7 @@ It wasn’t a _terrible_ idea. Mike was knowledgeable and competent, a good pers
 
 ![A person holding their glasses stands facing a window with several blank sticky notes](/images/posts/2025/sticky-notes-window-1.jpg)
 
-*This is another excellent way to make decisions. Line up a bunch of blank sticky notes in rows, and then stare out the window. Photo by [Julia Potter](https://unsplash.com/@juliapotter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-woman-looking-out-a-window-with-sticky-notes-on-it-wJfiW9bGfP4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+_This is another excellent way to make decisions. Line up a bunch of blank sticky notes in rows, and then stare out the window. Photo by [Julia Potter](https://unsplash.com/@juliapotter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-woman-looking-out-a-window-with-sticky-notes-on-it-wJfiW9bGfP4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 ## A decision to make
 
@@ -44,14 +44,14 @@ Instead, he agreed to let me take some time to research.
 
 ![A person holding a mobile device writes in a notebook on a table with other papers, pens, and a tablet, suggesting someone doing research.](/images/posts/2025/research-notebook.jpg)
 
-*Getty Images via Unsplash*
+_Getty Images via Unsplash_
 
 I did a lot of reading over the next week or so. But most of all, I talked to the fanatics, those colleagues who were already convinced that I should be using it.
 
 As an aside, it’s fun to turn the tables on people who have already decided that their favorite technology-of-the-moment is perfect for you, even though they have no idea what you’re working on.
 
 > “You should do this!”
-> 
+>
 > “Oh yeah? Convince me. Why is it right for _my_ use case?”
 
 They’ll tell you why it’s great _in general._
@@ -66,7 +66,7 @@ Except it’s not just a joke. **There are trade-offs for everything.** Be suspi
 
 ![Someone holds a blank orange sticky note near three others that are stuck to a window](/images/posts/2025/sticky-notes-window-2.jpg)
 
-*Yes… this one. Getty Images via Unsplash*
+_Yes… this one. Getty Images via Unsplash_
 
 And the architectural decisions the previous tech lead made for our earlier project weren’t always right for our current project, either.
 
@@ -80,6 +80,6 @@ And, with practice, I got better at researching. I began developing my own intui
 
 Because, well… _it depends._
 
-* * *
+---
 
 Thanks to Oren Yam whose blog post [Managers, Don’t Bet on Your People’s Ideas!](https://medium.com/@oren.yam/managers-dont-bet-on-your-people-s-ideas-5d54f01c8bd6) reminded me of the above story.

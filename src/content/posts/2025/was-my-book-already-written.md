@@ -1,10 +1,18 @@
 ---
-title: "Was my book already written?"
-date: "2025-05-27"
-excerpt: "Discovering that Tanya Reilly had already written a similar book, and what that meant for my work."
-categories: ["writing","book","references"]
-tags: ["Beyond Writing Code newsletter","self-doubt","LeadDev","StaffPlus","Tanya Reilly","book recommendations"]
-featuredImage: "/images/posts/2025/was-my-book-already-written-1.jpg"
+title: 'Was my book already written?'
+date: '2025-05-27'
+excerpt: 'Discovering that Tanya Reilly had already written a similar book, and what that meant for my work.'
+categories: ['writing', 'book', 'references']
+tags:
+  [
+    'Beyond Writing Code newsletter',
+    'self-doubt',
+    'LeadDev',
+    'StaffPlus',
+    'Tanya Reilly',
+    'book recommendations',
+  ]
+featuredImage: '/images/posts/2025/was-my-book-already-written-1.jpg'
 published: true
 comments: []
 ---
@@ -83,10 +91,10 @@ Looking at Reilly's blog, I noticed the "Rands Leadership Slack," and I signed u
 
 Also on that list:
 
-*   ​[The Unicorn Project](https://itrevolution.com/product/the-unicorn-project/), Gene Kim
-*   ​[Wiring the Winning Organization](https://itrevolution.com/product/wiring-the-winning-organization/), Gene Kim & Steven J. Spear
-*   ​[Flow Engineering](https://itrevolution.com/product/flow-engineering/), Steve Pereira & Andrew Davis
-*   ​[The Lean Startup](https://theleanstartup.com/), Eric Ries
+- ​[The Unicorn Project](https://itrevolution.com/product/the-unicorn-project/), Gene Kim
+- ​[Wiring the Winning Organization](https://itrevolution.com/product/wiring-the-winning-organization/), Gene Kim & Steven J. Spear
+- ​[Flow Engineering](https://itrevolution.com/product/flow-engineering/), Steve Pereira & Andrew Davis
+- ​[The Lean Startup](https://theleanstartup.com/), Eric Ries
 
 I just finished [The Five Dysfunctions of a Team](https://www.tablegroup.com/product/dysfunctions/), by Patrick Lencioni, which reminds me that I should reread [Agile Conversations](https://itrevolution.com/product/agile-conversations/) by Douglas Squirrel and Jeffrey Fredrick.
 
@@ -100,7 +108,7 @@ Know someone else who would enjoy this? They can subscribe here: [https://www.be
 
 Thanks for reading!
 
-* * *
+---
 
 ## A note about the em dash
 

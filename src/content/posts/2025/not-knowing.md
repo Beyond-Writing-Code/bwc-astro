@@ -1,11 +1,11 @@
 ---
-title: "Why Everyone Else Knows More Than You Do, and What To Do About It"
-date: "2025-04-25"
-originalDate: "2022-06-13"
-excerpt: "The developers you work with know stuff that you don’t, and you know stuff that they don’t. Obvious, right? So why does it seem like everyone else knows more, and you’ll never catch up? Why does it se..."
-categories: ["career","communication","learning","work"]
-tags: ["asking","courage","helping others","kindness","mentors","not knowing","questions"]
-featuredImage: "/images/posts/2025/not-knowing.jpg"
+title: 'Why Everyone Else Knows More Than You Do, and What To Do About It'
+date: '2025-04-25'
+originalDate: '2022-06-13'
+excerpt: 'The developers you work with know stuff that you don’t, and you know stuff that they don’t. Obvious, right? So why does it seem like everyone else knows more, and you’ll never catch up? Why does it se...'
+categories: ['career', 'communication', 'learning', 'work']
+tags: ['asking', 'courage', 'helping others', 'kindness', 'mentors', 'not knowing', 'questions']
+featuredImage: '/images/posts/2025/not-knowing.jpg'
 ---
 
 The developers you work with know stuff that you don’t, and you know stuff that they don’t. Obvious, right?
@@ -14,7 +14,7 @@ So why does it seem like everyone else knows more, and you’ll never catch up? 
 
 ![](/images/posts/2025/question-blocks.jpeg)
 
-*This is how I feel sometimes. Not shown in photo: all the big kids on their big kid bikes. Photo by [Tommy Bond](https://unsplash.com/@bondomovies?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_This is how I feel sometimes. Not shown in photo: all the big kids on their big kid bikes. Photo by [Tommy Bond](https://unsplash.com/@bondomovies?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 The answer is that it’s true: everyone else you work with _does_ know more — _collectively_. Taken all together, everyone else knows more than any one person does.
 
@@ -44,7 +44,7 @@ I was making a note to myself to ask someone later, when Nick politely interrupt
 
 ![Person raising their hand to ask a question](/images/posts/2025/not-knowing-hand-raised.jpg)
 
-*Photo by [Marcos Luiz Photograph](https://unsplash.com/@marcosjluiz?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Marcos Luiz Photograph](https://unsplash.com/@marcosjluiz?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 “I have no idea what you’re talking about. What is this?”
 
@@ -60,7 +60,7 @@ In that moment, I saw that it was part of the role of a lead developer to speak 
 
 ![Large question mark symbol](/images/posts/2025/not-knowing-question-mark.jpg)
 
-*Photo by [Brett Jordan](https://unsplash.com/@brett_jordan?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Brett Jordan](https://unsplash.com/@brett_jordan?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 Later, I saw that the pressure to appear knowledgeable is universal, no matter what your experience level. If you’re new, you might feel you have to prove to your team that you know what you’re doing. If you’re more experienced, you might feel like others will judge you for not knowing as much as they thought.
 
@@ -70,7 +70,7 @@ How do we smash the stigma? Ask questions, and _ask in a way that others see it.
 
 ![Group of people working together on laptops](/images/posts/2025/not-knowing-laptops.jpg)
 
-*Photo by [Mars Sector-6](https://unsplash.com/@heylagostechie?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Mars Sector-6](https://unsplash.com/@heylagostechie?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 Pro tip: modeling good behavior, teaching others, and changing the culture for the better are things _leaders_ do. When you speak up, you’re not highlighting your weakness, you’re demonstrating your strength. No joke. My boss told me recently that one of the key factors in hiring me was that I was _not afraid to ask questions._
 
@@ -84,7 +84,7 @@ When a colleague asks something you don’t know, add a comment that you’d lik
 
 ![Hand reaching out to help someone up](/images/posts/2025/not-knowing-helping-hand.jpg)
 
-*Photo by [Randalyn Hill](https://unsplash.com/@randalynhill?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Randalyn Hill](https://unsplash.com/@randalynhill?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 When a question comes through that you _do_ know how to answer, share your knowledge! Some days, you’re the big kid on the bike, and someone else is calling out to you from their tricycle, trying to keep up.
 
@@ -92,7 +92,7 @@ Above all, always be kind, regardless of the question or who is asking. A questi
 
 That’s what a leader does.[](https://medium.com/tag/questions?source=post_page-----c030191b22c2---------------------------------------)
 
-* * *
+---
 
 Do you feel like that little kid on the tricycle sometimes? What do you do to help the people around you feel more comfortable admitting when they don’t know and reaching out for help? Let me know in the comments.
 

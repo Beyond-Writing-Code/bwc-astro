@@ -1,10 +1,10 @@
 ---
-title: "A lot going on. And a poll. Issue 11 of Beyond Writing Code"
-date: "2025-07-29"
-excerpt: "Using analogies to explain work in progress and priorities."
-categories: ["writing","prioritization"]
-tags: ["Beyond Writing Code newsletter","analogies","work in progress"]
-featuredImage: "/images/posts/2025/a-lot-going-on-and-a-poll-issue-11-of-beyond-writing-code-1.jpg"
+title: 'A lot going on. And a poll. Issue 11 of Beyond Writing Code'
+date: '2025-07-29'
+excerpt: 'Using analogies to explain work in progress and priorities.'
+categories: ['writing', 'prioritization']
+tags: ['Beyond Writing Code newsletter', 'analogies', 'work in progress']
+featuredImage: '/images/posts/2025/a-lot-going-on-and-a-poll-issue-11-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -108,8 +108,8 @@ Let's say you've got a lot going on. A literal lot, in fact. A parking lot. It's
 And you need to move them all to another lot nearby.
 
 ![cars parked on parking lot during daytime, with one car out of a space in the lane of travel](/images/posts/2025/a-lot-going-on-and-a-poll-issue-11-of-beyond-writing-code-1.jpg)
-*Sure, you're moving one car, but what about all those other cars??  
-Photo by [Vitor Paladini](https://unsplash.com/@vtrpldn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/cars-parked-on-parking-lot-during-daytime-9evmIoRN7aA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_Sure, you're moving one car, but what about all those other cars??  
+Photo by [Vitor Paladini](https://unsplash.com/@vtrpldn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/cars-parked-on-parking-lot-during-daytime-9evmIoRN7aA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 You _could_ get in one car, drive it to the other parking area, and come back for the next car (hopefully a short walk). Repeat until done. That's probably what most of us would do.
 
@@ -125,9 +125,9 @@ And the chaos only escalates faster if we have a team of people moving the cars.
 
 Imagine I'm working with a team, and our instructions are:
 
-*   Get into a car, and drive it until you are stuck.
-*   No waiting! If you are blocked, go move another car while you wait.
-*   Move the lowest number (highest priority) cars first. So, as soon as you are unblocked on a lower number car, go back to moving that.
+- Get into a car, and drive it until you are stuck.
+- No waiting! If you are blocked, go move another car while you wait.
+- Move the lowest number (highest priority) cars first. So, as soon as you are unblocked on a lower number car, go back to moving that.
 
 Okay, great. I get in car #1 and I get about 20 feet before I have to stop for car backing out of a spot.
 

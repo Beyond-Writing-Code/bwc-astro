@@ -13,7 +13,8 @@ function getPostUrl(post: any) {
   const year = format(date, 'yyyy');
   const month = format(date, 'MM');
   const day = format(date, 'dd');
-  return `/${year}/${month}/${day}/${post.slug}`;
+  const slug = post.slug.split('/').pop();
+  return `/${year}/${month}/${day}/${slug}`;
 }
 ---
 

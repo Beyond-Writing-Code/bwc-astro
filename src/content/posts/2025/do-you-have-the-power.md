@@ -1,11 +1,11 @@
 ---
-title: "Do you have the power?"
-date: "2025-07-04"
-originalDate: "2025-07-04"
-excerpt: "I was told once that I “should feel empowered” to influence strategy, something I had been blocked from doing in multiple ways. This was not welcome news. I could feel empowered all I wanted, but unti..."
-categories: ["career"]
+title: 'Do you have the power?'
+date: '2025-07-04'
+originalDate: '2025-07-04'
+excerpt: 'I was told once that I “should feel empowered” to influence strategy, something I had been blocked from doing in multiple ways. This was not welcome news. I could feel empowered all I wanted, but unti...'
+categories: ['career']
 tags: []
-featuredImage: "/images/posts/2025/do-you-have-the-power.jpg"
+featuredImage: '/images/posts/2025/do-you-have-the-power.jpg'
 ---
 
 I was told once that I “should feel empowered” to influence strategy, something I had been blocked from doing in multiple ways.
@@ -24,7 +24,7 @@ I had confidence in my abilities. The barriers to my getting things done weren�
 
 ![](/images/posts/2025/fence.jpg)
 
-*Photo by [Matt Palmer](https://unsplash.com/@mattpalmer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/grayscale-photo-of-chain-link-fence-sDpdeFxq_wQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+_Photo by [Matt Palmer](https://unsplash.com/@mattpalmer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/grayscale-photo-of-chain-link-fence-sDpdeFxq_wQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
 Thinking about it now, if I had actually felt empowered and tried to influence strategy any more than I did already, it would have brought me criticism for stepping out of my lane.
 

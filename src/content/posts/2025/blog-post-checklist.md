@@ -1,18 +1,18 @@
 ---
-title: "Blog post checklist"
-date: "2025-04-25"
-originalDate: "2025-04-25"
+title: 'Blog post checklist'
+date: '2025-04-25'
+originalDate: '2025-04-25'
 excerpt: "I have been importing blog posts from my previous blog at Medium, and I keep losing track of the steps. And often, when I want to document something for myself, it's my habit to document it for anyone..."
-categories: ["writing"]
-tags: ["blog","checklist"]
-featuredImage: "/images/posts/2025/blog-post-checklist.jpg"
+categories: ['writing']
+tags: ['blog', 'checklist']
+featuredImage: '/images/posts/2025/blog-post-checklist.jpg'
 comments:
-  - author: "leafjessicaroy"
-    date: "2025-04-26"
+  - author: 'leafjessicaroy'
+    date: '2025-04-26'
     content: "PS – I added this checklist to GitHub! It's a little different there, has a few more items. github.com/leafjessicaroy/BeyondWritingCode"
-  - author: "Leaf is writing a book"
-    date: "2025-05-01"
-    content: "I love this! Thanks for writing it up."
+  - author: 'Leaf is writing a book'
+    date: '2025-05-01'
+    content: 'I love this! Thanks for writing it up.'
 ---
 
 I have been importing blog posts from my previous blog at [Medium](https://bouncingleaf.medium.com/), and I keep losing track of the steps.
@@ -25,28 +25,28 @@ This is exactly what my blog post checklist will look like. I mean, the checklis
 
 While writing the post
 
-*   Catchy but short title? (Sometimes I go for an entertainingly long title instead.)
-*   At least one interesting image?
-*   Caption your image(s)? Unsplash doesn’t require an attribution, but I like to add one.
-*   Got sub-headings?
-*   Review: brevity, passive voice
+- Catchy but short title? (Sometimes I go for an entertainingly long title instead.)
+- At least one interesting image?
+- Caption your image(s)? Unsplash doesn’t require an attribution, but I like to add one.
+- Got sub-headings?
+- Review: brevity, passive voice
 
 At the end of the post
 
-*   A short note to sum up
-*   If you’re importing from Medium, did you mention that? “Originally posted \[date\] on Medium.”
-*   Add the Medium link?
-*   Is it long enough that you kinda wanna add a second photo?
+- A short note to sum up
+- If you’re importing from Medium, did you mention that? “Originally posted \[date\] on Medium.”
+- Add the Medium link?
+- Is it long enough that you kinda wanna add a second photo?
 
 Metadata
 
 (I’m using WordPress, the metadata is all the stuff on the right hand side under “Post”.)
 
-*   Set featured image?
-*   URL slug? (This one is “blog-post-checklist” which is okay)
-*   Discussion – open or closed?
-*   Categories?
-*   Tags?
+- Set featured image?
+- URL slug? (This one is “blog-post-checklist” which is okay)
+- Discussion – open or closed?
+- Categories?
+- Tags?
 
 Note
 
@@ -66,7 +66,7 @@ display: none;
 }
 ```
 
-* * *
+---
 
 And so…
 

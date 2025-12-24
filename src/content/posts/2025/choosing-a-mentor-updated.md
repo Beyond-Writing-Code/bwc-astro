@@ -1,11 +1,11 @@
 ---
-title: "Choosing a mentor (updated)"
-date: "2025-04-27"
-originalDate: "2025-04-27"
+title: 'Choosing a mentor (updated)'
+date: '2025-04-27'
+originalDate: '2025-04-27'
 excerpt: "I’m happiest in a job when I’m learning from someone who knows more than I do. Last year \\[this post is originally from August, 2023\\], I started a new role on a team of engineers who all know boatloa..."
-categories: ["career","learning","work"]
-tags: ["asking","mentoring","questions"]
-featuredImage: "/images/posts/2025/choosing-a-mentor-updated.jpg"
+categories: ['career', 'learning', 'work']
+tags: ['asking', 'mentoring', 'questions']
+featuredImage: '/images/posts/2025/choosing-a-mentor-updated.jpg'
 ---
 
 I’m happiest in a job when I’m learning from someone who knows more than I do.
@@ -28,7 +28,7 @@ First question I asked myself was an obvious one: “**who do you know who might
 
 ![](/images/posts/2025/mentor-path.jpg)
 
-*Photo by Desola Lanre-Ologun on Unsplash*
+_Photo by Desola Lanre-Ologun on Unsplash_
 
 I suspect this is where some people get derailed. _I can’t think of anyone, or I don’t dare ask because I doubt anyone has time for, or interest in, working with me. And what would I ask them about anyway if we did work together??_ The “who do I know” question was getting me nowhere, but it’s worth a shot, maybe someone leaps to mind for you.
 
@@ -84,7 +84,7 @@ The biggest surprise for me was that this mentoring relationship turned out to b
 
 Start by asking yourself the questions to determine what you are looking for from a mentor and how you imagine mentoring might look. Ask around to find a potential match, and ask for an introduction – if they don’t have time or interest, you’ll find out, and no harm has been done by asking. Keep an eye open for what you might be able to provide for your mentor in return (like sharing an interesting article or introducing your mentor to a colleague). You could ask your mentor outright if you can be of service in some way. Curiosity about yourself and others will serve you well on this quest.
 
-* * *
+---
 
 _Many thanks to both of my mentors, I can’t imagine the last year and a half without you. Thanks to our management for making the connections (and for being great mentors in their own right). And thanks to “baby G” for disrupting the status quo and opening up doors for me in the process – happy first birthday._
 

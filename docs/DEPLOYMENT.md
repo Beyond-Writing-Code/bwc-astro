@@ -9,6 +9,7 @@ This site is deployed to **beyondwritingcodebook.com** (staging) on DreamHost us
 **Trigger:** Every push to `main` branch
 
 **Process:**
+
 1. GitHub Actions builds the site (`npm run build`)
 2. Creates a tarball of the `dist/` directory
 3. Uploads to GitHub as artifact
@@ -21,12 +22,12 @@ This site is deployed to **beyondwritingcodebook.com** (staging) on DreamHost us
 
 You need to configure these secrets in GitHub repository settings:
 
-| Secret Name | Description | Example |
-|-------------|-------------|---------|
-| `DREAMHOST_SSH_HOST` | DreamHost server hostname | `yourserver.dreamhost.com` |
-| `DREAMHOST_BWC_BOOK_SSH_USER` | SSH username | `yourusername` |
-| `DREAMHOST_BWC_BOOK_REMOTE_PATH` | Path to site directory | `~/beyondwritingcodebook.com` |
-| `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY` | SSH private key | Contents of `~/.ssh/id_rsa` |
+| Secret Name                          | Description               | Example                       |
+| ------------------------------------ | ------------------------- | ----------------------------- |
+| `DREAMHOST_SSH_HOST`                 | DreamHost server hostname | `yourserver.dreamhost.com`    |
+| `DREAMHOST_BWC_BOOK_SSH_USER`        | SSH username              | `yourusername`                |
+| `DREAMHOST_BWC_BOOK_REMOTE_PATH`     | Path to site directory    | `~/beyondwritingcodebook.com` |
+| `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY` | SSH private key           | Contents of `~/.ssh/id_rsa`   |
 
 ### How to Set Up Secrets
 
@@ -48,11 +49,13 @@ ssh-keygen -t rsa -b 4096 -C "github-deploy-beyondwritingcodebook"
 ### Add Public Key to DreamHost
 
 1. **SSH into DreamHost:**
+
    ```bash
    ssh yourusername@yourserver.dreamhost.com
    ```
 
 2. **Add public key to authorized_keys:**
+
    ```bash
    cat >> ~/.ssh/authorized_keys
    # Paste your PUBLIC key (id_rsa.pub content)
@@ -118,6 +121,7 @@ After deployment:
 **Problem:** SSH key not properly configured
 
 **Solution:**
+
 1. Verify SSH key is added to DreamHost `~/.ssh/authorized_keys`
 2. Check file permissions: `chmod 600 ~/.ssh/authorized_keys`
 3. Verify GitHub secret `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY` contains full private key
@@ -127,6 +131,7 @@ After deployment:
 **Problem:** Cached files or incorrect path
 
 **Solution:**
+
 1. Verify `DREAMHOST_BWC_BOOK_REMOTE_PATH` points to correct directory
 2. SSH into DreamHost and check files: `ls -la ~/beyondwritingcodebook.com/`
 3. Clear browser cache and hard reload (Cmd+Shift+R)
@@ -142,6 +147,7 @@ After deployment:
 **Problem:** Not pushing to `main` branch or workflow conditions not met
 
 **Solution:**
+
 1. Check you're on `main` branch: `git branch`
 2. Check workflow conditions in `.github/workflows/deploy.yml`
 3. Manually trigger deployment from Actions tab
@@ -151,6 +157,7 @@ After deployment:
 ### GitHub Actions
 
 Monitor deployments in the **Actions** tab:
+
 - View build logs
 - Check deployment status
 - See rsync output
@@ -158,6 +165,7 @@ Monitor deployments in the **Actions** tab:
 ### DreamHost Logs
 
 SSH into DreamHost and check logs:
+
 ```bash
 ssh yourusername@yourserver.dreamhost.com
 tail -f ~/logs/yourdomain.com/http/error.log
@@ -172,6 +180,7 @@ To rollback to a previous version:
 3. Click **Re-run all jobs**
 
 Or rollback via git:
+
 ```bash
 # Find the commit to rollback to
 git log --oneline

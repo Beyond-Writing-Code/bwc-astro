@@ -1,10 +1,10 @@
 ---
-title: "Be clear about your goal, issue 26 of Beyond Writing Code"
-date: "2025-11-13"
+title: 'Be clear about your goal, issue 26 of Beyond Writing Code'
+date: '2025-11-13'
 excerpt: "Be clear about your goal, and the other decisions become much easier. Here's how I learned that lesson and got clarity about my goal."
-categories: ["writing","book","helping"]
-tags: ["Beyond Writing Code newsletter","goal setting","clear is kind","what's your why"]
-featuredImage: "/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-1.jpg"
+categories: ['writing', 'book', 'helping']
+tags: ['Beyond Writing Code newsletter', 'goal setting', 'clear is kind', "what's your why"]
+featuredImage: '/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -22,7 +22,7 @@ But have you ever encountered a lesson that you know you've been taught multiple
 At least, not unless you do something different than what you've been doing.
 
 ![Square sticky notes stuck to a wall, some also held with tacks](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-1.jpg)
-*Sometimes you know the sticky notes aren't going to stick unless you also use a tack. Photo by [Patrick Perkins](https://unsplash.com/@patrickperkins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/assorted-notepads-ETRPjvb0KM0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)​*
+_Sometimes you know the sticky notes aren't going to stick unless you also use a tack. Photo by [Patrick Perkins](https://unsplash.com/@patrickperkins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/assorted-notepads-ETRPjvb0KM0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)​_
 
 The other day I heard the message again: "**be clear about your goal, and the other decisions become much easier.**"
 
@@ -60,7 +60,7 @@ Another way of looking at "what my book is about" is the title. **Beyond Writing
 So I decided to have [claude.ai](https://claude.ai/) suggest some book titles for me based on my blog posts and newsletter posts:
 
 ![Screen shot of claude.ai text that reads: Based on your writing style and themes I've observed from your site - which focuses on empathy, kindness, helping others, mentoring, self-awareness, and the human side of development - here are some positive 2-4 word title suggestions. I've checked the most obvious ones and found several popular titles already taken, so here are some fresh alternatives: Available titles that capture your themes:  "Code with Care" - Emphasizes the caring, empathetic approach to development "Software Hearts" - Plays on the contrast between technical and human elements "Coding with Kindness" - Directly reflects the kindness theme from your writing "The Empathy Advantage" - Positions empathy as a strength, very positive "Developer Wisdom" - Simple, positive, emphasizes the wisdom from your 20 years "Mindful Coding" - Suggests thoughtful, human-centered development "The Caring Coder" - Direct and personal "Heart-Driven Development" - Emphasizes the emotional intelligence aspect  From scanning your content, I see themes around helping others, mentoring, self-awareness, empathy, and making technology more human. These titles capture that positive, aspirational quality you're looking for - they're things people would want to become or achieve rather than problems to avoid.](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-2.jpg)
-*From a claude.ai session in September*
+_From a claude.ai session in September_
 
 I'm not especially fond of any of the suggested titles, but I was intrigued that it pulled out kindness, empathy, and especially the **human side of development** here.
 
@@ -119,21 +119,21 @@ The irony of asking AI to tell me what humans do better than AI was too good for
 Here's another AI chat snippet:
 
 ![A screen shot of questions from "L" and answers from AI. The questions: Can you help me get more clear about what we mean by "becoming more fully human" here? Intuition and collaboration seem clearly human. Systems thinking - AI struggles with this right now because it has a hard time holding all the context and sorting out what's important (is that right?) so that seems human also. You mention "working sustainably" - say more about why that's "human"?   What else is included in this "human" category? The start of the AI answer: Great question - let's unpack this more rigorously. What Makes Something "Human" in This Context? I think we're talking about capabilities that either:  Require embodiment (your gut feeling point) Require lived context over time (not just information) Involve navigating ambiguity with judgment (not just optimization) Depend on relationship and trust  Let me test each element: [end of screen shot]](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-6.jpg)
-*AI ponders what's human*
+_AI ponders what's human_
 
 The AI's list of what's human:
 
-*   Intuition/Gut Feelings
-*   Collaboration & Relationship Building
-*   Empathy & Emotional Intelligence
-*   Creativity & Imagination
-*   Systems Thinking—specifically, distinguishing signal from noise in complex contexts, holding paradoxes, understanding second and third-order effects ("If we do X, then Y, which will cause Z...”), and understanding how things fit together
-*   Judgment Under Ambiguity
-*   Navigating Conflict & Politics
-*   Holding Values & Ethics
-*   Maintaining Context Over Time
-*   Presence & Attention
-*   Sense-Making - synthesis that creates meaning ("This is different from analysis - it’s about interpretation")
+- Intuition/Gut Feelings
+- Collaboration & Relationship Building
+- Empathy & Emotional Intelligence
+- Creativity & Imagination
+- Systems Thinking—specifically, distinguishing signal from noise in complex contexts, holding paradoxes, understanding second and third-order effects ("If we do X, then Y, which will cause Z...”), and understanding how things fit together
+- Judgment Under Ambiguity
+- Navigating Conflict & Politics
+- Holding Values & Ethics
+- Maintaining Context Over Time
+- Presence & Attention
+- Sense-Making - synthesis that creates meaning ("This is different from analysis - it’s about interpretation")
 
 AI's conclusion:
 
@@ -149,13 +149,13 @@ I decided to come back to that question. Instead, I asked AI to do a survey of p
 
 It listed the following:
 
-*   **Burnout and meaninglessness** - Developers feeling like cogs, disconnected from impact, going through motions without understanding why their work matters
-*   **Organizational dysfunction** - Feeling powerless in dysfunctional systems, seeing the same problems repeat, not knowing how to influence change when technical solutions aren't enough
-*   **Career plateaus** - Hitting a ceiling where more technical skill doesn't help, but not knowing what other capacities to develop
-*   **Isolation and disconnection** - Despite being on teams, feeling isolated, struggling with cross-functional work, not knowing how to build effective working relationships
-*   **Impostor syndrome and self-doubt** - Especially around the "non-technical" aspects—feeling like they should just know how to navigate people and politics
-*   **AI anxiety** - Right now especially, questioning their value and what makes them irreplaceable
-*   **The promotion problem** - Getting promoted into leadership or senior IC roles and suddenly needing skills they've never developed or been told matter
+- **Burnout and meaninglessness** - Developers feeling like cogs, disconnected from impact, going through motions without understanding why their work matters
+- **Organizational dysfunction** - Feeling powerless in dysfunctional systems, seeing the same problems repeat, not knowing how to influence change when technical solutions aren't enough
+- **Career plateaus** - Hitting a ceiling where more technical skill doesn't help, but not knowing what other capacities to develop
+- **Isolation and disconnection** - Despite being on teams, feeling isolated, struggling with cross-functional work, not knowing how to build effective working relationships
+- **Impostor syndrome and self-doubt** - Especially around the "non-technical" aspects—feeling like they should just know how to navigate people and politics
+- **AI anxiety** - Right now especially, questioning their value and what makes them irreplaceable
+- **The promotion problem** - Getting promoted into leadership or senior IC roles and suddenly needing skills they've never developed or been told matter
 
 "Does any of this resonate with what you're trying to address?" it asked me. "And I'm still curious—what's the cost if they don't learn this?"
 
@@ -175,10 +175,10 @@ We've examined **why we need "better ways of working"**: burnout, organizational
 
 We know **what the better ways of working are.** For example:
 
-*   ​[Flow and systems thinking, fast feedback loops, continual experimentation and learning](https://itrevolution.com/articles/the-three-ways-principles-underpinning-devops/).
-*   ​["Better value sooner safer happier" principles](https://itrevolution.com/articles/bvssh-principles/)​
-*   ​[The practices from Accelerate](https://itrevolution.com/wp-content/uploads/2022/06/transformation_practices.pdf)​
-*   ​[The capabilities outlined by DORA](https://dora.dev/capabilities/)​
+- ​[Flow and systems thinking, fast feedback loops, continual experimentation and learning](https://itrevolution.com/articles/the-three-ways-principles-underpinning-devops/).
+- ​["Better value sooner safer happier" principles](https://itrevolution.com/articles/bvssh-principles/)​
+- ​[The practices from Accelerate](https://itrevolution.com/wp-content/uploads/2022/06/transformation_practices.pdf)​
+- ​[The capabilities outlined by DORA](https://dora.dev/capabilities/)​
 
 We've clarified **what "being human" means in this context:** "the messy, embodied, relational, values-driven work of navigating complex sociotechnical systems" as claude.ai summarized.
 
@@ -188,10 +188,10 @@ The goal, then:
 
 **Sharing how our uniquely human skills and strengths can help us work better and happier.**
 
-*   **Uniquely human skills and strengths** - where we excel, even in the age of AI
-*   **Sharing how they can help us** - stories from my experience, learnings from my reading
-*   **Work better** - really "better value sooner safer happier," but I think "better" says it all.
-*   **Work happier** - even though "better" encompasses it, I repeat it here to emphasize that the top concerns I'm addressing are about alleviating human suffering: burnout, isolation, overwhelm, etc.
+- **Uniquely human skills and strengths** - where we excel, even in the age of AI
+- **Sharing how they can help us** - stories from my experience, learnings from my reading
+- **Work better** - really "better value sooner safer happier," but I think "better" says it all.
+- **Work happier** - even though "better" encompasses it, I repeat it here to emphasize that the top concerns I'm addressing are about alleviating human suffering: burnout, isolation, overwhelm, etc.
 
 That's what I want to get into the hands of as many developers as I can.
 

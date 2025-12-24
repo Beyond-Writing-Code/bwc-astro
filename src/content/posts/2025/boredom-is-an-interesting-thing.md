@@ -1,18 +1,18 @@
 ---
-title: "Boredom is an interesting thing"
-date: "2025-04-25"
-originalDate: "2022-05-10"
-excerpt: "Okay, you’ve put off that dreaded task long enough. Finally, you get to work, but the time just drags on. You’d like to get it over with, but it’s just so… boring. Yes, it’s true that we all have work..."
-categories: ["mindfulness","work"]
-tags: ["boredom","procrastination"]
-featuredImage: "/images/posts/2025/boredom-is-an-interesting-thing.jpg"
+title: 'Boredom is an interesting thing'
+date: '2025-04-25'
+originalDate: '2022-05-10'
+excerpt: 'Okay, you’ve put off that dreaded task long enough. Finally, you get to work, but the time just drags on. You’d like to get it over with, but it’s just so… boring. Yes, it’s true that we all have work...'
+categories: ['mindfulness', 'work']
+tags: ['boredom', 'procrastination']
+featuredImage: '/images/posts/2025/boredom-is-an-interesting-thing.jpg'
 ---
 
 Okay, you’ve put off that dreaded task long enough. Finally, you get to work, but the time just drags on. You’d like to get it over with, but it’s just so… _boring_.
 
 ![](/images/posts/2025/bored-pup.jpg)
 
-*Ho hum. Photo by [Priscilla Du Preez 🇨🇦](https://unsplash.com/@priscilladupreez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-pug-puppy-on-brown-wooden-chair-dOnEFhQ7ojs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+_Ho hum. Photo by [Priscilla Du Preez 🇨🇦](https://unsplash.com/@priscilladupreez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-pug-puppy-on-brown-wooden-chair-dOnEFhQ7ojs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
 Yes, it’s true that we all have work now and then that we’re just plain stuck doing. Tedious chores that, whether we like it or not, need to get done, and need to get done _by us_.
 
@@ -40,7 +40,7 @@ Are there other priorities right now that should be taking precedence? Could be 
 
 Checking in with yourself, a trusted colleague, your manager, or your stakeholder when you’re finding something especially boring might guide you to the root cause of your boredom, and from there you might spot another solution. Or it might give you new perspective on the task, or ideas to help you get through it.
 
-* * *
+---
 
 Has boredom been a “red flag” for you in the past? Are there other emotions or thoughts that act as a signal that it’s time for you to re-evaluate something?
 

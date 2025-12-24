@@ -1,10 +1,10 @@
 ---
-title: "Me from the Past; issue 14 of Beyond Writing Code"
-date: "2025-08-19"
-excerpt: "Being kind to yourself and using the dinner test for storytelling."
-categories: ["learning","storytelling"]
-tags: ["Beyond Writing Code newsletter","be kind to yourself","dinner test","The Book Academy"]
-featuredImage: "/images/posts/2025/me-from-the-past-issue-14-of-beyond-writing-code-1.jpg"
+title: 'Me from the Past; issue 14 of Beyond Writing Code'
+date: '2025-08-19'
+excerpt: 'Being kind to yourself and using the dinner test for storytelling.'
+categories: ['learning', 'storytelling']
+tags: ['Beyond Writing Code newsletter', 'be kind to yourself', 'dinner test', 'The Book Academy']
+featuredImage: '/images/posts/2025/me-from-the-past-issue-14-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -26,7 +26,7 @@ I've been writing for a long time, and I've developed a checklist of tests for m
 ![A person checking four boxes on a tablet, each box labeled "Check"](/images/posts/2025/me-from-the-past-issue-14-of-beyond-writing-code-1.jpg)
 
 What’s sillier than putting “make to-do list” on a to-do list? This.  
-*Photo by [​Jakub Żerdzicki​](https://unsplash.com/@jakubzerdzicki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [​Unsplash](https://unsplash.com/photos/a-hand-marks-off-items-on-a-checklist-yKnIbJV0RbY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_Photo by [​Jakub Żerdzicki​](https://unsplash.com/@jakubzerdzicki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [​Unsplash](https://unsplash.com/photos/a-hand-marks-off-items-on-a-checklist-yKnIbJV0RbY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 Here's what I reread, originally written in 2022: [Boredom is an interesting thing](https://www.beyondwritingcode.com/2025/04/25/boredom-is-an-interesting-thing/).
 

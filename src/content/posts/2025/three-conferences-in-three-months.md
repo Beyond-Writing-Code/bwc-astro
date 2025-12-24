@@ -1,11 +1,11 @@
 ---
-title: "Three conferences in three months"
-date: "2025-11-13"
-originalDate: "2025-11-13"
-excerpt: "That’s right, I went to three conferences in three months (2.5 months, really). Enterprise Technology Leadership Summit (ETLS) in Las Vegas in September, I spoke at LeadDev StaffPlus in NYC in October..."
-categories: ["conferences","storytelling"]
-tags: ["comparing conferences","ETLS","GHC2025","LeadDev","StaffPlus"]
-featuredImage: "/images/posts/2025/three-conferences-in-three-months.jpg"
+title: 'Three conferences in three months'
+date: '2025-11-13'
+originalDate: '2025-11-13'
+excerpt: 'That’s right, I went to three conferences in three months (2.5 months, really). Enterprise Technology Leadership Summit (ETLS) in Las Vegas in September, I spoke at LeadDev StaffPlus in NYC in October...'
+categories: ['conferences', 'storytelling']
+tags: ['comparing conferences', 'ETLS', 'GHC2025', 'LeadDev', 'StaffPlus']
+featuredImage: '/images/posts/2025/three-conferences-in-three-months.jpg'
 ---
 
 That’s right, I went to three conferences in three months (2.5 months, really). [Enterprise Technology Leadership Summit](https://itrevolution.com/articles/2025-enterprise-tech-leadership-summit/) (ETLS) in Las Vegas in September, I [spoke at LeadDev StaffPlus](https://www.beyondwritingcode.com/speaking-at-leaddev-staffplus/) in NYC in October, and I went to the [Grace Hopper Celebration](https://ghc.anitab.org/) (GHC) in Chicago in November.
@@ -86,6 +86,6 @@ And furthermore…
 
 Also on my radar: [Fast Flow Conf](https://www.fastflowconf.com/). Which overlapped with LeadDev this year, so I’m probably doomed for 2026…
 
-* * *
+---
 
 What conferences do you go to? Why do you like going there in person?

@@ -1,10 +1,10 @@
 ---
-title: "When you ask for help, issue 7 of Beyond Writing Code"
-date: "2025-07-01"
-excerpt: "Understanding emotions as clues when asking for help, and the importance of emotional regulation."
-categories: ["helping","work"]
-tags: ["Beyond Writing Code newsletter","asking","emotions provide clues","emotional regulation"]
-featuredImage: "/images/posts/2025/when-you-ask-for-help-issue-7-of-beyond-writing-code-1.jpg"
+title: 'When you ask for help, issue 7 of Beyond Writing Code'
+date: '2025-07-01'
+excerpt: 'Understanding emotions as clues when asking for help, and the importance of emotional regulation.'
+categories: ['helping', 'work']
+tags: ['Beyond Writing Code newsletter', 'asking', 'emotions provide clues', 'emotional regulation']
+featuredImage: '/images/posts/2025/when-you-ask-for-help-issue-7-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -23,7 +23,7 @@ However, Ian also has a sixth point lurking: _explain the urgency without panic.
 
 ![a close up of a bird with its mouth open](/images/posts/2025/when-you-ask-for-help-issue-7-of-beyond-writing-code-1.jpg)
 
-*Explain the urgency without seagull vocalizations. Photo by [Travis Leery](https://unsplash.com/@jersey_photos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-bird-with-its-mouth-open-iDZf4PqegpQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_Explain the urgency without seagull vocalizations. Photo by [Travis Leery](https://unsplash.com/@jersey_photos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-bird-with-its-mouth-open-iDZf4PqegpQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 I agree. But why might panic—or other emotional outbursts—be counterproductive when asking for help?
 
@@ -31,10 +31,10 @@ I agree. But why might panic—or other emotional outbursts—be counterproducti
 
 Let's look at a few typical emotional outbursts that may accompany a request for help:
 
-*   Panic: "THIS IS A HUGE PROBLEM!!! PLEASE HELP!!!!"
-*   Demanding: "I need assistance IMMEDIATELY!!!"
-*   Self-deprecation: "Sorry for being so stupid!! I should know this already..."
-*   Irritation: "Why doesn't this trash ever work?! This place is a MESS!!"
+- Panic: "THIS IS A HUGE PROBLEM!!! PLEASE HELP!!!!"
+- Demanding: "I need assistance IMMEDIATELY!!!"
+- Self-deprecation: "Sorry for being so stupid!! I should know this already..."
+- Irritation: "Why doesn't this trash ever work?! This place is a MESS!!"
 
 Whew. All the charged words, capital letters, and exclamation points... so unpleasant to read.
 
@@ -48,9 +48,9 @@ But you'll have better luck if the feelings aren't a central part of the package
 
 You can still communicate urgency and importance without caps lock and extra punctuation. Just state the facts:
 
-*   Production is down until we fix this.
-*   We have a call with the VP about this at 3pm.
-*   If we can't get this resolved by Thursday morning, we'll have to cancel our stakeholder demo.
+- Production is down until we fix this.
+- We have a call with the VP about this at 3pm.
+- If we can't get this resolved by Thursday morning, we'll have to cancel our stakeholder demo.
 
 Notice that you're also clarifying exactly _how urgent_ something is. "We're losing money by the second" and "we need it by next week" are very different. Furthermore, someone might know otherwise: "don't worry about the VP call, it got postponed."
 
@@ -60,9 +60,9 @@ Definitely not saying that!
 
 There's nothing wrong with _mentioning_ how you feel, including while asking a question.
 
-*   "I've tried \[A, B, and C\] and I still get the same error. Super frustrating. What else can I try?"
-*   "I'm so confused. It spontaneously started working at 10:18, but only for 5 minutes. What could be causing this?"
-*   "Starting to panic, because the batch will fail if we don't have this fixed by 4pm. Can we manually correct today's batch to buy us time?"
+- "I've tried \[A, B, and C\] and I still get the same error. Super frustrating. What else can I try?"
+- "I'm so confused. It spontaneously started working at 10:18, but only for 5 minutes. What could be causing this?"
+- "Starting to panic, because the batch will fail if we don't have this fixed by 4pm. Can we manually correct today's batch to buy us time?"
 
 Do you see how these are different from the emotional outbursts above? You're acknowledging your emotion (frustration, confusion, panic), but staying focused on the question at hand. And you're staying calm, which will make it easier for others to help you.
 

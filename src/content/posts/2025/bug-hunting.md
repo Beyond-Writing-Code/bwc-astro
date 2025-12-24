@@ -1,16 +1,16 @@
 ---
-title: "Bug hunting"
-date: "2025-04-26"
-originalDate: "2025-04-26"
-excerpt: "I once had a colleague who (jokingly) left this comment on a code review, and not in reference to a specific line of code:  “Missing semicolon.”"
-categories: ["AI","coding"]
-tags: ["debugging","manual vs. ai"]
-featuredImage: "/images/posts/2025/bug-hunting.jpg"
+title: 'Bug hunting'
+date: '2025-04-26'
+originalDate: '2025-04-26'
+excerpt: 'I once had a colleague who (jokingly) left this comment on a code review, and not in reference to a specific line of code:  “Missing semicolon.”'
+categories: ['AI', 'coding']
+tags: ['debugging', 'manual vs. ai']
+featuredImage: '/images/posts/2025/bug-hunting.jpg'
 ---
 
 Another post I made a while ago on Medium, but this one I updated today with some newer thoughts.
 
-* * *
+---
 
 I once had a colleague who (jokingly) left this comment on a code review, and not in reference to a specific line of code:
 
@@ -18,7 +18,7 @@ I once had a colleague who (jokingly) left this comment on a code review, and no
 
 ![](/images/posts/2025/bug-hunting-laptop.jpeg)
 
-*Photo by Nubelson Fernandes on Unsplash*
+_Photo by Nubelson Fernandes on Unsplash_
 
 # Case study two
 

@@ -1,10 +1,10 @@
 ---
-title: "Technical or not, issue 12 of Beyond Writing Code"
-date: "2025-08-05"
-excerpt: "Are people \"technical\"? Labels matter, and kindness matters more."
-categories: ["communication"]
-tags: ["Beyond Writing Code newsletter","are people technical","labeling people","kindness"]
-featuredImage: "/images/posts/2025/technical-or-not-issue-12-of-beyond-writing-code-1.jpg"
+title: 'Technical or not, issue 12 of Beyond Writing Code'
+date: '2025-08-05'
+excerpt: 'Are people "technical"? Labels matter, and kindness matters more.'
+categories: ['communication']
+tags: ['Beyond Writing Code newsletter', 'are people technical', 'labeling people', 'kindness']
+featuredImage: '/images/posts/2025/technical-or-not-issue-12-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -41,8 +41,8 @@ For a while, I tried labeling the _role_ instead of the person. "People in _less
 
 ![someone screwing something onto a black circuit board which is at least twice the size of the person's hand](/images/posts/2025/technical-or-not-issue-12-of-beyond-writing-code-1.jpg)
 
-*Photos in today's email are tagged as "technical" on Unsplash. This one is also tagged "wristwatch" for some reason. That's one strange wristwatch.  
-Photo by [Blaz Erzetic](https://unsplash.com/@www_erzetich_com?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-circuit-board-g5f0BJq-FRs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_Photos in today's email are tagged as "technical" on Unsplash. This one is also tagged "wristwatch" for some reason. That's one strange wristwatch.  
+Photo by [Blaz Erzetic](https://unsplash.com/@www_erzetich_com?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-circuit-board-g5f0BJq-FRs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 Let's look at a related phenomenon: the habit of some people I've worked with to refer to specific others, especially developers, as "the smart people." As in: "I'm going to let the smart people handle that question about databases." Ugh.
 
@@ -66,14 +66,14 @@ One person is not smarter than another because they have knowledge the other per
 
 ![beam design printed paper on desk, with a protractor on top](/images/posts/2025/technical-or-not-issue-12-of-beyond-writing-code-2.jpg)
 
-*"Technical" isn't all computers and electronics.  
-Photo by [Sergey Zolkin](https://unsplash.com/@szolkin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/beam-design-printed-paper-on-desk-m9qMoh-scfE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_"Technical" isn't all computers and electronics.  
+Photo by [Sergey Zolkin](https://unsplash.com/@szolkin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/beam-design-printed-paper-on-desk-m9qMoh-scfE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 How about:
 
-*   "Ali and Chris are both experts on this piece."
-*   "People who aren't familiar with this topic might find this confusing."
-*   "I'm going to let the people who know about databases handle that question."
+- "Ali and Chris are both experts on this piece."
+- "People who aren't familiar with this topic might find this confusing."
+- "I'm going to let the people who know about databases handle that question."
 
 ## Should I not say "technical" then, or...
 
@@ -101,7 +101,7 @@ What if we take the questions and suggestions seriously?
 
 ![two people facing away from the camera towards a computer monitor which appears to be displaying sound mixing software](/images/posts/2025/technical-or-not-issue-12-of-beyond-writing-code-3.jpg)
 
-*"No, that's impossible, because..." Photo by [Jametlene Reskp](https://unsplash.com/@reskp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/man-playing-flat-screen-monitor-P7A0yVPrpqA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) (This one is also tagged "Video Gaming." That's one strange video game.)*
+_"No, that's impossible, because..." Photo by [Jametlene Reskp](https://unsplash.com/@reskp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/man-playing-flat-screen-monitor-P7A0yVPrpqA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) (This one is also tagged "Video Gaming." That's one strange video game.)_
 
 Here's an example:
 
@@ -149,8 +149,8 @@ Same conversation, with some questions instead of shutting the inquiry down imme
 
 Your colleague just helped you unearth two problems:
 
-*   Saving is taking much longer than expected, and
-*   The user could exit _during_ saving. You didn't think that was possible. It's _probably_ fine if they do... but you'd better look into it.
+- Saving is taking much longer than expected, and
+- The user could exit _during_ saving. You didn't think that was possible. It's _probably_ fine if they do... but you'd better look into it.
 
 ## Technical knowledge
 
@@ -166,8 +166,8 @@ So, yes, the most valuable voice in a technical conversation is not always the m
 
 ![a blue background with lines and dots](/images/posts/2025/technical-or-not-issue-12-of-beyond-writing-code-4.jpg)
 
-*If you're technical, you're like this, I guess?  
-Photo by [Conny Schneider](https://unsplash.com/@choys_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_If you're technical, you're like this, I guess?  
+Photo by [Conny Schneider](https://unsplash.com/@choys_?utm*content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
 
 # Kindred spirits disadvantage
 

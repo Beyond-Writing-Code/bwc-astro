@@ -1,10 +1,10 @@
 ---
-title: "DevOps and better ways of working, issue 16 of Beyond Writing Code"
-date: "2025-09-02"
-excerpt: "What is DevOps really about? Better ways of working together."
-categories: ["work","conferences","resources"]
-tags: ["Beyond Writing Code newsletter","what is devops","book recommendations"]
-featuredImage: "/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-1.jpg"
+title: 'DevOps and better ways of working, issue 16 of Beyond Writing Code'
+date: '2025-09-02'
+excerpt: 'What is DevOps really about? Better ways of working together.'
+categories: ['work', 'conferences', 'resources']
+tags: ['Beyond Writing Code newsletter', 'what is devops', 'book recommendations']
+featuredImage: '/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -39,13 +39,13 @@ Let's back up a bit. What is "DevOps"?
 
 ![](/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-2.jpg)
 
-*This photo is tagged "DevOps" (as well as "Cloud Computing" and "Jewelry"). Photo by [Growtika](https://unsplash.com/@growtika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-car-key-72dRZHuYJWE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_This photo is tagged "DevOps" (as well as "Cloud Computing" and "Jewelry"). Photo by [Growtika](https://unsplash.com/@growtika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-car-key-72dRZHuYJWE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 Ask folks in tech, and you'll get a variety of answers.
 
-*   Software developers ("Dev") supporting their own code in production instead of handing it off to Operations ("Ops"). So, Dev doing Ops work.
-*   Ops using code and automation to get their work done instead of tedious manual processes. So, Ops doing Dev work.
-*   A job title, specifically the person who manages the automation. "The deployment failed, our DevOps is taking a look." A third role, somewhere in between Dev and Ops?
+- Software developers ("Dev") supporting their own code in production instead of handing it off to Operations ("Ops"). So, Dev doing Ops work.
+- Ops using code and automation to get their work done instead of tedious manual processes. So, Ops doing Dev work.
+- A job title, specifically the person who manages the automation. "The deployment failed, our DevOps is taking a look." A third role, somewhere in between Dev and Ops?
 
 When I say DevOps, I usually mean **Dev and Ops working together**.
 
@@ -69,7 +69,7 @@ Dev would "throw code over the wall" to Ops to deploy and support. Ops would end
 
 ![](/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-3.jpg)
 
-*Also tagged "DevOps". Maybe this person is doing a manual code deployment. Photo by [Sammyayot254](https://unsplash.com/@superadmins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/man-in-blue-sweater-using-silver-macbook-vIQDv6tUHYk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_Also tagged "DevOps". Maybe this person is doing a manual code deployment. Photo by [Sammyayot254](https://unsplash.com/@superadmins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/man-in-blue-sweater-using-silver-macbook-vIQDv6tUHYk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 So, people thought it was ridiculous, maybe even irresponsible, to suggest deploying code to production _ten times per day_. And yet Allspaw and Hammond reported that their _Dev and Ops teams worked together_ to do just that.
 

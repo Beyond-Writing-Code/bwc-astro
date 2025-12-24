@@ -1,11 +1,11 @@
 ---
-title: "Did I chat with an AI?"
-date: "2025-08-06"
-originalDate: "2025-08-06"
-excerpt: "I try to avoid posting about AI, but today I found myself wondering: did I just chat with an AI? Trying to decide which of several products to purchase online, I used the company’s website chatbot, wh..."
-categories: ["AI","communication","language"]
+title: 'Did I chat with an AI?'
+date: '2025-08-06'
+originalDate: '2025-08-06'
+excerpt: 'I try to avoid posting about AI, but today I found myself wondering: did I just chat with an AI? Trying to decide which of several products to purchase online, I used the company’s website chatbot, wh...'
+categories: ['AI', 'communication', 'language']
 tags: []
-featuredImage: "/images/posts/2025/did-i-chat-with-an-ai.jpg"
+featuredImage: '/images/posts/2025/did-i-chat-with-an-ai.jpg'
 ---
 
 I try to avoid [posting about AI](https://www.beyondwritingcode.com/2025/06/13/interview-with-an-ai/), but today I found myself wondering: did I just chat with an AI?
@@ -18,12 +18,12 @@ The overly-enthusiastic and strangely polished parts? That’s probably AI.
 
 But what about…
 
-*   The natural-sounding, competent, useful responses?
-*   The grammatical errors?
-*   The inability to remember bits of context from earlier in the conversation?
-*   Delays where the “agent is typing” and I’m waiting…
-*   …but then I get an “are you still there?” a minute later while I’m typing?
-*   The occasional complete nonsense, sort of an on-topic word salad?
+- The natural-sounding, competent, useful responses?
+- The grammatical errors?
+- The inability to remember bits of context from earlier in the conversation?
+- Delays where the “agent is typing” and I’m waiting…
+- …but then I get an “are you still there?” a minute later while I’m typing?
+- The occasional complete nonsense, sort of an on-topic word salad?
 
 What’s wild to me is that I have experienced all of those things in the days before AI chat, when you could be reasonably certain you were talking to a human. So, on one hand, any of these could be a human behind the wheel.
 
@@ -45,7 +45,7 @@ When they ran out of flowchart, they’d send you to tier 2. But even the flowch
 
 ![](/images/posts/2025/call-center.jpg)
 
-*“The button doesn’t exist? That’s not on the flowchart.” Photo by [Arlington Research](https://unsplash.com/@arlington_research?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/unknown-persons-using-computer-indoors-nFLmPAf9dVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+_“The button doesn’t exist? That’s not on the flowchart.” Photo by [Arlington Research](https://unsplash.com/@arlington_research?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/unknown-persons-using-computer-indoors-nFLmPAf9dVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
 They might be following a script. But when it said “Agent is typing…” on the screen, they were at least assembling a reply from various bits of canned text with a little original text thrown in.
 

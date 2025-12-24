@@ -1,10 +1,11 @@
 ---
-title: "AI for developers"
-date: "2025-06-03"
-excerpt: "How AI changes what developers do, with emphasis on people and processes over technology."
-categories: ["AI","coding"]
-tags: ["Beyond Writing Code newsletter","what developers do","onward to productivity","vibe coding"]
-featuredImage: "/images/posts/2025/ai-for-developers-1.jpg"
+title: 'AI for developers'
+date: '2025-06-03'
+excerpt: 'How AI changes what developers do, with emphasis on people and processes over technology.'
+categories: ['AI', 'coding']
+tags:
+  ['Beyond Writing Code newsletter', 'what developers do', 'onward to productivity', 'vibe coding']
+featuredImage: '/images/posts/2025/ai-for-developers-1.jpg'
 published: true
 comments: []
 ---

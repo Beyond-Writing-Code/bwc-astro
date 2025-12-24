@@ -1,10 +1,10 @@
 ---
 title: "How to help when you can't, issue 8 of Beyond Writing Code"
-date: "2025-07-09"
-excerpt: "Sometimes the best help is just being there and suffering with a friend."
-categories: ["helping","troubleshooting"]
-tags: ["Beyond Writing Code newsletter","helping others","bonus story","suffer with a friend"]
-featuredImage: "/images/posts/2025/how-to-help-when-you-can-t-issue-8-of-beyond-writing-code-1.jpg"
+date: '2025-07-09'
+excerpt: 'Sometimes the best help is just being there and suffering with a friend.'
+categories: ['helping', 'troubleshooting']
+tags: ['Beyond Writing Code newsletter', 'helping others', 'bonus story', 'suffer with a friend']
+featuredImage: '/images/posts/2025/how-to-help-when-you-can-t-issue-8-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -23,7 +23,7 @@ Why? I have been stuck on tough coding problems by myself, with no support. It's
 
 ![black and tan german shepherd on green grass field during daytime](/images/posts/2025/how-to-help-when-you-can-t-issue-8-of-beyond-writing-code-1.jpg)
 
-*"Now what?" Photo by [Anna Dudkova](https://unsplash.com/@annadudkova?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-and-tan-german-shepherd-on-green-grass-field-during-daytime-Y9XRyobtsBI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_"Now what?" Photo by [Anna Dudkova](https://unsplash.com/@annadudkova?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-and-tan-german-shepherd-on-green-grass-field-during-daytime-Y9XRyobtsBI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 And sometimes, I manage to be useful anyway, even if I have no idea what the person should do.
 
@@ -59,12 +59,12 @@ Besides, another team uses this package, and they aren't having this problem. I 
 
 Okay, imagining that I have to solve this on my own... What else could I try?
 
-*   I could search Slack and email to see if anyone has mentioned this before. You never know.
-*   I could report it as a bug and see if the package maintainers can help, but I'm pretty sure the problem is my code, not the package.
-*   I guess I could start with known good code, and then add my code changes a little at a time until I get the error. That might take a while, but it might help narrow it down.
-*   Or I could start with my broken code and remove my changes a little at a time until it works. That might be faster in this case.
-*   What else is different for the other team? Their application doesn't require the user to sign on... is that relevant? Hmm...
-*   Wait, this package uses a config file. Is the other team's file the same as mine?
+- I could search Slack and email to see if anyone has mentioned this before. You never know.
+- I could report it as a bug and see if the package maintainers can help, but I'm pretty sure the problem is my code, not the package.
+- I guess I could start with known good code, and then add my code changes a little at a time until I get the error. That might take a while, but it might help narrow it down.
+- Or I could start with my broken code and remove my changes a little at a time until it works. That might be faster in this case.
+- What else is different for the other team? Their application doesn't require the user to sign on... is that relevant? Hmm...
+- Wait, this package uses a config file. Is the other team's file the same as mine?
 
 ## Two player mode
 
@@ -102,7 +102,7 @@ Fifteen minutes later, they have figured out that their code change affects the 
 
 ![](/images/posts/2025/how-to-help-when-you-can-t-issue-8-of-beyond-writing-code-2.jpg)
 
-*"I could block the third party service call and see what happens. I'll try that. Thanks for listening." (photo by Getty images from Unsplash)*
+_"I could block the third party service call and see what happens. I'll try that. Thanks for listening." (photo by Getty images from Unsplash)_
 
 If all you can do is listen to someone who is stuck, you might simply be an especially encouraging and friendly rubber duck. But that's not bad. That might be all they need.
 
@@ -196,7 +196,7 @@ He continues: "When I did that, all of the lights turned red. That's when I swor
 
 And then I called the telco guy and let him know that the customer had reset his equipment for him and we were all set. Sheesh.
 
-* * *
+---
 
 Know someone else who would enjoy this? They can subscribe here: [https://www.beyondwritingcode.com/connect/](https://www.beyondwritingcode.com/connect/)​
 

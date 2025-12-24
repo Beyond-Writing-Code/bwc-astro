@@ -1,11 +1,11 @@
 ---
-title: "Developers do more than code"
-date: "2025-12-15"
-originalDate: "2025-12-15"
-excerpt: "People who define the role of the developer as “someone who writes code” may be surprised to learn that developers do much more than write code. Those of us who have lived the role know otherwise. So ..."
-categories: ["coding","productivity","work"]
-tags: ["making mistakes","not just coding","what developers do"]
-featuredImage: "/images/posts/2025/developers-do-more-than-code.jpg"
+title: 'Developers do more than code'
+date: '2025-12-15'
+originalDate: '2025-12-15'
+excerpt: 'People who define the role of the developer as “someone who writes code” may be surprised to learn that developers do much more than write code. Those of us who have lived the role know otherwise. So ...'
+categories: ['coding', 'productivity', 'work']
+tags: ['making mistakes', 'not just coding', 'what developers do']
+featuredImage: '/images/posts/2025/developers-do-more-than-code.jpg'
 ---
 
 People who define the role of the developer as “someone who writes code” may be surprised to learn that developers do much more than write code. Those of us who have lived the role know otherwise.

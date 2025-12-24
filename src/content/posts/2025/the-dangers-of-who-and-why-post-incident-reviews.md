@@ -1,11 +1,11 @@
 ---
-title: "The dangers of \"who\" and \"why\": post-incident reviews"
-date: "2025-04-27"
-originalDate: "2023-09-23"
-excerpt: "Five valuable lessons, including one that really threw me for a loop when I read it."
-categories: ["communication","kindness","work"]
-tags: ["kindness","learning","ouch","psychological safety","questions"]
-featuredImage: "/images/posts/2025/the-dangers-of-who-and-why-post-incident-reviews.jpg"
+title: 'The dangers of "who" and "why": post-incident reviews'
+date: '2025-04-27'
+originalDate: '2023-09-23'
+excerpt: 'Five valuable lessons, including one that really threw me for a loop when I read it.'
+categories: ['communication', 'kindness', 'work']
+tags: ['kindness', 'learning', 'ouch', 'psychological safety', 'questions']
+featuredImage: '/images/posts/2025/the-dangers-of-who-and-why-post-incident-reviews.jpg'
 ---
 
 Originally posted 23 September 2023 on [Medium](https://bouncingleaf.medium.com/why-who-and-what-are-hazardous-2ef5ab3a7c5d).
@@ -15,20 +15,20 @@ Five valuable lessons, including one that really threw me for a loop when I read
 In one of his LinkedIn posts, [Jeff Gallimore posted some thoughts](https://www.linkedin.com/posts/jgallimore_just-a-psa-and-periodic-reminder-about-things-activity-7102833528240791552-kH0s) about retrospectives and post-incident reviews:
 
 > Just a PSA and periodic reminder about things to keep in mind when conducting retrospectives and post-incident reviews.
-> 
+>
 > 1\. No one comes to work to do a bad job.  
 > 2\. Everyone is doing the best they can given the information they have at the time.  
 > 3\. There is no single root cause. There are multiple contributing factors.  
 > 4\. Counterfactual thinking (i.e., “I/We should have done…”) isn’t productive.  
 > 5\. Leading with “How”, “What”, and “Tell me more about…” is more constructive than “Why” and certainly “Who”.
-> 
+>
 > Psychological safety. Learning. Generative culture.
 
 Now, the first four reminders are important, and I’ve been getting better at catching myself as the years go on. But that fifth one was a new one for me, and I’ll admit, it stung a bit when I read it, because I often ask _why_ and _who._
 
 ![A dark hallway with a large glowing question mark on the wall at the end.](/images/posts/2025/question-mark-hallway.jpeg)
 
-*My image search here was for “investigation”… this felt about right. Photo by [Emily Morter](https://unsplash.com/@emilymorter?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_My image search here was for “investigation”… this felt about right. Photo by [Emily Morter](https://unsplash.com/@emilymorter?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 Asking “who”
 
@@ -50,12 +50,12 @@ Consider this scenario: A problem was caused (at least in part, see Jeff’s poi
 
 Let’s start by assuming that whoever did Z was doing the best they could with what they had (see Jeff’s points 1 and 2 above). They didn’t come to work intending to cause a problem. Maybe they:
 
-*   truly believed Z was correct (or that they were doing it in the correct way)
-*   did Z without even realizing they were doing it
-*   did good thing Y that in turn set off Z unexpectedly
-*   did Z believing it WAS good thing Y
-*   knew Z was trouble, but they believed they _had_ to do it
-*   didn’t actually do Z at all
+- truly believed Z was correct (or that they were doing it in the correct way)
+- did Z without even realizing they were doing it
+- did good thing Y that in turn set off Z unexpectedly
+- did Z believing it WAS good thing Y
+- knew Z was trouble, but they believed they _had_ to do it
+- didn’t actually do Z at all
 
 The list could go on and on. Then behind those things there are often other layers: overworked operator, lookalike buttons, alarm fatigue, things changing without notice, culture of fear, information not flowing as expected.
 
@@ -77,7 +77,7 @@ Maybe the “you” in these questions is at the heart of the problem. I can see
 
 Perhaps the key is switching to a future focus. How can we prevent this from happening in the future? What could be done to improve the process? How could we make situations like this easier and safer? Tell me more about any barriers you see that could be removed or strategies you’ve thought of for doing things better. Engaging people in the problem solving, rather than trying to be the solver myself.
 
-* * *
+---
 
 I posted this on LinkedIn in 2023. But here or there, I’d love to hear your thoughts about how you’ve approached this. What have you found useful in place of “who” or “why”?
 

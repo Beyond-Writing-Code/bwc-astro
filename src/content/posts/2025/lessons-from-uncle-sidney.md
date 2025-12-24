@@ -1,18 +1,18 @@
 ---
-title: "Lessons from Uncle Sidney"
-date: "2025-04-27"
-originalDate: "2023-09-10"
-excerpt: "Uncle Sidney was notorious. I think even he’d agree to that. He might indeed be someone’s uncle, but he isn’t my uncle or the uncle of anyone I know. He was the main instructor for one of the programm..."
-categories: ["coding","communication","learning"]
-tags: ["asking","influence","learning"]
-featuredImage: "/images/posts/2025/lessons-from-uncle-sidney.jpg"
+title: 'Lessons from Uncle Sidney'
+date: '2025-04-27'
+originalDate: '2023-09-10'
+excerpt: 'Uncle Sidney was notorious. I think even he’d agree to that. He might indeed be someone’s uncle, but he isn’t my uncle or the uncle of anyone I know. He was the main instructor for one of the programm...'
+categories: ['coding', 'communication', 'learning']
+tags: ['asking', 'influence', 'learning']
+featuredImage: '/images/posts/2025/lessons-from-uncle-sidney.jpg'
 ---
 
 Uncle Sidney was notorious. I think even he’d agree to that.
 
 ![](/images/posts/2025/stone-wall.jpeg)
 
-*Sidney was his own weather system, with lots of thunder. Photo by [Johannes Plenio](https://unsplash.com/@jplenio?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Sidney was his own weather system, with lots of thunder. Photo by [Johannes Plenio](https://unsplash.com/@jplenio?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 He might indeed be someone’s uncle, but he isn’t _my_ uncle or the uncle of anyone I know.
 
@@ -76,7 +76,7 @@ Uncle Sidney retired before I left that company. On his last day, I made sure to
 
 And it really hit me — as one of the original developers of that language, he’d taught “generations” of developers how to reason about it. He’d taught us how to slow down, skip the note-taking sometimes, ask the questions, and check our understanding. And everyone who taught the language would do so in his footsteps as well, even if their approaches and teaching styles were entirely different. In that way, his influence on the organization was not so unlike an uncle after all.
 
-* * *
+---
 
 What’s your legacy, and what do you hope it will be? When you move on from where you are now, what will people remember about you? What habits will they pick up from you, what lessons did they learn from you, and how did you influence the culture and people around you?
 

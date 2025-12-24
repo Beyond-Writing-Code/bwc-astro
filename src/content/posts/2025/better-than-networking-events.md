@@ -1,11 +1,11 @@
 ---
 title: "I attended networking events so you don't have to"
-date: "2025-07-09"
-originalDate: "2025-07-09"
-excerpt: "People say that networking is important. Does this mean you should attend networking events? I say no. Not that these events are completely useless, but I think there are better ways of building your ..."
-categories: ["business","career","communication"]
-tags: ["awkward conversations","meeting people","networking events","too much celery"]
-featuredImage: "/images/posts/2025/better-than-networking-events.jpg"
+date: '2025-07-09'
+originalDate: '2025-07-09'
+excerpt: 'People say that networking is important. Does this mean you should attend networking events? I say no. Not that these events are completely useless, but I think there are better ways of building your ...'
+categories: ['business', 'career', 'communication']
+tags: ['awkward conversations', 'meeting people', 'networking events', 'too much celery']
+featuredImage: '/images/posts/2025/better-than-networking-events.jpg'
 ---
 
 People say that networking is important. Does this mean you should attend networking events?
@@ -18,7 +18,7 @@ Granted, it’s possible that I’ve just been attending the wrong networking ev
 
 ![People at a networking event holding glasses of wine](/images/posts/2025/networking-event.jpg)
 
-*Getty images on Unsplash*
+_Getty images on Unsplash_
 
 These people have wine. This is clearly more upscale than most networking events I’ve attended.
 
@@ -38,7 +38,7 @@ Either way, there’s food, but it’s definitely not dinner.
 
 ![](/images/posts/2025/celery.jpg)
 
-*Like this, but with a paper plate and no nice-looking dish of hummus. [Monica Grabkowska](https://unsplash.com/photos/a-plate-with-celery-sticks-and-a-bowl-of-dip-vNHAznpk2MU) for Unsplash. Unsplash doesn’t seem to do unappetizing pictures of veggies and dip.*
+_Like this, but with a paper plate and no nice-looking dish of hummus. [Monica Grabkowska](https://unsplash.com/photos/a-plate-with-celery-sticks-and-a-bowl-of-dip-vNHAznpk2MU) for Unsplash. Unsplash doesn’t seem to do unappetizing pictures of veggies and dip._
 
 You grab a soda and look around. Perhaps there is a speaker, a presentation, or a panel discussion. Maybe there are icebreaker games. Both of these things are useful, as we’ll see shortly, so don’t tune them out.
 
@@ -96,10 +96,10 @@ And you’ll have “met” a few people who, regardless of whether you connect 
 
 I mean… I guess a networking event like this does have its benefits:
 
-*   The speakers might be interesting.
-*   You could make a contact. I made a contact once. I told a speaker that I enjoyed her talk. We didn’t keep in touch. But we later wound up working at the same company, and she somehow remembered me.
-*   You get practice making (and escaping) conversation with strangers in awkward situations, which will come in handy at friends’ weddings, the neighbor’s cookout, etc.
-*   All the free celery and veggie dip you can eat.
+- The speakers might be interesting.
+- You could make a contact. I made a contact once. I told a speaker that I enjoyed her talk. We didn’t keep in touch. But we later wound up working at the same company, and she somehow remembered me.
+- You get practice making (and escaping) conversation with strangers in awkward situations, which will come in handy at friends’ weddings, the neighbor’s cookout, etc.
+- All the free celery and veggie dip you can eat.
 
 I don’t think there’s anything wrong with attending these events. Go if the topic or the organization interests you.
 
@@ -109,11 +109,11 @@ But this isn’t your best bet for building your network.
 
 I could write a whole blog post about each of these…
 
-*   **Reach out to colleagues whose work intersects with yours.** See how you can help. Some people reading know that I do this, because I met you this way 🙂
-*   **Find people whose work interests you.** Do you have questions for them that you can’t just answer with a quick web search?
-*   **Work on something together.** Volunteering, intramural sports, organizing an event, working on a committee… Something where you talk to each other, not just sit next to each other.
-*   **Help others.** Answer questions, or if you don’t know the answer, see what you can do to help. Even if you can’t help and the other person is still stuck, at least they aren’t stuck _and alone_.
-*   **Join the conversation.** Do you read social media or blogs of people in your field, especially people who have an audience small enough that real conversations can happen? Respond to someone whose comments got you thinking. Add something new to the conversation, don’t just say “great post!”
+- **Reach out to colleagues whose work intersects with yours.** See how you can help. Some people reading know that I do this, because I met you this way 🙂
+- **Find people whose work interests you.** Do you have questions for them that you can’t just answer with a quick web search?
+- **Work on something together.** Volunteering, intramural sports, organizing an event, working on a committee… Something where you talk to each other, not just sit next to each other.
+- **Help others.** Answer questions, or if you don’t know the answer, see what you can do to help. Even if you can’t help and the other person is still stuck, at least they aren’t stuck _and alone_.
+- **Join the conversation.** Do you read social media or blogs of people in your field, especially people who have an audience small enough that real conversations can happen? Respond to someone whose comments got you thinking. Add something new to the conversation, don’t just say “great post!”
 
 ## Wait, this isn’t networking
 

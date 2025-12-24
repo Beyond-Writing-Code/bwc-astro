@@ -1,11 +1,11 @@
 ---
-title: "Three reasons not to bring hostility"
-date: "2025-04-27"
-originalDate: "2023-08-25"
-excerpt: "I enjoy challenges to my “conventional wisdom” about how developers and dev teams work. We can improve. “The way we’ve always done it” isn’t necessarily the best way. Luckily, I have found people on s..."
-categories: ["communication","kindness","learning"]
-tags: ["does it help","hostility","kindness"]
-featuredImage: "/images/posts/2025/three-reasons-not-to-bring-hostility.jpg"
+title: 'Three reasons not to bring hostility'
+date: '2025-04-27'
+originalDate: '2023-08-25'
+excerpt: 'I enjoy challenges to my “conventional wisdom” about how developers and dev teams work. We can improve. “The way we’ve always done it” isn’t necessarily the best way. Luckily, I have found people on s...'
+categories: ['communication', 'kindness', 'learning']
+tags: ['does it help', 'hostility', 'kindness']
+featuredImage: '/images/posts/2025/three-reasons-not-to-bring-hostility.jpg'
 ---
 
 I enjoy challenges to my “conventional wisdom” about how developers and dev teams work. We can improve. “The way we’ve always done it” isn’t necessarily the best way.
@@ -62,7 +62,7 @@ We could even be open to changing our own thinking. Could it be that _we_ are wr
 
 I know this “I-know-better” attitude can be an old habit for me, though, so you are welcome and invited to call me on it. If you are interacting with me, whether online or in person, and you see me snarking at someone, gently remind me of my intention to be kind. I’m learning too.
 
-* * *
+---
 
 Originally posted 25 August 2023 on [Medium](https://bouncingleaf.medium.com/three-reasons-to-not-bring-hostility-85f5ad3ad02b), but updated a little when posting it again here.
 

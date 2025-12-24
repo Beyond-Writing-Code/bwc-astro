@@ -1,10 +1,10 @@
 ---
 title: "Mysterious creatures, Leaf's first art note"
-date: "2025-06-27"
-excerpt: "Introduction to the mysterious watercolor creatures that appear throughout my work."
-categories: ["art"]
-tags: ["Beyond Writing Code newsletter","mysterious creatures"]
-featuredImage: "/images/posts/2025/mysterious-creatures-leaf-s-first-art-note-1.jpg"
+date: '2025-06-27'
+excerpt: 'Introduction to the mysterious watercolor creatures that appear throughout my work.'
+categories: ['art']
+tags: ['Beyond Writing Code newsletter', 'mysterious creatures']
+featuredImage: '/images/posts/2025/mysterious-creatures-leaf-s-first-art-note-1.jpg'
 published: true
 comments: []
 ---
@@ -59,8 +59,8 @@ Want to say hello to more creatures? My art and personal site is [bouncingleaf.c
 
 My current plan:
 
-*   Continue to send one email per week, generally on Tuesday, about software development, writing, the book, or whatever else
-*   Second email, maybe not weekly, later in the week, with art stuff. More pictures, less text.
+- Continue to send one email per week, generally on Tuesday, about software development, writing, the book, or whatever else
+- Second email, maybe not weekly, later in the week, with art stuff. More pictures, less text.
 
 If you're not into art email (or if you _only_ want art email?) you can [adjust your preferences here](https://preview.convertkit-mail2.com/preferences).
 

@@ -1,9 +1,9 @@
 ---
 title: "So How's The Book, issue 25 of Beyond Writing Code"
-date: "2025-11-07"
-excerpt: "Book progress update and reflections on proposal work completed over summer."
-categories: ["writing","book"]
-tags: ["Beyond Writing Code newsletter","book status update","getting stuff done"]
+date: '2025-11-07'
+excerpt: 'Book progress update and reflections on proposal work completed over summer.'
+categories: ['writing', 'book']
+tags: ['Beyond Writing Code newsletter', 'book status update', 'getting stuff done']
 published: true
 comments: []
 ---

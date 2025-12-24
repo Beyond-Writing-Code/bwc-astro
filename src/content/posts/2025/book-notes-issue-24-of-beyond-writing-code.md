@@ -1,10 +1,10 @@
 ---
-title: "Book notes, issue 24 of Beyond Writing Code"
-date: "2025-10-30"
-excerpt: "Recommended reading across tech, leadership, productivity, psychology, and sociology."
-categories: ["resources"]
-tags: ["Beyond Writing Code newsletter","book recommendations","what developers do"]
-featuredImage: "/images/posts/2025/book-notes-issue-24-of-beyond-writing-code-1.jpg"
+title: 'Book notes, issue 24 of Beyond Writing Code'
+date: '2025-10-30'
+excerpt: 'Recommended reading across tech, leadership, productivity, psychology, and sociology.'
+categories: ['resources']
+tags: ['Beyond Writing Code newsletter', 'book recommendations', 'what developers do']
+featuredImage: '/images/posts/2025/book-notes-issue-24-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -21,7 +21,7 @@ Unfortunately, the recommendations I'm receiving come in faster than I can read 
 
 ![](/images/posts/2025/book-notes-issue-24-of-beyond-writing-code-1.jpg)
 
-*The latest tech and leadership books. Photo by [Prateek Katyal](https://unsplash.com/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/piled-books-on-brown-wooden-shelf-_YzGQvASeMk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+_The latest tech and leadership books. Photo by [Prateek Katyal](https://unsplash.com/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/piled-books-on-brown-wooden-shelf-_YzGQvASeMk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 Worse, I'm not great about retaining what I'm reading. The ideas are sinking in, but ask me to explain the main takeaways, and I'll falter.
 
@@ -82,9 +82,9 @@ Cialdini's research here is impressive. He has personally found his way into the
 
 Aside from Gene Kim and Steve Yegge's **Vibe Coding** ([bookshop](https://bookshop.org/a/114662/9781966280026) - it finally came out this week), I'm also looking at:
 
-*   **The Manager's Path**, by Camille Fournier ([bookshop](https://bookshop.org/a/114662/9781491973899)) - One of the inspirations for Tanya Reilly's book, above.
-*   **Deming's Journey to Profound Knowledge**, by John Willis ([bookshop](https://bookshop.org/a/114662/9781950508839)) - Enterprise Technology Leadership Summit (ETLS) reminded me that I should learn more about Deming.
-*   **The Skill Code**, by Matt Beane ([bookshop](https://bookshop.org/a/114662/9780063337794)) - I saw him at ETLS, and I bought this before he was even half done speaking. This looks right up my alley.
+- **The Manager's Path**, by Camille Fournier ([bookshop](https://bookshop.org/a/114662/9781491973899)) - One of the inspirations for Tanya Reilly's book, above.
+- **Deming's Journey to Profound Knowledge**, by John Willis ([bookshop](https://bookshop.org/a/114662/9781950508839)) - Enterprise Technology Leadership Summit (ETLS) reminded me that I should learn more about Deming.
+- **The Skill Code**, by Matt Beane ([bookshop](https://bookshop.org/a/114662/9780063337794)) - I saw him at ETLS, and I bought this before he was even half done speaking. This looks right up my alley.
 
 # And if that weren't enough...
 

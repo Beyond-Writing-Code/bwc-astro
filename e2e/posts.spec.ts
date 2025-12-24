@@ -64,8 +64,8 @@ test.describe('Blog Posts', () => {
       await categoryLink.click();
 
       // Verify we're on category page
-      await expect(page.locator('h1')).toContainText(categoryName || '');
-      await expect(page.locator('.post-card')).toBeVisible();
+      await expect(page.locator('main h1')).toContainText(categoryName || '');
+      await expect(page.locator('.post-card').first()).toBeVisible();
     }
   });
 
@@ -80,7 +80,7 @@ test.describe('Blog Posts', () => {
 
     // Images should be present (if any)
     const images = postContent.locator('img');
-    if (await images.count() > 0) {
+    if ((await images.count()) > 0) {
       await expect(images.first()).toBeVisible();
     }
   });

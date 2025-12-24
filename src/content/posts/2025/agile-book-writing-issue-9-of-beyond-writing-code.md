@@ -1,10 +1,18 @@
 ---
-title: "Agile... book writing?? Issue 9 of Beyond Writing Code"
-date: "2025-07-15"
-excerpt: "Iterative writing, fast feedback, adapting to change."
-categories: ["writing","agile","references","learning"]
-tags: ["Beyond Writing Code newsletter","beta testing writing","oh no waterfall","book recommendations","fast feedback","iteration"]
-featuredImage: "/images/posts/2025/agile-book-writing-issue-9-of-beyond-writing-code-1.jpg"
+title: 'Agile... book writing?? Issue 9 of Beyond Writing Code'
+date: '2025-07-15'
+excerpt: 'Iterative writing, fast feedback, adapting to change.'
+categories: ['writing', 'agile', 'references', 'learning']
+tags:
+  [
+    'Beyond Writing Code newsletter',
+    'beta testing writing',
+    'oh no waterfall',
+    'book recommendations',
+    'fast feedback',
+    'iteration',
+  ]
+featuredImage: '/images/posts/2025/agile-book-writing-issue-9-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -27,7 +35,7 @@ Eventually, the product is declared ready, or you've run out of time. At that po
 
 ![Waterfall with multiple levels, in the daytime.](/images/posts/2025/agile-book-writing-issue-9-of-beyond-writing-code-1.jpg)
 
-*Like this, only with a universe-creating explosion at the end. [Mike Lewis HeadSmart Media on Unsplash](https://unsplash.com/photos/waterfall-at-daytime-waAAaeC9hns).*
+_Like this, only with a universe-creating explosion at the end. [Mike Lewis HeadSmart Media on Unsplash](https://unsplash.com/photos/waterfall-at-daytime-waAAaeC9hns)._
 
 The chances that this big bang deployment will go smoothly are very slim. But even if you're lucky and only a few minor problems arise:
 
@@ -35,9 +43,9 @@ The chances that this big bang deployment will go smoothly are very slim. But ev
 
 Maybe...
 
-*   Requirements gathered months ago don't match the customers' needs now.
-*   The design doesn't handle the actual number of users.
-*   Users do things nobody anticipated, and the code can't handle it when they do.
+- Requirements gathered months ago don't match the customers' needs now.
+- The design doesn't handle the actual number of users.
+- Users do things nobody anticipated, and the code can't handle it when they do.
 
 And as fantastic as your quality assurance people might be, nobody puts your product to the test like real users.
 
@@ -47,10 +55,10 @@ And as fantastic as your quality assurance people might be, nobody puts your pro
 
 Your initial product might be underwhelming, handling only the most basic functionality. However:
 
-*   You're delivering it earlier than you would have otherwise.
-*   With smaller, incremental changes, fewer things can go wrong, and it's easier to troubleshoot when they do.
-*   Users can help guide the future of the product.
-*   Actual usage data gives you accurate feedback.
+- You're delivering it earlier than you would have otherwise.
+- With smaller, incremental changes, fewer things can go wrong, and it's easier to troubleshoot when they do.
+- Users can help guide the future of the product.
+- Actual usage data gives you accurate feedback.
 
 That feature we were sure would be a winner? Only 3% of users try it, and even they only use it once. Why? Let's find out before we enhance or remove the feature.
 
@@ -78,16 +86,16 @@ It was also evidence for her publisher that her ideas had traction, that people 
 
 Trying things out and learning from the feedback is also coming up in the books I'm reading. (Affiliate links here.)
 
-*   ​[_The Lean Startup_](https://bookshop.org/a/114662/9780307887894)_,_ by Eric Ries, outlines an approach involving experimentation and rapid learning.
-*   ​[_So Good They Can't Ignore You_](https://bookshop.org/a/114662/9781455509126), by Cal Newport, references _Little Bets_ by Peter Sims (which I haven't read), in recommending learning from small experiments.
+- ​[_The Lean Startup_](https://bookshop.org/a/114662/9780307887894)_,_ by Eric Ries, outlines an approach involving experimentation and rapid learning.
+- ​[_So Good They Can't Ignore You_](https://bookshop.org/a/114662/9781455509126), by Cal Newport, references _Little Bets_ by Peter Sims (which I haven't read), in recommending learning from small experiments.
 
 There's also [LeanPub](https://leanpub.com/authors) for ebooks, which allows multiple rounds of publishing.
 
 In the meantime, **I'm writing not just this newsletter, but also my blog, to try out content.** I'm cross-publishing the blog on both Substack and Medium:
 
-*   ​[Beyond Writing Code](https://www.beyondwritingcode.com/posts/) blog
-*   ​[Substack](https://bouncingleaf.substack.com/)​
-*   ​[Medium](https://bouncingleaf.medium.com/)​
+- ​[Beyond Writing Code](https://www.beyondwritingcode.com/posts/) blog
+- ​[Substack](https://bouncingleaf.substack.com/)​
+- ​[Medium](https://bouncingleaf.medium.com/)​
 
 And as a newsletter subscriber, you're getting content I'm not publishing on the blog.
 

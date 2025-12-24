@@ -1,10 +1,10 @@
 ---
 title: "You don't want more content; conference notes. Issue 13 of Beyond Writing Code"
-date: "2025-08-12"
-excerpt: "What we really pay for at conferences: organization and curation, not just content."
-categories: ["writing","conferences"]
-tags: ["Beyond Writing Code newsletter","we pay for organization","LeadDev","StaffPlus"]
-featuredImage: "/images/posts/2025/you-don-t-want-more-content-conference-notes-issue-13-of-beyond-writing-code-1.jpg"
+date: '2025-08-12'
+excerpt: 'What we really pay for at conferences: organization and curation, not just content.'
+categories: ['writing', 'conferences']
+tags: ['Beyond Writing Code newsletter', 'we pay for organization', 'LeadDev', 'StaffPlus']
+featuredImage: '/images/posts/2025/you-don-t-want-more-content-conference-notes-issue-13-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -25,8 +25,8 @@ As [Macy Robison](https://macyrobison.com/) says: people don't pay for more info
 
 ![A giant pile of books extending into the distance, with people on either side carrying books.](/images/posts/2025/you-don-t-want-more-content-conference-notes-issue-13-of-beyond-writing-code-2.jpg)
 
-*This is either information overload or heaven, not sure which.  
-Photo by [freestocks](https://unsplash.com/@freestocks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/assorted-book-lot-YTUZcmmf1eU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_This is either information overload or heaven, not sure which.  
+Photo by [freestocks](https://unsplash.com/@freestocks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/assorted-book-lot-YTUZcmmf1eU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 I'm thinking about that not just in the context of this newsletter, but also for how I approach the book.
 

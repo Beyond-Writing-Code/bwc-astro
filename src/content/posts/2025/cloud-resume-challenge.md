@@ -1,16 +1,16 @@
 ---
-title: "Cloud Resume Challenge"
-date: "2025-04-25"
-originalDate: "2023-08-19"
-excerpt: "DevOps Enterprise Summit 2022 closed with a great talk from Forrest Brazeal. As a cloud architect, musician, writer, and cartoonist, he’s got an impressive resume of his own, but he also has a project..."
-categories: ["career","coding","learning"]
-tags: ["cloud","Forrest Brazeal"]
-featuredImage: "/images/posts/2025/cloud-resume-challenge.jpg"
+title: 'Cloud Resume Challenge'
+date: '2025-04-25'
+originalDate: '2023-08-19'
+excerpt: 'DevOps Enterprise Summit 2022 closed with a great talk from Forrest Brazeal. As a cloud architect, musician, writer, and cartoonist, he’s got an impressive resume of his own, but he also has a project...'
+categories: ['career', 'coding', 'learning']
+tags: ['cloud', 'Forrest Brazeal']
+featuredImage: '/images/posts/2025/cloud-resume-challenge.jpg'
 ---
 
 ![Piano keyboard glistening with light effects](/images/posts/2025/cloud-resume-piano.jpg)
 
-*Photo by [Ebuen Clemente Jr](https://unsplash.com/@ebuenclemente205?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Ebuen Clemente Jr](https://unsplash.com/@ebuenclemente205?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 DevOps Enterprise Summit 2022 closed with a great talk from [Forrest Brazeal](https://forrestbrazeal.com/). As a cloud architect, musician, writer, and cartoonist, he’s got an impressive resume of his own, but he also has a project to help aspiring cloud engineers improve their skills and their resume.
 
@@ -24,6 +24,6 @@ My Cloud Resume Challenge website so far: [developerleaf.com](https://www.develo
 
 And yes, it’s back up… for now…
 
-* * *
+---
 
 Originally posted 19 August 2023 on [Medium](https://bouncingleaf.medium.com/cloud-resume-challenge-59e70da59c9d).

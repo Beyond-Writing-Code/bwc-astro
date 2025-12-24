@@ -1,10 +1,10 @@
 ---
-title: "Change and AI; issue 20 of Beyond Writing Code"
-date: "2025-10-02"
-excerpt: "How developer roles are transforming, emphasizing \"people and processes\" over AI technology."
-categories: ["AI"]
-tags: ["Beyond Writing Code newsletter","what developers do"]
-featuredImage: "/images/posts/2025/change-and-ai-issue-20-of-beyond-writing-code-1.jpg"
+title: 'Change and AI; issue 20 of Beyond Writing Code'
+date: '2025-10-02'
+excerpt: 'How developer roles are transforming, emphasizing "people and processes" over AI technology.'
+categories: ['AI']
+tags: ['Beyond Writing Code newsletter', 'what developers do']
+featuredImage: '/images/posts/2025/change-and-ai-issue-20-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -24,8 +24,8 @@ Because who wants _bad worthless late dangerous and miserable_?
 Here's my prediction, which I'm _sure_ you'll find truly earth-shattering: some things about life as a developer will change, and some will remain the same.
 
 ![A bunch of tarot cards spread out](/images/posts/2025/change-and-ai-issue-20-of-beyond-writing-code-1.jpg)
-*No tarot cards were consulted to make this prediction.  
-Photo by [petr sidorov](https://unsplash.com/@m_malkovich?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/king-of-diamonds-playing-card-GESOWH4YLRI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_No tarot cards were consulted to make this prediction.  
+Photo by [petr sidorov](https://unsplash.com/@m_malkovich?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/king-of-diamonds-playing-card-GESOWH4YLRI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 I know! Pretty daring prediction. But hear me out.
 
@@ -116,11 +116,11 @@ The pace of change is going to be scary for a lot of us. Let's help each other n
 
 "Better value sooner safer happier" is still a great objective. My own words for it:
 
-*   **Better** - higher quality
-*   **Value** - worthwhile, useful, building the right thing
-*   **Sooner** - no need to be so sluggish in getting there
-*   **Safer** - minimizing risks of all sorts
-*   **Happier** - for the user, the developer, the company, the planet
+- **Better** - higher quality
+- **Value** - worthwhile, useful, building the right thing
+- **Sooner** - no need to be so sluggish in getting there
+- **Safer** - minimizing risks of all sorts
+- **Happier** - for the user, the developer, the company, the planet
 
 I used to use the phrase "better value sooner safer happier" at work to sum up the purpose of the SDLC. It didn't catch on, but I still think everything we do boils down to one of those five.
 
@@ -133,7 +133,7 @@ André Martin says he would like to see a company that can promise employees: "*
 Wellbeing is part of "happier" but I want to call it out specifically. One thing I heard several times at ETLS: people were staying up late coding, again. That's both exciting and worrisome.
 
 ![hands holding a small yellow flower](/images/posts/2025/change-and-ai-issue-20-of-beyond-writing-code-2.jpg)
-*Photo by [Lina Trochez](https://unsplash.com/@lmtrochezz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/selective-focus-photography-of-woman-holding-yellow-petaled-flowers-ktPKyUs3Qjs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_Photo by [Lina Trochez](https://unsplash.com/@lmtrochezz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/selective-focus-photography-of-woman-holding-yellow-petaled-flowers-ktPKyUs3Qjs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 **How will the changes at work affect our mental health and physical health?** This seems like something we should keep an eye on and be ready to address.
 
@@ -155,12 +155,12 @@ A lot of my advice is still relevant, but I also want to tune into the latest th
 
 Maybe...
 
-*   You've tried one of the early tools, and you were unimpressed.
-*   Your "they're going to lay everyone off" sense is tingling. You don't want to do anything that helps your management find a way to get rid of developers.
-*   Perhaps, like me, you've landed in a comfortable place as an expert. And this AI stuff makes you feel like a confused novice again.
-*   You hear terms like LLM and MCP and RAG and you're thinking... ugh. I don't have the energy for this anymore. Maybe I can make it to retirement before this becomes something I have to learn.
-*   You love the craft of coding, and you see the potential for AI to dump trash code all over something you've worked hard to keep clean. Like someone building a shopping mall in your favorite park.
-*   You have concerns about what we call NFRs, non-functional requirements: security, stability, maintainability, extendability.
+- You've tried one of the early tools, and you were unimpressed.
+- Your "they're going to lay everyone off" sense is tingling. You don't want to do anything that helps your management find a way to get rid of developers.
+- Perhaps, like me, you've landed in a comfortable place as an expert. And this AI stuff makes you feel like a confused novice again.
+- You hear terms like LLM and MCP and RAG and you're thinking... ugh. I don't have the energy for this anymore. Maybe I can make it to retirement before this becomes something I have to learn.
+- You love the craft of coding, and you see the potential for AI to dump trash code all over something you've worked hard to keep clean. Like someone building a shopping mall in your favorite park.
+- You have concerns about what we call NFRs, non-functional requirements: security, stability, maintainability, extendability.
 
 **You're not wrong about any of that.**
 

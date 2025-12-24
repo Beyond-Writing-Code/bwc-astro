@@ -1,11 +1,11 @@
 ---
-title: "Have you been giving your employer money?"
-date: "2025-04-27"
-originalDate: "2023-09-05"
-excerpt: "I suspect most people would not spontaneously and voluntarily give back part of their salary to their employer. I don’t mean donating to a cause, or chipping in for board games to play at lunch. I mea..."
-categories: ["communication","wellness","work"]
-tags: ["analogies","self-care","time management","vacation"]
-featuredImage: "/images/posts/2025/have-you-been-giving-your-employer-money.jpg"
+title: 'Have you been giving your employer money?'
+date: '2025-04-27'
+originalDate: '2023-09-05'
+excerpt: 'I suspect most people would not spontaneously and voluntarily give back part of their salary to their employer. I don’t mean donating to a cause, or chipping in for board games to play at lunch. I mea...'
+categories: ['communication', 'wellness', 'work']
+tags: ['analogies', 'self-care', 'time management', 'vacation']
+featuredImage: '/images/posts/2025/have-you-been-giving-your-employer-money.jpg'
 ---
 
 I suspect most people would not spontaneously and voluntarily give back part of their salary to their employer. I don’t mean donating to a cause, or chipping in for board games to play at lunch. I mean just handing your employer a wad of cash. “Here, this is for you.”
@@ -14,7 +14,7 @@ So don’t do it with your time.
 
 ![](/images/posts/2025/cash-money.jpeg)
 
-*Photo by [Eric Rothermel](https://unsplash.com/@erothermel?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Eric Rothermel](https://unsplash.com/@erothermel?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 Your time belongs to you, just like your salary does. Moreover, time is one of the few things money can’t buy more of. You can only — at best — free up time you already have, like paying someone else to do yard work that would take you hours.
 
@@ -56,6 +56,6 @@ How do you deliver that message? What are the alternatives when there’s more w
 
 Just remember that anyone who says “too bad, we need it done, so you’ll have to stay late” is saying something akin to “too bad, we need money, so you’ll have to give it to us.”
 
-* * *
+---
 
 Originally posted 5 September 2023 on [Medium](https://bouncingleaf.medium.com/do-you-give-your-employer-money-b0744753f721).

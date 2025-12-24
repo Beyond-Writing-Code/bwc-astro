@@ -1,7 +1,12 @@
 import { useEffect, useRef } from 'react';
 
-function KitForm({ formId, className }) {
-  const containerRef = useRef(null);
+interface KitFormProps {
+  formId: string;
+  className?: string;
+}
+
+function KitForm({ formId, className }: KitFormProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
   const scriptLoadedRef = useRef(false);
 
   useEffect(() => {

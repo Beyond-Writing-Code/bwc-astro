@@ -1,10 +1,10 @@
 ---
-title: "Why I love ETLS, issue 19 of Beyond Writing Code"
-date: "2025-09-26"
-excerpt: "Enterprise Technology Leadership Summit community and the value of in-person conferences."
-categories: ["conferences","resources"]
-tags: ["Beyond Writing Code newsletter","ETLS","Gene Kim","Certified Really AI Practitioner"]
-featuredImage: "/images/posts/2025/why-i-love-etls-issue-19-of-beyond-writing-code-1.jpg"
+title: 'Why I love ETLS, issue 19 of Beyond Writing Code'
+date: '2025-09-26'
+excerpt: 'Enterprise Technology Leadership Summit community and the value of in-person conferences.'
+categories: ['conferences', 'resources']
+tags: ['Beyond Writing Code newsletter', 'ETLS', 'Gene Kim', 'Certified Really AI Practitioner']
+featuredImage: '/images/posts/2025/why-i-love-etls-issue-19-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -33,11 +33,11 @@ This was my third year in a row attending ETLS in person (I also attended virtua
 
 Things that make ETLS stand out:
 
-*   **Right size** - It's big enough to attract an interesting group of speakers and attendees, but not so big that you're in a sea of strangers.
-*   **Lowers the "velvet rope"** - something conference co-host Jeff Gallimore says each year: they take pride in eliminating barriers between speakers and attendees. You get to engage in real discussions with others regardless of whether they're wearing a speaker badge or not. More on that shortly.
-*   **Enterprise focus** - if your company says "that's fine for a tiny startup, but it won't work here where we are concerned with matters of consequence," that won't be a valid excuse here. People here are from big financial services companies, manufacturing, government, telecommunications, ecommerce... they get it.
-*   **Welcoming community** - You're "one of us" when you walk in, whether it's your first conference or your fourteenth.
-*   Honestly... **Gene Kim, but not for his star power.** Gene's a brilliant man and a kind soul, and getting to see him in his element is great. But his curiosity, capacity for learning, and ability to build connections with countless people are part of the "secret sauce" that allows this conference to attract wonderful speakers and set up such valuable programming.
+- **Right size** - It's big enough to attract an interesting group of speakers and attendees, but not so big that you're in a sea of strangers.
+- **Lowers the "velvet rope"** - something conference co-host Jeff Gallimore says each year: they take pride in eliminating barriers between speakers and attendees. You get to engage in real discussions with others regardless of whether they're wearing a speaker badge or not. More on that shortly.
+- **Enterprise focus** - if your company says "that's fine for a tiny startup, but it won't work here where we are concerned with matters of consequence," that won't be a valid excuse here. People here are from big financial services companies, manufacturing, government, telecommunications, ecommerce... they get it.
+- **Welcoming community** - You're "one of us" when you walk in, whether it's your first conference or your fourteenth.
+- Honestly... **Gene Kim, but not for his star power.** Gene's a brilliant man and a kind soul, and getting to see him in his element is great. But his curiosity, capacity for learning, and ability to build connections with countless people are part of the "secret sauce" that allows this conference to attract wonderful speakers and set up such valuable programming.
 
 # Vibe coding workshop
 
@@ -79,10 +79,10 @@ Yes, there was polite chitchat. But I also had longer conversations, listening t
 
 So, what did I learn? A few highlights, both serious and silly:
 
-*   **Good practices matter.** The DORA report said it well. AI will be an amplifier of whatever you're doing now. If it's good, you'll get better. If it's bad, you'll get worse.
-*   **The good practices aren't new.** Continuous delivery, automated testing, version control, breaking down silos, theory of constraints... go read [Accelerate](https://itrevolution.com/product/accelerate/) and [Sooner Safer Happier](https://itrevolution.com/product/sooner-safer-happier/). Really.
-*   **AI has a lot of potential for both harm and good.** It's going to be challenging to use safely.
-*   **Las Vegas is... chilly?** Sure, it was 85+ degrees Fahrenheit outside. So? You're outside for all of 5 minutes. Those conference rooms are cold. Bring a sweater!
+- **Good practices matter.** The DORA report said it well. AI will be an amplifier of whatever you're doing now. If it's good, you'll get better. If it's bad, you'll get worse.
+- **The good practices aren't new.** Continuous delivery, automated testing, version control, breaking down silos, theory of constraints... go read [Accelerate](https://itrevolution.com/product/accelerate/) and [Sooner Safer Happier](https://itrevolution.com/product/sooner-safer-happier/). Really.
+- **AI has a lot of potential for both harm and good.** It's going to be challenging to use safely.
+- **Las Vegas is... chilly?** Sure, it was 85+ degrees Fahrenheit outside. So? You're outside for all of 5 minutes. Those conference rooms are cold. Bring a sweater!
 
 Oh, and I'm pleased to announce that **I'm now a** [**Certified Really AI Practitioner**](https://www.linkedin.com/posts/sooner-safer-happier_bvssh-activity-7376654210937024514-AIoV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAC9FosB4lTDRbaBYXawMh8J-4C6x9oVP8E) (this is actually the CRAP2 certification: CRAP1 was Certified Really Agile Practitioner), thanks to Jon Smart who taught us all this way of working with AI. It's one size fits all, there's no human in the loop needed, and it's 100% guaranteed that you'll get results. Of some kind.
 

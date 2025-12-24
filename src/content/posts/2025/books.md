@@ -1,11 +1,19 @@
 ---
-title: "Three books about storytelling"
-date: "2025-07-28"
-originalDate: "2025-07-28"
-excerpt: "I’ve been listening to books on storytelling recently, including three I recommend highly. Book 1: How to Tell a Story First: ​How to Tell a Story​ is by the team from the Moth Radio Hour. Seek that s..."
-categories: ["storytelling","writing"]
-tags: ["affiliate_links","book recommendations","dinner test","how to tell a story","stories that stick","storyworthy"]
-featuredImage: "/images/posts/2025/books.jpg"
+title: 'Three books about storytelling'
+date: '2025-07-28'
+originalDate: '2025-07-28'
+excerpt: 'I’ve been listening to books on storytelling recently, including three I recommend highly. Book 1: How to Tell a Story First: ​How to Tell a Story​ is by the team from the Moth Radio Hour. Seek that s...'
+categories: ['storytelling', 'writing']
+tags:
+  [
+    'affiliate_links',
+    'book recommendations',
+    'dinner test',
+    'how to tell a story',
+    'stories that stick',
+    'storyworthy',
+  ]
+featuredImage: '/images/posts/2025/books.jpg'
 ---
 
 I’ve been listening to books on storytelling recently, including three I recommend highly.
@@ -14,9 +22,9 @@ I’ve been listening to books on storytelling recently, including three I recom
 
 First: [​How to Tell a Story​](https://www.goodreads.com/book/show/58735007-how-to-tell-a-story) is by the team from the Moth Radio Hour. Seek that show out, if you’re not familiar with it. Among the takeaways… strong stories have:
 
-*   A **change or transformation**. Show how the events of the story changed things, changed you.
-*   **Stakes.** Why should the listener care.
-*   **A strong start and ending.** No “so, yeah” at the beginning. No “uh, well, that’s it I guess” at the end.
+- A **change or transformation**. Show how the events of the story changed things, changed you.
+- **Stakes.** Why should the listener care.
+- **A strong start and ending.** No “so, yeah” at the beginning. No “uh, well, that’s it I guess” at the end.
 
 And when telling a story on stage, look for the sweet spot **between memorizing and improvising**. Know your story arc, what details you want to include or leave out, where you want to speed up or slow down.
 
@@ -24,16 +32,16 @@ But _memorize_ only the opening and ending. Beyond that, memorizing can make you
 
 ![Neon sign that says "what is your story" glowing in an office window at night.](/images/posts/2025/what-is-your-story-neon.jpg)
 
-*Photo by [Etienne Girardet](https://unsplash.com/@etiennegirardet?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-flat-screen-tv-turned-on-at-the-living-room-EP6_VZhzXM8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+_Photo by [Etienne Girardet](https://unsplash.com/@etiennegirardet?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-flat-screen-tv-turned-on-at-the-living-room-EP6_VZhzXM8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
 ## Book 2: Stories that Stick
 
 Second, [​Stories that Stick​](https://www.goodreads.com/book/show/42772139-stories-that-stick), by Kindra Hall, provides a framework for how to approach storytelling. Her tips:
 
-*   have a recognizable **character**,
-*   use vivid and relatable **details** to connect to your audience,
-*   bring in genuine **emotion**,
-*   and identify a **turning point** (the change or transformation mentioned above)
+- have a recognizable **character**,
+- use vivid and relatable **details** to connect to your audience,
+- bring in genuine **emotion**,
+- and identify a **turning point** (the change or transformation mentioned above)
 
 _Stories that Stick_ then explains how most businesses have four main stories to tell: the **value** story (what’s the value of the product), the **founder’s** story (how did it all start), the **purpose** story (vision and values), and the **customer** story (testimonials). Each one serves different purposes.
 
@@ -71,6 +79,6 @@ This practice can build a list of stories worth telling, which is great. But eve
 
 Matthew Dicks suggests that since he’s been practicing this habit, he’s had a sense of life not passing him by so quickly. That alone makes it a worthwhile practice for me, even if I never use the resulting list as a source for stories.
 
-* * *
+---
 
 Have you read any of these [books](https://www.beyondwritingcode.com/recommend/) about storytelling? Are you incorporating storytelling into your work or your life? What have you found useful when crafting your stories?

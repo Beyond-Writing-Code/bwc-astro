@@ -1,11 +1,11 @@
 ---
-title: "My first conference: lessons learned"
-date: "2025-04-27"
-originalDate: "2023-10-21"
-excerpt: "My first conference in person was incredible. More later about the content — here’s what I learned from the experience of attending. First… ever? It’s true. I’ve been in tech for 25+ years, and yet De..."
-categories: ["conferences"]
-tags: ["conference tips","ETLS","food","lessons learned","meeting people","travel","Vegas"]
-featuredImage: "/images/posts/2025/my-first-conference-lessons-learned.jpg"
+title: 'My first conference: lessons learned'
+date: '2025-04-27'
+originalDate: '2023-10-21'
+excerpt: 'My first conference in person was incredible. More later about the content — here’s what I learned from the experience of attending. First… ever? It’s true. I’ve been in tech for 25+ years, and yet De...'
+categories: ['conferences']
+tags: ['conference tips', 'ETLS', 'food', 'lessons learned', 'meeting people', 'travel', 'Vegas']
+featuredImage: '/images/posts/2025/my-first-conference-lessons-learned.jpg'
 ---
 
 My first conference in person was incredible. More later about the content — here’s what I learned from the experience of attending.
@@ -112,6 +112,6 @@ Speaking of which, this post has already gotten much longer than I planned…
 
 Looking forward to future posts to tell you more about the conference itself. And I’m definitely looking forward to being a conference-attending veteran at DOES 2024!
 
-* * *
+---
 
 Originally published 21 October 2023 on [Medium](https://bouncingleaf.medium.com/lessons-from-attending-my-first-conference-5301ff09f376).

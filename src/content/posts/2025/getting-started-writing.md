@@ -1,10 +1,16 @@
 ---
-title: "Getting started writing"
-date: "2025-05-20"
-excerpt: "First newsletter about establishing a sole proprietorship and getting started as an author."
-categories: ["writing","book","references"]
-tags: ["Beyond Writing Code newsletter","my first newsletter","establishing a sole proprietorship","Beyond Writing Code"]
-featuredImage: "/images/posts/2025/getting-started-writing-1.jpg"
+title: 'Getting started writing'
+date: '2025-05-20'
+excerpt: 'First newsletter about establishing a sole proprietorship and getting started as an author.'
+categories: ['writing', 'book', 'references']
+tags:
+  [
+    'Beyond Writing Code newsletter',
+    'my first newsletter',
+    'establishing a sole proprietorship',
+    'Beyond Writing Code',
+  ]
+featuredImage: '/images/posts/2025/getting-started-writing-1.jpg'
 published: true
 comments: []
 ---

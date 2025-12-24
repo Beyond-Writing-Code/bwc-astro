@@ -1,11 +1,11 @@
 ---
-title: "Writer enjoying speaking"
-date: "2025-10-20"
-originalDate: "2025-10-20"
-excerpt: "I’m a writer at heart, so enjoying speaking at conferences is a bit of a surprise for me. Speaking at LeadDev StaffPlus went even better than I was hoping, and it’s got me thinking about what works fo..."
-categories: ["conferences","storytelling","writing"]
-tags: ["LeadDev","speaking tips","StaffPlus"]
-featuredImage: "/images/posts/2025/writer-enjoys-speaking.jpg"
+title: 'Writer enjoying speaking'
+date: '2025-10-20'
+originalDate: '2025-10-20'
+excerpt: 'I’m a writer at heart, so enjoying speaking at conferences is a bit of a surprise for me. Speaking at LeadDev StaffPlus went even better than I was hoping, and it’s got me thinking about what works fo...'
+categories: ['conferences', 'storytelling', 'writing']
+tags: ['LeadDev', 'speaking tips', 'StaffPlus']
+featuredImage: '/images/posts/2025/writer-enjoys-speaking.jpg'
 ---
 
 I’m a writer at heart, so enjoying speaking at conferences is a bit of a surprise for me.
@@ -30,10 +30,10 @@ Deciding what to speak about is the first hard part. For me, it’s about identi
 
 Let me break that down:
 
-*   A **story** – there are great presentations that don’t involve storytelling, but putting the story front and center helps me connect with the audience.
-*   From **my life** – if I’m talking about my own experience, it’s easier for me to remember the details. And nobody in the audience will challenge me on the facts!
-*   Illustrates a **point** – yes, but the point I wind up making may not be the point I originally planned. The process of crafting the talk often leads me to a new place.
-*   **Relevant** to my audience – I’ve got plenty of stories, but not all of them are meaningful for that audience and context.
+- A **story** – there are great presentations that don’t involve storytelling, but putting the story front and center helps me connect with the audience.
+- From **my life** – if I’m talking about my own experience, it’s easier for me to remember the details. And nobody in the audience will challenge me on the facts!
+- Illustrates a **point** – yes, but the point I wind up making may not be the point I originally planned. The process of crafting the talk often leads me to a new place.
+- **Relevant** to my audience – I’ve got plenty of stories, but not all of them are meaningful for that audience and context.
 
 From there, I’ll start either with the end of the story or with the moment of transition.
 
@@ -71,12 +71,12 @@ My story at StaffPlus ends with my realizing that the conflict I was describing 
 
 I want my opening section to do several things:
 
-*   **Start strong.** No “so” at the beginning.
-*   **Acknowledge my welcome.** “Thank you” is good.
-*   **Get the attention** of the audience. More on a “hook” shortly.
-*   **Introduce myself.** Specifically, why should the audience listen to me. Quick recap of my credentials.
-*   **Bring people into a moment,** with some details.
-*   Introduce **the stakes.** Why should anyone care about this story?
+- **Start strong.** No “so” at the beginning.
+- **Acknowledge my welcome.** “Thank you” is good.
+- **Get the attention** of the audience. More on a “hook” shortly.
+- **Introduce myself.** Specifically, why should the audience listen to me. Quick recap of my credentials.
+- **Bring people into a moment,** with some details.
+- Introduce **the stakes.** Why should anyone care about this story?
 
 ## Hook?
 
@@ -84,9 +84,9 @@ I heard a [Rory Vaden](https://roryvaden.com/podcast/) podcast recently where he
 
 People say you should do three things during a talk:
 
-*   Tell people what you’re about to tell them
-*   Tell them
-*   Tell them what you just told them
+- Tell people what you’re about to tell them
+- Tell them
+- Tell them what you just told them
 
 I’ve also heard this called bad advice, and it might be, if you’re interpreting this as just repeating yourself three times. That’s not how I interpret it.
 
@@ -110,10 +110,10 @@ Once I know where I’m starting, my transition, and where I’m ending, **I hav
 
 I don’t bother with speaker notes, for the most part.
 
-*   I’ve got my opening line and closing line memorized.
-*   I know my story path to get from A to B to C.
-*   I’ve practiced enough to have learned some key phrases I will pull out along the way.
-*   I don’t want it to sound like I’m reading. So I don’t read.
+- I’ve got my opening line and closing line memorized.
+- I know my story path to get from A to B to C.
+- I’ve practiced enough to have learned some key phrases I will pull out along the way.
+- I don’t want it to sound like I’m reading. So I don’t read.
 
 I practice to find out where I get lost. I also sneak clues into my slides to make sure I always know what’s next.
 
@@ -141,10 +141,10 @@ It all made sense with the narrative.
 
 The closing section has several jobs:
 
-*   **End strong.** No “anyway, so… that’s all I have, I guess…”
-*   **Recap** the takeaway(s)
-*   **Call to action.** What do I want them to do? At LeadDev, it was “find me here, and find me on beyond writing code dot com.”
-*   Another **thank you.** Gratitude’s nice. It also lets the audience know the talk is over.
+- **End strong.** No “anyway, so… that’s all I have, I guess…”
+- **Recap** the takeaway(s)
+- **Call to action.** What do I want them to do? At LeadDev, it was “find me here, and find me on beyond writing code dot com.”
+- Another **thank you.** Gratitude’s nice. It also lets the audience know the talk is over.
 
 I used to put the “thank you” at the top of my last slide. Now I don’t, because I don’t want to signal that I’m done until I’ve said everything.
 
@@ -170,11 +170,11 @@ I did some walking shortly before I was due on stage. That helped me burn some e
 
 I gave myself a few presentation-time reminders:
 
-*   **Slow is smooth, and smooth is fast.** If I rush, I mess up, and messing up makes me slower.
-*   **Breathe**. I practiced this while rehearsing, and noticed the difference it made.
-*   **Look** out at people.
-*   **Don’t get clever.** No improvising, adding content, or going off script.
-*   **Have some energy.** Try to sound as if you were saying it all for the first time. Like you just now thought of it.
+- **Slow is smooth, and smooth is fast.** If I rush, I mess up, and messing up makes me slower.
+- **Breathe**. I practiced this while rehearsing, and noticed the difference it made.
+- **Look** out at people.
+- **Don’t get clever.** No improvising, adding content, or going off script.
+- **Have some energy.** Try to sound as if you were saying it all for the first time. Like you just now thought of it.
 
 With this plan, I feel surprisingly comfortable on stage. Here I am, a writer enjoying speaking. Who knew?
 

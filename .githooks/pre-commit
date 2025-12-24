@@ -5,15 +5,37 @@ echo "🔍 Running pre-commit checks..."
 
 FAILED=0
 
-# 1. Type check
+# 1. Lint
+echo "📝 Running ESLint..."
+npm run lint --silent || { echo "❌ ESLint failed"; FAILED=1; }
+
+# 2. Format check (with auto-fix attempt)
+echo "🎨 Checking formatting..."
+if ! npm run format:check --silent; then
+    echo "🔧 Formatting issues found, auto-fixing..."
+    npm run format --silent
+    git add -u
+    if ! npm run format:check --silent; then
+        echo "❌ Formatting still failed after auto-fix"
+        FAILED=1
+    else
+        echo "✅ Formatting auto-fixed and staged"
+    fi
+fi
+
+# 3. Type check
 echo "🚀 Running Astro type check..."
 npm run type-check --silent || { echo "❌ Type check failed"; FAILED=1; }
 
-# 2. Build test (fast way to catch issues)
+# 4. Tests
+echo "🧪 Running tests..."
+npm run test:run --silent || { echo "❌ Tests failed"; FAILED=1; }
+
+# 5. Build test
 echo "🏗️  Testing build..."
 npm run build --silent || { echo "❌ Build failed"; FAILED=1; }
 
-# 3. Security (warn only)
+# 6. Security (warn only)
 echo "🔒 Security audit..."
 npm run security:check --silent 2>/dev/null || echo "⚠️  Security issues detected"
 

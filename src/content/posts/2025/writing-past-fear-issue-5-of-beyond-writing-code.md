@@ -1,10 +1,17 @@
 ---
-title: "Writing past fear, issue 5 of Beyond Writing Code"
-date: "2025-06-17"
-excerpt: "Overcoming fear of writing and making mistakes, just like breaking production."
-categories: ["writing","book"]
-tags: ["Beyond Writing Code newsletter","fear","self-doubt","book status update","breaking production"]
-featuredImage: "/images/posts/2025/writing-past-fear-issue-5-of-beyond-writing-code-1.jpg"
+title: 'Writing past fear, issue 5 of Beyond Writing Code'
+date: '2025-06-17'
+excerpt: 'Overcoming fear of writing and making mistakes, just like breaking production.'
+categories: ['writing', 'book']
+tags:
+  [
+    'Beyond Writing Code newsletter',
+    'fear',
+    'self-doubt',
+    'book status update',
+    'breaking production',
+  ]
+featuredImage: '/images/posts/2025/writing-past-fear-issue-5-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -19,7 +26,7 @@ Usually I write what I write, and if someone thinks I’m wrong, well, then I le
 
 ![grayscale photo of stop sign](/images/posts/2025/writing-past-fear-issue-5-of-beyond-writing-code-1.jpg)
 
-*Photo by [Aubree Herrick](https://unsplash.com/@aubreerh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/grayscale-photo-of-stop-sign-XbJtbyYJVz0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_Photo by [Aubree Herrick](https://unsplash.com/@aubreerh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/grayscale-photo-of-stop-sign-XbJtbyYJVz0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 As a result, I’m being more cautious. I'm writing a lot more “I think” or “it seems to me” or “maybe,” rather than just saying what I’m thinking and risking being wrong.
 
@@ -37,7 +44,7 @@ I remember the first time, as a developer, that I dialed into a customer's produ
 
 ![red and grey vinyl player](/images/posts/2025/writing-past-fear-issue-5-of-beyond-writing-code-2.jpg)
 
-*Dialing in. Remember when we used to connect to the internet at 33 1/3 rpm... Photo by [Przemyslaw Marczynski](https://unsplash.com/@pemmax?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/red-and-grey-vinyl-player-awFECvLfXqA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_Dialing in. Remember when we used to connect to the internet at 33 1/3 rpm... Photo by [Przemyslaw Marczynski](https://unsplash.com/@pemmax?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/red-and-grey-vinyl-player-awFECvLfXqA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 In my first job as a professional programmer, we would sometimes need to connect directly to a customer's production system in order to troubleshoot or to deploy code. And the first time I did this was completely nerve-wracking.
 

@@ -4,13 +4,13 @@
 
 This project uses **different DreamHost credentials** than bwc-web:
 
-| Aspect | bwc-web | bwc-astro |
-|--------|---------|-----------|
-| **Host** | Same DreamHost server | Same DreamHost server |
-| **User** | `qwp_user` | `book_user` (different) |
-| **SSH Key** | `DREAMHOST_QWP_SSH_PRIVATE_KEY` | `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY` (different) |
-| **Remote Path** | `~/quietwoodspath.com` | `~/beyondwritingcodebook.com` (different) |
-| **Domain** | quietwoodspath.com (old staging) | beyondwritingcodebook.com (new staging) |
+| Aspect          | bwc-web                          | bwc-astro                                        |
+| --------------- | -------------------------------- | ------------------------------------------------ |
+| **Host**        | Same DreamHost server            | Same DreamHost server                            |
+| **User**        | `qwp_user`                       | `book_user` (different)                          |
+| **SSH Key**     | `DREAMHOST_QWP_SSH_PRIVATE_KEY`  | `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY` (different) |
+| **Remote Path** | `~/quietwoodspath.com`           | `~/beyondwritingcodebook.com` (different)        |
+| **Domain**      | quietwoodspath.com (old staging) | beyondwritingcodebook.com (new staging)          |
 
 ## Why Different Users?
 
@@ -30,11 +30,13 @@ Only one secret is shared between both projects:
 Each project has its own:
 
 ### bwc-web (React/Vite)
+
 - `DREAMHOST_QWP_SSH_USER`
 - `DREAMHOST_QWP_REMOTE_PATH`
 - `DREAMHOST_QWP_SSH_PRIVATE_KEY`
 
 ### bwc-astro
+
 - `DREAMHOST_BWC_BOOK_SSH_USER`
 - `DREAMHOST_BWC_BOOK_REMOTE_PATH`
 - `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY`
@@ -49,6 +51,7 @@ Each project has its own:
 ## Testing Each User
 
 ### Test bwc-web user:
+
 ```bash
 ssh qwp_user@dreamhost-server.dreamhost.com
 pwd  # Should show /home/qwp_user
@@ -56,6 +59,7 @@ ls ~/quietwoodspath.com
 ```
 
 ### Test bwc-astro user:
+
 ```bash
 ssh book_user@dreamhost-server.dreamhost.com
 pwd  # Should show /home/book_user
@@ -65,11 +69,13 @@ ls ~/beyondwritingcodebook.com
 ## Common Pitfalls
 
 ❌ **Don't do this:**
+
 - Using the same SSH key for both users
 - Copying bwc-web secrets to bwc-astro
 - SSHing as wrong user and wondering why paths don't exist
 
 ✅ **Do this:**
+
 - Generate separate SSH keys
 - Set up separate GitHub secrets
 - Test each user's SSH access independently

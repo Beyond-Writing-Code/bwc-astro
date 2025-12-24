@@ -1,10 +1,10 @@
 ---
-title: "Vibe coding made less terrifying, issue 18 of Beyond Writing Code"
-date: "2025-09-17"
-excerpt: "AI coding practices and reader poll questions about developer experiences with AI assistance."
-categories: ["AI","coding","resources"]
-tags: ["Beyond Writing Code newsletter","vibe coding","Gene Kim","book recommendations"]
-featuredImage: "/images/posts/2025/vibe-coding-made-less-terrifying-issue-18-of-beyond-writing-code-1.jpg"
+title: 'Vibe coding made less terrifying, issue 18 of Beyond Writing Code'
+date: '2025-09-17'
+excerpt: 'AI coding practices and reader poll questions about developer experiences with AI assistance.'
+categories: ['AI', 'coding', 'resources']
+tags: ['Beyond Writing Code newsletter', 'vibe coding', 'Gene Kim', 'book recommendations']
+featuredImage: '/images/posts/2025/vibe-coding-made-less-terrifying-issue-18-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -79,8 +79,8 @@ I won't need to buy a copy myself, that's another perk of attending the conferen
 
 **Let me know by email by September 28 if you'd like to join the bulk buy.**
 
-*   If you're not near me, that may not make sense for you. Feel free to try my Bookshop [affiliate link](https://bookshop.org/a/114662/9781966280026) though :)
-*   But if you're in the Boston area, if we'll cross paths soon, or if I can relay it to you, let me know if you're interested. I'm happy to have an excuse to meet up in person, too!
+- If you're not near me, that may not make sense for you. Feel free to try my Bookshop [affiliate link](https://bookshop.org/a/114662/9781966280026) though :)
+- But if you're in the Boston area, if we'll cross paths soon, or if I can relay it to you, let me know if you're interested. I'm happy to have an excuse to meet up in person, too!
 
 # Drop me a note
 

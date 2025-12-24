@@ -1,10 +1,10 @@
 ---
-title: "Questions and stories, issue 23 of Beyond Writing Code"
-date: "2025-10-23"
-excerpt: "Creating reflection question cards for conference attendees at fall industry events."
-categories: ["writing","conferences","storytelling"]
-tags: ["Beyond Writing Code newsletter","question cards","speaker tips"]
-featuredImage: "/images/posts/2025/questions-and-stories-issue-23-of-beyond-writing-code-1.jpg"
+title: 'Questions and stories, issue 23 of Beyond Writing Code'
+date: '2025-10-23'
+excerpt: 'Creating reflection question cards for conference attendees at fall industry events.'
+categories: ['writing', 'conferences', 'storytelling']
+tags: ['Beyond Writing Code newsletter', 'question cards', 'speaker tips']
+featuredImage: '/images/posts/2025/questions-and-stories-issue-23-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -43,15 +43,15 @@ But otherwise, I’m pleased with how they came out.
 
 Here are a few of the questions I liked best:
 
-*   How do you meet other developers at your level? Do you have peers you can reach out to as sounding boards?
-*   What does "developer experience" mean to you? To your boss?
-*   How do you think organizations might change with AI? Team size? IT and business integration? New roles?
+- How do you meet other developers at your level? Do you have peers you can reach out to as sounding boards?
+- What does "developer experience" mean to you? To your boss?
+- How do you think organizations might change with AI? Team size? IT and business integration? New roles?
 
 They weren't all developer-specific, though:
 
-*   Think of times when you were very busy. When was it draining? When was it energizing?
-*   Are there skills you're great at but don't want to use professionally?
-*   What parts of your job do you dread? How can you do less of that?
+- Think of times when you were very busy. When was it draining? When was it energizing?
+- Are there skills you're great at but don't want to use professionally?
+- What parts of your job do you dread? How can you do less of that?
 
 They were a hit at LeadDev! Looking forward to handing out more at Grace Hopper.
 

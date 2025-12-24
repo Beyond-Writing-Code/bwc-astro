@@ -11,11 +11,16 @@ const posts = defineCollection({
     tags: z.array(z.string()).optional().default([]),
     featuredImage: z.string().optional(),
     published: z.boolean().default(true),
-    comments: z.array(z.object({
-      author: z.string(),
-      date: z.string(),
-      content: z.string(),
-    })).optional().default([]),
+    comments: z
+      .array(
+        z.object({
+          author: z.string(),
+          date: z.string(),
+          content: z.string(),
+        })
+      )
+      .optional()
+      .default([]),
   }),
 });
 

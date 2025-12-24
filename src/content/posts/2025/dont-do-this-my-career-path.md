@@ -1,18 +1,18 @@
 ---
 title: "Don't do this: my career path"
-date: "2025-04-27"
-originalDate: "2023-09-12"
-excerpt: "Folks who are new to software development sometimes ask me about my career path. The first time I fielded this question, I told my story in a straightforward way. Hearing myself talk, though, I realiz..."
-categories: ["career","coding","education","learning"]
-tags: ["you do you"]
-featuredImage: "/images/posts/2025/dont-do-this-my-career-path.jpg"
+date: '2025-04-27'
+originalDate: '2023-09-12'
+excerpt: 'Folks who are new to software development sometimes ask me about my career path. The first time I fielded this question, I told my story in a straightforward way. Hearing myself talk, though, I realiz...'
+categories: ['career', 'coding', 'education', 'learning']
+tags: ['you do you']
+featuredImage: '/images/posts/2025/dont-do-this-my-career-path.jpg'
 ---
 
 Folks who are new to software development sometimes ask me about my career path. The first time I fielded this question, I told my story in a straightforward way. Hearing myself talk, though, I realized: this way of telling my story is probably not a good idea.
 
 ![](/images/posts/2025/winding-path.jpeg)
 
-*This is not an actual illustration of my career path. Photo by [Jack Anstey](https://unsplash.com/@jack_anstey?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_This is not an actual illustration of my career path. Photo by [Jack Anstey](https://unsplash.com/@jack_anstey?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 People who ask me this question are often actually asking me about their own career path. They see where I’ve landed, and perhaps they imagine they want to land somewhere similar. They might be comparing their path to my own, perhaps to see if they might make some of the same steps that I’ve made along the way.
 
@@ -80,6 +80,6 @@ Just like how my own starting point is probably not like yours, my own current r
 
 Don’t follow me. Your own path awaits.
 
-* * *
+---
 
 Originally posted 12 September 2023 on [Medium](https://bouncingleaf.medium.com/dont-do-this-my-career-path-e376911db094).

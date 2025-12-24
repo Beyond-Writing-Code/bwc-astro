@@ -1,17 +1,18 @@
 ---
-title: "AI and I built a website yesterday"
-date: "2025-12-10"
-originalDate: "2025-12-10"
-excerpt: "Early morning yesterday, I was wide awake at 4:30 a.m. for no clear reason. And I had one of those 4:30 a.m. thoughts: You know, I could move my personal website off of AWS, and save some money. In fa..."
-categories: ["AI","learning","productivity"]
-tags: ["build a website in a day","building expertise","how AI changes things","junior developers"]
-featuredImage: "/images/posts/2025/ai-and-i-built-a-website-yesterday.jpg"
+title: 'AI and I built a website yesterday'
+date: '2025-12-10'
+originalDate: '2025-12-10'
+excerpt: 'Early morning yesterday, I was wide awake at 4:30 a.m. for no clear reason. And I had one of those 4:30 a.m. thoughts: You know, I could move my personal website off of AWS, and save some money. In fa...'
+categories: ['AI', 'learning', 'productivity']
+tags:
+  ['build a website in a day', 'building expertise', 'how AI changes things', 'junior developers']
+featuredImage: '/images/posts/2025/ai-and-i-built-a-website-yesterday.jpg'
 ---
 
 Early morning yesterday, I was wide awake at 4:30 a.m. for no clear reason. And I had one of those 4:30 a.m. thoughts:
 
 > _You know, I could move my personal website off of AWS, and save some money._
-> 
+>
 > _In fact, I could rebuild my website_.
 
 Now, the last time I did any serious web development was several years ago, and even then it was more back end development than front end. This is no longer “just what I do.”

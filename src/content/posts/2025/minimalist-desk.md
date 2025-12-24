@@ -1,11 +1,11 @@
 ---
-title: "33 Things You Don’t Need on Your Desk"
-date: "2025-04-25"
-originalDate: "2022-06-20"
+title: '33 Things You Don’t Need on Your Desk'
+date: '2025-04-25'
+originalDate: '2022-06-20'
 excerpt: "Friends, writing on Medium (and getting photos from Unsplash) taught me that I’ve been doing it all wrong. Back in 2021 \\[…pause here while I yet again grapple with the fact that it’s not still 2020, ..."
-categories: ["wellness","work"]
-tags: ["desk","minimalism","self-care","you do you"]
-featuredImage: "/images/posts/2025/minimalist-desk.jpg"
+categories: ['wellness', 'work']
+tags: ['desk', 'minimalism', 'self-care', 'you do you']
+featuredImage: '/images/posts/2025/minimalist-desk.jpg'
 ---
 
 Friends, writing on Medium (and getting photos from Unsplash) taught me that I’ve been doing it all wrong.
@@ -16,19 +16,19 @@ But now here I am, adding photos to my Medium articles, and I start to see a the
 
 ![Nature lover, two plants](/images/posts/2025/minimalist-desk-1-plants.jpg)
 
-*Nature lover, two plants (Photo by [Domenico Loia](https://unsplash.com/@domenicoloia?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Nature lover, two plants (Photo by [Domenico Loia](https://unsplash.com/@domenicoloia?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 And this:
 
 ![Nice skull and crossbones](/images/posts/2025/minimalist-desk-2-skull.jpg)
 
-*Nice skull and crossbones (Photo by [Geert Pieters](https://unsplash.com/@shotsbywolf?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Nice skull and crossbones (Photo by [Geert Pieters](https://unsplash.com/@shotsbywolf?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 And this (I like the dual beverage situation here):
 
 ![Books as plant stand](/images/posts/2025/minimalist-desk-3-books-plant.jpg)
 
-*Books as plant stand (Photo by [Daniel Korpai](https://unsplash.com/@danielkorpai?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Books as plant stand (Photo by [Daniel Korpai](https://unsplash.com/@danielkorpai?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 And so many, many more like it.
 
@@ -42,15 +42,15 @@ If necessary, you can swap out the beverage or the mobile device for one more it
 
 ![Audio equipment setup](/images/posts/2025/minimalist-desk-4-audio.jpg)
 
-*Photo by [Remy\_Loz](https://unsplash.com/@remyloz?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Remy_Loz](https://unsplash.com/@remyloz?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 ![Simple desk setup](/images/posts/2025/minimalist-desk-5-simple.jpeg)
 
-*Photo by [Sora Sagano](https://unsplash.com/@sorasagano?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Photo by [Sora Sagano](https://unsplash.com/@sorasagano?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 ![Mac desk setup](/images/posts/2025/minimalist-desk-6-mac.jpg)
 
-*Photo by [Christopher Gower](https://unsplash.com/@cgower?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Photo by [Christopher Gower](https://unsplash.com/@cgower?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 But in general: laptop, drink, device, greenery.
 
@@ -68,7 +68,7 @@ I’ve got a camera positioned on top of the monitor. Putting things on the moni
 
 ![Person away from desk - no beverage](/images/posts/2025/minimalist-desk-7-no-beverage.jpg)
 
-*You can tell this person is away from their desk — there's no beverage. (Photo by [Ján Vlačuha](https://unsplash.com/@flowixxcom?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_You can tell this person is away from their desk — there's no beverage. (Photo by [Ján Vlačuha](https://unsplash.com/@flowixxcom?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 And there are… drum roll please… WIRES. Oh no, not that. 🙄 I have a docking station to serve up the monitor/camera/power combination, and there are wires for those items, as well as the lamp. My device charger is currently charging one of the two sets of AirPods on my desk, and a set of wired earbuds hangs out nearby as a backup.
 
@@ -94,7 +94,7 @@ I suppose if I weren’t working with paper, I wouldn’t need these items eithe
 
 ![Writing supplies on desk](/images/posts/2025/minimalist-desk-8-writing.jpg)
 
-*Photo by [JESHOOTS.COM](https://unsplash.com/@jeshoots?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Photo by [JESHOOTS.COM](https://unsplash.com/@jeshoots?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 So, should I stop this foolish “writing” nonsense and just type everything into a Google Doc or a flat text file or something? Not going to happen, I’m afraid. Even though I own…
 
@@ -103,17 +103,17 @@ So, should I stop this foolish “writing” nonsense and just type everything i
 Side note: Did that contraption take a while to get used to? You bet it did. I kept hitting the Enter key when I meant to hit the space bar, so I had
 
 **leaf** 8:08  
-a  
-  
+a
+
 **leaf** 8:08  
-lot  
-  
+lot
+
 **leaf** 8:08  
-of  
-  
+of
+
 **leaf** 8:08  
-slack  
-  
+slack
+
 **leaf** 8:08  
 conversations
 
@@ -131,7 +131,7 @@ The modern developer clearly functions on beverage alone. I haven’t transcende
 
 ![Person taking a call - no mobile device](/images/posts/2025/minimalist-desk-9-call.jpg)
 
-*This person has stepped away to take a call — no mobile device present. (Photo by [Rich Tervet](https://unsplash.com/es/@richtervet?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_This person has stepped away to take a call — no mobile device present. (Photo by [Rich Tervet](https://unsplash.com/es/@richtervet?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 With the exception of the hand sanitizer, though, I would not be surprised to find any of the above 28 items on a typical desk. Maybe the keyboard and mouse would be a little less ergonomic, but they all seem like normal stuff.
 
@@ -157,7 +157,7 @@ Wait, do some of the pictures above have things hiding out of sight behind those
 
 ![Desk with laptop - what's behind it?](/images/posts/2025/minimalist-desk-10-behind-laptop.jpg)
 
-*Photo by [Kevin Bhagat](https://unsplash.com/@kevnbhagat?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Photo by [Kevin Bhagat](https://unsplash.com/@kevnbhagat?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 The beverage, perhaps? Uh oh. Fear that. Don’t put your beverage behind your laptop. You’ll forget it’s there, move your laptop, and spill your coffee everywhere. Granted it will only ruin four other items on your ultra-minimalist desk, but _one of those is your laptop_. Don’t do it.
 
@@ -169,19 +169,19 @@ For those of us whose desks have more than five things, though, a word of encour
 
 ![Minimalist kitchen counter](/images/posts/2025/minimalist-desk-11-kitchen.jpg)
 
-*Photo by [Collov Home Design](https://unsplash.com/@collovhome?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Collov Home Design](https://unsplash.com/@collovhome?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 …living rooms where everything is white…
 
 ![White minimalist living room](/images/posts/2025/minimalist-desk-12-living-room.jpg)
 
-*Photo by [Spacejoy](https://unsplash.com/@spacejoy?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Spacejoy](https://unsplash.com/@spacejoy?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 …or tidy refrigerators full of fresh fruits and vegetables in matching containers.
 
 ![Organized refrigerator with matching containers](/images/posts/2025/minimalist-desk-13-fridge.jpg)
 
-*Photo by [Ello](https://unsplash.com/@elloproducts?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Photo by [Ello](https://unsplash.com/@elloproducts?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 The pristine pictures are of a fantasy world. If you’re living that dream, okay. But if your real life desk (or house) doesn’t match this fantasy,
 
@@ -195,7 +195,7 @@ failed.
 
 But do avoid putting your beverage behind your laptop. That advice is for real, y’all.
 
-* * *
+---
 
 What’s the state of your desk? Minimalist glory with all four items at right angles and a tiny low-maintenance plant? Chaotic sprawl including last night’s dishes (and not like “a plate and a fork” but like “every item you used to make last night’s lasagna including a 9″x13″ baking pan and a spatula”)?
 

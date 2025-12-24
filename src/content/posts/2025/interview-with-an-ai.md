@@ -1,11 +1,11 @@
 ---
-title: "Interview with an AI"
-date: "2025-06-13"
-originalDate: "2025-06-13"
-excerpt: "Another post about AI? I just made one earlier this afternooooon… But then Forrest Brazeal posted this, which got me thinking: If we treat AI like a junior developer, do we interview AI the way we int..."
-categories: ["AI","coding","work"]
-tags: ["ai vs. human","comics","ghost","interview","junior developers"]
-featuredImage: "/images/posts/2025/interview-with-an-ai.jpg"
+title: 'Interview with an AI'
+date: '2025-06-13'
+originalDate: '2025-06-13'
+excerpt: 'Another post about AI? I just made one earlier this afternooooon… But then Forrest Brazeal posted this, which got me thinking: If we treat AI like a junior developer, do we interview AI the way we int...'
+categories: ['AI', 'coding', 'work']
+tags: ['ai vs. human', 'comics', 'ghost', 'interview', 'junior developers']
+featuredImage: '/images/posts/2025/interview-with-an-ai.jpg'
 ---
 
 Another post about AI? I just [made one](https://www.linkedin.com/posts/jmroy_this-is-a-classic-comic-about-it-projects-activity-7339376760553136128-mrSq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAC9FosB4lTDRbaBYXawMh8J-4C6x9oVP8E) earlier this afternooooon…
@@ -16,7 +16,7 @@ If we treat AI like a junior developer, do we interview AI the way we interview 
 
 ![](/images/posts/2025/whiteboard.jpg)
 
-*Walk me through your thought process here. Photo by [Walls.io](https://unsplash.com/@walls_io?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-person-writing-on-a-piece-of-paper-with-a-marker-BnVdxvKQqE0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+_Walk me through your thought process here. Photo by [Walls.io](https://unsplash.com/@walls_io?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-person-writing-on-a-piece-of-paper-with-a-marker-BnVdxvKQqE0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
 I’ve never heard of anyone doing that. Why not? Probably because hiring a human developer is a Big Deal involving great expense, and something like an AI coding assistant is a comparably smaller expense.
 
@@ -26,6 +26,6 @@ Granted, AI will get its fingers all over your codebase in a way that no single 
 
 I wonder who’s easier to “let go,” if they aren’t working out: AI, or human. Who is evaluated more carefully. What “working out” means for a developer, anyway. Oh, we’re back to the topic of “what makes an effective/productive developer” again.
 
-* * *
+---
 
 I promise my newsletter isn’t all about AI. Sign up below!

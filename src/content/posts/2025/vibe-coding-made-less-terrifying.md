@@ -1,15 +1,23 @@
 ---
-title: "Vibe coding made less terrifying"
-date: "2025-09-17"
-originalDate: "2025-09-17"
+title: 'Vibe coding made less terrifying'
+date: '2025-09-17'
+originalDate: '2025-09-17'
 excerpt: "It's been a long time since I've felt I like I was hanging on every word of a book. I was so done reading about AI. Then I saw that IT Revolution was publishing a new book: Vibe Coding: Building Produ..."
-categories: ["AI","book","coding","conferences"]
-tags: ["book recommendations","coding practices","ETLS","learning","vibe coding","you're not alone"]
-featuredImage: "/images/posts/2025/vibe-coding-made-less-terrifying.jpg"
+categories: ['AI', 'book', 'coding', 'conferences']
+tags:
+  [
+    'book recommendations',
+    'coding practices',
+    'ETLS',
+    'learning',
+    'vibe coding',
+    "you're not alone",
+  ]
+featuredImage: '/images/posts/2025/vibe-coding-made-less-terrifying.jpg'
 comments:
-  - author: "Steve Yegge"
-    date: "2025-09-17"
-    content: "Thanks for the kind words! I hope the rest of the book lives up to your expectations!"
+  - author: 'Steve Yegge'
+    date: '2025-09-17'
+    content: 'Thanks for the kind words! I hope the rest of the book lives up to your expectations!'
 ---
 
 > It’s been a long time since I’ve felt I like I was hanging on every word of a book.
@@ -34,11 +42,11 @@ But they are clearly converts, and the book is getting me to rethink my initial 
 
 Yes, there are serious concerns about writing “real” production code with vibe coding, where you’re not really delving into the code output.
 
-*   Is the coding process itself safe?
+- Is the coding process itself safe?
 
-*   Is the code it generates secure, maintainable, and extendable?
+- Is the code it generates secure, maintainable, and extendable?
 
-*   If you don’t understand or even look at the code, how can you be sure there isn’t some terrible problem lurking that will cause major problems once it’s in production? Okay, you can never be sure of that, but it seems so much worse if you don’t fully understand the code.
+- If you don’t understand or even look at the code, how can you be sure there isn’t some terrible problem lurking that will cause major problems once it’s in production? Okay, you can never be sure of that, but it seems so much worse if you don’t fully understand the code.
 
 It’s clear that the authors of this book are grappling with these same concerns. The chapters where they talk about how to approach vibe coding for better results are still ahead, and not part of the sneak preview! Argh, cliffhanger! 🙂
 

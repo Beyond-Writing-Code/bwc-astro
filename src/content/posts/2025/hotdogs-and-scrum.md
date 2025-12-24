@@ -1,18 +1,30 @@
 ---
-title: "Hotdogs and scrum"
-date: "2025-06-27"
-originalDate: "2025-06-27"
-excerpt: "In the midst of a recent LinkedIn discussion about whether scrum is a methodology or a framework, I considered a few questions: Geeks are often quite opinionated. I am sure some of my friends could ha..."
-categories: ["agile","communication","language"]
-tags: ["agile","argument","definitions","food analogies","framework","hotdogs","methodology","opinionated","scrum","words"]
-featuredImage: "/images/posts/2025/hotdogs-and-scrum.jpg"
+title: 'Hotdogs and scrum'
+date: '2025-06-27'
+originalDate: '2025-06-27'
+excerpt: 'In the midst of a recent LinkedIn discussion about whether scrum is a methodology or a framework, I considered a few questions: Geeks are often quite opinionated. I am sure some of my friends could ha...'
+categories: ['agile', 'communication', 'language']
+tags:
+  [
+    'agile',
+    'argument',
+    'definitions',
+    'food analogies',
+    'framework',
+    'hotdogs',
+    'methodology',
+    'opinionated',
+    'scrum',
+    'words',
+  ]
+featuredImage: '/images/posts/2025/hotdogs-and-scrum.jpg'
 ---
 
 In the midst of a recent LinkedIn discussion about whether scrum is a methodology or a framework, I considered a few questions:
 
-*   Do we even know if people agree on definitions of terms like methodology?
-*   If people haven’t established agreement on the definitions, is there any point to having the argument? (For that matter, even if they _do_ agree on the definitions, what’s the benefit of determining the answer?)
-*   Furthermore, if they disagree on the definitions, is it necessarily true that one (or both!) of the people is “wrong” about what the terms mean? Is there a single “true” definition for these terms? (I’m going with no.)
+- Do we even know if people agree on definitions of terms like methodology?
+- If people haven’t established agreement on the definitions, is there any point to having the argument? (For that matter, even if they _do_ agree on the definitions, what’s the benefit of determining the answer?)
+- Furthermore, if they disagree on the definitions, is it necessarily true that one (or both!) of the people is “wrong” about what the terms mean? Is there a single “true” definition for these terms? (I’m going with no.)
 
 Geeks are often quite opinionated. I am sure some of my friends could hardly finish the first sentence of this post before _needing_ to tell me whether scrum is a methodology or a framework, expounding upon their definitions of these terms. And some would accept no counterarguments. _They_ know the _true_ definitions of these terms and anyone else is wrong.
 
@@ -20,7 +32,7 @@ It reminds me of this question: Is a hotdog a sandwich?
 
 ![](/images/posts/2025/hotdogs.jpg)
 
-*[Unsplash](https://unsplash.com/photos/two-brown-bread-on-blue-textile-Lntnns1YBEY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) has some seriously unappealing photos of hotdogs. Is there a hotdog under that pile of stuff? One of them looked like it had tuna salad on it. Ew! And some of them looked barely cooked?? Come on people! Hats off to [Ball Park Brand](https://unsplash.com/@ballparkbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash), whose photo this is. The first three photos that I considered using were all theirs.*
+_[Unsplash](https://unsplash.com/photos/two-brown-bread-on-blue-textile-Lntnns1YBEY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) has some seriously unappealing photos of hotdogs. Is there a hotdog under that pile of stuff? One of them looked like it had tuna salad on it. Ew! And some of them looked barely cooked?? Come on people! Hats off to [Ball Park Brand](https://unsplash.com/@ballparkbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash), whose photo this is. The first three photos that I considered using were all theirs._
 
 I’m imagining myself at a cookout with two people arguing about whether a hotdog qualifies as a sandwich. Carry on. I’ll be over here eating a hotdog while I watch you argue.
 
@@ -50,7 +62,7 @@ So instead, I just stammered awkwardly, then I turned to my husband to see if he
 
 Fortunately, I don’t think my aunt was actually looking for details. She just wanted to assert that “scrum” seemed a little on the obscure side to be fair game for Wordle. We didn’t need to agree on a definition here either.
 
-* * *
+---
 
 I apologize if this post made you hungry.
 

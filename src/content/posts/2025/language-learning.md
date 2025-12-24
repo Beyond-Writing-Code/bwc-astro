@@ -1,11 +1,11 @@
 ---
-title: "Language learning"
-date: "2025-05-01"
-originalDate: "2025-05-01"
-excerpt: "My Romanian coworkers were impressed when I started learning Romanian. I’d say “bună” (hello), complete with the ă, and they’d be shocked by even this basic effort. What confused me, though: several o..."
-categories: ["communication","language","learning"]
-tags: ["languages","learning"]
-featuredImage: "/images/posts/2025/language-learning.jpg"
+title: 'Language learning'
+date: '2025-05-01'
+originalDate: '2025-05-01'
+excerpt: 'My Romanian coworkers were impressed when I started learning Romanian. I’d say “bună” (hello), complete with the ă, and they’d be shocked by even this basic effort. What confused me, though: several o...'
+categories: ['communication', 'language', 'learning']
+tags: ['languages', 'learning']
+featuredImage: '/images/posts/2025/language-learning.jpg'
 ---
 
 My Romanian coworkers were impressed when I started learning Romanian. I’d say “bună” (hello), complete with the ă, and they’d be shocked by even this basic effort.
@@ -14,7 +14,7 @@ What confused me, though: several of them insisted that Romanian was “hard”.
 
 ![Blocks with letters, numbers, and symbols carved into them - in reverse, for printing](/images/posts/2025/letter-blocks.jpg)
 
-*Photo by [Bruno Martins](https://unsplash.com/@brunus?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/brown-and-black-wooden-cross-4cwf-iW6I1Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+_Photo by [Bruno Martins](https://unsplash.com/@brunus?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/brown-and-black-wooden-cross-4cwf-iW6I1Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
 It could be that I just have an advantage here. Romanian is, no surprise from the name, a romance language, as are French and Spanish. I studied French for 5 years, Spanish for about a year, and I have a smattering of German as well.
 

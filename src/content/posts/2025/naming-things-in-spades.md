@@ -1,21 +1,21 @@
 ---
-title: "Naming things, in spades"
-date: "2025-04-25"
-originalDate: "2022-05-30"
-excerpt: "Naming things is hard. One of the hardest things in computer science, as the saying goes. I once spent a full day trying to find the perfect name. Does that seem excessive? Well, consider these factor..."
-categories: ["coding","work"]
-tags: ["coding practices"]
-featuredImage: "/images/posts/2025/naming-things-in-spades.jpg"
+title: 'Naming things, in spades'
+date: '2025-04-25'
+originalDate: '2022-05-30'
+excerpt: 'Naming things is hard. One of the hardest things in computer science, as the saying goes. I once spent a full day trying to find the perfect name. Does that seem excessive? Well, consider these factor...'
+categories: ['coding', 'work']
+tags: ['coding practices']
+featuredImage: '/images/posts/2025/naming-things-in-spades.jpg'
 ---
 
 Naming things is hard. One of the hardest things in computer science, as [the saying](https://www.martinfowler.com/bliki/TwoHardThings.html) goes.
 
 I once spent a full day trying to find the perfect name. Does that seem excessive? Well, consider these factors:
 
-*   I was coding a major feature of the application. All users, whether they were customers or colleagues, would use whatever name I chose. It would even be an option on the main menu.
-*   A large part of the codebase would also use the name. Developers would see it a lot.
-*   I refused to choose an obscure name or a name so long that it would get abbreviated. Nobody should have to ask what it meant.
-*   Many potential names were already in common use for related, but not identical, concepts. Some of those names would even appear on the same screens.
+- I was coding a major feature of the application. All users, whether they were customers or colleagues, would use whatever name I chose. It would even be an option on the main menu.
+- A large part of the codebase would also use the name. Developers would see it a lot.
+- I refused to choose an obscure name or a name so long that it would get abbreviated. Nobody should have to ask what it meant.
+- Many potential names were already in common use for related, but not identical, concepts. Some of those names would even appear on the same screens.
 
 I finally found the perfect name. We integrated it into the application design, the code, and the way we talked and thought about that feature.
 
@@ -35,7 +35,7 @@ Also, it was causing a production issue, and it was several hours past my bedtim
 
 ![](/images/posts/2025/playing-cards-spades.jpeg)
 
-*Photo by [Surendran MP](https://unsplash.com/@sure_mp?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Surendran MP](https://unsplash.com/@sure_mp?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 “It seemed like a good idea at the time,” the code’s author said when I confronted him about it the next day. 😠
 
@@ -63,7 +63,7 @@ Rule two, then: call a spade a `spade`, not a `digToolInfo`.
 
 ![Person using a spade to dig in garden soil](/images/posts/2025/naming-things-digging.jpg)
 
-*Someone using a `digToolInfo` to `unsettle()` some `plantingSubstrate`. (Photo by [Anaya Katlego](https://unsplash.com/@anaya_katlego?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Someone using a `digToolInfo` to `unsettle()` some `plantingSubstrate`. (Photo by [Anaya Katlego](https://unsplash.com/@anaya_katlego?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 # Keep it short
 
@@ -75,13 +75,13 @@ How DO people get their bank balances these days, anyway? I log in to my bank we
 
 ![Person dancing joyfully](/images/posts/2025/naming-things-dancing.jpg)
 
-*Just checking that bank balance (Photo by [Amanda Vick](https://unsplash.com/@amandavickcreative?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Just checking that bank balance (Photo by [Amanda Vick](https://unsplash.com/@amandavickcreative?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 Rule three: it isn’t a`compactToolUsedForDiggingInOrderToPlantInTheGarden`.
 
 Okay, I think you’re getting the idea. Call that spade a spade, and you’re good to go.
 
-* * *
+---
 
 Have you ever had to deal with code that just made no sense? Did you get angry at whoever wrote that garbage, only to look it up and find that _you_ wrote it, six months prior? I feel you. Worst programmer ever is Me From The Past.
 

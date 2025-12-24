@@ -1,11 +1,11 @@
 ---
-title: "Not getting started guarantees failure"
-date: "2025-07-23"
-originalDate: "2025-07-23"
-excerpt: "I feel like an engine that won’t “catch.” You know what guarantees that I will fail at something? Not starting it."
-categories: ["productivity","work","writing"]
-tags: ["getting started","getting stuff done","resistance","why","writing"]
-featuredImage: "/images/posts/2025/getting-started.jpg"
+title: 'Not getting started guarantees failure'
+date: '2025-07-23'
+originalDate: '2025-07-23'
+excerpt: 'I feel like an engine that won’t “catch.” You know what guarantees that I will fail at something? Not starting it.'
+categories: ['productivity', 'work', 'writing']
+tags: ['getting started', 'getting stuff done', 'resistance', 'why', 'writing']
+featuredImage: '/images/posts/2025/getting-started.jpg'
 ---
 
 As I mentioned recently in my post about [pressure and resistance](https://www.beyondwritingcode.com/2025/07/21/pressure-and-resistance/), I’ve had a hard time getting started lately. I’ll sit down to work, and then I get distracted. At the end of the day, I’ve accomplished nothing on my to do list.
@@ -14,14 +14,14 @@ I feel like an engine that won’t “catch.” Turn the key, it makes the right
 
 ![A set of keys dangling from the ignition of a car.](/images/posts/2025/car-key.jpg)
 
-*Remember car keys? Photo by [Ivan Shemereko](https://unsplash.com/@ivanshemereko?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/silver-key-on-black-car-7mgR-BZ5Dm4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+_Remember car keys? Photo by [Ivan Shemereko](https://unsplash.com/@ivanshemereko?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/silver-key-on-black-car-7mgR-BZ5Dm4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
 ## Fear of doing it wrong
 
 Another piece of the resistance, in addition to rebelling against the pressure: I fear doing it wrong or not being able to finish.
 
-*   I dread writing for a while on a [blog](https://www.beyondwritingcode.com/posts/) post and then losing enthusiasm and giving up.
-*   I’ll think about a section of my book proposal but then worry that it won’t go well or I won’t be able to complete it.
+- I dread writing for a while on a [blog](https://www.beyondwritingcode.com/posts/) post and then losing enthusiasm and giving up.
+- I’ll think about a section of my book proposal but then worry that it won’t go well or I won’t be able to complete it.
 
 **You know what _guarantees_ that I will fail? Not starting.**
 

@@ -1,11 +1,11 @@
 ---
-title: "Recognize your wall"
-date: "2025-04-25"
-originalDate: "2022-05-23"
-excerpt: "I’m not saying it’s time to go stare at the wall. Well, maybe I am. Maybe you’ve been firefighting most of the day, one urgent situation after another popping up like ads on top of a recipe blog. Perh..."
-categories: ["mindfulness","work"]
-tags: ["self-awareness","self-care","setting limits"]
-featuredImage: "/images/posts/2025/recognize-your-wall.jpg"
+title: 'Recognize your wall'
+date: '2025-04-25'
+originalDate: '2022-05-23'
+excerpt: 'I’m not saying it’s time to go stare at the wall. Well, maybe I am. Maybe you’ve been firefighting most of the day, one urgent situation after another popping up like ads on top of a recipe blog. Perh...'
+categories: ['mindfulness', 'work']
+tags: ['self-awareness', 'self-care', 'setting limits']
+featuredImage: '/images/posts/2025/recognize-your-wall.jpg'
 ---
 
 I’m not saying it’s time to go stare at the wall. Well, maybe I am.
@@ -14,7 +14,7 @@ Maybe you’ve been firefighting most of the day, one urgent situation after ano
 
 ![](/images/posts/2025/brick-wall.jpeg)
 
-*Photo by [Tim Gouw](https://unsplash.com/es/@punttim?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Tim Gouw](https://unsplash.com/es/@punttim?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 First of all, is it just me, or is there always “just one more thing” immediately after that “one more thing” you’re working on? An endless stream of what seem at the time like final tasks, each one inspiring the need for the next…
 
@@ -56,7 +56,7 @@ A comma where a semicolon ought to be. Missing quotation marks. A variable calle
 
 ![Tired developer at laptop clutching their head with phone and glasses to one side](/images/posts/2025/recognize-your-wall-tired-developer.jpg)
 
-*Why do I get an error that `customer-file-052122.json` doesn’t exist?? I can see that `customer-fle-052122.json` is right there! (Photo by [Elisa Ventur](https://unsplash.com/@elisa_ventur?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Why do I get an error that `customer-file-052122.json` doesn’t exist?? I can see that `customer-fle-052122.json` is right there! (Photo by [Elisa Ventur](https://unsplash.com/@elisa_ventur?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 # Better late than never
 
@@ -66,7 +66,7 @@ Pay attention when, in the light of day, you see that all of your code from last
 
 Water under the bridge, but start to connect a certain fuzzy-brained feeling on day 1 with the unpleasant results on day 2. You’ll begin to recognize what _might have been_ signs for you last time, and thereby learn what might be signs for you next time.
 
-* * *
+---
 
 Regardless of whether you can make it through 13 hours straight of coding, or if you run out of steam much earlier than that, pay attention to what the warning signs are for you that things are going awry. You’ll save yourself a lot of stress by learning when it’s time for you to step back from the keyboard and go do something else — or go stare at the wall.[](https://medium.com/tag/self-care?source=post_page-----729ee0799e84---------------------------------------)
 

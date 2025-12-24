@@ -1,33 +1,41 @@
 ---
-title: "AI content, with a human face"
-date: "2025-11-26"
-originalDate: "2025-11-26"
-excerpt: "A recent poll on LinkedIn from Alex Ewerlöf asked: “Would you read AI-generated posts and articles that are attached to a human name and picture?” The poll offered four choices: My first thought was: ..."
-categories: ["AI","coding","writing"]
-tags: ["ai content presented as human content","code ownership","code smells","coding practices","how to tell writing is ai","human intervention"]
-featuredImage: "/images/posts/2025/ai-content-with-a-human-face.jpg"
+title: 'AI content, with a human face'
+date: '2025-11-26'
+originalDate: '2025-11-26'
+excerpt: 'A recent poll on LinkedIn from Alex Ewerlöf asked: “Would you read AI-generated posts and articles that are attached to a human name and picture?” The poll offered four choices: My first thought was: ...'
+categories: ['AI', 'coding', 'writing']
+tags:
+  [
+    'ai content presented as human content',
+    'code ownership',
+    'code smells',
+    'coding practices',
+    'how to tell writing is ai',
+    'human intervention',
+  ]
+featuredImage: '/images/posts/2025/ai-content-with-a-human-face.jpg'
 ---
 
 A recent [poll on LinkedIn](https://www.linkedin.com/posts/alexewerlof_ugcPost-7399343740005523456-TJqn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAC9FosB4lTDRbaBYXawMh8J-4C6x9oVP8E) from Alex Ewerlöf asked: “Would you read AI-generated posts and articles that are attached to a human name and picture?”
 
 ![digital face](/images/posts/2025/digital-face.jpg)
 
-*Photo by [Vadim Bogulov](https://unsplash.com/@franku84?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-persons-face-with-a-blurry-background-Of1VFDCVlTc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+_Photo by [Vadim Bogulov](https://unsplash.com/@franku84?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-persons-face-with-a-blurry-background-Of1VFDCVlTc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 The poll offered four choices:
 
-*   Yes
-*   Only if the human reviewed
-*   Only if the human wrote the draft
-*   No
+- Yes
+- Only if the human reviewed
+- Only if the human wrote the draft
+- No
 
 My first thought was: how would we know how much the human reviewed or wrote?
 
 I see three scenarios:
 
-*   No clear indication of AI use, but we know, somehow
-*   Clear indication of AI use, so we know
-*   No clear indication of AI use, and we _don’t_ know AI’s involvement.
+- No clear indication of AI use, but we know, somehow
+- Clear indication of AI use, so we know
+- No clear indication of AI use, and we _don’t_ know AI’s involvement.
 
 ## Scenario one: No clear indication of AI use, but we know
 
@@ -79,14 +87,14 @@ AI telling me how I can tell writing is AI.
 
 How to tell writing is AI:
 
-*   Formulaic and repetitive structure
-*   Monotonous tone and style
-*   Lack of depth and specificity
-*   Unnatural phrasing and vocabulary
-*   Inaccurate or outdated information
-*   Flawless grammar and spelling
-*   Uniform sentence length
-*   Use of the em dash
+- Formulaic and repetitive structure
+- Monotonous tone and style
+- Lack of depth and specificity
+- Unnatural phrasing and vocabulary
+- Inaccurate or outdated information
+- Flawless grammar and spelling
+- Uniform sentence length
+- Use of the em dash
 
 Okay, just kidding about the em dash, that wasn’t on the list. But as a writer, I learned to avoid all of the rest.
 
@@ -98,11 +106,11 @@ That said, AI is no match for a skilled human writer.
 
 Developers have a term for similar telltale signs of trouble in code: _code smells_. A few examples (again, courtesy of AI):
 
-*   Duplicate code
-*   Long methods
-*   Large classes with too many responsibilities
-*   Unused or unreachable code
-*   Comments to explain poorly written code
+- Duplicate code
+- Long methods
+- Large classes with too many responsibilities
+- Unused or unreachable code
+- Comments to explain poorly written code
 
 Here’s the thing: **code smells aren’t coding _errors_. Your code might still work even with all these code smells.**
 

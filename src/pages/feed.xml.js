@@ -10,7 +10,8 @@ export async function GET(context) {
 
   return rss({
     title: 'Beyond Writing Code',
-    description: 'Weekly reflections on human skills in tech, from developer to tech lead to architect. 25+ years of lessons on working better and happier.',
+    description:
+      'Weekly reflections on human skills in tech, from developer to tech lead to architect. 25+ years of lessons on working better and happier.',
     site: context.site,
     items: await Promise.all(
       publishedPosts.map(async (post) => {
@@ -36,6 +37,6 @@ export async function GET(context) {
   });
 }
 
-async function renderToString(Component) {
+async function renderToString(_Component) {
   return '';
 }

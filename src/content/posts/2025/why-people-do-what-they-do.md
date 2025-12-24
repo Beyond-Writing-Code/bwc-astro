@@ -1,11 +1,11 @@
 ---
-title: "Why people do what they do"
-date: "2025-04-27"
-originalDate: "2023-08-30"
-excerpt: "I’m a huge fan of the Enterprise Technology Leadership Summit. Disney’s Jason Cox is a fine speaker and storyteller, and my favorite Disney character. His presentation on Creating Digital Magic gave m..."
-categories: ["communication","work"]
-tags: ["does it help","empathy","ETLS","helping others","listening"]
-featuredImage: "/images/posts/2025/why-people-do-what-they-do.jpg"
+title: 'Why people do what they do'
+date: '2025-04-27'
+originalDate: '2023-08-30'
+excerpt: 'I’m a huge fan of the Enterprise Technology Leadership Summit. Disney’s Jason Cox is a fine speaker and storyteller, and my favorite Disney character. His presentation on Creating Digital Magic gave m...'
+categories: ['communication', 'work']
+tags: ['does it help', 'empathy', 'ETLS', 'helping others', 'listening']
+featuredImage: '/images/posts/2025/why-people-do-what-they-do.jpg'
 ---
 
 Originally posted 30 August 2023 on [Medium](https://bouncingleaf.medium.com/why-people-do-what-they-do-47da2f6c3434).
@@ -32,7 +32,7 @@ My next thought was: wait… **do we really need to tell people to listen, be em
 
 ![](/images/posts/2025/brain-pathways.jpg)
 
-*People are baffling sometimes. Photo by [Chris Arthur-Collins](https://unsplash.com/@anotherleaf?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_People are baffling sometimes. Photo by [Chris Arthur-Collins](https://unsplash.com/@anotherleaf?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 What have we come to as an industry, or as humanity, that we need a leader from a major company to get up on the main stage at a conference to tell us that we should be kind to each other? Great message, but kind of awful that it’s so needed.
 
@@ -50,9 +50,9 @@ There’s a _huge_ hazard, one that trips me up all the time. The [fundamental a
 
 Some relevant examples:
 
-*   They didn’t listen to me because they don’t care. I didn’t listen because I was distracted by an urgent issue that came in.
-*   They aren’t empathetic with me because they’re egocentric and childish. I am not empathetic with them because they’re giving me attitude all the time.
-*   They don’t help because they’re lazy and incompetent. When I don’t help, it’s because I’m busy and overwhelmed.
+- They didn’t listen to me because they don’t care. I didn’t listen because I was distracted by an urgent issue that came in.
+- They aren’t empathetic with me because they’re egocentric and childish. I am not empathetic with them because they’re giving me attitude all the time.
+- They don’t help because they’re lazy and incompetent. When I don’t help, it’s because I’m busy and overwhelmed.
 
 We make up stories about other people all the time (“that look she gave me means she’s nervous”) and if we’re not careful, we take them as reality. The fundamental attribution error creeps into these stories and influences the narrative we write. Add to that any other reasons we might be defensive and ready to blame others while exonerating ourselves — e.g., looming deadlines, personal financial woes, traffic jams — and we’ve got a potent combination for believing others to be awful and oneself to be an innocent victim, neither of which are especially useful conclusions.
 
@@ -64,11 +64,11 @@ In other words, “great, Leaf, but what do people DO about it?”
 
 Here are a few things I’ve tried in the service of breaking the habit of telling fundamental attribution error stories:
 
-*   I have a sign taped to my monitor that says, among other things, “Is this true, or a story?”
-*   I’m starting to use being angry or upset as a warning flag that I’ve got a story going on. It’s useful to tune into signals from the body if you can. I’ve spent decades being a floating head, so I get it if that’s hard.
-*   The phrase “that’s one possibility” is helpful here. Or try my dad’s favorite: “Is that so?” Both are good litmus tests for spotting when you’ve got a story instead of a known truth.
-*   I just finished Douglas Squirrel and Jeffrey Fredrick’s book [Agile Conversations](https://itrevolution.com/product/agile-conversations/), which suggests a practice of deliberately considering alternate explanations, including some ridiculous ones to get the ideas flowing.
-*   I try to figure out under what circumstances I might exhibit the behavior for which I’m criticizing someone else.
+- I have a sign taped to my monitor that says, among other things, “Is this true, or a story?”
+- I’m starting to use being angry or upset as a warning flag that I’ve got a story going on. It’s useful to tune into signals from the body if you can. I’ve spent decades being a floating head, so I get it if that’s hard.
+- The phrase “that’s one possibility” is helpful here. Or try my dad’s favorite: “Is that so?” Both are good litmus tests for spotting when you’ve got a story instead of a known truth.
+- I just finished Douglas Squirrel and Jeffrey Fredrick’s book [Agile Conversations](https://itrevolution.com/product/agile-conversations/), which suggests a practice of deliberately considering alternate explanations, including some ridiculous ones to get the ideas flowing.
+- I try to figure out under what circumstances I might exhibit the behavior for which I’m criticizing someone else.
 
 Let’s try an example.
 
@@ -84,7 +84,7 @@ Right then. Jason’s three takeaways — useful, or no?
 
 I’d like to see more speakers go past explaining their ideas to suggesting things to try. But just the same, I’m going with yes, his talk was useful for me. It got me thinking about how we determine why people do what we do. It led me to articulate some things I’ve tried to bring more depth to my conclusions and go beyond accepting the first and likely problematic story that comes to mind.
 
-* * *
+---
 
 Have you caught yourself telling yourself stories? Have you noticed times when you’ve made the fundamental attribution error? What might you do differently, or what have you already done or tried to do, to listen more, be more empathetic, or actually help others?
 

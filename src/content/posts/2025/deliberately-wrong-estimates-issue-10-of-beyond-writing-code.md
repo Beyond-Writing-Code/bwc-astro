@@ -1,9 +1,9 @@
 ---
-title: "Deliberately wrong estimates, issue 10 of Beyond Writing Code"
-date: "2025-07-22"
-excerpt: "Why would a developer deliberately provide an estimate they knew to be wrong?"
-categories: ["work","prioritization"]
-tags: ["Beyond Writing Code newsletter","estimating","what developers do","what developers want"]
+title: 'Deliberately wrong estimates, issue 10 of Beyond Writing Code'
+date: '2025-07-22'
+excerpt: 'Why would a developer deliberately provide an estimate they knew to be wrong?'
+categories: ['work', 'prioritization']
+tags: ['Beyond Writing Code newsletter', 'estimating', 'what developers do', 'what developers want']
 published: true
 comments: []
 ---
@@ -48,9 +48,9 @@ If you can back up your claims, that's good. Then, when your management objects 
 
 In response, the boss might...
 
-*   **Make reasonable changes**. "Okay, if we postpone feature X, and I take project Y off your plate, can you do it by the end of September?" Maybe that works.
-*   **Make (possibly) unreasonable changes.** "Come on! You can do feature X in a week! Not two months." Even if it seems outrageous, discuss it. Why do they think that? What do you know that they don't—or vice versa?
-*   **Reluctantly agree with your reasoning.** Great! The timeline might be uncomfortable, but it's realistic, and you're both on board with it.
+- **Make reasonable changes**. "Okay, if we postpone feature X, and I take project Y off your plate, can you do it by the end of September?" Maybe that works.
+- **Make (possibly) unreasonable changes.** "Come on! You can do feature X in a week! Not two months." Even if it seems outrageous, discuss it. Why do they think that? What do you know that they don't—or vice versa?
+- **Reluctantly agree with your reasoning.** Great! The timeline might be uncomfortable, but it's realistic, and you're both on board with it.
 
 Or, **your management might overrule you.** Ouch. They might set an unreasonable timeline, and make no compensating plan to handle it.
 
@@ -90,11 +90,11 @@ For that matter, if you're outside of my management chain, I shouldn't even give
 
 Is this the fantasy about how developers work?
 
-*   As a developer, I work on one thing at a time.
-*   I sit at my computer and type code for a few hours.
-*   Once it works, that thing is done! Yay!
-*   I get a kombucha from the tap, shoot some pool, watch cat videos, whatever. It's great to be a developer.
-*   Eventually I choose a new thing to work on, and... repeat.
+- As a developer, I work on one thing at a time.
+- I sit at my computer and type code for a few hours.
+- Once it works, that thing is done! Yay!
+- I get a kombucha from the tap, shoot some pool, watch cat videos, whatever. It's great to be a developer.
+- Eventually I choose a new thing to work on, and... repeat.
 
 Trying not to laugh out loud here in the cafe.
 
@@ -104,11 +104,11 @@ I wish we all worked like that. Yes, let's break work down into small chunks. Fo
 
 Alas, we are not so enlightened as a society. Reality looks more like this:
 
-*   **While I'm** **_coding_** **one thing, I'm juggling several others:** troubleshooting, answering questions, helping a colleague, discussing requirements, and so on. Then there are staff meetings, mandatory trainings, "quick" questions, email, emotional first aid for colleagues in distress, administrative tasks...
-*   **Those rare small items—needing only a few hours of focused coding—can therefore take days.**
-*   **Coding itself is rarely straightforward.** Requirements are problematic. Surprises and detours lurk in the code. A typo that I'm not spotting can derail me for an hour.
-*   Even when I'm done, **things are rarely done for good.** They boomerang back to me for more work.
-*   No kombucha on tap, but there's candy in the kitchenette. That's good, because I worked through lunch again. It was the only time I could concentrate.
+- **While I'm** **_coding_** **one thing, I'm juggling several others:** troubleshooting, answering questions, helping a colleague, discussing requirements, and so on. Then there are staff meetings, mandatory trainings, "quick" questions, email, emotional first aid for colleagues in distress, administrative tasks...
+- **Those rare small items—needing only a few hours of focused coding—can therefore take days.**
+- **Coding itself is rarely straightforward.** Requirements are problematic. Surprises and detours lurk in the code. A typo that I'm not spotting can derail me for an hour.
+- Even when I'm done, **things are rarely done for good.** They boomerang back to me for more work.
+- No kombucha on tap, but there's candy in the kitchenette. That's good, because I worked through lunch again. It was the only time I could concentrate.
 
 So, it isn't like the daydream version.
 

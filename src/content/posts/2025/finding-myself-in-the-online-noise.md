@@ -1,11 +1,12 @@
 ---
-title: "Finding myself in the online noise"
-date: "2025-06-26"
-originalDate: "2025-06-26"
-excerpt: "I keep reading that there are two keys to connecting to your people online: consistency and content. Show up regularly, and keep creating content people want. Great, but show up where? Should I be bui..."
-categories: ["business","writing"]
-tags: ["author","business side of writing","overwhelm","social media","wisdom writer","writing"]
-featuredImage: "/images/posts/2025/finding-myself-in-the-online-noise.jpg"
+title: 'Finding myself in the online noise'
+date: '2025-06-26'
+originalDate: '2025-06-26'
+excerpt: 'I keep reading that there are two keys to connecting to your people online: consistency and content. Show up regularly, and keep creating content people want. Great, but show up where? Should I be bui...'
+categories: ['business', 'writing']
+tags:
+  ['author', 'business side of writing', 'overwhelm', 'social media', 'wisdom writer', 'writing']
+featuredImage: '/images/posts/2025/finding-myself-in-the-online-noise.jpg'
 ---
 
 I keep reading that there are two keys to connecting to your people online: consistency and content. Show up regularly, and keep creating content people want.
@@ -14,7 +15,7 @@ Great, but **show up where?** Should I be building my Substack audience? Enhanci
 
 ![](/images/posts/2025/direction-signs.jpg)
 
-*Photo by [Jametlene Reskp](https://unsplash.com/@reskp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-wooden-sign-pointing-to-two-different-directions-fmyZcoCaSac?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+_Photo by [Jametlene Reskp](https://unsplash.com/@reskp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-wooden-sign-pointing-to-two-different-directions-fmyZcoCaSac?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
 I’ll tell you where you can find me, in a moment. **But where do I find myself?**
 
@@ -38,13 +39,13 @@ And I’m paying attention to that exhaustion, to what (good or bad) I get in ex
 
 ## What works for me and what doesn’t
 
-*   When I’m writing for my _newsletter_, it feels good. And I’m often working directly on the book, which is glorious. This week, I’m also going to start sending an additional issue of the newsletter about art.
-*   When I’m writing for my _blog_, that’s great too, although I don’t think I have many readers _on my website_. I need to figure out how to get my website blog posts to post automatically to Substack and Medium…
-*   When I’m _posting and interacting_ on social media, I’m often getting ideas for writing from the interactions I have with others. That works.
-*   However, when I’m just _reading_ social media, I have to be careful. It can be a huge waste of time, or it can be draining, or both. There’s interesting content from time to time to be sure, but it’s in a sea of ads, “suggested” content, endless commentary about AI, and upsetting news. Very easy to be overwhelmed.
-*   And trying to keep up with ALL of the social media? Not gonna happen! I need a tool to go fetch just the best content for me from the sites I’m on. And there’s no way I’m cross-posting everything I write to multiple spaces, not unless I can find a tool to do that for me too.
+- When I’m writing for my _newsletter_, it feels good. And I’m often working directly on the book, which is glorious. This week, I’m also going to start sending an additional issue of the newsletter about art.
+- When I’m writing for my _blog_, that’s great too, although I don’t think I have many readers _on my website_. I need to figure out how to get my website blog posts to post automatically to Substack and Medium…
+- When I’m _posting and interacting_ on social media, I’m often getting ideas for writing from the interactions I have with others. That works.
+- However, when I’m just _reading_ social media, I have to be careful. It can be a huge waste of time, or it can be draining, or both. There’s interesting content from time to time to be sure, but it’s in a sea of ads, “suggested” content, endless commentary about AI, and upsetting news. Very easy to be overwhelmed.
+- And trying to keep up with ALL of the social media? Not gonna happen! I need a tool to go fetch just the best content for me from the sites I’m on. And there’s no way I’m cross-posting everything I write to multiple spaces, not unless I can find a tool to do that for me too.
 
-* * *
+---
 
 What works for you? Do you have tools that help you manage all this online content?
 

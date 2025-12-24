@@ -1,11 +1,11 @@
 ---
-title: "More time to write"
-date: "2025-11-19"
-originalDate: "2025-11-19"
-excerpt: "I’m looking forward to having more time to write in the next few months. I have been to three conferences in three months, including speaking at LeadDev StaffPlus. It was so fun! Watch the video of my..."
-categories: ["conferences","productivity","writing"]
-tags: ["blog vs email","content management","email mailing list"]
-featuredImage: "/images/posts/2025/more-time-to-write.jpg"
+title: 'More time to write'
+date: '2025-11-19'
+originalDate: '2025-11-19'
+excerpt: 'I’m looking forward to having more time to write in the next few months. I have been to three conferences in three months, including speaking at LeadDev StaffPlus. It was so fun! Watch the video of my...'
+categories: ['conferences', 'productivity', 'writing']
+tags: ['blog vs email', 'content management', 'email mailing list']
+featuredImage: '/images/posts/2025/more-time-to-write.jpg'
 ---
 
 I’m looking forward to having more time to write in the next few months.
@@ -16,9 +16,9 @@ I have been to [three conferences](https://www.beyondwritingcode.com/2025/11/13/
 
 You may need to make an account, so here are a few other great presentations from LeadDev (it’s hard to narrow it down to just three!)
 
-*   [Lessons from the other side: What your VP is actually thinking](https://leaddev.com/communication/lessons-from-the-other-side-what-your-vp-is-actually-thinking), by Kelly Moran
-*   [Leading sustainably while everything is on fire](https://leaddev.com/leadership/leading-sustainably-when-everything-is-on-fire), by Denise Yu
-*   [Anti-misalignment: Nobody knows what “alignment” is](https://leaddev.com/communication/anti-misalignment-nobody-knows-what-alignment-is), by Richard Kim
+- [Lessons from the other side: What your VP is actually thinking](https://leaddev.com/communication/lessons-from-the-other-side-what-your-vp-is-actually-thinking), by Kelly Moran
+- [Leading sustainably while everything is on fire](https://leaddev.com/leadership/leading-sustainably-when-everything-is-on-fire), by Denise Yu
+- [Anti-misalignment: Nobody knows what “alignment” is](https://leaddev.com/communication/anti-misalignment-nobody-knows-what-alignment-is), by Richard Kim
 
 Now that I’m home, I’m glad to be back to focusing on writing.
 
@@ -30,13 +30,13 @@ I’ve been debating whether or not to merge my newsletter and my blog. The fact
 
 ![Train tracks merging](/images/posts/2025/train-tracks-merging.jpg)
 
-*Photo by [Lance Grandahl](https://unsplash.com/@lg17?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/brown-metal-train-rail-near-rocky-mountain-during-daytime-nShLC-WruxQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+_Photo by [Lance Grandahl](https://unsplash.com/@lg17?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/brown-metal-train-rail-near-rocky-mountain-during-daytime-nShLC-WruxQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 I had good intentions in splitting them into two:
 
-*   My **newsletter** was meant to be once-weekly content, delivered straight to your inbox. Subscribers only.
+- My **newsletter** was meant to be once-weekly content, delivered straight to your inbox. Subscribers only.
 
-*   Meanwhile, my **blog posts** were whenever-I-felt-like-it content, delivered to whoever was watching on Substack or Medium, or checking out my website. In any given week, I might post once, a few times, or not at all. They didn’t come to you by email unless you had Substack or Medium send them to you.
+- Meanwhile, my **blog posts** were whenever-I-felt-like-it content, delivered to whoever was watching on Substack or Medium, or checking out my website. In any given week, I might post once, a few times, or not at all. They didn’t come to you by email unless you had Substack or Medium send them to you.
 
 But the lines between email and blog are blurry. What content belongs where? And my writing was split into two places, only one of which was hosted on my website.
 
@@ -52,7 +52,7 @@ My newsletter is set up to watch my blog for new content.
 
 ![Girl holding her hands over her eyes as if she were looking through binoculars](/images/posts/2025/girl-binoculars.jpg)
 
-*We’re going to find out what happens with photos when I include them. Photo by [Edi Libedinsky](https://unsplash.com/@supernov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/girl-making-hand-gesture-on-her-face-1bhp9zBPHVE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+_We’re going to find out what happens with photos when I include them. Photo by [Edi Libedinsky](https://unsplash.com/@supernov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/girl-making-hand-gesture-on-her-face-1bhp9zBPHVE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 Current [email subscribers](https://www.beyondwritingcode.com/newsletter/) will get a weekly digest on Thursday mornings, so it won’t look _too_ different, although I’m still figuring out how to make the formatting look good by email. If you’d rather get email for every post instead, let me know (or check your newsletter preferences).
 

@@ -3,6 +3,7 @@
 Follow these steps to configure automatic deployment to beyondwritingcodebook.com
 
 **Note:** This site uses a **different DreamHost user** than bwc-web:
+
 - ✅ Same DreamHost host server
 - ❗ Different SSH username
 - ❗ Different SSH keys
@@ -48,12 +49,14 @@ ssh-keygen -t rsa -b 4096 -C "github-deploy-beyondwritingcodebook" -f ~/.ssh/dre
 ### Add Public Key to DreamHost
 
 1. **SSH into DreamHost with the beyondwritingcodebook.com user:**
+
    ```bash
    ssh BOOK_USERNAME@YOUR_SERVER.dreamhost.com
    # Use the credentials for beyondwritingcodebook.com (NOT bwc-web user)
    ```
 
 2. **Add public key to this user's authorized_keys:**
+
    ```bash
    # Create .ssh directory if it doesn't exist
    mkdir -p ~/.ssh
@@ -68,6 +71,7 @@ ssh-keygen -t rsa -b 4096 -C "github-deploy-beyondwritingcodebook" -f ~/.ssh/dre
    ```
 
 3. **Set correct permissions:**
+
    ```bash
    chmod 600 ~/.ssh/authorized_keys
    chmod 700 ~/.ssh
@@ -88,22 +92,26 @@ Go to: https://github.com/Beyond-Writing-Code/bwc-astro/settings/secrets/actions
 Click **New repository secret** for each:
 
 ### Secret 1: DREAMHOST_SSH_HOST
+
 - **Name:** `DREAMHOST_SSH_HOST`
 - **Value:** Your DreamHost server hostname (**same as bwc-web**)
 - **Example:** `ginseng.dreamhost.com`
 
 ### Secret 2: DREAMHOST_BWC_BOOK_SSH_USER
+
 - **Name:** `DREAMHOST_BWC_BOOK_SSH_USER`
 - **Value:** SSH username for beyondwritingcodebook.com (**different from bwc-web**)
 - **Example:** `bookuser`
 - **Note:** This is NOT the same as the bwc-web user
 
 ### Secret 3: DREAMHOST_BWC_BOOK_REMOTE_PATH
+
 - **Name:** `DREAMHOST_BWC_BOOK_REMOTE_PATH`
 - **Value:** Full path to site directory (**different from bwc-web**)
 - **Example:** `~/beyondwritingcodebook.com` or `~/beyondwritingcodebook.com/public_html`
 
 To find your remote path, SSH to DreamHost **as the book user** and run:
+
 ```bash
 ssh BOOK_USERNAME@YOUR_SERVER.dreamhost.com
 cd ~/beyondwritingcodebook.com  # or wherever your site is
@@ -111,10 +119,12 @@ pwd  # Shows full path - use this value
 ```
 
 ### Secret 4: DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY
+
 - **Name:** `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY`
 - **Value:** Contents of your private key file (**different from bwc-web key**)
 
 Get the value:
+
 ```bash
 # If using existing key for book user
 cat ~/.ssh/id_rsa_bookuser  # Or your existing key
@@ -124,12 +134,15 @@ cat ~/.ssh/dreamhost_bwc_book
 ```
 
 **IMPORTANT:**
+
 - Copy the ENTIRE output including these lines:
+
 ```
 -----BEGIN OPENSSH PRIVATE KEY-----
 ... (all content) ...
 -----END OPENSSH PRIVATE KEY-----
 ```
+
 - This should be a **different key** than what bwc-web uses
 - Do NOT reuse the bwc-web deployment key
 
@@ -138,6 +151,7 @@ cat ~/.ssh/dreamhost_bwc_book
 The workflow is already created at `.github/workflows/deploy.yml`
 
 It will:
+
 1. ✅ Run on every push to `main`
 2. ✅ Build the Astro site
 3. ✅ Deploy via rsync to beyondwritingcodebook.com
@@ -171,12 +185,14 @@ git push origin main
 You can also deploy manually:
 
 ### From GitHub Actions:
+
 1. Go to: https://github.com/Beyond-Writing-Code/bwc-astro/actions/workflows/deploy.yml
 2. Click "Run workflow"
 3. Select `main` branch
 4. Click "Run workflow"
 
 ### From your local machine:
+
 ```bash
 # Build
 npm run build
@@ -191,6 +207,7 @@ rsync -avz --delete dist/ \
 ### ❌ "Permission denied (publickey)"
 
 **Fix:** Public key not added to DreamHost
+
 1. SSH to DreamHost manually
 2. Add public key to `~/.ssh/authorized_keys`
 3. Run `chmod 600 ~/.ssh/authorized_keys`
@@ -198,6 +215,7 @@ rsync -avz --delete dist/ \
 ### ❌ "No such file or directory" during deployment
 
 **Fix:** Remote path is incorrect
+
 1. SSH to DreamHost
 2. Run `pwd` in site directory
 3. Update `DREAMHOST_BWC_BOOK_REMOTE_PATH` secret with correct path
@@ -205,6 +223,7 @@ rsync -avz --delete dist/ \
 ### ❌ Deployment succeeds but site doesn't update
 
 **Fix:** Check these:
+
 1. Verify remote path is correct
 2. Check DreamHost logs for errors
 3. Clear browser cache (Cmd+Shift+R)

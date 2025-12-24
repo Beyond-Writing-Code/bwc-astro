@@ -1,11 +1,11 @@
 ---
 title: "Don't tell me what API stands for"
-date: "2025-04-25"
-originalDate: "2022-06-06"
-excerpt: "Let’s talk about what an API actually is. When I first learned about APIs, all I ever heard for a definition was what the letters stood for: Application Programming Interface. As if that told me anyth..."
-categories: ["coding"]
-tags: ["API"]
-featuredImage: "/images/posts/2025/api-meaning.jpg"
+date: '2025-04-25'
+originalDate: '2022-06-06'
+excerpt: 'Let’s talk about what an API actually is. When I first learned about APIs, all I ever heard for a definition was what the letters stood for: Application Programming Interface. As if that told me anyth...'
+categories: ['coding']
+tags: ['API']
+featuredImage: '/images/posts/2025/api-meaning.jpg'
 ---
 
 Let’s talk about what an API actually is.
@@ -23,7 +23,7 @@ So what is an Application Programming Interface? Let’s start with the “inter
 Consider, for a moment, a microwave:
 
 ![microwave](/images/posts/2025/microwave.jpeg)
-*Photo by [Erik Mclean](https://unsplash.com/@introspectivedsgn?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
+_Photo by [Erik Mclean](https://unsplash.com/@introspectivedsgn?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 You have an agreement with your microwave. When you press ‘3’ and ‘0’ and ‘Start’, your microwave will respond in a predictable way: it will start heating your food and maybe spin a carousel, it will display a countdown timer for 30 seconds, and it will beep when the time’s up.
 
@@ -36,7 +36,7 @@ So far, so good?
 Now, let’s say you have an app on your mobile device that lets you control your microwave. I don’t know why you’d want to do this. This sounds like a recipe for overcooked food, or a mess splattered all over your microwave. But let’s say that’s what you have.
 
 ![Person holding phone with coffee cup nearby](/images/posts/2025/api-meaning-phone-coffee.jpg)
-*Just going to heat up my coffee… from the next room. (Photo by [Paul Hanaoka](https://unsplash.com/es/@plhnk?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))*
+_Just going to heat up my coffee… from the next room. (Photo by [Paul Hanaoka](https://unsplash.com/es/@plhnk?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 You now press ‘3’ and ‘0’ and ‘Start’ on your phone, and your microwave responds. There’s still a user interface here — the interface between you and the phone is the user interface.
 
@@ -50,7 +50,7 @@ One more thing to know: people play fast and loose with the term “API”. It i
 
 In case that wasn’t enough, a server that provides the API might also be called an API. As in: “the microwave API \[server\] is down, so the APIs \[the actual endpoints\] aren’t responding, and the app won’t work.” Fortunately, you can usually figure it out from context.
 
-* * *
+---
 
 Did this clarify things for you? Do you have a real world use case for the ability to microwave something while not physically present in front of the microwave? What other abbreviations do you know where just knowing what the letters stood for didn’t help much at all in understanding what it means? And shout out any good resources you know for understanding what REST APIs actually are!
 

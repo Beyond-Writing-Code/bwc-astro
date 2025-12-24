@@ -1,10 +1,10 @@
 ---
-title: "Being human, issue 22 of Beyond Writing Code"
-date: "2025-10-15"
+title: 'Being human, issue 22 of Beyond Writing Code'
+date: '2025-10-15'
 excerpt: "Why I'm writing my book, and the importance of being human, especially in this AI era."
-categories: ["book","humanity","systems thinking"]
-tags: ["Beyond Writing Code newsletter","what's your why","sociotechnical"]
-featuredImage: "/images/posts/2025/being-human-issue-22-of-beyond-writing-code-1.jpg"
+categories: ['book', 'humanity', 'systems thinking']
+tags: ['Beyond Writing Code newsletter', "what's your why", 'sociotechnical']
+featuredImage: '/images/posts/2025/being-human-issue-22-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -54,7 +54,7 @@ I’m writing my book because **we need better ways of working** in tech, and **
 That statement raises more big questions: **what's this about "being human"?** And what makes me think that's the way?
 
 ![](/images/posts/2025/being-human-issue-22-of-beyond-writing-code-1.jpg)
-*Photo by Getty Images for Unsplash*
+_Photo by Getty Images for Unsplash_
 
 # People stuff
 
@@ -70,11 +70,11 @@ That bigger picture includes other people.
 
 And I don't just mean "you need to be able to talk and listen," although communication skills are important. **The complex systems we work with include people such as:**
 
-*   The customer trying to use the product
-*   The hacker trying to break it
-*   The developer who will troubleshoot the code a year later
-*   The colleague who will have to adjust to the change
-*   The manager who is unconvinced that the shiny product is worth the investment
+- The customer trying to use the product
+- The hacker trying to break it
+- The developer who will troubleshoot the code a year later
+- The colleague who will have to adjust to the change
+- The manager who is unconvinced that the shiny product is worth the investment
 
 Skills like empathy, patience, and adaptability aren't just about being more pleasant to work with. They're essential to creating a good product and to getting things done.
 
@@ -86,10 +86,10 @@ After Enterprise Technology Leadership Summit, which was a view of how AI is aff
 
 Other questions on my mind:
 
-*   What skills do we need now, beyond the technology skills? Are they the same skills we've always needed, or does AI change that?
-*   What happens if skills certain developers may have dismissed as extraneous turn out to be essential?
-*   How does AI change who we interact with?
-*   What do humans still do better? When and how is being human an advantage?
+- What skills do we need now, beyond the technology skills? Are they the same skills we've always needed, or does AI change that?
+- What happens if skills certain developers may have dismissed as extraneous turn out to be essential?
+- How does AI change who we interact with?
+- What do humans still do better? When and how is being human an advantage?
 
 An extreme example of the latter:
 
@@ -99,15 +99,15 @@ At the conference, Toyota's telematics group pointed out: you **do not** want a 
 
 More questions:
 
-*   How does AI change who we interact with? Will our teams evolve?
-*   How are we coping with the rapid pace of change?
-*   How can organizations support learning and experimentation?
-*   How can we address strong negative reactions that are arising (fear of becoming obsolete, resentment at having to set aside what we know and love)
+- How does AI change who we interact with? Will our teams evolve?
+- How are we coping with the rapid pace of change?
+- How can organizations support learning and experimentation?
+- How can we address strong negative reactions that are arising (fear of becoming obsolete, resentment at having to set aside what we know and love)
 
 A few interesting articles:
 
-*   [Don't Fear the Automaton, Become the Architect: A Continuous Improvement Guide to Thriving in the Age of AI](https://www.linkedin.com/pulse/dont-fear-automaton-become-architect-continuous-guide-josh-phillips-yh89e)
-*   [Play the Long Game With Human-AI Collaboration](https://www.gallup.com/workplace/660572/play-long-game-human-ai-collaboration.aspx) - Studies suggest that technology like AI is most productive when supporting employees, not replacing them.
+- [Don't Fear the Automaton, Become the Architect: A Continuous Improvement Guide to Thriving in the Age of AI](https://www.linkedin.com/pulse/dont-fear-automaton-become-architect-continuous-guide-josh-phillips-yh89e)
+- [Play the Long Game With Human-AI Collaboration](https://www.gallup.com/workplace/660572/play-long-game-human-ai-collaboration.aspx) - Studies suggest that technology like AI is most productive when supporting employees, not replacing them.
 
 # Who should I connect with?
 
@@ -115,9 +115,9 @@ I have some gut feelings about why and how "being human" might be important in t
 
 **Hit reply and let me know: Who should I talk to? Whose writing I should read, or whose podcast should I listen to?**
 
-*   Who is already thinking about or researching this topic? I do have [DORA](https://dora.dev/) on my list :)
-*   Whose organization has been an early adopter in shifting from "traditional" software development to AI-empowered development?
-*   Whose organization has been experimenting with supporting "non-developers" writing code?
+- Who is already thinking about or researching this topic? I do have [DORA](https://dora.dev/) on my list :)
+- Whose organization has been an early adopter in shifting from "traditional" software development to AI-empowered development?
+- Whose organization has been experimenting with supporting "non-developers" writing code?
 
 If you have a specific person I should contact, feel free to forward this email to them. I'd love to connect.
 

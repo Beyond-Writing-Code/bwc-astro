@@ -1,11 +1,11 @@
 ---
-title: "House sparrows keep life from going by too fast"
-date: "2025-06-30"
-originalDate: "2025-06-30"
-excerpt: "How do we keep each day from blending in with all the others? Why does it seem like time passes by so quickly? It was beautiful out this morning. I drove my husband to his eye exam, and while I was wa..."
-categories: ["mindfulness"]
-tags: ["birds stealing food","capturing moments","house sparrows","life passing by quickly"]
-featuredImage: "/images/posts/2025/house-sparrows-keep-life-from-going-by-too-fast.jpg"
+title: 'House sparrows keep life from going by too fast'
+date: '2025-06-30'
+originalDate: '2025-06-30'
+excerpt: 'How do we keep each day from blending in with all the others? Why does it seem like time passes by so quickly? It was beautiful out this morning. I drove my husband to his eye exam, and while I was wa...'
+categories: ['mindfulness']
+tags: ['birds stealing food', 'capturing moments', 'house sparrows', 'life passing by quickly']
+featuredImage: '/images/posts/2025/house-sparrows-keep-life-from-going-by-too-fast.jpg'
 ---
 
 How do we keep each day from blending in with all the others? Why does it seem like time passes by so quickly?
@@ -15,9 +15,9 @@ It was beautiful out this morning. I drove my husband to his eye exam, and while
 I nibbled on a tomato, mozzarella, and basil bialy and eavesdropped on a pair of cyclists at the next table over.
 
 > “Is that your racing bike?”
-> 
+>
 > “Yeah, I race with that.”
-> 
+>
 > “Why’d you take your racing bike for a ride with me??”
 
 That’s when I noticed that I was being watched. She was staring at me from surprisingly close by on the sidewalk. She moved between me and my cafe neighbors’ bikes. I wondered if she might take a seat at my table. 
@@ -26,7 +26,7 @@ For a split second, I worried that she might make a grab at my bag of pastries. 
 
 ![](/images/posts/2025/sparrow-1.jpeg)
 
-*“Nice pastry you got there.” Photo by [Jay Alexander](https://unsplash.com/@jasont378?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)*
+_“Nice pastry you got there.” Photo by [Jay Alexander](https://unsplash.com/@jasont378?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 
 I put the rest of the bialy back in the bag and took out the lemon poppy seed scone to nibble on next. “I see you,” I said to the curious sparrow, as a warning. Just in case she got any ideas. I folded the top of the bag of pastries a little more.
 
@@ -42,7 +42,7 @@ A few minutes later I saw another house sparrow — a male, they look like t
 
 ![](/images/posts/2025/sparrow-2.jpeg)
 
-*“Fruit and seed? Surely that lemon poppy scone is for me.” Photo by [Maria Hossmar](https://unsplash.com/@kuriositante?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)*
+_“Fruit and seed? Surely that lemon poppy scone is for me.” Photo by [Maria Hossmar](https://unsplash.com/@kuriositante?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 
 Capturing little moments, like being spied on by a posse of sparrows on a cafe patio, or watching a seagull fly through Boston with a bagel, may be part of how we keep life from passing us by.
 

@@ -1,10 +1,18 @@
 ---
-title: "Answering the question, issue 4 of Beyond Writing Code"
-date: "2025-06-10"
-excerpt: "Why asking \"why\" and listening with curiosity matters more than having all the answers."
-categories: ["learning"]
-tags: ["Beyond Writing Code newsletter","asking why","not knowing","listening","curiosity","self-awareness"]
-featuredImage: "/images/posts/2025/answering-the-question-issue-4-of-beyond-writing-code-1.jpg"
+title: 'Answering the question, issue 4 of Beyond Writing Code'
+date: '2025-06-10'
+excerpt: 'Why asking "why" and listening with curiosity matters more than having all the answers.'
+categories: ['learning']
+tags:
+  [
+    'Beyond Writing Code newsletter',
+    'asking why',
+    'not knowing',
+    'listening',
+    'curiosity',
+    'self-awareness',
+  ]
+featuredImage: '/images/posts/2025/answering-the-question-issue-4-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -23,19 +31,19 @@ This newsletter is about something else entirely.
 
 ![brown bear sitting on grass field](/images/posts/2025/answering-the-question-issue-4-of-beyond-writing-code-1.jpg)
 
-*Photo by [Mark Basarab](https://unsplash.com/@markbasarabvisuals?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/brown-bear-sitting-on-grass-field-y421kXlUOQk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​*
+_Photo by [Mark Basarab](https://unsplash.com/@markbasarabvisuals?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/brown-bear-sitting-on-grass-field-y421kXlUOQk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
 We wonder aloud about things we don't understand. But we're often just using the question as a rhetorical statement.
 
-*   "Why can't we just..."
-*   "Why don't they understand that..."
-*   "Why do people always..."
+- "Why can't we just..."
+- "Why don't they understand that..."
+- "Why do people always..."
 
 You can practice listening for phrases like this. They're not always in the form of a question:
 
-*   "I just don't understand how they can..."
-*   "I don't see what's so hard about this."
-*   "This makes absolutely no sense."
+- "I just don't understand how they can..."
+- "I don't see what's so hard about this."
+- "This makes absolutely no sense."
 
 We're admitting that we don't know. _But we're giving up on being able to know._
 
@@ -63,16 +71,16 @@ What if I imagine that I had been asked to click a button a week ago and I still
 
 Some possibilities:
 
-*   I have been out, and nobody else could help you.
-*   The system had a glitch and I never got the request.
-*   There's a major incident, and I haven't even had time to read your request, let alone reply.
-*   I clicked the wrong button by accident, so now I think it's done but only you know it isn't.
-*   Clicking the button has repercussions you're not aware of and I'm resolving them all for you.
-*   I don't have access to click the button and I'm waiting for access.
-*   You didn't say it was urgent, so I'm batching the dozens of these requests for "button clicking day" every other Friday.
-*   My boss has a personal grudge against your team, and we get yelled at every time we try to help you.
-*   I can't mention it, but there's a lawsuit, and we're forbidden to touch the buttons.
-*   The button click failed, but you botched your email address and I haven't been able to reach you.
+- I have been out, and nobody else could help you.
+- The system had a glitch and I never got the request.
+- There's a major incident, and I haven't even had time to read your request, let alone reply.
+- I clicked the wrong button by accident, so now I think it's done but only you know it isn't.
+- Clicking the button has repercussions you're not aware of and I'm resolving them all for you.
+- I don't have access to click the button and I'm waiting for access.
+- You didn't say it was urgent, so I'm batching the dozens of these requests for "button clicking day" every other Friday.
+- My boss has a personal grudge against your team, and we get yelled at every time we try to help you.
+- I can't mention it, but there's a lawsuit, and we're forbidden to touch the buttons.
+- The button click failed, but you botched your email address and I haven't been able to reach you.
 
 On and on and on.
 
@@ -94,9 +102,9 @@ Your friend says, "ugh, why did I do that?"
 
 And you say:
 
-*   You've been working long hours recently. This is the sort of error that happens when people are overworked.
-*   That screen is badly designed - all the buttons look more or less alike. It's really easy to click the wrong one. Maybe we should advocate for a simple redesign.
-*   Any one of us might have made the same error in your situation. This isn't about you.
+- You've been working long hours recently. This is the sort of error that happens when people are overworked.
+- That screen is badly designed - all the buttons look more or less alike. It's really easy to click the wrong one. Maybe we should advocate for a simple redesign.
+- Any one of us might have made the same error in your situation. This isn't about you.
 
 Maybe once you're feeling a little more compassionate towards yourself, you can stop the self-blame long enough to get to the bottom of the problem. "Wait, wasn't this the correct button to click when we were running version 2.9 of this program? They added a new option in version 3.1 that changes how this screen works. I'll send a quick email to the team to alert them that this screen has changed as of last month when we updated. Also, maybe we can get them to change the wording on this screen to be clearer. It's confusing the way it is written now."
 

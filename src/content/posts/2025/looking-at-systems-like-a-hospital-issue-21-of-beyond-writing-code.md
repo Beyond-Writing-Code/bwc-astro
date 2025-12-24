@@ -1,10 +1,11 @@
 ---
-title: "Looking at systems, like a hospital; issue 21 of Beyond Writing Code"
-date: "2025-10-09"
+title: 'Looking at systems, like a hospital; issue 21 of Beyond Writing Code'
+date: '2025-10-09'
 excerpt: "Gene Kim's hospital navigation story and applying systems thinking."
-categories: ["systems thinking","resources"]
-tags: ["Beyond Writing Code newsletter","Gene Kim","Wiring the Winning Organization","asking why"]
-featuredImage: "/images/posts/2025/looking-at-systems-like-a-hospital-issue-21-of-beyond-writing-code-1.jpg"
+categories: ['systems thinking', 'resources']
+tags:
+  ['Beyond Writing Code newsletter', 'Gene Kim', 'Wiring the Winning Organization', 'asking why']
+featuredImage: '/images/posts/2025/looking-at-systems-like-a-hospital-issue-21-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -19,10 +20,10 @@ If you only have time to read one thing today, skip my newsletter and go right t
 
 ​[Escaping an 18-Hour Stay in a Hospital Emergency Department: A Patient Advocate's Guide to Navigating a Hospital System](https://www.linkedin.com/posts/realgenekim_last-week-my-wife-margueritte-kim-spent-activity-7381466516279652352--Zo5/)​
 
-*   First, **the story itself** is great. (And don't worry, the ending is good, not tragic.)
-*   The **tips for navigating the hospital** are invaluable. Potentially life-saving. Tools for your toolkit for the next time you're dealing with a hospital.
-*   It's a fascinating example of **identifying and diagnosing problems within a system.** That's directly relevant to the work of developers, tech workers, managers, and many more.
-*   Furthermore, I'm struck by how **looking at the system enabled better human interactions** in Gene's story.
+- First, **the story itself** is great. (And don't worry, the ending is good, not tragic.)
+- The **tips for navigating the hospital** are invaluable. Potentially life-saving. Tools for your toolkit for the next time you're dealing with a hospital.
+- It's a fascinating example of **identifying and diagnosing problems within a system.** That's directly relevant to the work of developers, tech workers, managers, and many more.
+- Furthermore, I'm struck by how **looking at the system enabled better human interactions** in Gene's story.
 
 It's those last two points I want to talk about here.
 
@@ -38,9 +39,9 @@ But first, read Gene's story:
 
 Gene's been a student of organizations and systems for a long time. One of his recent books is [Wiring the Winning Organization](https://bookshop.org/a/114662/9781950508426), is an examination of organizations as sociotechnical systems with three layers:
 
-*   Layer 1 is the "technical object" being worked on. In the case of the hospital, it might be the patient's illness.
-*   Layer 2 is "tools and instrumentation" through which the work is done. For example, an ultrasound machine used in diagnosing the patient.
-*   Layer 3 is "social circuitry for flow of ideas and information," the processes, procedures, norms and routines. For example, how a patient is assigned to a room for an inpatient stay.
+- Layer 1 is the "technical object" being worked on. In the case of the hospital, it might be the patient's illness.
+- Layer 2 is "tools and instrumentation" through which the work is done. For example, an ultrasound machine used in diagnosing the patient.
+- Layer 3 is "social circuitry for flow of ideas and information," the processes, procedures, norms and routines. For example, how a patient is assigned to a room for an inpatient stay.
 
 At every turn, Gene figures out what the objective for his wife's care and what is needed to get there.
 
@@ -94,7 +95,7 @@ Where are the problems in the system, for you?
 
 ![A library card catalog: small wooden drawers with brass handles and paper labels.](/images/posts/2025/looking-at-systems-like-a-hospital-issue-21-of-beyond-writing-code-3.jpg)
 
-*One of the images that came up for "system" on Unsplash. Photo by [Erol Ahmed](https://unsplash.com/@erol?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/close-up-photography-of-brown-wooden-card-catalog-Y3KEBQlB1Zk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).*
+_One of the images that came up for "system" on Unsplash. Photo by [Erol Ahmed](https://unsplash.com/@erol?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/close-up-photography-of-brown-wooden-card-catalog-Y3KEBQlB1Zk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)._
 
 **Here are a few examples I've seen,** as a developer:
 
@@ -120,11 +121,11 @@ I used to work on hospital pharmacy software, can you tell? Hospital departments
 
 Gene ends his article with advice for anyone who is dealing with a hospital visit:
 
-*   **Identify the people who can help you** find out what's going on and navigate the roadblocks, and **keep the lines of communication open.** I'd say "and stay on good terms" but... stay on good terms with everyone as much as possible! Remembering that you're all doing what you can with what you have can help.
-*   Ask "**what needs to happen to get this task done**" not "When will this task be done?" I had a manager ask me once: "What do we need in order to get this to production?" Once we looked at our work through that lens, we focused our efforts and picked up speed.
-*   When relying on others to get things done, **keep track of the progress.** Gene couldn't just open a shared document with his wife's care team. But clearly documenting expectations helps make sure everyone's on the same page and allows you to intervene quickly if things aren't on track.
-*   **Learn where your bottlenecks are, and ask the people doing the work for input.** They may be able to see things others can't.
-*   **Having the right people present for decisions matters.** In the workplace that may mean getting the decision-maker on a call and having all the information needed for a decision to be made.
+- **Identify the people who can help you** find out what's going on and navigate the roadblocks, and **keep the lines of communication open.** I'd say "and stay on good terms" but... stay on good terms with everyone as much as possible! Remembering that you're all doing what you can with what you have can help.
+- Ask "**what needs to happen to get this task done**" not "When will this task be done?" I had a manager ask me once: "What do we need in order to get this to production?" Once we looked at our work through that lens, we focused our efforts and picked up speed.
+- When relying on others to get things done, **keep track of the progress.** Gene couldn't just open a shared document with his wife's care team. But clearly documenting expectations helps make sure everyone's on the same page and allows you to intervene quickly if things aren't on track.
+- **Learn where your bottlenecks are, and ask the people doing the work for input.** They may be able to see things others can't.
+- **Having the right people present for decisions matters.** In the workplace that may mean getting the decision-maker on a call and having all the information needed for a decision to be made.
 
 # Drop me a note
 

@@ -70,6 +70,7 @@ npm run preview
 ## Features
 
 ### Content Management
+
 - **74 blog posts** with frontmatter metadata
 - **Content Collections** with Zod schema validation
 - **Categories & tags** for organization
@@ -78,11 +79,13 @@ npm run preview
 - **Dual dates** - `date` (for URL) and `originalDate` (for republished content)
 
 ### URL Structure
+
 Posts use WordPress-compatible URL pattern: `/:year/:month/:day/:slug`
 
 Example: `/2025/12/09/ai-and-i-built-a-website-yesterday`
 
 ### SEO
+
 - Meta tags (title, description)
 - Open Graph tags
 - Twitter Card tags
@@ -91,12 +94,14 @@ Example: `/2025/12/09/ai-and-i-built-a-website-yesterday`
 - RSS feed at `/feed.xml` (with redirect from `/feed`)
 
 ### Performance
+
 - Static site generation (no runtime JavaScript needed for content)
 - React islands for interactivity (Header menu, KitForm)
 - Self-hosted fonts (no Google Fonts)
 - Minimal JavaScript bundle (~63KB gzipped)
 
 ### Styling
+
 - CSS custom properties for theming
 - Responsive design (mobile-first)
 - Self-hosted Cormorant Garamond (serif) and Fira Sans (sans-serif) fonts
@@ -130,6 +135,7 @@ Example: `/2025/12/09/ai-and-i-built-a-website-yesterday`
 ## Redirects
 
 Configured in `astro.config.mjs`:
+
 - `/newsletter` → `/posts`
 - `/legal/terms` → `/terms`
 - `/legal/privacy` → `/privacy`
@@ -138,14 +144,18 @@ Configured in `astro.config.mjs`:
 ## Key Components
 
 ### React Islands
+
 Only two components use React for interactivity:
+
 1. **Header** - Mobile menu toggle
 2. **KitForm** - Newsletter signup (loads Kit.com script)
 
 Everything else is static Astro components.
 
 ### Layout System
+
 Single main layout (`Layout.astro`) with:
+
 - SEO meta tags
 - Global navigation
 - Footer with social links
@@ -154,24 +164,29 @@ Single main layout (`Layout.astro`) with:
 ## Adding Content
 
 ### New Blog Post
+
 1. Create markdown file in `src/content/posts/YYYY/post-slug.md`
 2. Add frontmatter:
+
 ```yaml
 ---
-title: "Your Post Title"
-date: "2025-12-24"
-excerpt: "Brief description..."
-categories: ["category"]
-tags: ["tag1", "tag2"]
-featuredImage: "/images/posts/2025/image.jpg"
+title: 'Your Post Title'
+date: '2025-12-24'
+excerpt: 'Brief description...'
+categories: ['category']
+tags: ['tag1', 'tag2']
+featuredImage: '/images/posts/2025/image.jpg'
 published: true
 ---
 ```
+
 3. Write content in Markdown
 4. Run `npm run build`
 
 ### Drafts
+
 Set `published: false` in frontmatter to exclude from:
+
 - Posts listing
 - Category pages
 - RSS feed
@@ -192,6 +207,7 @@ Every push to `main` automatically deploys to beyondwritingcodebook.com via GitH
 ### Setup
 
 First-time deployment setup:
+
 1. Follow instructions in `SETUP_DEPLOYMENT.md`
 2. Configure GitHub secrets (SSH credentials)
 3. Push to `main` to trigger deployment
@@ -227,15 +243,15 @@ npm run preview
 
 ## Comparison to React SPA
 
-| Feature | React SPA | Astro SSG |
-|---------|-----------|-----------|
-| Content in HTML source | ❌ | ✅ |
-| JavaScript required | ✅ | ❌ |
-| Bundle size | ~500KB | ~63KB |
-| SEO-friendly | ⚠️ | ✅ |
-| Medium import works | ❌ | ✅ |
-| Build time | Fast | Fast |
-| Maintenance | Complex | Simple |
+| Feature                | React SPA | Astro SSG |
+| ---------------------- | --------- | --------- |
+| Content in HTML source | ❌        | ✅        |
+| JavaScript required    | ✅        | ❌        |
+| Bundle size            | ~500KB    | ~63KB     |
+| SEO-friendly           | ⚠️        | ✅        |
+| Medium import works    | ❌        | ✅        |
+| Build time             | Fast      | Fast      |
+| Maintenance            | Complex   | Simple    |
 
 ## License
 

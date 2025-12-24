@@ -1,10 +1,10 @@
 ---
-title: "A failure worth doing; issue 15 of Beyond Writing Code"
-date: "2025-08-26"
-excerpt: "Us vs. them thinking and why some failures are worth experiencing."
-categories: ["conferences","communication","storytelling"]
-tags: ["Beyond Writing Code newsletter","failure","us vs. them thinking"]
-featuredImage: "/images/posts/2025/a-failure-worth-doing-issue-15-of-beyond-writing-code-1.jpg"
+title: 'A failure worth doing; issue 15 of Beyond Writing Code'
+date: '2025-08-26'
+excerpt: 'Us vs. them thinking and why some failures are worth experiencing.'
+categories: ['conferences', 'communication', 'storytelling']
+tags: ['Beyond Writing Code newsletter', 'failure', 'us vs. them thinking']
+featuredImage: '/images/posts/2025/a-failure-worth-doing-issue-15-of-beyond-writing-code-1.jpg'
 published: true
 comments: []
 ---
@@ -20,7 +20,7 @@ Not "a day where I failed"—I failed for a full year.
 I want a tacky graphic like this...
 
 ![](/images/posts/2025/a-failure-worth-doing-issue-15-of-beyond-writing-code-1.jpg)
-*Getty Images for Unsplash*
+_Getty Images for Unsplash_
 
 ...with a giant "prohibited" red-circle-with-a-line over it. 🚫
 
@@ -32,8 +32,8 @@ The hook: **these strategies are 100% worth doing, even if you don't end up succ
 
 Okay! Before you email me a pep talk: whether or not it was a failure depends on _how you define success._
 
-*   **Getting the work done?** We succeeded. It was painful. It took longer than it should have. But we got the job done.
-*   **Achieving harmony?** We never got there. As far as I know, those two groups are still butting heads with each other to this day.
+- **Getting the work done?** We succeeded. It was painful. It took longer than it should have. But we got the job done.
+- **Achieving harmony?** We never got there. As far as I know, those two groups are still butting heads with each other to this day.
 
 **We can't control what other people do.** How they behave is up to them. Only how we act is up to us.
 

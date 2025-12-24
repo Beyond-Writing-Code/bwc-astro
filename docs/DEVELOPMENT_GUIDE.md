@@ -62,6 +62,7 @@ npm run security:check # Check for high/critical vulnerabilities
 ```
 
 Combined quality check:
+
 ```bash
 npm run quality:check  # Runs type-check, test:run, and build
 ```
@@ -81,15 +82,15 @@ npm run quality:check  # Runs type-check, test:run, and build
 
 ```javascript
 // ❌ Bad: Unused variable
-const unused = getValue()
-doSomething()
+const unused = getValue();
+doSomething();
 
 // ✅ Good: Use or remove
-const value = getValue()
-doSomething(value)
+const value = getValue();
+doSomething(value);
 
 // ✅ Good: Prefix intentionally unused
-const _intentionallyUnused = getValue()
+const _intentionallyUnused = getValue();
 ```
 
 ### Formatting
@@ -132,12 +133,12 @@ function fuzzyMatch(a, b, threshold) { ... }
 
 ### Vulnerability Standards
 
-| Severity | Requirement |
-|----------|-------------|
-| Critical | **ZERO tolerance** - Must fix immediately |
-| High | **ZERO tolerance** - Must fix before deployment |
-| Moderate | Should fix when feasible |
-| Low | Evaluate and track |
+| Severity | Requirement                                     |
+| -------- | ----------------------------------------------- |
+| Critical | **ZERO tolerance** - Must fix immediately       |
+| High     | **ZERO tolerance** - Must fix before deployment |
+| Moderate | Should fix when feasible                        |
+| Low      | Evaluate and track                              |
 
 ### Security Checks
 
@@ -163,11 +164,13 @@ Permissions-Policy: geolocation=(), microphone=(), camera=()
 ### Content Security Policy (CSP) Details
 
 **Goals:**
+
 - Avoid `'unsafe-inline'` and `'unsafe-eval'` where possible
 - Use nonces or hashes for unavoidable inline scripts (requires server-side rendering)
 - Explicitly list allowed external domains
 
 **Example CSP for Static Sites:**
+
 ```
 Content-Security-Policy:
   default-src 'self';
@@ -184,6 +187,7 @@ Content-Security-Policy:
 ```
 
 **Important notes:**
+
 - `frame-ancestors` in CSP supersedes `X-Frame-Options` (set both for compatibility)
 - Third-party widgets (analytics, forms, chat) often require `'unsafe-inline'` for styles—this is an acceptable tradeoff
 - Nonces/hashes are ideal but require server-side rendering (not viable for static sites)
@@ -201,6 +205,7 @@ Access-Control-Allow-Headers: Content-Type, Authorization
 ```
 
 **Never do this for authenticated APIs:**
+
 ```
 Access-Control-Allow-Origin: *  # ❌ Dangerous with credentials
 ```
@@ -213,14 +218,15 @@ For authentication/session cookies:
 Set-Cookie: sessionId=...; Secure; HttpOnly; SameSite=Lax; Path=/; Max-Age=...
 ```
 
-| Attribute | Purpose |
-|-----------|---------|
-| `Secure` | Only sent over HTTPS |
-| `HttpOnly` | Not accessible via JavaScript (prevents XSS token theft) |
-| `SameSite=Lax` | CSRF protection (use `Strict` for sensitive apps) |
-| `Path=/` | Scope narrowly |
+| Attribute      | Purpose                                                  |
+| -------------- | -------------------------------------------------------- |
+| `Secure`       | Only sent over HTTPS                                     |
+| `HttpOnly`     | Not accessible via JavaScript (prevents XSS token theft) |
+| `SameSite=Lax` | CSRF protection (use `Strict` for sensitive apps)        |
+| `Path=/`       | Scope narrowly                                           |
 
 **Guidelines:**
+
 - Prefer httpOnly cookies over localStorage for auth tokens
 - Use `SameSite=None; Secure` only when truly needed (cross-site SSO)
 - Add CSRF protection if using cookie-based auth
@@ -238,16 +244,13 @@ Set-Cookie: sessionId=...; Secure; HttpOnly; SameSite=Lax; Path=/; Max-Age=...
 ```astro
 ---
 // ❌ Bad: Unsanitized HTML in Astro
-const userContent = await getUserContent()
+const userContent = await getUserContent();
 ---
+
 <div set:html={userContent} />
 
----
-// ✅ Good: Sanitized HTML
-import DOMPurify from 'isomorphic-dompurify'
-const userContent = await getUserContent()
-const sanitizedContent = DOMPurify.sanitize(userContent)
----
+--- // ✅ Good: Sanitized HTML import DOMPurify from 'isomorphic-dompurify' const userContent =
+await getUserContent() const sanitizedContent = DOMPurify.sanitize(userContent) ---
 <div set:html={sanitizedContent} />
 ```
 
@@ -256,9 +259,7 @@ const sanitizedContent = DOMPurify.sanitize(userContent)
 <a href="https://external.com">External Link</a>
 
 <!-- ✅ Good: Secure external link -->
-<a href="https://external.com" target="_blank" rel="noopener noreferrer">
-  External Link
-</a>
+<a href="https://external.com" target="_blank" rel="noopener noreferrer"> External Link </a>
 ```
 
 ---
@@ -267,12 +268,12 @@ const sanitizedContent = DOMPurify.sanitize(userContent)
 
 ### Bundle Size Targets
 
-| Metric | Target | Action if Exceeded |
-|--------|--------|-------------------|
-| Main JS bundle | <100KB gzipped | Astro ships zero JS by default—investigate unnecessary islands |
-| Individual island chunks | <30KB gzipped | Split further or lazy load dependencies |
-| CSS | <20KB gzipped | Remove unused styles |
-| Total initial load | <200KB gzipped | Audit and optimize |
+| Metric                   | Target         | Action if Exceeded                                             |
+| ------------------------ | -------------- | -------------------------------------------------------------- |
+| Main JS bundle           | <100KB gzipped | Astro ships zero JS by default—investigate unnecessary islands |
+| Individual island chunks | <30KB gzipped  | Split further or lazy load dependencies                        |
+| CSS                      | <20KB gzipped  | Remove unused styles                                           |
+| Total initial load       | <200KB gzipped | Audit and optimize                                             |
 
 **Astro Advantage:** Astro ships zero JavaScript by default. Only React/Vue/Svelte islands add JS.
 
@@ -283,32 +284,31 @@ const sanitizedContent = DOMPurify.sanitize(userContent)
 ```astro
 ---
 // ❌ Bad: Hydrating static content
-import Header from '../components/Header.jsx'
+import Header from '../components/Header.jsx';
 ---
-<Header client:load />  <!-- Sends unnecessary JS if Header is static -->
 
----
-// ✅ Good: Static by default
-import Header from '../components/Header.astro'
----
-<Header />  <!-- Zero JS sent to browser -->
+<Header client:load />
+<!-- Sends unnecessary JS if Header is static -->
 
+--- // ✅ Good: Static by default import Header from '../components/Header.astro' ---
+<Header />
+<!-- Zero JS sent to browser -->
+
+--- // ✅ Good: Hydrate only interactive parts import SearchBar from '../components/SearchBar.jsx'
 ---
-// ✅ Good: Hydrate only interactive parts
-import SearchBar from '../components/SearchBar.jsx'
----
-<SearchBar client:load />  <!-- Only this interactive component gets JS -->
+<SearchBar client:load />
+<!-- Only this interactive component gets JS -->
 ```
 
 ### Client Directives
 
-| Directive | When to Use |
-|-----------|-------------|
-| `client:load` | Critical interactivity (search bar, auth) |
-| `client:idle` | Non-critical (chat widgets, analytics) |
-| `client:visible` | Below-the-fold (carousels, maps) |
-| `client:only` | Framework-specific components (React, Vue, Svelte) |
-| No directive | Default - static HTML, zero JS |
+| Directive        | When to Use                                        |
+| ---------------- | -------------------------------------------------- |
+| `client:load`    | Critical interactivity (search bar, auth)          |
+| `client:idle`    | Non-critical (chat widgets, analytics)             |
+| `client:visible` | Below-the-fold (carousels, maps)                   |
+| `client:only`    | Framework-specific components (React, Vue, Svelte) |
+| No directive     | Default - static HTML, zero JS                     |
 
 ### Caching Strategy
 
@@ -328,23 +328,19 @@ Cache-Control: private, max-age=60
 ### Font Loading
 
 **Goals:**
+
 - Avoid Flash of Invisible Text (FOIT)
 - Minimize layout shift from font loading
 
 **Best practices:**
+
 - Self-host fonts (WOFF2 format) for better CSP and performance
 - Use `font-display: swap` or `optional`
 - Limit font weights/variants to what's actually used
 - Preload critical fonts:
 
 ```html
-<link
-  rel="preload"
-  href="/fonts/main-font.woff2"
-  as="font"
-  type="font/woff2"
-  crossorigin
-/>
+<link rel="preload" href="/fonts/main-font.woff2" as="font" type="font/woff2" crossorigin />
 ```
 
 ```css
@@ -375,19 +371,21 @@ Use resource hints to improve loading performance:
 
 ### Core Web Vitals
 
-| Metric | Target | What It Measures |
-|--------|--------|------------------|
-| LCP (Largest Contentful Paint) | ≤2.5s | Loading performance |
-| CLS (Cumulative Layout Shift) | ≤0.1 | Visual stability |
-| INP (Interaction to Next Paint) | ≤200ms | Responsiveness |
+| Metric                          | Target | What It Measures    |
+| ------------------------------- | ------ | ------------------- |
+| LCP (Largest Contentful Paint)  | ≤2.5s  | Loading performance |
+| CLS (Cumulative Layout Shift)   | ≤0.1   | Visual stability    |
+| INP (Interaction to Next Paint) | ≤200ms | Responsiveness      |
 
 **INP optimization:**
+
 - Avoid heavy synchronous work in event handlers (click, input, keypress)
 - Use `requestIdleCallback` for non-urgent work
 - Debounce/throttle expensive operations
 - Avoid large React re-renders on every keystroke; use localized state
 
 **CLS prevention:**
+
 - Always set `width` and `height` on images (or use aspect-ratio)
 - Reserve space for dynamic content (ads, embeds)
 - Use `font-display: swap` to prevent layout shift from fonts
@@ -398,8 +396,8 @@ Astro has built-in image optimization with the `<Image>` component:
 
 ```astro
 ---
-import { Image } from 'astro:assets'
-import heroImage from '../assets/hero.jpg'
+import { Image } from 'astro:assets';
+import heroImage from '../assets/hero.jpg';
 ---
 
 <!-- ✅ Good: Astro optimized image -->
@@ -423,15 +421,10 @@ import heroImage from '../assets/hero.jpg'
 ```
 
 For plain HTML images:
+
 ```html
 <!-- Critical LCP image -->
-<img
-  src="/hero.webp"
-  alt="Hero description"
-  width="1200"
-  height="600"
-  fetchpriority="high"
-/>
+<img src="/hero.webp" alt="Hero description" width="1200" height="600" fetchpriority="high" />
 
 <!-- Below-the-fold images -->
 <img
@@ -474,6 +467,7 @@ For plain HTML images:
    - ❌ **Never**: Comment out failing tests
 
 **Example Workflow:**
+
 ```
 User: "Change the home page heading from 'Welcome' to 'Hello World'"
 
@@ -486,6 +480,7 @@ AI Actions:
 ```
 
 **When to Ask User About Tests:**
+
 - Only when you think a test should be REMOVED entirely
 - Never for updating tests to match new requirements
 
@@ -494,6 +489,7 @@ AI Actions:
 **Astro components (.astro files) cannot be unit tested** with traditional React Testing Library approaches. Use Playwright for E2E testing instead.
 
 **What to test:**
+
 1. **End-to-End Tests (Playwright)** - Critical user flows, navigation, content rendering
 2. **React Islands (Vitest + RTL)** - Interactive React components can be unit tested
 3. **Utility Functions (Vitest)** - Pure JavaScript utilities
@@ -504,6 +500,7 @@ AI Actions:
 **Primary testing approach for Astro projects.**
 
 **When to use E2E tests:**
+
 - Page rendering and content verification
 - Navigation flows
 - Form submissions
@@ -512,6 +509,7 @@ AI Actions:
 - Accessibility checks
 
 **Test File Organization:**
+
 ```
 e2e/                         # E2E tests with Playwright (project root)
 ├── navigation.spec.ts       # Navigation and routing tests
@@ -529,52 +527,54 @@ tests/unit/                  # Unit tests (if needed)
 **Current Project:** Uses Playwright for all testing (no unit tests yet). Tests are in `e2e/` directory at project root.
 
 **Example Playwright test:**
+
 ```typescript
-import { test, expect } from '@playwright/test'
+import { test, expect } from '@playwright/test';
 
 test('home page displays correct heading', async ({ page }) => {
-  await page.goto('/')
-  await expect(page.locator('h1')).toContainText('Welcome')
-})
+  await page.goto('/');
+  await expect(page.locator('h1')).toContainText('Welcome');
+});
 
 test('navigation to blog works', async ({ page }) => {
-  await page.goto('/')
-  await page.click('[data-testid="nav-blog"]')
-  await expect(page).toHaveURL('/blog')
-  await expect(page.locator('h1')).toContainText('Blog')
-})
+  await page.goto('/');
+  await page.click('[data-testid="nav-blog"]');
+  await expect(page).toHaveURL('/blog');
+  await expect(page.locator('h1')).toContainText('Blog');
+});
 
 test('external links have security attributes', async ({ page }) => {
-  await page.goto('/')
-  const externalLinks = page.locator('a[href^="http"]')
-  const count = await externalLinks.count()
+  await page.goto('/');
+  const externalLinks = page.locator('a[href^="http"]');
+  const count = await externalLinks.count();
 
   for (let i = 0; i < count; i++) {
-    await expect(externalLinks.nth(i)).toHaveAttribute('rel', 'noopener noreferrer')
-    await expect(externalLinks.nth(i)).toHaveAttribute('target', '_blank')
+    await expect(externalLinks.nth(i)).toHaveAttribute('rel', 'noopener noreferrer');
+    await expect(externalLinks.nth(i)).toHaveAttribute('target', '_blank');
   }
-})
+});
 
 test('newsletter form submission', async ({ page }) => {
-  await page.goto('/newsletter')
-  await page.fill('[name="email"]', 'test@example.com')
-  await page.click('[type="submit"]')
-  await expect(page.locator('[data-testid="success-message"]')).toBeVisible()
-})
+  await page.goto('/newsletter');
+  await page.fill('[name="email"]', 'test@example.com');
+  await page.click('[type="submit"]');
+  await expect(page.locator('[data-testid="success-message"]')).toBeVisible();
+});
 ```
 
 **Accessibility testing:**
+
 ```typescript
-import { test, expect } from '@playwright/test'
-import AxeBuilder from '@axe-core/playwright'
+import { test, expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
 
 test('homepage should not have accessibility violations', async ({ page }) => {
-  await page.goto('/')
+  await page.goto('/');
 
-  const accessibilityScanResults = await new AxeBuilder({ page }).analyze()
+  const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
 
-  expect(accessibilityScanResults.violations).toEqual([])
-})
+  expect(accessibilityScanResults.violations).toEqual([]);
+});
 ```
 
 ### Unit Testing React Islands
@@ -583,68 +583,70 @@ React components used as islands CAN be unit tested:
 
 ```tsx
 // src/components/SearchBar.test.tsx
-import { describe, it, expect } from 'vitest'
-import { render, screen, fireEvent } from '@testing-library/react'
-import SearchBar from './SearchBar'
+import { describe, it, expect } from 'vitest';
+import { render, screen, fireEvent } from '@testing-library/react';
+import SearchBar from './SearchBar';
 
 describe('SearchBar', () => {
   it('renders search input', () => {
-    render(<SearchBar />)
-    expect(screen.getByRole('searchbox')).toBeInTheDocument()
-  })
+    render(<SearchBar />);
+    expect(screen.getByRole('searchbox')).toBeInTheDocument();
+  });
 
   it('updates on input change', () => {
-    render(<SearchBar />)
-    const input = screen.getByRole('searchbox')
-    fireEvent.change(input, { target: { value: 'test query' } })
-    expect(input).toHaveValue('test query')
-  })
-})
+    render(<SearchBar />);
+    const input = screen.getByRole('searchbox');
+    fireEvent.change(input, { target: { value: 'test query' } });
+    expect(input).toHaveValue('test query');
+  });
+});
 ```
 
 ### Testing Utility Functions
 
 ```typescript
 // src/utils/formatDate.test.ts
-import { describe, it, expect } from 'vitest'
-import { formatDate } from './formatDate'
+import { describe, it, expect } from 'vitest';
+import { formatDate } from './formatDate';
 
 describe('formatDate', () => {
   it('formats date correctly', () => {
-    const date = new Date('2025-01-15')
-    expect(formatDate(date)).toBe('January 15, 2025')
-  })
+    const date = new Date('2025-01-15');
+    expect(formatDate(date)).toBe('January 15, 2025');
+  });
 
   it('handles invalid dates', () => {
-    expect(formatDate(null)).toBe('')
-  })
-})
+    expect(formatDate(null)).toBe('');
+  });
+});
 ```
 
 ### Coverage Requirements
 
-| Scope | Minimum Coverage | Testing Approach |
-|-------|-----------------|------------------|
-| Critical user flows | 100% | Playwright E2E |
-| React islands | 80% | Vitest + RTL |
-| Utility functions | 90% | Vitest |
-| Content Collections | Basic validation | Vitest |
+| Scope               | Minimum Coverage | Testing Approach |
+| ------------------- | ---------------- | ---------------- |
+| Critical user flows | 100%             | Playwright E2E   |
+| React islands       | 80%              | Vitest + RTL     |
+| Utility functions   | 90%              | Vitest           |
+| Content Collections | Basic validation | Vitest           |
 
 ### Visual Regression Testing
 
 Use screenshot comparison for design-sensitive UIs:
 
 **Example with Playwright:**
+
 ```typescript
 test('homepage matches screenshot', async ({ page }) => {
-  await page.goto('/')
+  await page.goto('/');
   await expect(page).toHaveScreenshot('homepage.png', {
-    maxDiffPixels: 100
-  })
-})
+    maxDiffPixels: 100,
+  });
+});
 ```
 
 **When to use:**
+
 - Critical pages (home, main features)
 - Component libraries
 - Before major releases
@@ -655,15 +657,15 @@ test('homepage matches screenshot', async ({ page }) => {
 
 ### WCAG 2.1 AA Compliance
 
-| Requirement | How to Verify |
-|-------------|---------------|
-| Alt text on all images | Check every `<img>` has meaningful `alt` |
-| Semantic HTML | Use `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` |
-| Keyboard navigation | Tab through entire site, all interactive elements reachable |
-| ARIA labels | Icon-only buttons have `aria-label` |
-| Color contrast | 4.5:1 ratio minimum |
-| Heading hierarchy | h1 → h2 → h3, no skips |
-| Focus indicators | Visible focus ring on interactive elements |
+| Requirement            | How to Verify                                               |
+| ---------------------- | ----------------------------------------------------------- |
+| Alt text on all images | Check every `<img>` has meaningful `alt`                    |
+| Semantic HTML          | Use `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` |
+| Keyboard navigation    | Tab through entire site, all interactive elements reachable |
+| ARIA labels            | Icon-only buttons have `aria-label`                         |
+| Color contrast         | 4.5:1 ratio minimum                                         |
+| Heading hierarchy      | h1 → h2 → h3, no skips                                      |
+| Focus indicators       | Visible focus ring on interactive elements                  |
 
 ### Common Accessibility Patterns
 
@@ -688,7 +690,8 @@ test('homepage matches screenshot', async ({ page }) => {
 
 <!-- ❌ Bad: Skipped heading level -->
 <h1>Title</h1>
-<h3>Subsection</h3>  <!-- Skipped h2! -->
+<h3>Subsection</h3>
+<!-- Skipped h2! -->
 
 <!-- ✅ Good: Proper heading hierarchy -->
 <h1>Title</h1>
@@ -699,6 +702,7 @@ test('homepage matches screenshot', async ({ page }) => {
 ### Focus Management
 
 **Requirements:**
+
 - Visible focus outline on all interactive elements (don't remove without accessible alternative)
 - Logical tab order with no keyboard traps
 - On route changes, move focus to main heading or `<main>` landmark
@@ -706,7 +710,9 @@ test('homepage matches screenshot', async ({ page }) => {
 
 ```css
 /* ❌ Bad: Removes focus outline without replacement */
-button:focus { outline: none; }
+button:focus {
+  outline: none;
+}
 
 /* ✅ Good: Custom focus style */
 button:focus-visible {
@@ -721,7 +727,9 @@ Respect user preferences for reduced motion:
 
 ```css
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -744,7 +752,13 @@ Respect user preferences for reduced motion:
     aria-describedby="email-error"
     aria-invalid={error ? 'true' : 'false'}
   />
-  {error && <span id="email-error" role="alert">{error}</span>}
+  {
+    error && (
+      <span id="email-error" role="alert">
+        {error}
+      </span>
+    )
+  }
 </div>
 ```
 
@@ -762,11 +776,13 @@ For important dynamic updates, use `aria-live`:
 ### Accessibility Testing
 
 **Automated tools:**
+
 - `eslint-plugin-jsx-a11y` in ESLint config (for React islands)
 - axe-core with Playwright (see testing section above)
 - Lighthouse accessibility audit
 
 **Manual testing:**
+
 - Keyboard-only navigation pass
 - Screen reader smoke test (VoiceOver, NVDA)
 - Color contrast checker
@@ -792,14 +808,14 @@ Create a reusable SEO component:
 ---
 // src/components/SEO.astro
 interface Props {
-  title: string
-  description: string
-  image?: string
-  type?: 'website' | 'article'
+  title: string;
+  description: string;
+  image?: string;
+  type?: 'website' | 'article';
 }
 
-const { title, description, image = '/og-image.png', type = 'website' } = Astro.props
-const canonicalURL = new URL(Astro.url.pathname, Astro.site)
+const { title, description, image = '/og-image.png', type = 'website' } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!-- Primary Meta Tags -->
@@ -824,11 +840,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 ```
 
 **Usage in pages:**
+
 ```astro
 ---
 // src/pages/about.astro
-import Layout from '../layouts/Layout.astro'
-import SEO from '../components/SEO.astro'
+import Layout from '../layouts/Layout.astro';
+import SEO from '../components/SEO.astro';
 ---
 
 <Layout>
@@ -850,13 +867,13 @@ Install and configure `@astrojs/sitemap`:
 
 ```javascript
 // astro.config.mjs
-import { defineConfig } from 'astro/config'
-import sitemap from '@astrojs/sitemap'
+import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://example.com',
-  integrations: [sitemap()]
-})
+  integrations: [sitemap()],
+});
 ```
 
 Automatically generates `sitemap.xml` on build.
@@ -867,11 +884,11 @@ Create an RSS endpoint:
 
 ```typescript
 // src/pages/feed.xml.ts
-import rss from '@astrojs/rss'
-import { getCollection } from 'astro:content'
+import rss from '@astrojs/rss';
+import { getCollection } from 'astro:content';
 
 export async function GET(context) {
-  const blog = await getCollection('blog')
+  const blog = await getCollection('blog');
 
   return rss({
     title: 'Site Name Blog',
@@ -883,19 +900,19 @@ export async function GET(context) {
       description: post.data.description,
       link: `/blog/${post.slug}/`,
     })),
-  })
+  });
 }
 ```
 
 ### Required Files
 
-| File | Purpose |
-|------|---------|
-| `public/robots.txt` | Search engine crawling rules |
-| `sitemap.xml` | Auto-generated by @astrojs/sitemap |
-| `public/manifest.json` | PWA web app manifest |
-| `public/favicon.ico` | Browser tab icon |
-| `public/apple-touch-icon.png` | iOS home screen icon (180x180) |
+| File                          | Purpose                            |
+| ----------------------------- | ---------------------------------- |
+| `public/robots.txt`           | Search engine crawling rules       |
+| `sitemap.xml`                 | Auto-generated by @astrojs/sitemap |
+| `public/manifest.json`        | PWA web app manifest               |
+| `public/favicon.ico`          | Browser tab icon                   |
+| `public/apple-touch-icon.png` | iOS home screen icon (180x180)     |
 
 ### PWA Manifest Requirements
 
@@ -924,10 +941,11 @@ export async function GET(context) {
 Astro uses file-based error pages:
 
 **404 Page:**
+
 ```astro
 ---
 // src/pages/404.astro
-import Layout from '../layouts/Layout.astro'
+import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
@@ -940,10 +958,11 @@ import Layout from '../layouts/Layout.astro'
 ```
 
 **Custom Error Pages:**
+
 ```astro
 ---
 // src/pages/500.astro
-import Layout from '../layouts/Layout.astro'
+import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
@@ -961,45 +980,46 @@ For React islands, use ErrorBoundary:
 
 ```tsx
 // src/components/ErrorBoundary.tsx
-import React from 'react'
+import React from 'react';
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
-    super(props)
-    this.state = { hasError: false }
+    super(props);
+    this.state = { hasError: false };
   }
 
   static getDerivedStateFromError(error) {
-    return { hasError: true }
+    return { hasError: true };
   }
 
   componentDidCatch(error, errorInfo) {
-    console.error('ErrorBoundary caught an error:', error, errorInfo)
+    console.error('ErrorBoundary caught an error:', error, errorInfo);
   }
 
   render() {
     if (this.state.hasError) {
-      return this.props.fallback || (
-        <div>
-          <h2>Something went wrong</h2>
-          <button onClick={() => window.location.reload()}>
-            Refresh
-          </button>
-        </div>
-      )
+      return (
+        this.props.fallback || (
+          <div>
+            <h2>Something went wrong</h2>
+            <button onClick={() => window.location.reload()}>Refresh</button>
+          </div>
+        )
+      );
     }
-    return this.props.children
+    return this.props.children;
   }
 }
 
-export default ErrorBoundary
+export default ErrorBoundary;
 ```
 
 **Usage in .astro files:**
+
 ```astro
 ---
-import InteractiveWidget from '../components/InteractiveWidget.jsx'
-import ErrorBoundary from '../components/ErrorBoundary.tsx'
+import InteractiveWidget from '../components/InteractiveWidget.jsx';
+import ErrorBoundary from '../components/ErrorBoundary.tsx';
 ---
 
 <ErrorBoundary client:load>
@@ -1021,10 +1041,10 @@ npm audit fix             # Fix vulnerabilities
 
 ### Update Strategy
 
-| Update Type | Approach |
-|-------------|----------|
-| Patch (x.x.1 → x.x.2) | Auto-update safe |
-| Minor (x.1.x → x.2.x) | Review changelog, usually safe |
+| Update Type           | Approach                                   |
+| --------------------- | ------------------------------------------ |
+| Patch (x.x.1 → x.x.2) | Auto-update safe                           |
+| Minor (x.1.x → x.2.x) | Review changelog, usually safe             |
 | Major (1.x.x → 2.x.x) | Test thoroughly, may have breaking changes |
 
 ### Required Dev Dependencies
@@ -1062,6 +1082,7 @@ npm run preview # Preview production build
 ```
 
 **Build output:**
+
 - Static HTML files
 - Optimized assets (CSS, images)
 - JavaScript for islands only
@@ -1096,12 +1117,12 @@ npm run preview           # ✅ Manual verification
 
 ### Recommended GitHub Actions Workflows
 
-| Workflow | Trigger | Purpose |
-|----------|---------|---------|
-| CI | Push, PR | Full quality checks |
-| Security Audit | Daily schedule | Catch new vulnerabilities |
-| Lighthouse | Weekly schedule | Performance monitoring |
-| Dependabot | Weekly | Automated dependency updates |
+| Workflow       | Trigger         | Purpose                      |
+| -------------- | --------------- | ---------------------------- |
+| CI             | Push, PR        | Full quality checks          |
+| Security Audit | Daily schedule  | Catch new vulnerabilities    |
+| Lighthouse     | Weekly schedule | Performance monitoring       |
+| Dependabot     | Weekly          | Automated dependency updates |
 
 ---
 
@@ -1109,12 +1130,12 @@ npm run preview           # ✅ Manual verification
 
 ### Image Format Strategy
 
-| Format | Use Case |
-|--------|----------|
-| WebP | All images (primary format, 70-85% smaller than JPEG) |
-| JPEG | Fallback for older browsers |
-| PNG | Logos, icons with transparency |
-| SVG | Icons, simple graphics (scales infinitely) |
+| Format | Use Case                                              |
+| ------ | ----------------------------------------------------- |
+| WebP   | All images (primary format, 70-85% smaller than JPEG) |
+| JPEG   | Fallback for older browsers                           |
+| PNG    | Logos, icons with transparency                        |
+| SVG    | Icons, simple graphics (scales infinitely)            |
 
 ### Astro Image Optimization
 
@@ -1122,20 +1143,16 @@ Astro has built-in image optimization:
 
 ```astro
 ---
-import { Image } from 'astro:assets'
-import heroImage from '../assets/hero.jpg'
+import { Image } from 'astro:assets';
+import heroImage from '../assets/hero.jpg';
 ---
 
 <!-- Automatically optimized and responsive -->
-<Image
-  src={heroImage}
-  alt="Hero description"
-  width={1200}
-  height={600}
-/>
+<Image src={heroImage} alt="Hero description" width={1200} height={600} />
 ```
 
 **Benefits:**
+
 - Automatic WebP conversion
 - Responsive image generation
 - Lazy loading by default
@@ -1143,12 +1160,12 @@ import heroImage from '../assets/hero.jpg'
 
 ### Size Targets
 
-| Image Type | Max Size | Dimensions |
-|------------|----------|------------|
-| Hero/Banner | <200KB | 1920px wide max |
-| Featured/Cards | <100KB | 800px wide |
-| Thumbnails | <50KB | 400px wide |
-| Logos | <50KB | As needed |
+| Image Type     | Max Size | Dimensions      |
+| -------------- | -------- | --------------- |
+| Hero/Banner    | <200KB   | 1920px wide max |
+| Featured/Cards | <100KB   | 800px wide      |
+| Thumbnails     | <50KB    | 400px wide      |
+| Logos          | <50KB    | As needed       |
 
 ### Manual Optimization Script
 
@@ -1173,9 +1190,11 @@ async function processDirectory(dir) {
     const fullPath = join(dir, entry.name);
     if (entry.isDirectory()) {
       await processDirectory(fullPath);
-    } else if (entry.name.match(/\.(jpg|jpeg|png)$/i) &&
-               !entry.name.includes('-thumb') &&
-               !entry.name.includes('-medium')) {
+    } else if (
+      entry.name.match(/\.(jpg|jpeg|png)$/i) &&
+      !entry.name.includes('-thumb') &&
+      !entry.name.includes('-medium')
+    ) {
       await optimizeImage(fullPath);
     }
   }
@@ -1189,7 +1208,7 @@ async function optimizeImage(inputPath) {
   const fullWebp = join(dir, `${name}.webp`);
   if (!existsSync(fullWebp)) {
     await sharp(inputPath)
-      .rotate()  // Auto-rotate based on EXIF
+      .rotate() // Auto-rotate based on EXIF
       .webp({ quality: QUALITY_FULL })
       .toFile(fullWebp);
   }
@@ -1219,6 +1238,7 @@ processDirectory('./public/images');
 ```
 
 Add to package.json:
+
 ```json
 {
   "scripts": {
@@ -1298,6 +1318,7 @@ project/
 ```
 
 **Key differences from React/Vite:**
+
 - `src/pages/` for file-based routing (not components)
 - `src/content/` for Content Collections
 - `src/layouts/` for reusable layouts
@@ -1313,9 +1334,10 @@ project/
 Content Collections provide type-safe content with Zod schemas:
 
 **Define schema:**
+
 ```typescript
 // src/content/config.ts
-import { defineCollection, z } from 'astro:content'
+import { defineCollection, z } from 'astro:content';
 
 const blogCollection = defineCollection({
   type: 'content',
@@ -1328,33 +1350,34 @@ const blogCollection = defineCollection({
     draft: z.boolean().default(false),
     image: z.string().optional(),
   }),
-})
+});
 
 export const collections = {
   blog: blogCollection,
-}
+};
 ```
 
 **Use in pages:**
+
 ```astro
 ---
 // src/pages/blog/[slug].astro
-import { getCollection } from 'astro:content'
-import BlogLayout from '../../layouts/BlogPost.astro'
+import { getCollection } from 'astro:content';
+import BlogLayout from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog', ({ data }) => {
-    return data.draft !== true  // Filter out drafts
-  })
+    return data.draft !== true; // Filter out drafts
+  });
 
-  return blogEntries.map(entry => ({
+  return blogEntries.map((entry) => ({
     params: { slug: entry.slug },
     props: { entry },
-  }))
+  }));
 }
 
-const { entry } = Astro.props
-const { Content } = await entry.render()
+const { entry } = Astro.props;
+const { Content } = await entry.render();
 ---
 
 <BlogLayout title={entry.data.title} date={entry.data.date}>
@@ -1363,22 +1386,23 @@ const { Content } = await entry.render()
 ```
 
 **Benefits:**
+
 - TypeScript type safety for frontmatter
 - Automatic validation with Zod
 - Better developer experience with autocomplete
 
 ### When to Use React Islands vs Astro Components
 
-| Use Case | Component Type | Rationale |
-|----------|---------------|-----------|
-| Static header/footer | `.astro` | Zero JS, better performance |
-| Blog post content | `.astro` | No interactivity needed |
-| Static pages (About, Contact) | `.astro` | No interactivity needed |
-| Search bar with autocomplete | `.jsx` (React island) | Requires interactivity |
-| Image carousel | `.jsx` (React island) | User interaction |
-| Form with validation | `.jsx` (React island) | Interactive state management |
-| Theme toggle | `.jsx` (React island) | State + localStorage |
-| Analytics widget | `.jsx` (React island) | Data fetching + updates |
+| Use Case                      | Component Type        | Rationale                    |
+| ----------------------------- | --------------------- | ---------------------------- |
+| Static header/footer          | `.astro`              | Zero JS, better performance  |
+| Blog post content             | `.astro`              | No interactivity needed      |
+| Static pages (About, Contact) | `.astro`              | No interactivity needed      |
+| Search bar with autocomplete  | `.jsx` (React island) | Requires interactivity       |
+| Image carousel                | `.jsx` (React island) | User interaction             |
+| Form with validation          | `.jsx` (React island) | Interactive state management |
+| Theme toggle                  | `.jsx` (React island) | State + localStorage         |
+| Analytics widget              | `.jsx` (React island) | Data fetching + updates      |
 
 **Rule of thumb:** Default to `.astro` components. Only use React islands when you need client-side interactivity.
 
@@ -1390,26 +1414,28 @@ Create reusable layouts with slots:
 ---
 // src/layouts/Layout.astro
 interface Props {
-  title: string
+  title: string;
 }
 
-const { title } = Astro.props
+const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>{title}</title>
-    <slot name="head" />  <!-- Named slot for SEO component -->
+    <slot name="head" />
+    <!-- Named slot for SEO component -->
   </head>
   <body>
     <header>
       <nav>...</nav>
     </header>
     <main>
-      <slot />  <!-- Default slot for content -->
+      <slot />
+      <!-- Default slot for content -->
     </main>
     <footer>...</footer>
   </body>
@@ -1417,19 +1443,16 @@ const { title } = Astro.props
 ```
 
 **Usage:**
+
 ```astro
 ---
 // src/pages/about.astro
-import Layout from '../layouts/Layout.astro'
-import SEO from '../components/SEO.astro'
+import Layout from '../layouts/Layout.astro';
+import SEO from '../components/SEO.astro';
 ---
 
 <Layout title="About Us">
-  <SEO
-    slot="head"
-    title="About Us"
-    description="Learn about our company"
-  />
+  <SEO slot="head" title="About Us" description="Learn about our company" />
 
   <h1>About Us</h1>
   <p>Content...</p>
@@ -1442,16 +1465,17 @@ Astro exposes environment variables with prefixes:
 
 ```typescript
 // ✅ Good: Public variables (exposed to client)
-const apiUrl = import.meta.env.PUBLIC_API_URL
+const apiUrl = import.meta.env.PUBLIC_API_URL;
 
 // ✅ Good: Private variables (server-only)
-const apiKey = import.meta.env.API_KEY
+const apiKey = import.meta.env.API_KEY;
 
 // ❌ Bad: No prefix (not accessible)
-const secret = import.meta.env.SECRET  // undefined!
+const secret = import.meta.env.SECRET; // undefined!
 ```
 
 **.env file:**
+
 ```
 PUBLIC_API_URL=https://api.example.com
 API_KEY=secret-key-here
@@ -1465,19 +1489,19 @@ Create API endpoints in `src/pages/api/`:
 
 ```typescript
 // src/pages/api/contact.ts
-import type { APIRoute } from 'astro'
+import type { APIRoute } from 'astro';
 
 export const POST: APIRoute = async ({ request }) => {
-  const data = await request.json()
+  const data = await request.json();
 
   // Process form submission
   // ...
 
-  return new Response(
-    JSON.stringify({ success: true }),
-    { status: 200, headers: { 'Content-Type': 'application/json' } }
-  )
-}
+  return new Response(JSON.stringify({ success: true }), {
+    status: 200,
+    headers: { 'Content-Type': 'application/json' },
+  });
+};
 ```
 
 Accessible at `/api/contact`
@@ -1504,6 +1528,7 @@ function MyComponent({ prop }) {
 ```
 
 **Avoid legacy patterns:**
+
 - `UNSAFE_*` lifecycle methods
 - `findDOMNode`
 - String refs (use `useRef`)
@@ -1512,35 +1537,38 @@ function MyComponent({ prop }) {
 ### Hooks Best Practices
 
 **Rules of Hooks:**
+
 - Never disable `react-hooks/exhaustive-deps` without explicit approval
 - Keep effect dependency arrays accurate; refactor if too complex
 
 ```jsx
 // ❌ Bad: Disabling the rule
 useEffect(() => {
-  fetchData(id)
+  fetchData(id);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-}, [])
+}, []);
 
 // ✅ Good: Proper dependencies
 useEffect(() => {
-  fetchData(id)
-}, [id])
+  fetchData(id);
+}, [id]);
 ```
 
 **Derived state vs effects:**
+
 ```jsx
 // ❌ Bad: Using effect for derived value
-const [fullName, setFullName] = useState('')
+const [fullName, setFullName] = useState('');
 useEffect(() => {
-  setFullName(`${firstName} ${lastName}`)
-}, [firstName, lastName])
+  setFullName(`${firstName} ${lastName}`);
+}, [firstName, lastName]);
 
 // ✅ Good: Derive in render
-const fullName = `${firstName} ${lastName}`
+const fullName = `${firstName} ${lastName}`;
 ```
 
 **Memoization guidance:**
+
 - Use `useMemo` and `useCallback` only when needed (hot paths, expensive calculations)
 - Don't wrap everything by default
 
@@ -1561,11 +1589,13 @@ Set up Git hooks to enforce quality checks before every commit:
 **Hook Location:** `.githooks/pre-commit`
 
 **Installation:**
+
 ```bash
 npm run install-hooks  # Or: git config core.hooksPath .githooks
 ```
 
 **Auto-install:** Add to package.json:
+
 ```json
 {
   "scripts": {
@@ -1576,6 +1606,7 @@ npm run install-hooks  # Or: git config core.hooksPath .githooks
 ```
 
 **Pre-commit Hook Template:**
+
 ```bash
 #!/bin/bash
 # Pre-commit hook - runs quality checks before allowing commit
@@ -1614,6 +1645,7 @@ echo "✅ All checks passed!"
 ```
 
 **What It Enforces:**
+
 - ✅ ESLint passes with zero warnings
 - ✅ Prettier formatting is correct
 - ✅ Astro type checking passes
@@ -1621,6 +1653,7 @@ echo "✅ All checks passed!"
 - ⚠️ Security vulnerabilities are flagged (warning only)
 
 **Bypassing (emergency only):**
+
 ```bash
 git commit --no-verify  # Skip hooks - use with caution!
 ```
@@ -1628,41 +1661,43 @@ git commit --no-verify  # Skip hooks - use with caution!
 ### Dependabot Configuration
 
 `.github/dependabot.yml`:
+
 ```yaml
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: 'weekly'
+      day: 'monday'
     open-pull-requests-limit: 5
     groups:
       production-dependencies:
-        dependency-type: "production"
-        update-types: ["minor", "patch"]
+        dependency-type: 'production'
+        update-types: ['minor', 'patch']
       development-dependencies:
-        dependency-type: "development"
-        update-types: ["minor", "patch"]
+        dependency-type: 'development'
+        update-types: ['minor', 'patch']
     labels:
-      - "dependencies"
-      - "automated"
+      - 'dependencies'
+      - 'automated'
 
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "monthly"
+      interval: 'monthly'
     open-pull-requests-limit: 3
 ```
 
 ### Scheduled Security Audit
 
 `.github/workflows/scheduled-security-audit.yml`:
+
 ```yaml
 name: Scheduled Security Audit
 on:
   schedule:
-    - cron: '0 9 * * *'  # Daily at 9 AM UTC
+    - cron: '0 9 * * *' # Daily at 9 AM UTC
   workflow_dispatch:
 
 jobs:
@@ -1685,6 +1720,7 @@ jobs:
 Use this checklist when reviewing any Astro development work:
 
 ### Code Quality
+
 - [ ] ESLint passes with zero warnings
 - [ ] Prettier formatting passes
 - [ ] No unused variables or imports
@@ -1692,18 +1728,21 @@ Use this checklist when reviewing any Astro development work:
 - [ ] Astro type checking passes (`npm run astro check`)
 
 ### Testing
+
 - [ ] All existing tests pass
 - [ ] New features have corresponding E2E tests (Playwright)
 - [ ] React islands have unit tests (Vitest + RTL)
 - [ ] Edge cases are tested (empty states, errors, loading)
 
 ### Security
+
 - [ ] npm audit shows zero high/critical vulnerabilities
 - [ ] External links have `rel="noopener noreferrer"`
 - [ ] No secrets in code or logs
 - [ ] Security headers configured
 
 ### Performance
+
 - [ ] Minimal JavaScript shipped (islands only)
 - [ ] Images optimized (using Astro `<Image>` component)
 - [ ] Appropriate `client:*` directives used
@@ -1711,6 +1750,7 @@ Use this checklist when reviewing any Astro development work:
 - [ ] Lighthouse Performance score 90+ (aim for 100)
 
 ### Accessibility
+
 - [ ] All images have meaningful alt text
 - [ ] Keyboard navigation works
 - [ ] ARIA labels on icon-only buttons
@@ -1718,6 +1758,7 @@ Use this checklist when reviewing any Astro development work:
 - [ ] Playwright accessibility tests pass
 
 ### SEO
+
 - [ ] SEO component used on all pages
 - [ ] Sitemap auto-generated (@astrojs/sitemap)
 - [ ] robots.txt configured
@@ -1725,17 +1766,20 @@ Use this checklist when reviewing any Astro development work:
 - [ ] PWA manifest with required icons
 
 ### Error Handling
+
 - [ ] 404.astro page exists
 - [ ] 500.astro page exists (if needed)
 - [ ] React islands wrapped in ErrorBoundary
 
 ### Build
+
 - [ ] Production build succeeds (`npm run build`)
 - [ ] No build warnings
 - [ ] Preview works correctly (`npm run preview`)
 - [ ] Build outputs to `dist/` correctly
 
 ### Astro-Specific
+
 - [ ] Content Collections use Zod schemas
 - [ ] Static content uses `.astro` components
 - [ ] Interactive components use React islands with appropriate `client:*` directive
@@ -1749,6 +1793,7 @@ Use this checklist when reviewing any Astro development work:
 ### Current Implementation Status
 
 **Completed:**
+
 - ✅ Astro 5.16.6 with React islands
 - ✅ Content Collections for blog posts (74 posts from 2025)
 - ✅ Static pages: home, about, book, art, contact, resume, terms, privacy
@@ -1762,6 +1807,7 @@ Use this checklist when reviewing any Astro development work:
 - ✅ React islands: Header (mobile menu), KitForm (newsletter)
 
 **Not Yet Implemented:**
+
 - ⏸️ ESLint configuration
 - ⏸️ Prettier configuration
 - ⏸️ Unit tests for React islands (Vitest + RTL)
@@ -1832,6 +1878,7 @@ bwc-astro/
 ### RSS Feed Implementation
 
 The RSS feed at `/feed.xml` includes:
+
 - Full post content (HTML)
 - Categories
 - Publication dates
@@ -1842,6 +1889,7 @@ The RSS feed at `/feed.xml` includes:
 ### Testing Strategy
 
 **Primary: E2E with Playwright**
+
 - All critical user flows
 - Content visibility verification
 - SEO requirements
@@ -1849,12 +1897,14 @@ The RSS feed at `/feed.xml` includes:
 - Form submission (newsletter)
 
 **Future: Unit tests for islands**
+
 - SearchBar (when implemented)
 - Any future interactive components
 
 ### Performance Targets
 
 Current build stats:
+
 - **Total pages:** 110
 - **Build time:** ~3.5 seconds
 - **JavaScript bundle:** ~63KB gzipped
