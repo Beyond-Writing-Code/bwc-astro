@@ -37,7 +37,7 @@ describe('KitForm', () => {
 
     expect(appendedScripts.length).toBe(1);
     const script = appendedScripts[0];
-    expect(script.src).toContain('https://leafjessicaroy.kit.com/abc123.js');
+    expect(script.src).toContain('https://leafjessicaroy.kit.com/abc123/index.js');
     expect(script.getAttribute('data-uid')).toBe('abc123');
     expect(script.async).toBe(true);
   });

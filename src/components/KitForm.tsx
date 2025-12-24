@@ -14,7 +14,7 @@ function KitForm({ formId, className }: KitFormProps) {
     if (!container || scriptLoadedRef.current) return;
 
     const script = document.createElement('script');
-    script.src = `https://leafjessicaroy.kit.com/${formId}.js`;
+    script.src = `https://leafjessicaroy.kit.com/${formId}/index.js`;
     script.async = true;
     script.setAttribute('data-uid', formId);
 
