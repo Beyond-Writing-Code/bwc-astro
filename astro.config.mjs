@@ -10,6 +10,7 @@ export default defineConfig({
     '/legal/terms': '/terms',
     '/legal/privacy': '/privacy',
     '/feed': '/feed.xml',
+    '/recommendations': '/recommend',
   },
   build: {
     format: 'file',

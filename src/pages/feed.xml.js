@@ -1,12 +1,12 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
-import { format } from 'date-fns';
+import { format, parseISO } from 'date-fns';
 
 export async function GET(context) {
   const allPosts = await getCollection('posts');
   const publishedPosts = allPosts
     .filter((post) => post.data.published !== false)
-    .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+    .sort((a, b) => parseISO(b.data.date).getTime() - parseISO(a.data.date).getTime());
 
   return rss({
     title: 'Beyond Writing Code',
@@ -15,7 +15,7 @@ export async function GET(context) {
     site: context.site,
     items: await Promise.all(
       publishedPosts.map(async (post) => {
-        const date = new Date(post.data.date);
+        const date = parseISO(post.data.date);
         const year = format(date, 'yyyy');
         const month = format(date, 'MM');
         const day = format(date, 'dd');

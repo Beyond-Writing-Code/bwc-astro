@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { format } from 'date-fns';
+import { format, parseISO } from 'date-fns';
 import Layout from '../../../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
@@ -8,7 +8,7 @@ export async function getStaticPaths() {
   const publishedPosts = allPosts.filter((post) => post.data.published !== false);
 
   return publishedPosts.map((post) => {
-    const date = new Date(post.data.date);
+    const date = parseISO(post.data.date);
     const year = format(date, 'yyyy');
     const month = format(date, 'MM');
     const day = format(date, 'dd');
@@ -25,10 +25,10 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await post.render();
 
-const date = new Date(post.data.date);
+const date = parseISO(post.data.date);
 const formattedDate = format(date, 'MMMM d, yyyy');
 const originalDate = post.data.originalDate
-  ? format(new Date(post.data.originalDate), 'MMMM d, yyyy')
+  ? format(parseISO(post.data.originalDate), 'MMMM d, yyyy')
   : null;
 ---
 

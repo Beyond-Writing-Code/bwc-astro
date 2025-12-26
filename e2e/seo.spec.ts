@@ -79,7 +79,7 @@ test.describe('SEO and Feeds', () => {
   test('RSS autodiscovery link is present', async ({ page }) => {
     await page.goto('/');
 
-    const rssLink = await page.locator('link[type="application/rss+xml"]');
+    const rssLink = page.locator('link[type="application/rss+xml"]');
     await expect(rssLink).toHaveAttribute('href', /feed\.xml/);
   });
 });

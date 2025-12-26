@@ -8,7 +8,7 @@
  * Example: node scripts/review-site.js https://humanitymattersbook.com
  */
 
-const fs = require('fs');
+import fs from 'fs';
 
 const BASE_URL = process.argv[2] || 'http://localhost:3000';
 const OUTPUT_FILE = 'REVIEW_ISSUES.md';

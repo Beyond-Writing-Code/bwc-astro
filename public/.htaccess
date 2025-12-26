@@ -1,6 +1,10 @@
 # Enable RewriteEngine
 RewriteEngine On
 
+# Specific redirects for old URLs that have changed paths
+Redirect 301 /legal/privacy-policy /privacy
+Redirect 301 /legal/terms-and-conditions /terms
+
 # Handle clean URLs - serve .html files without extension
 # If the request doesn't have a file extension and the .html version exists, serve it
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -9,6 +13,7 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html [L]
 
 # Handle trailing slashes - redirect to non-trailing slash version
+# This catches all URLs with trailing slashes (including those indexed by Google)
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} (.+)/$
 RewriteRule ^ %1 [R=301,L]
