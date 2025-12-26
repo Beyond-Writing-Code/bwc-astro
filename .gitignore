@@ -27,3 +27,7 @@ pnpm-debug.log*
 
 # testing
 coverage/
+test-results/
+playwright-report/
+.lighthouseci/
+playwright/.cache/
