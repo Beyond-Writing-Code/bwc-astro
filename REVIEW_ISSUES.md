@@ -1,6 +1,6 @@
 # Site Review
 
-**Last checked:** 12/26/2025, 9:05:58 PM
+**Last checked:** 12/26/2025, 9:32:23 PM
 **URL:** https://beyondwritingcodebook.com
 
 ## 🔍 SEO/Metadata Issues
@@ -90,11 +90,11 @@
 - [ ] **Posts**: Image missing alt text: /images/posts/2025/the-dangers-of-who-and-why-post-incident-reviews.jpg
 - [ ] **Posts**: Image missing alt text: /images/posts/2025/three-reasons-not-to-bring-hostility.jpg
 - [ ] **Posts**: Image missing alt text: /images/posts/2025/why-people-do-what-they-do.jpg
-- [ ] **Posts**: Image missing alt text: /images/posts/2025/bug-hunting.jpg
+- [ ] **Posts**: Image missing alt text: /images/posts/2025/bug-hunting-laptop.jpeg
 - [ ] **Posts**: Image missing alt text: /images/posts/2025/api-meaning.jpg
 - [ ] **Posts**: Image missing alt text: /images/posts/2025/blog-post-checklist.jpg
 - [ ] **Posts**: Image missing alt text: /images/posts/2025/boredom-is-an-interesting-thing.jpg
-- [ ] **Posts**: Image missing alt text: /images/posts/2025/cloud-resume-challenge.jpg
+- [ ] **Posts**: Image missing alt text: /images/posts/2025/cloud-resume-piano.jpg
 - [ ] **Posts**: Image missing alt text: /images/posts/2025/minimalist-desk.jpg
 - [ ] **Posts**: Image missing alt text: /images/posts/2025/naming-things-in-spades.jpg
 - [ ] **Posts**: Image missing alt text: /images/posts/2025/not-knowing.jpg
