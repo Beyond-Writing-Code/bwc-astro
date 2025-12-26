@@ -29,7 +29,16 @@ npm run type-check --silent || { echo "❌ Type check failed"; FAILED=1; }
 
 # 4. Tests
 echo "🧪 Running tests..."
-npm run test:run --silent || { echo "❌ Tests failed"; FAILED=1; }
+TEST_OUTPUT=$(npm run test:run --silent 2>&1)
+TEST_EXIT=$?
+if [ $TEST_EXIT -ne 0 ]; then
+    echo "❌ Tests failed"
+    echo "$TEST_OUTPUT"
+    FAILED=1
+else
+    # Only show warnings/errors from successful test runs
+    echo "$TEST_OUTPUT" | grep -iE "(warn|error|⚠️|❌)" || true
+fi
 
 # 5. Build test
 echo "🏗️  Testing build..."
