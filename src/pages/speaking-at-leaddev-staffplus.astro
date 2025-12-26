@@ -1,0 +1,186 @@
+---
+import Layout from '../layouts/Layout.astro';
+import KitForm from '../components/KitForm';
+---
+
+<Layout
+  title="LeadDev StaffPlus 2025 - Us vs. Them Talk"
+  description="Watch my presentation 'Us vs. Them' from LeadDev StaffPlus 2025 about divisive thinking patterns in tech organizations. Includes recap slides with epilogue and Q&A."
+>
+  <main class="speaking-leaddev-page">
+    <h1>LeadDev StaffPlus 2025 was amazing!</h1>
+
+    <section class="speaking-content">
+      <p>
+        What a wonderful time I had at{' '}
+        <a href="https://leaddev.com/staffplus-new-york/" target="_blank" rel="noopener noreferrer">
+          LeadDev StaffPlus
+        </a>
+        ! Speakers, workshops, guided discussions, meeting countless other people, handing out{' '}
+        <a href="/card">question cards</a>… all so good!
+      </p>
+
+      <p>Here I am on stage:</p>
+
+      <img
+        src="/images/posts/2025/leaf-speaking-staffplus.webp"
+        alt="Leaf Jessica Roy speaking on stage at LeadDev StaffPlus New York 2025"
+        class="hero-image"
+      />
+
+      <p>
+        You can see a recording of my talk here:{' '}
+        <a
+          href="https://leaddev.com/communication/us-vs-them"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://leaddev.com/communication/us-vs-them
+        </a>
+      </p>
+
+      <p>Many thanks to the organizers and staff for putting together a fantastic event.</p>
+
+      <h2>Us vs. Them Talk & Slides</h2>
+
+      <p>
+        I was fortunate to speak on the StaffPlus stage! I spoke about my experiences with "Us vs.
+        Them" thinking.
+      </p>
+
+      <p>
+        The most common question I got after the talk was: "So, what happened next?!" Oops! I didn't
+        mean for it to be a cliffhanger!
+      </p>
+
+      <p>
+        As I was preparing my "recap" slides below, I realized that the talk stopped at the moment
+        where I had learned the takeaway lesson. But there's more! I added an epilogue and some
+        other Q&A below.
+      </p>
+
+      <div class="pdf-download">
+        <a href="/Leaf_UsVsThem_Recap.pdf" class="download-button" download>
+          Download Us vs. Them Recap Slides
+        </a>
+      </div>
+
+      <h2>Book</h2>
+
+      <p>
+        As I mentioned during the talk, I'm writing a book on the "human" side of being a developer.
+        To keep posted, see some draft content, and have opportunities to send me feedback, sign up
+        for my mailing list here:
+      </p>
+
+      <KitForm formId="c29f7b6897" client:load />
+
+      <h2>Connecting & Cards</h2>
+
+      <p>
+        If you were there and we connected (or if you wanted to connect and didn't get a chance!),
+        find me on{' '}
+        <a href="https://www.linkedin.com/in/jmroy/" target="_blank" rel="noopener noreferrer"
+          >LinkedIn</a
+        >{' '}
+        and say hello.
+      </p>
+
+      <p>
+        When you reach out, tell me about one of the other talks or events you liked best from the
+        conference.
+      </p>
+
+      <p>I was also handing out cards and stickers…</p>
+
+      <img
+        src="/images/posts/2025/cardsStickers-1.jpg"
+        alt="Two business cards and a small round sticker. One card says 'Beyond Writing Code Questions for reflection' and 'In what ways might slowing down actually help us to move faster?' The other card has a watercolor and ink drawing of a creature with a thought balloon that just has a question mark. The sticker has the same watercolor creature and the text 'Beyond Writing Code' and 'beyondwritingcode.com' around it."
+        class="cards-image"
+      />
+
+      <p>
+        If you drew a card, feel free to drop me a note on LinkedIn ("everyone's favorite social
+        network!") to share your thoughts!
+      </p>
+
+      <p>I put the card questions online <a href="/card">here</a>.</p>
+
+      <img
+        src="/images/posts/2025/IMG_0915-badge.jpg"
+        alt="A StaffPlus badge for Leaf (Jessica) Roy, Beyond Writing Code. Developer, Architect, Author. StaffPlus Speaker. The badge is decorated with a green dot sticker, a pin that says DX, and stickers that say LeadDev, She/Her, and Beyond Writing Code beyondwritingcode.com."
+        class="badge-image"
+      />
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .speaking-leaddev-page {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) 0;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+  }
+
+  .speaking-content {
+    font-family: var(--font-serif);
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-accent-teal);
+  }
+
+  p {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .hero-image,
+  .cards-image,
+  .badge-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: var(--spacing-lg) 0;
+  }
+
+  .pdf-download {
+    margin: var(--spacing-lg) 0;
+  }
+
+  .download-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-accent-teal);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+
+  .download-button:hover {
+    background-color: var(--color-accent-green);
+  }
+
+  a {
+    color: var(--color-accent-teal);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>

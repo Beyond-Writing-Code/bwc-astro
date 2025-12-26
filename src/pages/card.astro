@@ -1,0 +1,180 @@
+---
+import Layout from '../layouts/Layout.astro';
+import KitForm from '../components/KitForm';
+---
+
+<Layout
+  title="Get a Reflection Card"
+  description="Reflection questions for developers - conversation starters and prompts for thinking about your development career and experiences."
+>
+  <main class="card-page">
+    <h1>Get a card?</h1>
+
+    <section class="card-content">
+      <p>
+        Did you see me (Leaf) at a conference recently, and did you get a "questions for reflection"
+        card from me? Or did you see a question posted online?
+      </p>
+
+      <p>
+        I'm <a href="/">Leaf</a>, and I'm writing a <a href="/book">book</a> about the <em>human</em
+        >
+        side of being a developer. You can read more of my writing <a href="/posts">here</a>.
+      </p>
+
+      <img
+        src="/images/posts/2025/cardsStickers-1.jpg"
+        alt="Two business cards and a small round sticker. One card says 'Beyond Writing Code Questions for reflection' and 'In what ways might slowing down actually help us to move faster?' The other card has a watercolor and ink drawing of a creature with a thought balloon that just has a question mark. The sticker has the same watercolor creature and the text 'Beyond Writing Code' and 'beyondwritingcode.com' around it."
+        class="card-image"
+      />
+
+      <p>
+        The questions on the cards are all potential questions for reflection in the book! Get draft
+        content, hear about book progress, and have the opportunity to have input into the book by
+        signing up below:
+      </p>
+
+      <KitForm formId="e8bea8d2f2" client:load />
+
+      <p>
+        After you confirm, hit reply on the confirmation email and tell me what question you drew.
+        Share your thoughts if you like!
+      </p>
+
+      <h2>About the cards</h2>
+
+      <p>
+        In preparation for meeting a whole bunch of people at{' '}
+        <a href="/speaking-at-leaddev-staffplus">LeadDev StaffPlus</a> and the{' '}
+        <a href="https://ghc.anitab.org/" target="_blank" rel="noopener noreferrer">
+          Grace Hopper Celebration
+        </a>
+        , I wanted something fun to hand out.
+      </p>
+
+      <p>Stickers, for sure. I love stickers. That was easy.</p>
+
+      <p>
+        But when I saw{' '}
+        <a
+          href="https://www.linkedin.com/in/benlloydpearson/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ben Lloyd Pearson
+        </a>{' '}
+        handing out "affirmations" at the{' '}
+        <a href="https://videos.itrevolution.com/" target="_blank" rel="noopener noreferrer">
+          Enterprise Technology Leadership Summit
+        </a>
+        , I knew he was onto something.
+      </p>
+
+      <p>
+        He offered people a deck of small cards, and I chose "Delete the code you don't want to see
+        in the world" from the deck. Clever!
+      </p>
+
+      <p>
+        I considered being a copycat, but I was struggling to come up with more than about three
+        affirmations. Once I decided to make it "questions for reflection" instead, well… I thought
+        of 50 pretty quickly, enough to make a full set.
+      </p>
+
+      <p>And then I thought of another 50.</p>
+
+      <p>
+        I ordered two versions: business card size, and sticker size. I used this{' '}
+        <a href="https://refer.moo.com/s/leaf4" target="_blank" rel="noopener noreferrer">
+          moo.com referral link
+        </a>{' '}
+        if you are interested in checking out their products!
+      </p>
+
+      <h2>The full list of questions</h2>
+
+      <p>
+        Want to see all the questions? Here's a PDF with all of them! Use them for reflection,
+        journaling, or conversation starters.
+      </p>
+
+      <div class="pdf-download">
+        <a href="/Question-cards-for-conferences-Questions.pdf" class="download-button" download>
+          Download Question Cards PDF
+        </a>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .card-page {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) 0;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+  }
+
+  .card-content {
+    font-family: var(--font-serif);
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-accent-teal);
+  }
+
+  p {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: var(--spacing-lg) 0;
+  }
+
+  .pdf-download {
+    margin: var(--spacing-lg) 0;
+  }
+
+  .download-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-accent-teal);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+
+  .download-button:hover {
+    background-color: var(--color-accent-green);
+  }
+
+  a {
+    color: var(--color-accent-teal);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  em {
+    font-style: italic;
+  }
+</style>
