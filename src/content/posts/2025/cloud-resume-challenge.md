@@ -5,7 +5,7 @@ originalDate: '2023-08-19'
 excerpt: 'DevOps Enterprise Summit 2022 closed with a great talk from Forrest Brazeal. As a cloud architect, musician, writer, and cartoonist, he’s got an impressive resume of his own, but he also has a project...'
 categories: ['career', 'coding', 'learning']
 tags: ['cloud', 'Forrest Brazeal']
-featuredImage: '/images/posts/2025/cloud-resume-challenge.jpg'
+featuredImage: '/images/posts/2025/cloud-resume-piano.jpg'
 ---
 
 ![Piano keyboard glistening with light effects](/images/posts/2025/cloud-resume-piano.jpg)

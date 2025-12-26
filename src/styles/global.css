@@ -5,56 +5,56 @@
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  font-display: block;
   src: url('/fonts/cormorant-garamond-400.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
+  font-display: block;
   src: url('/fonts/cormorant-garamond-500.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
+  font-display: block;
   src: url('/fonts/cormorant-garamond-600.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
+  font-display: block;
   src: url('/fonts/cormorant-garamond-700.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  font-display: block;
   src: url('/fonts/fira-sans-400.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
+  font-display: block;
   src: url('/fonts/fira-sans-500.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
+  font-display: block;
   src: url('/fonts/fira-sans-600.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
+  font-display: block;
   src: url('/fonts/fira-sans-700.woff2') format('woff2');
 }
 
@@ -182,7 +182,7 @@ body {
   color: var(--color-text);
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   transition: color 0.2s;
 }
 

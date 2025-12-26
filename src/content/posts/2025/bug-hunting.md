@@ -5,7 +5,7 @@ originalDate: '2025-04-26'
 excerpt: 'I once had a colleague who (jokingly) left this comment on a code review, and not in reference to a specific line of code:  “Missing semicolon.”'
 categories: ['AI', 'coding']
 tags: ['debugging', 'manual vs. ai']
-featuredImage: '/images/posts/2025/bug-hunting.jpg'
+featuredImage: '/images/posts/2025/bug-hunting-laptop.jpeg'
 ---
 
 Another post I made a while ago on Medium, but this one I updated today with some newer thoughts.
