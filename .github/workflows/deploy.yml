@@ -73,7 +73,8 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             ENV="${{ github.event.inputs.environment }}"
           else
-            ENV="staging"
+          # For automatic dispatch, set this to staging or production as needed
+            ENV="production"
           fi
 
           echo "environment=${ENV}" >> $GITHUB_OUTPUT
