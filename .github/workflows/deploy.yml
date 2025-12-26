@@ -154,7 +154,8 @@ jobs:
               echo "No changes to commit"
             else
               git commit -m "Update site review [skip ci]"
-              git push
+              # Push to main branch explicitly (we're in detached HEAD)
+              git push origin HEAD:main
             fi
           fi
 

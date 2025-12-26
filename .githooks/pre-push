@@ -1,0 +1,28 @@
+#!/bin/bash
+# Pre-push hook - warn about untracked files
+
+# Check for untracked files
+UNTRACKED_FILES=$(git ls-files --others --exclude-standard)
+
+if [ -n "$UNTRACKED_FILES" ]; then
+  echo ""
+  echo "⚠️  Warning: You have untracked files in your repository:"
+  echo ""
+  echo "$UNTRACKED_FILES" | sed 's/^/  /'
+  echo ""
+  echo -n "Do you want to continue pushing? (y/N): "
+  read -r response
+
+  case "$response" in
+    [yY][eE][sS]|[yY])
+      echo "✅ Proceeding with push..."
+      exit 0
+      ;;
+    *)
+      echo "❌ Push cancelled."
+      exit 1
+      ;;
+  esac
+fi
+
+exit 0
