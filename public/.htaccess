@@ -17,12 +17,18 @@ RewriteRule ^ %1 [R=301,L]
 ErrorDocument 404 /404.html
 ErrorDocument 500 /500.html
 
-# Security headers (backup for _headers file)
+# Security headers
 <IfModule mod_headers.c>
   Header always set X-Frame-Options "DENY"
   Header always set X-Content-Type-Options "nosniff"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+  # Content-Security-Policy for HTML files
+  <FilesMatch "\.(html|htm)$">
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://leafjessicaroy.kit.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://leafjessicaroy.kit.com; frame-src https://leafjessicaroy.kit.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://leafjessicaroy.kit.com; upgrade-insecure-requests"
+  </FilesMatch>
 </IfModule>
 
 # Enable compression
