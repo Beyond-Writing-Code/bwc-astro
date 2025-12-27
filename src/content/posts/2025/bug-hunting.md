@@ -16,7 +16,7 @@ I once had a colleague who (jokingly) left this comment on a code review, and no
 
 “Missing semicolon.”
 
-![](/images/posts/2025/bug-hunting-laptop.jpeg)
+![person typing on a laptop](/images/posts/2025/bug-hunting-laptop.jpeg)
 
 _Photo by Nubelson Fernandes on Unsplash_
 

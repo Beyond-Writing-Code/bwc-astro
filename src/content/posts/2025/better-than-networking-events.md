@@ -36,7 +36,7 @@ Eventually you find your space. If you’re early, the organizers are still sett
 
 Either way, there’s food, but it’s definitely not dinner.
 
-![](/images/posts/2025/celery.jpg)
+![A fancy plate with celery and a glass dish of hummus](/images/posts/2025/celery.jpg)
 
 _Like this, but with a paper plate and no nice-looking dish of hummus. [Monica Grabkowska](https://unsplash.com/photos/a-plate-with-celery-sticks-and-a-bowl-of-dip-vNHAznpk2MU) for Unsplash. Unsplash doesn’t seem to do unappetizing pictures of veggies and dip._
 

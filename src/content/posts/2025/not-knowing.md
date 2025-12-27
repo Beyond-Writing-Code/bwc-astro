@@ -12,7 +12,7 @@ The developers you work with know stuff that you don’t, and you know stuff tha
 
 So why does it seem like everyone else knows more, and you’ll never catch up? Why does it seem like you’re a little kid on a tricycle, trying to pedal faster while the big kids zoom by on their bikes?
 
-![](/images/posts/2025/question-blocks.jpeg)
+![A small child pedaling a tricycle](/images/posts/2025/question-blocks.jpeg)
 
 _This is how I feel sometimes. Not shown in photo: all the big kids on their big kid bikes. Photo by [Tommy Bond](https://unsplash.com/@bondomovies?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
@@ -58,7 +58,7 @@ You know, I don’t even remember what the technology was. I don’t think anyon
 
 In that moment, I saw that it was part of the role of a lead developer to speak up and ask when you didn’t know something, because your newer colleagues might not have the courage yet. Since I wanted to be a lead developer, I was going to have to get used to speaking up.
 
-![Large question mark symbol](/images/posts/2025/not-knowing-question-mark.jpg)
+![A metal sign with the word ASK on it](/images/posts/2025/not-knowing-question-mark.jpg)
 
 _Photo by [Brett Jordan](https://unsplash.com/@brett_jordan?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
@@ -68,7 +68,7 @@ Let’s smash the stigma around asking questions or asking for help. There’s n
 
 How do we smash the stigma? Ask questions, and _ask in a way that others see it._ I know, it’s less intimidating to message a trusted colleague privately. When you keep it quiet, you maintain the illusion for others that everyone around them knows everything. When you model the behavior of humbly asking for help, you teach others that it’s okay to do the same. When others start to join you, you’re changing the culture for the better.
 
-![Group of people working together on laptops](/images/posts/2025/not-knowing-laptops.jpg)
+![Two people looking at a computer together](/images/posts/2025/not-knowing-laptops.jpg)
 
 _Photo by [Mars Sector-6](https://unsplash.com/@heylagostechie?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
@@ -82,7 +82,7 @@ So, raise your hand in that staff meeting, post that question to your team, or u
 
 When a colleague asks something you don’t know, add a comment that you’d like to know as well. They, and others, will see that they’re not the only one with that question.
 
-![Hand reaching out to help someone up](/images/posts/2025/not-knowing-helping-hand.jpg)
+![A sign that says 'be kind' with a heart](/images/posts/2025/not-knowing-helping-hand.jpg)
 
 _Photo by [Randalyn Hill](https://unsplash.com/@randalynhill?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 

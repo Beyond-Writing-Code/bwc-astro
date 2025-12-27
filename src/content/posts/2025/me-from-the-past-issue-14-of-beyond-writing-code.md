@@ -23,7 +23,7 @@ So, good news! I reread an older blog post, and it fails a newer check on my wri
 
 I've been writing for a long time, and I've developed a checklist of tests for my writing... well, a _mental_ checklist, anyway... hmm. Sounds like [material for my blog](https://www.beyondwritingcode.com/2025/08/19/writers-checklists/).
 
-![A person checking four boxes on a tablet, each box labeled "Check"](/images/posts/2025/me-from-the-past-issue-14-of-beyond-writing-code-1.jpg)
+![A person checking four boxes on a tablet, each box labeled Check](/images/posts/2025/me-from-the-past-issue-14-of-beyond-writing-code-1.jpg)
 
 What’s sillier than putting “make to-do list” on a to-do list? This.  
 _Photo by [​Jakub Żerdzicki​](https://unsplash.com/@jakubzerdzicki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [​Unsplash](https://unsplash.com/photos/a-hand-marks-off-items-on-a-checklist-yKnIbJV0RbY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_

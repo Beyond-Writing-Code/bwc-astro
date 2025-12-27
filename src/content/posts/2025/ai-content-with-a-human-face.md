@@ -77,11 +77,7 @@ I know people claim there are _easy_ ways to tell. “If it uses an em dash, it�
 
 But if you look up “how to tell writing is AI” you’ll get some telltale signs.
 
-![A sample result from a search for "how to tell if writing is AI" that says this before being cut off at the word unique at the bottom of the photo: AI-generated writing can be identified through a combination of manual checks for specific stylistic patterns and the use of AI detection tools, though no single method is entirely foolproof. 
-Manual Identification Clues
-Human writing often features natural variations, personal touches, and occasional imperfections that AI struggles to replicate. Key signs of AI authorship include: 
-Formulaic and Repetitive Structure: The text may follow a predictable, rigid structure (e.g., an introduction, a few body paragraphs, and a "Conclusion" summary) and repeat the same phrases or ideas in slightly different ways.
-Monotonous Tone and Style: The writing can sound formal, stiff, and lack a unique](/images/posts/2025/ai-writing-analysis.png)
+![A sample result from a search for 'how to tell if writing is AI' that says this before being cut off at the word unique at the bottom of the photo: AI-generated writing can be identified through a combination of manual checks for specific stylistic patterns and the use of AI detection tools, though no single method is entirely foolproof. Manual Identification Clues Human writing often features natural variations, personal touches, and occasional imperfections that AI struggles to replicate. Key signs of AI authorship include: Formulaic and Repetitive Structure: The text may follow a predictable, rigid structure (e.g., an introduction, a few body paragraphs, and a Conclusion summary) and repeat the same phrases or ideas in slightly different ways. Monotonous Tone and Style: The writing can sound formal, stiff, and lack a unique](/images/posts/2025/ai-writing-analysis.png)
 
 AI telling me how I can tell writing is AI.
 

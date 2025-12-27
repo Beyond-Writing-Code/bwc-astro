@@ -10,7 +10,7 @@ featuredImage: '/images/posts/2025/somethings-gotta-give.jpg'
 
 You’ve already got a full schedule when the boss asks you to take on a special project. Or maybe an urgent issue just jumped up above everything else you were planning to do this week. Or you’ve got multiple stakeholders, and all of them insist on being your “top priority”.
 
-![](/images/posts/2025/blocks-letters.jpeg)
+![A person looking at a laptop, biting a pencil](/images/posts/2025/blocks-letters.jpeg)
 
 _Photo by [JESHOOTS.COM](https://unsplash.com/@jeshoots?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 

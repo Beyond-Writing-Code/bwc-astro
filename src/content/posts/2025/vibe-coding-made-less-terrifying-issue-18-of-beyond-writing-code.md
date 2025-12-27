@@ -53,7 +53,7 @@ The book is [**Vibe Coding: Building Production-Grade Software With GenAI, Chat,
 ​  
 It isn't out until October, but being on IT Revolution's mailing list has its privileges, and they sent a few sneak peek chapters. Fear of missing out got the best of me... and I read them.
 
-![](/images/posts/2025/vibe-coding-made-less-terrifying-issue-18-of-beyond-writing-code-1.jpg)
+![Cover of book Vibe Coding by Gene Kim and Steve Yegge](/images/posts/2025/vibe-coding-made-less-terrifying-issue-18-of-beyond-writing-code-1.jpg)
 
 Production-grade?! Image from [IT Revolution](https://itrevolution.com/product/vibe-coding-book/)
 

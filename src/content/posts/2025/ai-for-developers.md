@@ -46,7 +46,7 @@ Or is it about money? Developers are expensive. If productivity is simply more d
 
 Drew this the other day:
 
-![A cartoon of a person standing with one foot on a lever marked "AI," pushing it all the way up, and the other foot on a lever marked "$" pushing it all the way down. The text reads "Onward to productivity!"](/images/posts/2025/ai-for-developers-1.jpg)
+![A cartoon of a person standing with one foot pushing a lever marked AI all the way up, and the other foot pushing a lever marked with a dollar sign all the way down. The text reads: Onward to productivity!](/images/posts/2025/ai-for-developers-1.jpg)
 
 ​
 

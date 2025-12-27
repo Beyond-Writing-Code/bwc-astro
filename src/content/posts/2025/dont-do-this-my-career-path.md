@@ -10,7 +10,7 @@ featuredImage: '/images/posts/2025/dont-do-this-my-career-path.jpg'
 
 Folks who are new to software development sometimes ask me about my career path. The first time I fielded this question, I told my story in a straightforward way. Hearing myself talk, though, I realized: this way of telling my story is probably not a good idea.
 
-![](/images/posts/2025/winding-path.jpeg)
+![A winding road through a natural setting, seen from above](/images/posts/2025/winding-path.jpeg)
 
 _This is not an actual illustration of my career path. Photo by [Jack Anstey](https://unsplash.com/@jack_anstey?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 

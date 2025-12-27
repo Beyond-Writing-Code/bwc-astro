@@ -13,7 +13,7 @@ I keep reading that there are two keys to connecting to your people online: cons
 
 Great, but **show up where?** Should I be building my Substack audience? Enhancing my creator profile on Kit? Keeping things on my own website?
 
-![](/images/posts/2025/direction-signs.jpg)
+![Direction Signs pointing left and right, on the beach](/images/posts/2025/direction-signs.jpg)
 
 _Photo by [Jametlene Reskp](https://unsplash.com/@reskp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-wooden-sign-pointing-to-two-different-directions-fmyZcoCaSac?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

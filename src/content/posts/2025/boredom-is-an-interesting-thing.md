@@ -10,7 +10,7 @@ featuredImage: '/images/posts/2025/boredom-is-an-interesting-thing.jpg'
 
 Okay, you’ve put off that dreaded task long enough. Finally, you get to work, but the time just drags on. You’d like to get it over with, but it’s just so… _boring_.
 
-![](/images/posts/2025/bored-pup.jpg)
+![dog on a bench looking bored](/images/posts/2025/bored-pup.jpg)
 
 _Ho hum. Photo by [Priscilla Du Preez 🇨🇦](https://unsplash.com/@priscilladupreez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-pug-puppy-on-brown-wooden-chair-dOnEFhQ7ojs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

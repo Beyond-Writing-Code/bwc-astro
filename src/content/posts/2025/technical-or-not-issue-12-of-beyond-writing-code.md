@@ -64,7 +64,7 @@ The folks I've heard referring to developers as "the smart people" usually have 
 
 One person is not smarter than another because they have knowledge the other person doesn't. We just know different things.
 
-![beam design printed paper on desk, with a protractor on top](/images/posts/2025/technical-or-not-issue-12-of-beyond-writing-code-2.jpg)
+![design printed paper on desk, with a protractor on top](/images/posts/2025/technical-or-not-issue-12-of-beyond-writing-code-2.jpg)
 
 _"Technical" isn't all computers and electronics.  
 Photo by [Sergey Zolkin](https://unsplash.com/@szolkin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/beam-design-printed-paper-on-desk-m9qMoh-scfE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_

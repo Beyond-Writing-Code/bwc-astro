@@ -25,7 +25,7 @@ You might not expect rehearsing without my slides to be a plus, but I like it. A
 
 But I didn't take notes while I was walking, so when I got home, I grabbed index cards, and I wrote out one concept on each.
 
-![](/images/posts/2025/ideas-for-my-talk-issue-17-of-beyond-writing-code-1.jpg)
+![A pile of blank index cards](/images/posts/2025/ideas-for-my-talk-issue-17-of-beyond-writing-code-1.jpg)
 
 _Photo by [Kate Trysh](https://unsplash.com/@katetrysh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/white-printer-paper-WX5jK0BT5JQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash), and congratulations to Kate for taking a photo of a pile of blank index cards and having it be useful to someone_
 

@@ -72,7 +72,7 @@ I brought my personal laptop, and _I hardly used it_. I took notes with a pen in
 
 I brought a small reusable bottle for water, but not soap to wash it, so that was pointless. Bottled water was eight bucks from the hotel store, so instead I got a large herbal tea each morning and refilled the cup with water throughout the day.
 
-![](/images/posts/2025/conference-medium.jpg)
+![Leaf at a table at a conference, with a cup of water, a notebook and pen, and a mobile device](/images/posts/2025/conference-medium.jpg)
 
 Here I am with my refilled cup and my fancy pen and notebook. Photo credit Kevin Roche Photo LLC (see his other conference pics here: [https://kevinrochephotollc.pixieset.com/does2023lasvegas/](https://kevinrochephotollc.pixieset.com/does2023lasvegas/)).
 

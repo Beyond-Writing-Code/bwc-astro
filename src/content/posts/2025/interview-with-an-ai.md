@@ -14,7 +14,7 @@ But then Forrest Brazeal posted [this](https://www.linkedin.com/posts/forrestbra
 
 If we treat AI like a junior developer, do we interview AI the way we interview junior developers? Make AI do a whiteboard coding exercise? Insist that it can demonstrate more years of experience with your tech stack than are appropriate for a junior level? Put it through several rounds of interviews and then ghost it?
 
-![](/images/posts/2025/whiteboard.jpg)
+![A person drawing a # sign on a large piece of paper](/images/posts/2025/whiteboard.jpg)
 
 _Walk me through your thought process here. Photo by [Walls.io](https://unsplash.com/@walls_io?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-person-writing-on-a-piece-of-paper-with-a-marker-BnVdxvKQqE0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

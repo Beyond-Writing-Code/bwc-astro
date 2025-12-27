@@ -24,7 +24,7 @@ That’s when I noticed that I was being watched. She was staring at me from sur
 
 For a split second, I worried that she might make a grab at my bag of pastries. Unlikely, of course, as she was hardly the size of a pastry herself.
 
-![](/images/posts/2025/sparrow-1.jpeg)
+![female house sparrow perched on a table](/images/posts/2025/sparrow-1.jpeg)
 
 _“Nice pastry you got there.” Photo by [Jay Alexander](https://unsplash.com/@jasont378?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 
@@ -40,7 +40,7 @@ House sparrows are much smaller than seagulls, though. Taking on humans directly
 
 A few minutes later I saw another house sparrow — a male, they look like they have a little beard — doing the same thing. There was a little flock of tiny winged cafe regulars, patrolling the grounds, keeping an eye on the humans in case we got careless with our baked goods.
 
-![](/images/posts/2025/sparrow-2.jpeg)
+![male house sparrow perched on a chair](/images/posts/2025/sparrow-2.jpeg)
 
 _“Fruit and seed? Surely that lemon poppy scone is for me.” Photo by [Maria Hossmar](https://unsplash.com/@kuriositante?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 

@@ -21,7 +21,7 @@ And I had been immersed in more of the same since meeting a colleague for coffee
 
 I was carrying a notebook with pages and pages of scrawled notes, diagrams, quotes, contact information, must-read book recommendations, and topics to research.
 
-![A handwritten note at the top of a page: "it is somehow still Tuesday"](/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-1.jpg)
+![A handwritten note at the top of a page saying 'it is somehow still Tuesday'](/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-1.jpg)
 
 At the top of page 12 of my notes from the first day of the conference.
 
@@ -37,7 +37,7 @@ I wished that someone could just point me to a definitive guide, a central place
 
 Let's back up a bit. What is "DevOps"?
 
-![](/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-2.jpg)
+![An abstract photo of some black tubes and clear cubes](/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-2.jpg)
 
 _This photo is tagged "DevOps" (as well as "Cloud Computing" and "Jewelry"). Photo by [Growtika](https://unsplash.com/@growtika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-car-key-72dRZHuYJWE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
@@ -67,7 +67,7 @@ Now, "deploy" here means the process of making software changes available to use
 
 Dev would "throw code over the wall" to Ops to deploy and support. Ops would endure a tedious manual process that was different every time. It never went according to plan. A nightmare for everyone involved.
 
-![](/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-3.jpg)
+![A person holding a laptop which is plugged into a rack full of equipment with lots of wires](/images/posts/2025/devops-and-better-ways-of-working-issue-16-of-beyond-writing-code-3.jpg)
 
 _Also tagged "DevOps". Maybe this person is doing a manual code deployment. Photo by [Sammyayot254](https://unsplash.com/@superadmins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/man-in-blue-sweater-using-silver-macbook-vIQDv6tUHYk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 

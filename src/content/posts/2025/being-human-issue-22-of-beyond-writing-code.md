@@ -53,7 +53,7 @@ I’m writing my book because **we need better ways of working** in tech, and **
 
 That statement raises more big questions: **what's this about "being human"?** And what makes me think that's the way?
 
-![](/images/posts/2025/being-human-issue-22-of-beyond-writing-code-1.jpg)
+![Seven people engaged in conversation at a cluttered office conference room table](/images/posts/2025/being-human-issue-22-of-beyond-writing-code-1.jpg)
 _Photo by Getty Images for Unsplash_
 
 # People stuff

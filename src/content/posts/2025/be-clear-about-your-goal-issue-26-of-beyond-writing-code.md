@@ -59,7 +59,7 @@ Another way of looking at "what my book is about" is the title. **Beyond Writing
 
 So I decided to have [claude.ai](https://claude.ai/) suggest some book titles for me based on my blog posts and newsletter posts:
 
-![Screen shot of claude.ai text that reads: Based on your writing style and themes I've observed from your site - which focuses on empathy, kindness, helping others, mentoring, self-awareness, and the human side of development - here are some positive 2-4 word title suggestions. I've checked the most obvious ones and found several popular titles already taken, so here are some fresh alternatives: Available titles that capture your themes:  "Code with Care" - Emphasizes the caring, empathetic approach to development "Software Hearts" - Plays on the contrast between technical and human elements "Coding with Kindness" - Directly reflects the kindness theme from your writing "The Empathy Advantage" - Positions empathy as a strength, very positive "Developer Wisdom" - Simple, positive, emphasizes the wisdom from your 20 years "Mindful Coding" - Suggests thoughtful, human-centered development "The Caring Coder" - Direct and personal "Heart-Driven Development" - Emphasizes the emotional intelligence aspect  From scanning your content, I see themes around helping others, mentoring, self-awareness, empathy, and making technology more human. These titles capture that positive, aspirational quality you're looking for - they're things people would want to become or achieve rather than problems to avoid.](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-2.jpg)
+![Screen shot of claude.ai text that reads: Based on your writing style and themes I've observed from your site - which focuses on empathy, kindness, helping others, mentoring, self-awareness, and the human side of development - here are some positive 2-4 word title suggestions. I've checked the most obvious ones and found several popular titles already taken, so here are some fresh alternatives: Available titles that capture your themes:  Code with Care - Emphasizes the caring, empathetic approach to development. Software Hearts - Plays on the contrast between technical and human elements. Coding with Kindness - Directly reflects the kindness theme from your writing. The Empathy Advantage - Positions empathy as a strength, very positive. Developer Wisdom - Simple, positive, emphasizes the wisdom from your 20 years. Mindful Coding - Suggests thoughtful, human-centered development. The Caring Coder - Direct and personal. Heart-Driven Development - Emphasizes the emotional intelligence aspect. From scanning your content, I see themes around helping others, mentoring, self-awareness, empathy, and making technology more human. These titles capture that positive, aspirational quality you're looking for - they're things people would want to become or achieve rather than problems to avoid.](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-2.jpg)
 _From a claude.ai session in September_
 
 I'm not especially fond of any of the suggested titles, but I was intrigued that it pulled out kindness, empathy, and especially the **human side of development** here.
@@ -90,7 +90,7 @@ Let's take those questions one at a time...
 
 @media (max-width:600px) { table.email-image { float: none !important; } }
 
-![](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-3.jpg)
+![Book cover for Sooner Safer Happier: Antipatterns and Patterns for Business Agility by Jonathan Smart et al](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-3.jpg)
 
 For years, researchers have been pointing the way to be a high-performing and happy team, with ample evidence.
 
@@ -100,13 +100,13 @@ For years, researchers have been pointing the way to be a high-performing and ha
 
 @media (max-width:600px) { table.email-image { float: none !important; } }
 
-[![](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-4.jpg)](https://dora.dev/)
+[![Cover page for DORA State of AI-assisted Software Development 2025 report](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-4.jpg)](https://dora.dev/)
 
 And the [2025 DORA State of AI-assisted Software Development Re](https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report)​[port](https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report) has really made it clear: AI is an amplifier. If you're already a high-performing team, AI will help you do better. If you're already struggling, AI can certainly enable you to do worse.
 
 @media (max-width:600px) { table.email-image { float: none !important; } }
 
-![](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-5.jpg)
+![Book cover for The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win, by Gene Kim et al](/images/posts/2025/be-clear-about-your-goal-issue-26-of-beyond-writing-code-5.jpg)
 
 And DORA continues to offer additional evidence for the [capabilities](https://dora.dev/capabilities/) of high-performing teams. Those capabilities focus on a climate of **learning, fast flow, and fast feedback** - the "[three ways](https://itrevolution.com/articles/the-three-ways-principles-underpinning-devops/)" outlined years ago in [The Phoenix Project](https://bookshop.org/a/114662/9781950508945).
 

@@ -24,7 +24,7 @@ As my dad used to say, “what are you going to _do_ with that information?” I
 
 Person B, what are you going to do if the answer is “10% more productive” vs. “50% more productive” vs. “300% more productive”?
 
-![](/images/posts/2025/productivity-laptop.jpg)
+![A book opened to a page that says Productivity: Making the Hours in the Day go Further](/images/posts/2025/productivity-laptop.jpg)
 
 _Photo by [kris](https://unsplash.com/@leafybirdy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/selective-focus-photography-of-productivity-printed-book-n9u9ZEoH2yM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

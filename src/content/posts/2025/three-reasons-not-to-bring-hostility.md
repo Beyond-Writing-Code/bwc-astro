@@ -14,7 +14,7 @@ Luckily, I have found people on social media who offer those challenges in their
 
 However, I have noticed two unsettling things about some of this writing: 1. It can be a bit — or a lot — hostile to people who don’t agree, and 2. I found myself enjoying that hostile tone (if I already agreed with the writer myself). Ick.
 
-![](/images/posts/2025/angry-face.jpg)
+![A lion showing his teeth](/images/posts/2025/angry-face.jpg)
 
 I get it. It feels good to be certain about being right. Whether or not one is actually right.
 

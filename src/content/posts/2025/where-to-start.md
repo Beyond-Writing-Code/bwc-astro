@@ -32,7 +32,7 @@ This person considered a number of different educational or certificate programs
 
 Well. Good to know that there’s demand for the book that I’m just starting to write! But I also can’t write an entire book in response to a question on Slack. “Hang on about a year and a half and I’ll have something for you…”
 
-![](/images/posts/2025/bored-pup-2.jpg)
+![A puppy](/images/posts/2025/bored-pup-2.jpg)
 
 _“Hang on about a year and a half,” she said. Photo by [VANDER FILMS](https://unsplash.com/@vanderfilms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/golden-retriever-puppy-on-black-floor-5WGNbC10QII?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

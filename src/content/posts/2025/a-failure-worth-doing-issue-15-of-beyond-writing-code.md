@@ -19,7 +19,7 @@ Not "a day where I failed"—I failed for a full year.
 
 I want a tacky graphic like this...
 
-![](/images/posts/2025/a-failure-worth-doing-issue-15-of-beyond-writing-code-1.jpg)
+![six people each holding their right hand out so their hands are stacked](/images/posts/2025/a-failure-worth-doing-issue-15-of-beyond-writing-code-1.jpg)
 _Getty Images for Unsplash_
 
 ...with a giant "prohibited" red-circle-with-a-line over it. 🚫

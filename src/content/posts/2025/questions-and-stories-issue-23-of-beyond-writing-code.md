@@ -31,7 +31,7 @@ I thought of 50 questions pretty quickly. That's enough to make a full set of ca
 
 And then I thought of another 50 questions.
 
-![Two cards and a sticker. The card on the left says "Beyond Writing Code Questions for reflection" and "In what ways might slowing down actually help us to move faster?" The card on the right has a colorful creature drawn in watercolor and ink, with a thought balloon over its head. The sticker has the same creature and it says "Beyond Writing Code" and "beyondwritingcode.com"](/images/posts/2025/questions-and-stories-issue-23-of-beyond-writing-code-1.jpg)
+![Two cards and a sticker. The card on the left says Beyond Writing Code Questions for reflection and In what ways might slowing down actually help us to move faster? The card on the right has a colorful creature, the logo for Beyond Writing Code, with a thought balloon over its head. A sticker has the same creature and it says Beyond Writing Code and beyondwritingcode.com](/images/posts/2025/questions-and-stories-issue-23-of-beyond-writing-code-1.jpg)
 
 ​
 

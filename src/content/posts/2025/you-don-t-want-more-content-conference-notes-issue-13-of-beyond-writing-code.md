@@ -17,7 +17,7 @@ People don't want more content. **We want one solution to one specific problem.*
 
 That point from [this article](https://substack.com/@landonpoburan/p-166244806) by Landon Poburan caught my eye. As Landon said:
 
-[![A quote from Landon Poburan's Substack article entitled What People Actually Want Isn't A Paid Newsletter. The quote: "Creators assume customers think: "For $5/month, I get everything!"  But customers actually think: "I already can't keep up with what I have."  Or: "How is this different than the other 50 publications I'm subscribed to?"  They're not excited about more content. They're often exhausted by the idea of it."](/images/posts/2025/you-don-t-want-more-content-conference-notes-issue-13-of-beyond-writing-code-1.jpg)](https://substack.com/@landonpoburan/p-166244806)
+[![A quote from Landon Poburan's Substack article entitled What People Actually Want Isn't A Paid Newsletter. The quote: Creators assume customers think: For $5/month, I get everything! But what customers actually think: I already can't keep up with what I have. Or: How is this different from the other 50 publications I'm subscribed to? They're not excited about more content. They're often exhausted by the idea of it.](/images/posts/2025/you-don-t-want-more-content-conference-notes-issue-13-of-beyond-writing-code-1.jpg)](https://substack.com/@landonpoburan/p-166244806)
 
 From Landon Poburan on [Substack](https://substack.com/@landonpoburan/p-166244806)​
 

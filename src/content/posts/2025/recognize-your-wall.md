@@ -12,7 +12,7 @@ I’m not saying it’s time to go stare at the wall. Well, maybe I am.
 
 Maybe you’ve been firefighting most of the day, one urgent situation after another popping up like ads on top of a recipe blog. Perhaps it’s been an endless stream of meetings. Or maybe you’ve been working heads-down for hours (lucky you!), writing code for some huge project. Whatever the situation, it’s now late in the day, you’re dragging… but you’re trying to get “just one more thing” done before you dash out the door.
 
-![](/images/posts/2025/brick-wall.jpeg)
+![A person looking at a laptop with their hand in their hair. The laptop has programming-related stickers such as node, php, and git.](/images/posts/2025/brick-wall.jpeg)
 
 _Photo by [Tim Gouw](https://unsplash.com/es/@punttim?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 

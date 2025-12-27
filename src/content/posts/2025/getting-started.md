@@ -35,7 +35,7 @@ Fortunately, yesterday was a good day. Got a (fairly long!) [newsletter](https:/
 
 I had to laugh when I saw this. Here are the search engine optimization (SEO) ratings from Yoast for a _completely blank blog post_:
 
-![A red frowning emoji labeled "SEO analysis: Needs improvement," a green smiling emoji labeled "Readability analysis: Good," and a green smiling emoji labeled "Inclusive language: Good"](/images/posts/2025/seo-analysis-yoast.png)
+![A red frowning emoji labeled SEO analysis: Needs improvement, and two green smiling emojis labeled Readability analysis: Good and Inclusive language: Good](/images/posts/2025/seo-analysis-yoast.png)
 
 I had to laugh. That post (or book!) you never write? Sure, as a blank page, it might be incredibly easy to read. And, not having any words, it is unlikely to offend.
 

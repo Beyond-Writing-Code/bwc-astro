@@ -43,7 +43,7 @@ Unfortunately, those people would often not recognize when you were off the flow
 
 When they ran out of flowchart, they’d send you to tier 2. But even the flowchart person was still someone sitting in an office somewhere.
 
-![](/images/posts/2025/call-center.jpg)
+![A person with an anxious expression looking at a computer with others nearby](/images/posts/2025/call-center.jpg)
 
 _“The button doesn’t exist? That’s not on the flowchart.” Photo by [Arlington Research](https://unsplash.com/@arlington_research?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/unknown-persons-using-computer-indoors-nFLmPAf9dVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
@@ -61,7 +61,7 @@ The contrast was striking when, later in the day, I had a chat with “Julian”
 
 The wording and grammar weren’t perfect. But they didn’t seem unprofessional, they just seemed human.
 
-![](/images/posts/2025/chatgpt-conversation.png)
+![Conversation that says: 'Actually in the middle of writing a blog post for beyondwritingcode.com about a website chat experience I had this morning at another company. I honestly could not tell if I was talking to a real person or an AI.' The other person wrote 'lol well today for sure you are talking to a real person' and the first person responded 'I figured :)'](/images/posts/2025/chatgpt-conversation.png)
 
 Microsoft likely has access to the best AI a company can get. If I had to pick a company that might have AI so good they could fake me out, they’d certainly be on my list of candidates.
 

@@ -33,7 +33,7 @@ True story: I once spent hours trying to troubleshoot a program where all of the
 
 Also, it was causing a production issue, and it was several hours past my bedtime. I was groggy and desperately trying to fix everything before user traffic started to pick up in the early morning hours.
 
-![](/images/posts/2025/playing-cards-spades.jpeg)
+![Painted letters on tiles](/images/posts/2025/playing-cards-spades.jpeg)
 
 _Photo by [Surendran MP](https://unsplash.com/@sure_mp?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
@@ -73,7 +73,7 @@ It might be a `currentBalance` if you need to distinguish it from some other kin
 
 How DO people get their bank balances these days, anyway? I log in to my bank website and look it up, but I bet by now that’s old school. Probably you record a video of yourself dancing to a song about your bank balance and post it to TikTok, and a bot from your bank will text you with the value and a relevant movie clip as commentary.
 
-![Person dancing joyfully](/images/posts/2025/naming-things-dancing.jpg)
+![Person dancing joyfully while someone else records them with a phone camera](/images/posts/2025/naming-things-dancing.jpg)
 
 _Just checking that bank balance (Photo by [Amanda Vick](https://unsplash.com/@amandavickcreative?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 

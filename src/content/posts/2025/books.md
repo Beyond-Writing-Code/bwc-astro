@@ -30,7 +30,7 @@ And when telling a story on stage, look for the sweet spot **between memorizing 
 
 But _memorize_ only the opening and ending. Beyond that, memorizing can make you sound unnatural. And if you lose your place in something you memorized word for word, recovering is hard.
 
-![Neon sign that says "what is your story" glowing in an office window at night.](/images/posts/2025/what-is-your-story-neon.jpg)
+![Neon sign that says 'what is your story' glowing in an office window at night](/images/posts/2025/what-is-your-story-neon.jpg)
 
 _Photo by [Etienne Girardet](https://unsplash.com/@etiennegirardet?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-flat-screen-tv-turned-on-at-the-living-room-EP6_VZhzXM8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

@@ -35,7 +35,7 @@ So far, so good?
 
 Now, let’s say you have an app on your mobile device that lets you control your microwave. I don’t know why you’d want to do this. This sounds like a recipe for overcooked food, or a mess splattered all over your microwave. But let’s say that’s what you have.
 
-![Person holding phone with coffee cup nearby](/images/posts/2025/api-meaning-phone-coffee.jpg)
+![Person holding cell phone](/images/posts/2025/api-meaning-phone-coffee.jpg)
 _Just going to heat up my coffee… from the next room. (Photo by [Paul Hanaoka](https://unsplash.com/es/@plhnk?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 You now press ‘3’ and ‘0’ and ‘Start’ on your phone, and your microwave responds. There’s still a user interface here — the interface between you and the phone is the user interface.

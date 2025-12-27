@@ -26,7 +26,7 @@ I was too busy adjusting at first to notice, but it wasn’t long before I could
 
 First question I asked myself was an obvious one: “**who do you know who might be a good mentor?**” A worthwhile question, but for me it only generated some names who didn’t seem like good matches. People whose focus was different from mine (including most of my team). People who were probably too busy. People whose skills were too much like mine.
 
-![](/images/posts/2025/mentor-path.jpg)
+![two people looking at a computer together](/images/posts/2025/mentor-path.jpg)
 
 _Photo by Desola Lanre-Ologun on Unsplash_
 
@@ -70,7 +70,7 @@ Other than that, though, I didn’t arrive to our first meeting with an agenda o
 
 Let me just say that I had no idea what I was getting into with my new mentor. In a good way.
 
-![](/images/posts/2025/medium-image.jpg)
+![a small child with a look of wonder](/images/posts/2025/medium-image.jpg)
 
 Photo by Marcel Smits on Unsplash. That’s not me, but I did have curly hair like that as a kid.
 

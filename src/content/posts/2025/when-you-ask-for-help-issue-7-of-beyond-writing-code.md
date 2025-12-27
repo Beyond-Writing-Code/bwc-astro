@@ -21,7 +21,7 @@ I recently read [How to Ask for Help Without Looking Stupid](https://medium.com/
 
 However, Ian also has a sixth point lurking: _explain the urgency without panic._
 
-![a close up of a bird with its mouth open](/images/posts/2025/when-you-ask-for-help-issue-7-of-beyond-writing-code-1.jpg)
+![a close up of a seagull with its mouth open](/images/posts/2025/when-you-ask-for-help-issue-7-of-beyond-writing-code-1.jpg)
 
 _Explain the urgency without seagull vocalizations. Photo by [Travis Leery](https://unsplash.com/@jersey_photos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-bird-with-its-mouth-open-iDZf4PqegpQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 

@@ -25,7 +25,7 @@ A few weeks ago, I took my aunt to a medical appointment. While I was waiting, I
 
 I read two copies of the book at once. Actually, two of my three copies... maybe I'd better explain.
 
-![shallow focus photography of books](/images/posts/2025/was-my-book-already-written-1.jpg)
+![Stack of hardcover books](/images/posts/2025/was-my-book-already-written-1.jpg)
 
 Books, books, books
 

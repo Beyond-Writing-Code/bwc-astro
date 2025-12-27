@@ -8,7 +8,7 @@ tags: ['errors', 'logic']
 featuredImage: '/images/posts/2025/thinking-errors.jpg'
 ---
 
-![](/images/posts/2025/thinking-statue.jpeg)
+![A neon sign on a brick wall that says THIS IS THE SIGN YOU'VE BEEN LOOKING FOR](/images/posts/2025/thinking-statue.jpeg)
 
 _Photo by [Austin Chan](https://unsplash.com/@austinchan?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 

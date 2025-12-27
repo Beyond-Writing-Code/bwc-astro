@@ -19,7 +19,7 @@ I have been importing blog posts from my previous blog at [Medium](https://bounc
 
 And often, when I want to document something for myself, it’s my habit to document it for anyone else who has the same question…
 
-![](/images/posts/2025/checklist-graph-paper.jpg)
+![Checklist on graph paper](/images/posts/2025/checklist-graph-paper.jpg)
 
 This is exactly what my blog post checklist will look like. I mean, the checklist below — not the ink-on-graph-paper. But graph paper’s cool too. Photo by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/person-writing-bucket-list-on-book-RLw-UC03Gwc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 

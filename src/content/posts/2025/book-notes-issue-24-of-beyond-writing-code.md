@@ -19,7 +19,7 @@ Granted, my idea of "fun reading" is perhaps unusual. Anything in the neighborho
 
 Unfortunately, the recommendations I'm receiving come in faster than I can read them. Does that happen to you? By the time I've finished one, I've added several more to the "to be read" list.
 
-![](/images/posts/2025/book-notes-issue-24-of-beyond-writing-code-1.jpg)
+![A pile of old brown hardcover books](/images/posts/2025/book-notes-issue-24-of-beyond-writing-code-1.jpg)
 
 _The latest tech and leadership books. Photo by [Prateek Katyal](https://unsplash.com/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/piled-books-on-brown-wooden-shelf-_YzGQvASeMk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
@@ -54,7 +54,7 @@ What I was trying to say for the past 2-3 years about better ways of working. **
 
 As a side note, Jon Smart also gave the closing talk for Enterprise Technology Leadership Summit this year. You too can be a Certified Really AI Practitioner, just check the recording here:
 
-[![video preview](/images/posts/2025/book-notes-issue-24-of-beyond-writing-code-2.jpg)​](https://www.youtube.com/watch?v=11s7tqG9vuo)
+[![Video preview of Enterprise Technology Leadership Summit talk from Las Vegas](/images/posts/2025/book-notes-issue-24-of-beyond-writing-code-2.jpg)​](https://www.youtube.com/watch?v=11s7tqG9vuo)
 
 **Thinking in Systems**​  
 by Donella Meadows ([bookshop](https://bookshop.org/a/114662/9781603580557))

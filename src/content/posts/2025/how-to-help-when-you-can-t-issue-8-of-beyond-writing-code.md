@@ -100,7 +100,7 @@ Fifteen minutes later, they have figured out that their code change affects the 
 
 "Rubber duck debugging" is describing your problem to a rubber duck. Yep. The trick: just the act of clarifying your thoughts enough to explain it to someone else, even an inanimate someone else, is often sufficient to let you come up with the solution, or at least a few more troubleshooting ideas.
 
-![](/images/posts/2025/how-to-help-when-you-can-t-issue-8-of-beyond-writing-code-2.jpg)
+![a dog facing a yellow rubber duck, on the floor next to a bathtub](/images/posts/2025/how-to-help-when-you-can-t-issue-8-of-beyond-writing-code-2.jpg)
 
 _"I could block the third party service call and see what happens. I'll try that. Thanks for listening." (photo by Getty images from Unsplash)_
 

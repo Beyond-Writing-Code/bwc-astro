@@ -28,7 +28,7 @@ For reasons unknown, developers assume that we are the last person in our organi
 - This error message won’t happen again, so there’s no need to note the steps we took to address it.
 - Nobody else will install or configure this product, so we won’t bother writing down the process we went through.
 
-![](/images/posts/2025/typing-laptop.jpg)
+![Person using laptop computer](/images/posts/2025/typing-laptop.jpg)
 
 _“I’m surely the last person to ever go through this process.” Photo by [Christin Hume](https://unsplash.com/@christinhumephoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/person-using-laptop-computer-Hcfwew744z4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

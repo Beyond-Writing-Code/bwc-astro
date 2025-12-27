@@ -51,7 +51,7 @@ As the story progresses, the objectives shift. They need to get her stable and d
 
 Along the way, Gene is asking questions to get an understanding of the system they're dealing with. He's inspecting the "wiring" of the Layer 3 social circuitry to figure out what's going on and what, if anything, can be done to keep things moving.
 
-![Layer 3 is "social circuitry for flow of ideas and information," wLayer 2 is "tools and instrumentation,"  Layer 1 is the "technical object" being worked on, with a cartoon illustration for each layer.](/images/posts/2025/looking-at-systems-like-a-hospital-issue-21-of-beyond-writing-code-2.jpg)
+![Layer 3 is social circuitry for flow of ideas and information, Layer 2 is tools and instrumentation, Layer 1 is the technical object being worked on, with a cartoon illustration for each layer.](/images/posts/2025/looking-at-systems-like-a-hospital-issue-21-of-beyond-writing-code-2.jpg)
 
 From [https://itrevolution.com/articles/the-three-layers-of-work/](https://itrevolution.com/articles/the-three-layers-of-work/)​
 

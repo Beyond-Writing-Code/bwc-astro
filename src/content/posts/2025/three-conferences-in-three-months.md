@@ -50,7 +50,7 @@ GHC knocks it out of the park for speaker diversity, but LeadDev also did very w
 
 Winners: ETLS and LeadDev, tied. I felt like I was joining a community of friends at both.
 
-![](/images/posts/2025/gene-kim-etls.jpg)
+![Gene Kim on stage in front of a screen that says The Community for Tech Leaders](/images/posts/2025/gene-kim-etls.jpg)
 
 Gene Kim at ETLS. Photo from ITRevolution.com.
 
@@ -66,7 +66,7 @@ GHC: I spent a minor fortune staying at the hotel onsite, but it was by far the 
 
 Winner: Ehh. Nobody!
 
-![](/images/posts/2025/hallway-track.jpeg)
+![A graph showing dots higher up for T W T F and lower for S and S](/images/posts/2025/hallway-track.jpeg)
 
 My resting heart rate is always a few bpm higher during a conference. Here’s last week, with Grace Hopper Celebration in the purple box.
 

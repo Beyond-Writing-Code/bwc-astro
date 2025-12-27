@@ -25,7 +25,7 @@ Well, Kim and Frank, my managers, not only noticed and congratulated me on my 
 
 I felt seen. In the midst of my stress, I felt like my team recognized the accomplishment and celebrated it with me.
 
-![A cartoon creature holds up a sign that says "YAY!" in sparkly letters.](/images/posts/2025/yay-sign.jpeg)
+![A cartoon creature holds up a sign that says YAY! in sparkly letters](/images/posts/2025/yay-sign.jpeg)
 
 Sparkly Yay! card.
 

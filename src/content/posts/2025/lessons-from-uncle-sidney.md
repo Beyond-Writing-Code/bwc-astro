@@ -10,7 +10,7 @@ featuredImage: '/images/posts/2025/lessons-from-uncle-sidney.jpg'
 
 Uncle Sidney was notorious. I think even he’d agree to that.
 
-![](/images/posts/2025/stone-wall.jpeg)
+![A cloudy sky with lightning, over water](/images/posts/2025/stone-wall.jpeg)
 
 _Sidney was his own weather system, with lots of thunder. Photo by [Johannes Plenio](https://unsplash.com/@jplenio?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 

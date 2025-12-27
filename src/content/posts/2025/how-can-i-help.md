@@ -18,7 +18,7 @@ She gestures nervously at her monitor, which is displaying what appears to be an
 
 I take a breath to steady myself. Absorbing her panic is not going to help us here, and things disappearing from things might be Bad with a capital B. She gets up and steps aside, fretting. I sit in her chair and lean in to inspect the situation.
 
-![](/images/posts/2025/breathe-sign.jpg)
+![a pink neon sign that says breathe](/images/posts/2025/breathe-sign.jpg)
 
 _This photo came up in my search for “word processor”. It was the most accurate of all the results. Photo by [Fabian Møller](https://unsplash.com/@fabimoe?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/pink-breathe-neon-sign-gI7zgb80QWY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

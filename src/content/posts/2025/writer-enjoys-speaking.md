@@ -18,7 +18,7 @@ I had some signs while I was speaking that the talk was landing, like a gasp fro
 
 I know the cheerleading from the conference organizers and my fellow presenters helped. Such a supportive group!
 
-![A group photo of about 20 people standing, kneeling, or sitting on a stage. I'm in a green shirt, kneeling, on the right.](/images/posts/2025/group-photo-stage.jpg)
+![A group of about 20 people standing, kneeling, or sitting on a stage. Leaf is in a green shirt, kneeling, on the right.](/images/posts/2025/group-photo-stage.jpg)
 
 Group photo with other StaffPlus speakers. Photo from [​LeadDev](https://leaddev.com/staffplus-new-york/)
 
@@ -59,7 +59,7 @@ The moment where things change is a great place to deep dive for a few seconds t
 
 When I got to this moment for LeadDev, I just let myself go off script and relive a little of the emotion. I let there be some unfinished sentences.
 
-![StaffPlus badge for Leaf (Jessica) Roy, Beyond Writing Code, Developer Architect Author, StaffPlus Speaker. It has stickers that say "LeadDev", "She Her" and "Beyond Writing Code"](/images/posts/2025/badge-staffplus.jpg)
+![StaffPlus badge for Leaf (Jessica) Roy, Beyond Writing Code, Developer Architect Author, StaffPlus Speaker. It has stickers that say LeadDev, She/Her, and Beyond Writing Code](/images/posts/2025/badge-staffplus.jpg)
 
 ## Where to start the story?
 
@@ -96,7 +96,7 @@ And that is the hook: it’s the first “tell people what you’re about to tel
 
 I did this in my talk right here:
 
-![A slide that says "What we tried" "Why it was worth trying" and "What I learned"](/images/posts/2025/what-we-tried-slide.png)
+![A slide that says What we tried, Why it was worth trying, and What I learned](/images/posts/2025/what-we-tried-slide.png)
 
 The hook.
 

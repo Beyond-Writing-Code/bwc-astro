@@ -14,19 +14,19 @@ Back in 2021 \[…pause here while I yet again grapple with the fact that it’s
 
 But now here I am, adding photos to my Medium articles, and I start to see a theme emerge as I search. Consider this:
 
-![Nature lover, two plants](/images/posts/2025/minimalist-desk-1-plants.jpg)
+![A tidy desk with two plants, a beverage, a laptop, a monitor, a mouse, and a candle](/images/posts/2025/minimalist-desk-1-plants.jpg)
 
 _Nature lover, two plants (Photo by [Domenico Loia](https://unsplash.com/@domenicoloia?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 And this:
 
-![Nice skull and crossbones](/images/posts/2025/minimalist-desk-2-skull.jpg)
+![A table with a beverage, a laptop with a skull and crossbones, and a mobile device, with a plant nearby](/images/posts/2025/minimalist-desk-2-skull.jpg)
 
 _Nice skull and crossbones (Photo by [Geert Pieters](https://unsplash.com/@shotsbywolf?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
 And this (I like the dual beverage situation here):
 
-![Books as plant stand](/images/posts/2025/minimalist-desk-3-books-plant.jpg)
+![A tidy desk with a plants, two beveraged, a laptop, a monitor, a mobile device, and two books under the plant](/images/posts/2025/minimalist-desk-3-books-plant.jpg)
 
 _Books as plant stand (Photo by [Daniel Korpai](https://unsplash.com/@danielkorpai?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
@@ -40,15 +40,15 @@ That’s it.
 
 If necessary, you can swap out the beverage or the mobile device for one more item (like audio equipment), or just omit them:
 
-![Audio equipment setup](/images/posts/2025/minimalist-desk-4-audio.jpg)
+![A tidy desk with a plant, a laptop, a lamp, a mobile device, and some audio equipment](/images/posts/2025/minimalist-desk-4-audio.jpg)
 
 _Photo by [Remy_Loz](https://unsplash.com/@remyloz?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
-![Simple desk setup](/images/posts/2025/minimalist-desk-5-simple.jpeg)
+![A tidy desk with a plant, a keyboard, a laptop, a monitor, a mouse, and a lamp on top of some books](/images/posts/2025/minimalist-desk-5-simple.jpeg)
 
 _Photo by [Sora Sagano](https://unsplash.com/@sorasagano?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
-![Mac desk setup](/images/posts/2025/minimalist-desk-6-mac.jpg)
+![A tidy desk with a plants, a beverage, a laptop, a monitor, a mobile device, and some audio equipment](/images/posts/2025/minimalist-desk-6-mac.jpg)
 
 _Photo by [Christopher Gower](https://unsplash.com/@cgower?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
@@ -66,7 +66,7 @@ Already I’m in trouble, though. First of all, I have **two** laptops, one on t
 
 I’ve got a camera positioned on top of the monitor. Putting things on the monitor seems like cheating, like violating the spirit of the law, if not the letter. I don’t think the monitor is supposed to have little notes taped to it either, like the reminders to myself to “enable captioning” on meetings and to “GO OUTSIDE” already.
 
-![Person away from desk - no beverage](/images/posts/2025/minimalist-desk-7-no-beverage.jpg)
+![A tidy desk with a plant, a keyboard, a laptop, a monitor, a mouse, and a mobile device](/images/posts/2025/minimalist-desk-7-no-beverage.jpg)
 
 _You can tell this person is away from their desk — there's no beverage. (Photo by [Ján Vlačuha](https://unsplash.com/@flowixxcom?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
@@ -92,7 +92,7 @@ I suppose if I weren’t working with paper, I wouldn’t need these items eithe
 21\. White out. Do I need to explain what that is? Like a tiny bottle of white paint you can use to cover up errors you’ve made with a pen.  
 23\. A kneaded eraser, which honestly I only have for art purposes, and which even more honestly I use more as a fidget toy than an eraser.
 
-![Writing supplies on desk](/images/posts/2025/minimalist-desk-8-writing.jpg)
+![A tidy desk with a plant, glasses, a laptop, a notebook, a mobile device, and a pencil](/images/posts/2025/minimalist-desk-8-writing.jpg)
 
 _Photo by [JESHOOTS.COM](https://unsplash.com/@jeshoots?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
@@ -129,7 +129,7 @@ The modern developer clearly functions on beverage alone. I haven’t transcende
 28 & 29. A spray bottle of eyeglasses cleaner and a cloth  
 30\. A bowl and spoon left over from breakfast
 
-![Person taking a call - no mobile device](/images/posts/2025/minimalist-desk-9-call.jpg)
+![A tidy desk with a plant, a beverage, a laptop, and a lamp](/images/posts/2025/minimalist-desk-9-call.jpg)
 
 _This person has stepped away to take a call — no mobile device present. (Photo by [Rich Tervet](https://unsplash.com/es/@richtervet?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
@@ -155,7 +155,7 @@ I could move it to join the other packets, but I think instead I’ll put the ot
 
 Wait, do some of the pictures above have things hiding out of sight behind those laptops? What could be behind this, for example:
 
-![Desk with laptop - what's behind it?](/images/posts/2025/minimalist-desk-10-behind-laptop.jpg)
+![A tidy desk with a plants on a book, a laptop, a mouse, and a mobile device](/images/posts/2025/minimalist-desk-10-behind-laptop.jpg)
 
 _Photo by [Kevin Bhagat](https://unsplash.com/@kevnbhagat?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral))_
 
@@ -167,13 +167,13 @@ Listen, I’ve got nothing against minimalism (no pun intended). If you are a re
 
 For those of us whose desks have more than five things, though, a word of encouragement: no, you’re not doing it wrong. This trend is just the Medium and Unsplash equivalent of the houses you see in magazines: kitchens where the only items on the counter are decorative plus a basket of fruit or baked goods…
 
-![Minimalist kitchen counter](/images/posts/2025/minimalist-desk-11-kitchen.jpg)
+![A tidy kitchen with a plant, some cookware, and a basket of rolls](/images/posts/2025/minimalist-desk-11-kitchen.jpg)
 
 _Photo by [Collov Home Design](https://unsplash.com/@collovhome?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
 …living rooms where everything is white…
 
-![White minimalist living room](/images/posts/2025/minimalist-desk-12-living-room.jpg)
+![A living room with white furniture, carpeting, pillows, and decorations](/images/posts/2025/minimalist-desk-12-living-room.jpg)
 
 _Photo by [Spacejoy](https://unsplash.com/@spacejoy?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 

@@ -32,7 +32,7 @@ ErrorDocument 500 /500.html
 
   # Content-Security-Policy for HTML files
   <FilesMatch "\.(html|htm)$">
-    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://leafjessicaroy.kit.com 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-U7a72oKuFFz8D7GUHLA1NZ0ciymHmDOc9T9aVDg2rWU='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://leafjessicaroy.kit.com; frame-src https://leafjessicaroy.kit.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://leafjessicaroy.kit.com; upgrade-insecure-requests"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://leafjessicaroy.kit.com https://f.convertkit.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' https://f.convertkit.com data:; connect-src 'self' https://leafjessicaroy.kit.com https://app.kit.com; frame-src https://leafjessicaroy.kit.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://leafjessicaroy.kit.com https://app.kit.com; upgrade-insecure-requests"
   </FilesMatch>
 </IfModule>
 

@@ -18,7 +18,7 @@ And second, the brain is a much better processing unit than it is a storage unit
 
 Here’s my basic checklist:
 
-![](/images/posts/2025/checklist-on-checklist.jpg)
+![A hand marks off items on a checklist](/images/posts/2025/checklist-on-checklist.jpg)
 
 _What’s sillier than putting “make to-do list” on a to-do list? This. Photo by [​Jakub Żerdzicki​](https://unsplash.com/@jakubzerdzicki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [​Unsplash](https://unsplash.com/photos/a-hand-marks-off-items-on-a-checklist-yKnIbJV0RbY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

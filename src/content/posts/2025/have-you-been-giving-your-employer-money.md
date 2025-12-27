@@ -12,7 +12,7 @@ I suspect most people would not spontaneously and voluntarily give back part of 
 
 So don’t do it with your time.
 
-![](/images/posts/2025/cash-money.jpeg)
+![A paper month calendar](/images/posts/2025/cash-money.jpeg)
 
 _Photo by [Eric Rothermel](https://unsplash.com/@erothermel?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 

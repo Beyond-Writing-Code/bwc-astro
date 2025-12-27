@@ -30,7 +30,7 @@ Geeks are often quite opinionated. I am sure some of my friends could hardly fin
 
 It reminds me of this question: Is a hotdog a sandwich?
 
-![](/images/posts/2025/hotdogs.jpg)
+![Hot dogs](https://unsplash.com/photos/two-brown-bread-on-blue-textile-Lntnns1YBEY?utm](/images/posts/2025/hotdogs.jpg)
 
 _[Unsplash](https://unsplash.com/photos/two-brown-bread-on-blue-textile-Lntnns1YBEY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) has some seriously unappealing photos of hotdogs. Is there a hotdog under that pile of stuff? One of them looked like it had tuna salad on it. Ew! And some of them looked barely cooked?? Come on people! Hats off to [Ball Park Brand](https://unsplash.com/@ballparkbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash), whose photo this is. The first three photos that I considered using were all theirs._
 

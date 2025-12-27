@@ -19,7 +19,7 @@ Beware these tactics for scammers trying to mask their true identity.
 - LinkedIn profiles or other online content may be **convincing fakes**. Or **hacked**.
 - Scammers **impersonating legitimate people.** The name on the email is a real recruiter, but the actual sender is a scammer pretending to be the recruiter.
 
-![](/images/posts/2025/warning-triangle.jpg)
+![A red glowing exclamation point in a triangle, on top of some 0s and 1s on a dark background](/images/posts/2025/warning-triangle.jpg)
 
 _Photo from Getty Images on Unsplash._
 
@@ -40,7 +40,7 @@ Watch out for these scams:
   - You buy a laptop, they send you a check for the amount, you send them the laptop “to be configured,” the check bounces and they disappear.
   - They “overpay” you and ask you to send some back. You send it back, but then their check bounces.
 
-![](/images/posts/2025/check-verification.jpg)
+![A pen resting on top of a blank check](/images/posts/2025/check-verification.jpg)
 
 _Photo by [Money Knack](https://unsplash.com/@moneyknack?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-pen-sitting-on-top-of-a-cheque-paper-KkV-GYUCZf4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 
@@ -68,7 +68,7 @@ As a job seeker, what can you do to protect yourself from scams?
 - When possible, meet someone in person.
 - I’ve heard that, if you suspect AI-generated video, you can ask the person to put their hand in front of their face. Apparently, AI has a hard time handling that. I heard a story of one sketchy interviewer who refused to do this.
 
-![](/images/posts/2025/dog-laptop.jpg)
+![A dog looking at a laptop](/images/posts/2025/dog-laptop.jpg)
 
 _“I don’t know about this… put your paw in front of your face?” Photo from Getty Images on Unsplash._
 

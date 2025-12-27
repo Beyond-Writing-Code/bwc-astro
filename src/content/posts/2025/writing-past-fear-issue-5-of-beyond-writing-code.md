@@ -24,7 +24,7 @@ Lately I'm dealing with something I am not used to in my writing: fear of push b
 
 Usually I write what I write, and if someone thinks I’m wrong, well, then I learn from it, if there’s something to learn. But lately I'm noticing more anxiety about what I’m saying and how I’m saying it.
 
-![grayscale photo of stop sign](/images/posts/2025/writing-past-fear-issue-5-of-beyond-writing-code-1.jpg)
+![A street sign that says I WORRIED.](/images/posts/2025/writing-past-fear-issue-5-of-beyond-writing-code-1.jpg)
 
 _Photo by [Aubree Herrick](https://unsplash.com/@aubreerh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/grayscale-photo-of-stop-sign-XbJtbyYJVz0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 
@@ -42,7 +42,7 @@ I remember the first time, as a developer, that I dialed into a customer's produ
 
 \[Oh yeah, I just said "dialed into." I'm not quite old-school enough for any actual _dials_ to have been involved. I'm a few years removed from connecting by physical modem to customer production systems. But we did still refer to it as dialing in, even though most of the time the connection was made over the internet.\]
 
-![red and grey vinyl player](/images/posts/2025/writing-past-fear-issue-5-of-beyond-writing-code-2.jpg)
+![red and grey vinyl record player](/images/posts/2025/writing-past-fear-issue-5-of-beyond-writing-code-2.jpg)
 
 _Dialing in. Remember when we used to connect to the internet at 33 1/3 rpm... Photo by [Przemyslaw Marczynski](https://unsplash.com/@pemmax?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/red-and-grey-vinyl-player-awFECvLfXqA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)​_
 

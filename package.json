@@ -22,6 +22,8 @@
     "type-check": "astro check",
     "security:check": "npm audit --audit-level=high",
     "quality:check": "npm run lint && npm run format:check && npm run type-check && npm run test:run && npm run build",
+    "review": "node scripts/review-site.js",
+    "review:prod": "node scripts/review-site.js https://www.beyondwritingcode.com",
     "prepare": "git config core.hooksPath .githooks 2>/dev/null || true"
   },
   "keywords": [],
@@ -52,10 +54,12 @@
     "eslint-plugin-astro": "^1.3.1",
     "eslint-plugin-react": "^7.37.3",
     "eslint-plugin-react-hooks": "^7.0.1",
+    "express": "^5.2.1",
     "globals": "^16.5.0",
     "jsdom": "^27.4.0",
     "prettier": "^3.4.2",
     "prettier-plugin-astro": "^0.14.1",
+    "puppeteer": "^24.2.0",
     "vitest": "^4.0.16"
   }
 }

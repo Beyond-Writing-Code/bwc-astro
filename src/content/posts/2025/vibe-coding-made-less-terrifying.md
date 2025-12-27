@@ -30,7 +30,7 @@ The book isn’t out until October, but I have a few sample chapters of the eboo
 
 Wow, y’all. **It’s been a long time since I’ve felt like I was hanging on every word of a book.** This is one of those books.
 
-[![](/images/posts/2025/vibe-coding-book-cover.jpg)](https://itrevolution.com/product/vibe-coding-book/)
+[![Cover of book Vibe Coding by Gene Kim and Steve Yegge](/images/posts/2025/vibe-coding-book-cover.jpg)](https://itrevolution.com/product/vibe-coding-book/)
 
 I’ve already added it to my [list of books I recommend](https://www.beyondwritingcode.com/recommend/). And I have a whole list of people, developers and non-developers alike, who I think would enjoy it. (I may be able to get you a discount. More about that later.)
 

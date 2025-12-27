@@ -12,7 +12,7 @@ I was told once that I “should feel empowered” to influence strategy, someth
 
 This was not welcome news.
 
-![](/images/posts/2025/low-battery.jpg)
+![Low Battery](/images/posts/2025/low-battery.jpg)
 
 Feel empowered!
 
@@ -22,7 +22,7 @@ This wasn’t a matter of my having low self-esteem or a flawed sense of my own 
 
 I had confidence in my abilities. The barriers to my getting things done weren’t in my mindset.
 
-![](/images/posts/2025/fence.jpg)
+![A mountain seen through a chain link fence](/images/posts/2025/fence.jpg)
 
 _Photo by [Matt Palmer](https://unsplash.com/@mattpalmer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/grayscale-photo-of-chain-link-fence-sDpdeFxq_wQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)_
 

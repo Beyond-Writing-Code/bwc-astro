@@ -23,7 +23,7 @@ When I stopped working at my job, I expected that I would settle down to write. 
 
 Writing: number one on the To Do list for a writer, no?
 
-![closeup photo of black and white printing paper](/images/posts/2025/getting-started-writing-1.jpg)
+![closeup photo of fancy writing on paper](/images/posts/2025/getting-started-writing-1.jpg)
 
 How most people write a first draft.
 
@@ -45,7 +45,7 @@ I registered [beyondwritingcode.com](https://beyondwritingcode.com).
 
 I added Beyond Writing Code to [LinkedIn](https://www.linkedin.com/company/beyondwritingcode/) with a logo:
 
-![](/images/posts/2025/getting-started-writing-2.jpg)
+![Beyond Writing Code logo, two curly braces with an arrow](/images/posts/2025/getting-started-writing-2.jpg)
 
 It has followers on LinkedIn!
 

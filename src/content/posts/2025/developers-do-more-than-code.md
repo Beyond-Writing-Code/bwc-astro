@@ -18,7 +18,7 @@ Some people choose to conceal their errors. I’m more of the type to shout: “
 
 I’ve gotten so good at laughing at myself when I make mistakes that I now think I’m pretty funny.
 
-![](/images/posts/2025/creature-feature-1.png)
+![a colorful watercolor creature smiling with its hands over its mouth](/images/posts/2025/creature-feature-1.png)
 
 Things I’ve said when I mess up:
 
@@ -40,7 +40,7 @@ As I’ve been trying to tell people for years (never mind in every conversation
 
 Who needs a definition of done, though, when you’re working by yourself? Me, apparently.
 
-![](/images/posts/2025/creature-feature-2.png)
+![a colorful watercolor creature with eyes closed](/images/posts/2025/creature-feature-2.png)
 
 Getting it “done” enough to actually deploy it to [bouncingleaf.com](https://bouncingleaf.com) (where it resides as of this morning) took a lot longer than the rest of the day.
 
@@ -76,7 +76,7 @@ There’s no authentication or sign-on, not even an admin login. Because it’s 
 
 Given that it’s my personal site, with traffic only from a few people who know me, I don’t need analytics or a content delivery network. It isn’t serving ads or streaming videos; it just offers pictures of cute creatures.
 
-![](/images/posts/2025/creature-feature-3.png)
+![a colorful watercolor creature running](/images/posts/2025/creature-feature-3.png)
 
 ## Organization of one
 

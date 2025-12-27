@@ -30,7 +30,7 @@ My first reaction was to cheer. **Yes! So many people in tech need these lessons
 
 My next thought was: wait… **do we really need to tell people to listen, be empathetic, and help?? Shouldn’t that just be a given?** As a friend of mine says, “we’re trying to have a society here, people.”
 
-![](/images/posts/2025/brain-pathways.jpg)
+![A dog with its head tilted to one side](/images/posts/2025/brain-pathways.jpg)
 
 _People are baffling sometimes. Photo by [Chris Arthur-Collins](https://unsplash.com/@anotherleaf?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)_
 
