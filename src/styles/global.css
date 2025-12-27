@@ -101,6 +101,14 @@ body {
 }
 
 /* Global heading styles */
+h1 {
+  font-size: clamp(2.5rem, 3.75vw, 3.125rem);
+  font-weight: 600;
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+  color: var(--color-text);
+}
+
 h2 {
   font-size: 1.75rem;
   font-weight: 600;
