@@ -25,6 +25,28 @@ function getPostUrl(post: any) {
   <div class="posts-page">
     <h1 class="page-title">Posts</h1>
 
+    <div class="posts-intro">
+      <p>
+        Sign up for my <a href="/newsletter">mailing list</a> to not miss anything! You can also find
+        my blog posts on{' '}
+        <a
+          href="https://www.linkedin.com/newsletters/7394107177700970497/"
+          target="_blank"
+          rel="noopener noreferrer">LinkedIn</a
+        >, <a href="https://bouncingleaf.substack.com/" target="_blank" rel="noopener noreferrer"
+          >Substack</a
+        >,{' '}
+        <a href="https://bouncingleaf.medium.com/" target="_blank" rel="noopener noreferrer"
+          >Medium</a
+        >,{' '}
+        <a
+          href="https://bsky.app/profile/leafjessicaroy.bsky.social"
+          target="_blank"
+          rel="noopener noreferrer">Bluesky</a
+        >, and maybe Facebook. <a href="#crosspost">How I do that...</a>
+      </p>
+    </div>
+
     <div class="posts-list">
       {
         publishedPosts.map((post) => {
@@ -66,6 +88,74 @@ function getPostUrl(post: any) {
         })
       }
     </div>
+
+    <div class="posts-footer">
+      <h2 id="crosspost">How does Leaf cross-post these blog posts?</h2>
+
+      <p>Glad you asked, Leaf! (Yeah, these instructions are for my reference, haha)</p>
+
+      <p>
+        I start by <strong>posting</strong> here on my site. Zapier posts to Bluesky and Facebook Pages
+        for me, so here are my steps:
+      </p>
+
+      <ol>
+        <li>
+          Go to the <a href="#latest">latest</a>. Open the post. Copy the URL.
+        </li>
+        <li>
+          Click{' '}
+          <a href="https://medium.com/p/import" target="_blank" rel="noopener noreferrer"
+            >https://medium.com/p/import</a
+          >
+          <ul>
+            <li>Paste the post's URL. Click Import.</li>
+            <li>Edit, fix photos, and Publish.</li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/newsletters/7394107177700970497/"
+            target="_blank"
+            rel="noopener noreferrer">LinkedIn newsletter</a
+          >: Copy text, paste, fix captions, link to my site.
+        </li>
+        <li>
+          <a href="https://bouncingleaf.substack.com/" target="_blank" rel="noopener noreferrer"
+            >Substack</a
+          > &gt; Dashboard &gt; <strong>Settings</strong> (lower left).
+          <ul>
+            <li>
+              Set the <strong># of posts on my feed</strong> (in my website settings) if needed
+            </li>
+            <li><strong>Import/Export</strong> &gt; <strong>Import Posts</strong></li>
+            <li><strong>https://www.beyondwritingcode.com/feed</strong></li>
+            <li><strong>Confirm</strong> the number of posts and ownership.</li>
+            <li><strong>Clean up</strong> the post. Import links to the original.</li>
+          </ul>
+        </li>
+        <li>
+          Repost from my{' '}
+          <a
+            href="https://www.facebook.com/profile.php?id=61584205431835"
+            target="_blank"
+            rel="noopener noreferrer">Facebook Page</a
+          > (via most recent repost)
+        </li>
+        <li>Check email for a draft for every-post subscribers. Check formatting and send.</li>
+        <li>
+          Thursday morning, check email again for a draft digest for weekly subscribers. Check
+          formatting and send.
+        </li>
+      </ol>
+
+      <p>Whew! It's a bit tedious, but it works. Kind of 🙂</p>
+
+      <p>
+        Canonical URLs are handled: Substack and Medium set them up, LinkedIn relies on them being
+        on your site and Yoast SEO sets them up on beyondwritingcode.com posts.
+      </p>
+    </div>
   </div>
 </Layout>
 
@@ -81,6 +171,26 @@ function getPostUrl(post: any) {
     font-weight: 700;
     margin-bottom: var(--spacing-xl);
     text-align: center;
+  }
+
+  .posts-intro {
+    margin-bottom: var(--spacing-lg);
+    text-align: center;
+  }
+
+  .posts-intro p {
+    color: var(--color-gray);
+    line-height: 1.6;
+  }
+
+  .posts-intro a {
+    color: var(--color-accent-teal);
+    text-decoration: none;
+  }
+
+  .posts-intro a:hover {
+    color: var(--color-accent-green);
+    text-decoration: underline;
   }
 
   .posts-list {
@@ -165,5 +275,48 @@ function getPostUrl(post: any) {
   .post-excerpt {
     color: var(--color-gray);
     line-height: 1.5;
+  }
+
+  .posts-footer {
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-xl);
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .posts-footer h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .posts-footer p,
+  .posts-footer ol,
+  .posts-footer ul {
+    color: var(--color-gray);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .posts-footer ol {
+    padding-left: var(--spacing-lg);
+  }
+
+  .posts-footer li {
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .posts-footer ul {
+    list-style-type: disc;
+    padding-left: var(--spacing-lg);
+  }
+
+  .posts-footer a {
+    color: var(--color-accent-teal);
+    text-decoration: none;
+  }
+
+  .posts-footer a:hover {
+    color: var(--color-accent-green);
+    text-decoration: underline;
   }
 </style>

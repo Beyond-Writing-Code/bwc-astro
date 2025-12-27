@@ -2,7 +2,7 @@
 
 ## Overview
 
-This site is deployed to **beyondwritingcodebook.com** (staging) on DreamHost using SSH/rsync.
+This site is deployed to **beyondwritingcode.com** (production) on DreamHost using SSH/rsync.
 
 ## Automatic Deployment
 
@@ -22,12 +22,12 @@ This site is deployed to **beyondwritingcodebook.com** (staging) on DreamHost us
 
 You need to configure these secrets in GitHub repository settings:
 
-| Secret Name                          | Description               | Example                       |
-| ------------------------------------ | ------------------------- | ----------------------------- |
-| `DREAMHOST_SSH_HOST`                 | DreamHost server hostname | `yourserver.dreamhost.com`    |
-| `DREAMHOST_BWC_BOOK_SSH_USER`        | SSH username              | `yourusername`                |
-| `DREAMHOST_BWC_BOOK_REMOTE_PATH`     | Path to site directory    | `~/beyondwritingcodebook.com` |
-| `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY` | SSH private key           | Contents of `~/.ssh/id_rsa`   |
+| Secret Name                      | Description               | Example                     |
+| -------------------------------- | ------------------------- | --------------------------- |
+| `DREAMHOST_SSH_HOST`             | DreamHost server hostname | `yourserver.dreamhost.com`  |
+| `DREAMHOST_MAIN_SSH_USER`        | SSH username              | `yourusername`              |
+| `DREAMHOST_MAIN_REMOTE_PATH`     | Path to site directory    | `~/beyondwritingcode.com`   |
+| `DREAMHOST_MAIN_SSH_PRIVATE_KEY` | SSH private key           | Contents of `~/.ssh/id_rsa` |
 
 ### How to Set Up Secrets
 
@@ -41,8 +41,8 @@ You need to configure these secrets in GitHub repository settings:
 
 ```bash
 # On your local machine
-ssh-keygen -t rsa -b 4096 -C "github-deploy-beyondwritingcodebook"
-# Save to: ~/.ssh/dreamhost_deploy_beyondwritingcodebook
+ssh-keygen -t rsa -b 4096 -C "github-deploy-beyondwritingcode"
+# Save to: ~/.ssh/dreamhost_deploy_beyondwritingcode
 # Don't set a passphrase (for automation)
 ```
 
@@ -65,18 +65,18 @@ ssh-keygen -t rsa -b 4096 -C "github-deploy-beyondwritingcodebook"
 
 3. **Test SSH connection:**
    ```bash
-   ssh -i ~/.ssh/dreamhost_deploy_beyondwritingcodebook yourusername@yourserver.dreamhost.com
+   ssh -i ~/.ssh/dreamhost_deploy_beyondwritingcode yourusername@yourserver.dreamhost.com
    ```
 
 ### Add Private Key to GitHub Secrets
 
 ```bash
 # Copy private key content
-cat ~/.ssh/dreamhost_deploy_beyondwritingcodebook
+cat ~/.ssh/dreamhost_deploy_beyondwritingcode
 # Copy the ENTIRE output (including BEGIN/END lines)
 ```
 
-Then add to GitHub as `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY`
+Then add to GitHub as `DREAMHOST_MAIN_SSH_PRIVATE_KEY`
 
 ## Manual Deployment
 
@@ -98,21 +98,21 @@ npm run build
 
 # Deploy via rsync (requires SSH key)
 rsync -avz --delete dist/ \
-  yourusername@yourserver.dreamhost.com:~/beyondwritingcodebook.com/
+  yourusername@yourserver.dreamhost.com:~/beyondwritingcode.com/
 ```
 
 ## Verifying Deployment
 
 After deployment:
 
-1. Visit https://beyondwritingcodebook.com
+1. Visit https://www.beyondwritingcode.com
 2. Check that content is updated
 3. Test critical pages:
    - Home page
    - About page
    - Posts listing
    - Individual post
-   - RSS feed: https://beyondwritingcodebook.com/feed.xml
+   - RSS feed: https://www.beyondwritingcode.com/feed.xml
 
 ## Troubleshooting
 
@@ -124,7 +124,7 @@ After deployment:
 
 1. Verify SSH key is added to DreamHost `~/.ssh/authorized_keys`
 2. Check file permissions: `chmod 600 ~/.ssh/authorized_keys`
-3. Verify GitHub secret `DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY` contains full private key
+3. Verify GitHub secret `DREAMHOST_MAIN_SSH_PRIVATE_KEY` contains full private key
 
 ### Deployment succeeds but site shows old content
 
@@ -132,8 +132,8 @@ After deployment:
 
 **Solution:**
 
-1. Verify `DREAMHOST_BWC_BOOK_REMOTE_PATH` points to correct directory
-2. SSH into DreamHost and check files: `ls -la ~/beyondwritingcodebook.com/`
+1. Verify `DREAMHOST_MAIN_REMOTE_PATH` points to correct directory
+2. SSH into DreamHost and check files: `ls -la ~/beyondwritingcode.com/`
 3. Clear browser cache and hard reload (Cmd+Shift+R)
 
 ### rsync: Host key verification failed

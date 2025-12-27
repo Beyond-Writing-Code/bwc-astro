@@ -196,11 +196,11 @@ The post will still build (for preview) but won't appear in public listings.
 
 ## Deployment
 
-**Staging:** https://beyondwritingcodebook.com (DreamHost)
+**Production:** https://www.beyondwritingcode.com (DreamHost)
 
 ### Automatic Deployment
 
-Every push to `main` automatically deploys to beyondwritingcodebook.com via GitHub Actions.
+Every successful CI run on `main` automatically deploys to beyondwritingcode.com via GitHub Actions.
 
 **Status:** See latest deployment in [Actions](https://github.com/Beyond-Writing-Code/bwc-astro/actions)
 
@@ -208,9 +208,8 @@ Every push to `main` automatically deploys to beyondwritingcodebook.com via GitH
 
 First-time deployment setup:
 
-1. Follow instructions in `SETUP_DEPLOYMENT.md`
-2. Configure GitHub secrets (SSH credentials)
-3. Push to `main` to trigger deployment
+1. Configure GitHub secrets (SSH credentials)
+2. Push to `main` to trigger deployment
 
 ### Manual Deployment
 
@@ -220,7 +219,7 @@ First-time deployment setup:
 
 # Or via local machine
 npm run build
-rsync -avz --delete dist/ user@host:~/beyondwritingcodebook.com/
+rsync -avz --delete dist/ user@host:~/beyondwritingcode.com/
 ```
 
 See `docs/DEPLOYMENT.md` for full documentation.

@@ -1,7 +1,7 @@
 # Site Review
 
-**Last checked:** 12/26/2025, 9:53:27 PM
-**URL:** https://beyondwritingcodebook.com
+**Last checked:** 12/26/2025, 9:47:58 PM
+**URL:** https://www.beyondwritingcode.com
 
 ## 🔍 SEO/Metadata Issues
 

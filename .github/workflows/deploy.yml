@@ -2,15 +2,6 @@ name: Deploy to DreamHost
 
 on:
   workflow_dispatch:
-    inputs:
-      environment:
-        description: 'Deployment environment'
-        required: true
-        type: choice
-        options:
-          - staging
-          - production
-        default: staging
   workflow_run:
     workflows: ['CI']
     types: [completed]
@@ -23,10 +14,8 @@ jobs:
   build:
     name: Build site
     runs-on: ubuntu-latest
-    # Only run if triggered manually, or if CI workflow succeeded
-    if: |
-      github.event_name == 'workflow_dispatch' ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    # Only run if CI workflow succeeded
+    if: github.event.workflow_run.conclusion == 'success'
 
     steps:
       - name: Checkout code
@@ -61,7 +50,7 @@ jobs:
           retention-days: 7
 
   deploy:
-    name: Deploy to ${{ github.event.inputs.environment == 'production' && 'beyondwritingcode.com' || 'beyondwritingcodebook.com' }}
+    name: Deploy to beyondwritingcode.com
     runs-on: ubuntu-latest
     needs: build
 
@@ -69,23 +58,8 @@ jobs:
       - name: Set deployment variables
         id: vars
         run: |
-          # For manual dispatch, use selected environment; for workflow_run, default to staging
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            ENV="${{ github.event.inputs.environment }}"
-          else
-          # For automatic dispatch, set this to staging or production as needed
-            ENV="production"
-          fi
-
-          echo "environment=${ENV}" >> $GITHUB_OUTPUT
-
-          if [ "${ENV}" = "production" ]; then
-            echo "site_url=beyondwritingcode.com" >> $GITHUB_OUTPUT
-            echo "site_url_full=https://www.beyondwritingcode.com" >> $GITHUB_OUTPUT
-          else
-            echo "site_url=beyondwritingcodebook.com" >> $GITHUB_OUTPUT
-            echo "site_url_full=https://beyondwritingcodebook.com" >> $GITHUB_OUTPUT
-          fi
+          echo "site_url=beyondwritingcode.com" >> $GITHUB_OUTPUT
+          echo "site_url_full=https://www.beyondwritingcode.com" >> $GITHUB_OUTPUT
 
       - name: Download build artifact (tarball)
         uses: actions/download-artifact@v4
@@ -108,10 +82,10 @@ jobs:
 
       - name: Deploy to DreamHost via rsync over SSH
         env:
-          REMOTE_PATH: ${{ steps.vars.outputs.environment == 'production' && secrets.DREAMHOST_MAIN_REMOTE_PATH || secrets.DREAMHOST_BWC_BOOK_REMOTE_PATH }}
-          REMOTE_USER: ${{ steps.vars.outputs.environment == 'production' && secrets.DREAMHOST_MAIN_SSH_USER || secrets.DREAMHOST_BWC_BOOK_SSH_USER }}
+          REMOTE_PATH: ${{ secrets.DREAMHOST_MAIN_REMOTE_PATH }}
+          REMOTE_USER: ${{ secrets.DREAMHOST_MAIN_SSH_USER }}
           REMOTE_HOST: ${{ secrets.DREAMHOST_SSH_HOST }}
-          SSH_KEY: ${{ steps.vars.outputs.environment == 'production' && secrets.DREAMHOST_MAIN_SSH_PRIVATE_KEY || secrets.DREAMHOST_BWC_BOOK_SSH_PRIVATE_KEY }}
+          SSH_KEY: ${{ secrets.DREAMHOST_MAIN_SSH_PRIVATE_KEY }}
           SITE_URL: ${{ steps.vars.outputs.site_url }}
         run: |
           set -euo pipefail
@@ -146,7 +120,6 @@ jobs:
           echo "## Deployment Complete 🚀" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "Site deployed to: **${{ steps.vars.outputs.site_url }}**" >> $GITHUB_STEP_SUMMARY
-          echo "Environment: **${{ steps.vars.outputs.environment }}**" >> $GITHUB_STEP_SUMMARY
           echo "Deployed from commit: \`${{ github.event.workflow_run.head_sha || github.sha }}\`" >> $GITHUB_STEP_SUMMARY
 
   review:
@@ -160,18 +133,7 @@ jobs:
       - name: Set deployment variables
         id: vars
         run: |
-          # For manual dispatch, use selected environment; for workflow_run, default to staging
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            ENV="${{ github.event.inputs.environment }}"
-          else
-            ENV="staging"
-          fi
-
-          if [ "${ENV}" = "production" ]; then
-            echo "site_url_full=https://www.beyondwritingcode.com" >> $GITHUB_OUTPUT
-          else
-            echo "site_url_full=https://beyondwritingcodebook.com" >> $GITHUB_OUTPUT
-          fi
+          echo "site_url_full=https://www.beyondwritingcode.com" >> $GITHUB_OUTPUT
 
       - name: Checkout code
         uses: actions/checkout@v6
