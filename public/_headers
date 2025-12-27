@@ -6,7 +6,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 /*.html
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://leafjessicaroy.kit.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://leafjessicaroy.kit.com; frame-src https://leafjessicaroy.kit.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://leafjessicaroy.kit.com; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://leafjessicaroy.kit.com 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-U7a72oKuFFz8D7GUHLA1NZ0ciymHmDOc9T9aVDg2rWU='; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://leafjessicaroy.kit.com; frame-src https://leafjessicaroy.kit.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://leafjessicaroy.kit.com; upgrade-insecure-requests
 
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
