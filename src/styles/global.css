@@ -100,6 +100,23 @@ body {
   padding: 0 clamp(30px, 5vw, 50px);
 }
 
+/* Global heading styles */
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+
 /* Header Styles */
 .site-header {
   background-color: var(--color-background);
