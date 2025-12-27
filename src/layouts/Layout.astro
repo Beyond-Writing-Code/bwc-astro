@@ -34,6 +34,10 @@ const isHomePage = Astro.url.pathname === '/';
     <link rel="icon" type="image/png" href="/favicon-32x32.png" />
     <meta name="generator" content={Astro.generator} />
 
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://leafjessicaroy.kit.com" />
+    <link rel="dns-prefetch" href="https://leafjessicaroy.kit.com" />
+
     <!-- Preload critical fonts -->
     <link
       rel="preload"
@@ -76,7 +80,7 @@ const isHomePage = Astro.url.pathname === '/';
     </main>
     <footer class="site-footer">
       <div class="footer-container">
-        {!isHomePage && <KitForm formId="86bb906577" className="footer-signup-form" client:load />}
+        {!isHomePage && <KitForm formId="86bb906577" className="footer-signup-form" client:idle />}
 
         <div class="social-links">
           <a

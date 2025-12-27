@@ -48,6 +48,28 @@ This document provides comprehensive guidelines for AI coding assistants working
 2. **Minimize dependencies** - Prefer existing libraries over adding new ones
 3. **Write tests alongside code** - Every new feature or component should have corresponding tests
 4. **Verify changes work** - Run linting, type checking, and tests before considering work complete
+5. **Look for refactoring opportunities** - When working in a file, proactively identify code duplication or patterns that could be simplified:
+   - Functions duplicated across multiple files → Extract to shared utility
+   - Repeated component markup → Extract to reusable component
+   - Similar logic in multiple places → Create shared helper function
+   - Type safety issues (`any` types) → Add proper TypeScript interfaces
+   - Long, complex functions → Break into smaller, focused functions
+
+   **When to refactor:**
+   - If you see the same code in 2+ files, extract it to a shared module
+   - If a component is >200 lines, consider splitting it
+   - If you're about to copy-paste code, create a utility instead
+   - If a function has more than 3 levels of nesting, simplify it
+
+   **Example:** If you notice `getPostUrl` function duplicated in `posts.astro` and `category/[category].astro`, extract it to `src/utils/post-url.ts` for reuse across the codebase.
+
+   **Common refactoring patterns:**
+   - Duplicate URL generation logic → `src/utils/post-url.ts`
+   - Duplicate post filtering/sorting → `src/utils/post-filters.ts`
+   - Duplicate post card markup → `src/components/PostCard.astro`
+   - Type `any` in post functions → `CollectionEntry<'posts'>` from Astro
+
+   See `docs/IMPROVEMENTS.md` for detailed refactoring opportunities.
 
 ### Quality Gates
 
@@ -159,7 +181,12 @@ X-Content-Type-Options: nosniff
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Permissions-Policy: geolocation=(), microphone=(), camera=()
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Resource-Policy: same-origin
 ```
+
+**Note:** COOP/COEP/CORP headers can break third-party embeds. Test thoroughly before implementing.
 
 ### Content Security Policy (CSP) Details
 
@@ -266,6 +293,19 @@ await getUserContent() const sanitizedContent = DOMPurify.sanitize(userContent) 
 
 ## Performance Optimization
 
+### Performance Priority Framework
+
+Performance optimization should follow this priority order based on real-world impact:
+
+1. **CRITICAL** - Image optimization (can save 2-3MB)
+2. **HIGH** - Eliminate render-blocking resources (200-650ms savings)
+3. **HIGH** - Font loading strategy (170-230ms savings)
+4. **MEDIUM** - JavaScript bundle optimization
+5. **MEDIUM** - Cache headers configuration
+6. **LOW** - Other micro-optimizations
+
+**Key insight:** Don't mark image optimization as "low priority" based on complexity. PageSpeed data shows images are often the biggest bottleneck (3MB+ savings possible).
+
 ### Bundle Size Targets
 
 | Metric                   | Target         | Action if Exceeded                                             |
@@ -302,28 +342,58 @@ import Header from '../components/Header.jsx';
 
 ### Client Directives
 
-| Directive        | When to Use                                        |
-| ---------------- | -------------------------------------------------- |
-| `client:load`    | Critical interactivity (search bar, auth)          |
-| `client:idle`    | Non-critical (chat widgets, analytics)             |
-| `client:visible` | Below-the-fold (carousels, maps)                   |
-| `client:only`    | Framework-specific components (React, Vue, Svelte) |
-| No directive     | Default - static HTML, zero JS                     |
+| Directive        | When to Use                                        | Performance Impact      |
+| ---------------- | -------------------------------------------------- | ----------------------- |
+| `client:load`    | Critical interactivity (header navigation, search) | Loads immediately       |
+| `client:idle`    | Non-critical (newsletter forms, analytics)         | Loads when browser idle |
+| `client:visible` | Below-the-fold (carousels, maps)                   | Loads when scrolled to  |
+| `client:only`    | Framework-specific components (React, Vue, Svelte) | CSR only, no SSR        |
+| No directive     | Default - static HTML, zero JS                     | Best performance        |
+
+**Optimization tip:** Newsletter signup forms, chat widgets, and analytics should use `client:idle` instead of `client:load` for 10-20ms TTI improvement with no perceivable user impact.
 
 ### Caching Strategy
 
-Configure appropriate cache headers:
+Configure appropriate cache headers at your hosting provider (Vercel/Netlify):
 
 ```
-# Static assets with hash (immutable)
+# Static assets with hash (immutable) - fonts, images, hashed JS/CSS
 Cache-Control: public, max-age=31536000, immutable
 
-# HTML (short cache, must revalidate)
-Cache-Control: public, max-age=3600, must-revalidate
+# HTML (no cache or very short with revalidation)
+Cache-Control: public, max-age=0, must-revalidate
 
 # API responses (vary by use case)
 Cache-Control: private, max-age=60
 ```
+
+**Vercel/Netlify configuration example:**
+
+```javascript
+// vercel.json or netlify.toml
+{
+  "headers": [
+    {
+      "source": "/fonts/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/_astro/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/(.*).html",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }]
+    }
+  ]
+}
+```
+
+**Impact:** Proper caching can save 10-15KB per page load and improve repeat visit performance significantly.
 
 ### Font Loading
 
@@ -331,43 +401,95 @@ Cache-Control: private, max-age=60
 
 - Avoid Flash of Invisible Text (FOIT)
 - Minimize layout shift from font loading
+- Eliminate render blocking from fonts (170-230ms potential savings)
 
 **Best practices:**
 
 - Self-host fonts (WOFF2 format) for better CSP and performance
-- Use `font-display: swap` or `optional`
-- Limit font weights/variants to what's actually used
-- Preload critical fonts:
+- **CRITICAL:** Always use `font-display: swap` to prevent render blocking
+- Preload only fonts used above the fold (typically 1-2 weights)
+- Limit font weights/variants to what's actually used (audit with browser DevTools)
+- Consider font subsetting to reduce file size by 60-80% for English-only content
 
-```html
-<link rel="preload" href="/fonts/main-font.woff2" as="font" type="font/woff2" crossorigin />
-```
+**Required implementation:**
 
 ```css
 @font-face {
   font-family: 'Main Font';
   src: url('/fonts/main-font.woff2') format('woff2');
-  font-display: swap;
+  font-display: swap; /* REQUIRED - prevents render blocking */
+  font-weight: 400;
+  font-style: normal;
 }
 ```
 
-### Resource Hints
-
-Use resource hints to improve loading performance:
+**Preload critical fonts only:**
 
 ```html
-<!-- Preconnect to external origins (APIs, CDNs) -->
-<link rel="preconnect" href="https://api.example.com" crossorigin />
-
-<!-- Preload critical above-the-fold resources -->
-<link rel="preload" href="/fonts/heading.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="preload" href="/hero-image.webp" as="image" />
-
-<!-- Prefetch likely next-page resources -->
-<link rel="prefetch" href="/about/" />
+<!-- Only preload fonts used in initial viewport -->
+<link rel="preload" href="/fonts/body-400.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/fonts/heading-400.woff2" as="font" type="font/woff2" crossorigin />
+<!-- Don't preload all weights - let them load on demand -->
 ```
 
-**Warning:** Use sparingly—over-preloading can harm performance.
+**Common mistake:** Preloading all font weights causes more harm than good. Only preload fonts visible in the initial viewport.
+
+### Resource Hints & Render Blocking Elimination
+
+**Critical: Eliminate Render-Blocking Resources**
+
+Render-blocking resources can delay initial page render by 200-650ms. Address these systematically:
+
+1. **Inline Critical CSS** - Extract and inline above-the-fold styles in `<head>`:
+
+```astro
+---
+// Layout.astro - inline critical CSS (keep under 14KB)
+const criticalCSS = `
+  /* Only styles for above-fold content */
+  body { font-family: 'Fira Sans', sans-serif; margin: 0; }
+  header { /* ... */ }
+  .hero { /* ... */ }
+`;
+---
+
+<head>
+  <style set:html={criticalCSS}></style>
+  <!-- Load remaining CSS asynchronously -->
+  <link rel="stylesheet" href="/styles/global.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="/styles/global.css" /></noscript>
+</head>
+```
+
+2. **Preconnect to Required Origins** - If using external resources:
+
+```html
+<!-- Preconnect to external origins early in <head> -->
+<link rel="preconnect" href="https://leafjessicaroy.kit.com" />
+<link rel="dns-prefetch" href="https://leafjessicaroy.kit.com" />
+```
+
+3. **Preload Critical Resources Only:**
+
+```html
+<!-- Preload critical above-the-fold resources ONLY -->
+<link rel="preload" href="/fonts/heading-400.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/hero-image.webp" as="image" />
+```
+
+4. **Defer Non-Critical CSS:**
+
+```html
+<!-- Load non-critical stylesheets asynchronously -->
+<link rel="stylesheet" href="/styles/non-critical.css" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="/styles/non-critical.css" /></noscript>
+```
+
+**Warning:**
+
+- Use resource hints sparingly—over-preloading harms performance
+- Only inline critical CSS (typically <14KB)
+- Only preload resources needed for initial viewport
 
 ### Core Web Vitals
 
@@ -392,7 +514,18 @@ Use resource hints to improve loading performance:
 
 ### Image Best Practices
 
-Astro has built-in image optimization with the `<Image>` component:
+**CRITICAL PRIORITY:** Image optimization is often the single biggest performance win, with potential savings of 2-3MB (not KB!).
+
+**Why images matter:**
+
+- Often account for 80-90% of page weight
+- Directly impact Largest Contentful Paint (LCP)
+- Mobile users especially affected by large images
+- PageSpeed data consistently shows 2-3MB savings opportunity
+
+**Implementation strategy:**
+
+1. **Use Astro's `<Image>` component** for automatic optimization:
 
 ```astro
 ---
@@ -400,50 +533,75 @@ import { Image } from 'astro:assets';
 import heroImage from '../assets/hero.jpg';
 ---
 
-<!-- ✅ Good: Astro optimized image -->
+<!-- ✅ Best: Astro automatically converts to WebP, generates srcset -->
 <Image
   src={heroImage}
   alt="Hero description"
-  width={1200}
-  height={600}
+  widths={[400, 800, 1200]}
+  sizes="(max-width: 640px) 100vw, 800px"
+  format="webp"
   loading="eager"
   fetchpriority="high"
 />
-
-<!-- ✅ Good: Remote image -->
-<Image
-  src="https://example.com/image.jpg"
-  alt="Remote image"
-  width={800}
-  height={600}
-  loading="lazy"
-/>
 ```
 
-For plain HTML images:
+2. **For plain HTML images, use modern formats and responsive loading:**
 
 ```html
-<!-- Critical LCP image -->
-<img src="/hero.webp" alt="Hero description" width="1200" height="600" fetchpriority="high" />
+<!-- Use picture element for modern format support with fallback -->
+<picture>
+  <source srcset="/hero.avif" type="image/avif" />
+  <source srcset="/hero.webp" type="image/webp" />
+  <img src="/hero.jpg" alt="Hero" width="1200" height="600" fetchpriority="high" />
+</picture>
 
-<!-- Below-the-fold images -->
+<!-- Below-the-fold images with responsive srcset -->
 <img
-  src="/gallery-item.webp"
+  srcset="/gallery-400w.webp 400w, /gallery-800w.webp 800w, /gallery-1200w.webp 1200w"
+  sizes="(max-width: 640px) 100vw, 800px"
+  src="/gallery-800w.webp"
   alt="Gallery item"
-  width="400"
-  height="300"
+  width="800"
+  height="600"
   loading="lazy"
   decoding="async"
 />
 ```
 
+**Expected savings:**
+
+- WebP/AVIF: 40-50% smaller than JPEG
+- Responsive srcset: 40-60% savings on mobile
+- Combined: Can reduce total page weight from 3MB+ to <1MB
+
+**Don't skip this!** Image optimization should never be marked "low priority" even if implementation takes time.
+
 ### Performance Monitoring
 
+**Regular Performance Checks:**
+
 - Run Lighthouse audits regularly (target: 90+ on all metrics, aim for 100)
+- Use PageSpeed Insights for real-world data (mobile and desktop separately)
 - Monitor Core Web Vitals (LCP, INP, CLS) with `web-vitals` library or RUM
 - Check bundle size in build output
 - Use `npm run build` output to identify large chunks
+
+**PageSpeed Insights Analysis:**
+
+When reviewing PageSpeed results, prioritize by impact:
+
+1. **Image optimization** - Look for 1MB+ savings opportunities
+2. **Render-blocking resources** - 500ms+ mobile delays are critical
+3. **Font display** - 100ms+ savings from font-display: swap
+4. **Cache headers** - Easy win for repeat visits
+5. **Unused JavaScript** - Secondary concern if bundle already small
+
+**Targets:**
+
 - Astro should score 100/100 on Lighthouse Performance by default
+- Desktop LCP: <2.5s (ideally <1.5s)
+- Mobile LCP: <2.5s (often hardest to achieve)
+- Mobile render blocking: <100ms (anything >500ms is critical)
 
 ---
 
