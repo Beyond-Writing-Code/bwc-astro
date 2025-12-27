@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.tsx';
+import KitForm from '../components/KitForm.tsx';
 import '../styles/global.css';
 
 interface Props {
@@ -22,6 +23,7 @@ const fullTitle = title
   : 'Beyond Writing Code - Human Skills for Developers';
 const fullUrl = Astro.url.pathname !== '/' ? `${siteUrl}${Astro.url.pathname}` : siteUrl;
 const fullImage = image.startsWith('http') ? image : `${siteUrl}${image}`;
+const isHomePage = Astro.url.pathname === '/';
 ---
 
 <!doctype html>
@@ -74,6 +76,8 @@ const fullImage = image.startsWith('http') ? image : `${siteUrl}${image}`;
     </main>
     <footer class="site-footer">
       <div class="footer-container">
+        {!isHomePage && <KitForm formId="86bb906577" className="footer-signup-form" client:load />}
+
         <div class="social-links">
           <a
             href="https://www.instagram.com/leafjessicaroy/"
